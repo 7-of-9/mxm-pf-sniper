@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Data.SqlClient;  // Assuming you used System.Data.SqlClient from NuGet
+using System.Data.SqlClient;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -9,43 +9,95 @@ using Newtonsoft.Json;
 
 namespace meta_getter {
     class Program {
-        private static readonly string _connectionString = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.ethosConnectionString"].ConnectionString;
+        private static readonly string _connectionString =
+            ConfigurationManager.ConnectionStrings[
+                "pf.Properties.Settings.ethosConnectionString"
+            ].ConnectionString;
         private static readonly HttpClient _client = new HttpClient();
-        private static readonly int _pollIntervalSeconds = 5;  // Poll interval in seconds
-        private static readonly string _solScanApiUrl = "https://pro-api.solscan.io/v2.0/token/meta";
-        private static readonly string _apiKey = ConfigurationManager.AppSettings["SolScanApiKey"];
+        private static readonly int _pollIntervalSeconds = 5;  // Poll interval
+        private static readonly string _solScanApiUrl =
+            "https://pro-api.solscan.io/v2.0/token/meta";
+        private static readonly string _apiKey =
+            ConfigurationManager.AppSettings["SolScanApiKey"];
+        private static readonly int _maxRetries = 5;
+        private static readonly int _retryDelayMilliseconds = 2000;
+
+        public enum MetaTimeframe {
+            OneHour,
+            SixHours,
+            TwelveHours,
+            OneDay
+        }
 
         static async Task Main(string[] args) {
-            Console.WriteLine("Starting polling...");
-
             while (true) {
                 try {
-                    await PollAndProcessAsync();
+                    await PollAndProcessAsync(MetaTimeframe.OneHour);   // 1-hour
+                    await PollAndProcessAsync(MetaTimeframe.SixHours);  // 6-hour
+                    //await PollAndProcessAsync(MetaTimeframe.TwelveHours); // 12-hour
+                    //await PollAndProcessAsync(MetaTimeframe.OneDay);    // 1-day
                 }
                 catch (Exception ex) {
                     Console.WriteLine($"Error occurred: {ex.Message}");
                 }
-
-                // Wait for the poll interval before polling again
+                // Wait before polling again
                 await Task.Delay(_pollIntervalSeconds * 1000);
             }
         }
-        private static async Task PollAndProcessAsync() {
+
+        private static async Task PollAndProcessAsync(MetaTimeframe timeframe) {
             List<(int rowId, string mint)> rowsToUpdate = new List<(int, string)>();
+            string metaType = timeframe switch {
+                MetaTimeframe.OneHour => "1-hour",
+                MetaTimeframe.SixHours => "6-hour",
+                MetaTimeframe.TwelveHours => "12-hour",
+                MetaTimeframe.OneDay => "1-day",
+                _ => "unknown"
+            };
 
             try {
-                // Log start of polling
-                LogEvent("Starting polling operation...");
-
                 using (var connection = new SqlConnection(_connectionString)) {
                     await connection.OpenAsync();
-
-                    // Query rows inserted 1-2hrs ago
-                    string query = @"
-                SELECT [id], [mint]
-                FROM [dbo].[mint]
-                WHERE [inserted_utc] BETWEEN DATEADD(MINUTE, -120, GETUTCDATE()) AND DATEADD(MINUTE, -60, GETUTCDATE())
-                AND [meta_json_1hr] IS NULL";
+                    string query;
+                    if (timeframe == MetaTimeframe.OneHour) {
+                        query = @"
+                            SELECT [id], [mint]
+                            FROM [dbo].[mint]
+                            WHERE [inserted_utc] BETWEEN
+                                DATEADD(MINUTE, -120, GETUTCDATE())
+                                AND DATEADD(MINUTE, -60, GETUTCDATE())
+                            AND [meta_json_1hr] IS NULL";
+                    }
+                    else if (timeframe == MetaTimeframe.SixHours) {
+                        query = @"
+                            SELECT [id], [mint]
+                            FROM [dbo].[mint]
+                            WHERE [inserted_utc] BETWEEN
+                                DATEADD(HOUR, -12, GETUTCDATE())
+                                AND DATEADD(HOUR, -6, GETUTCDATE())
+                            AND [meta_json_6hr] IS NULL";
+                    }
+                    else if (timeframe == MetaTimeframe.TwelveHours) {
+                        query = @"
+                            SELECT [id], [mint]
+                            FROM [dbo].[mint]
+                            WHERE [inserted_utc] BETWEEN
+                                DATEADD(HOUR, -24, GETUTCDATE())
+                                AND DATEADD(HOUR, -12, GETUTCDATE())
+                            AND [meta_json_12hr] IS NULL";
+                    }
+                    else if (timeframe == MetaTimeframe.OneDay) {
+                        query = @"
+                            SELECT [id], [mint]
+                            FROM [dbo].[mint]
+                            WHERE [inserted_utc] BETWEEN
+                                DATEADD(HOUR, -48, GETUTCDATE())
+                                AND DATEADD(DAY, -24, GETUTCDATE())
+                            AND [meta_json_1day] IS NULL";
+                    }
+                    else {
+                        throw new ArgumentException("Invalid timeframe");
+                    }
 
                     using (var command = new SqlCommand(query, connection)) {
                         using (var reader = await command.ExecuteReaderAsync()) {
@@ -56,35 +108,31 @@ namespace meta_getter {
                     }
                 }
 
-                // Log the number of rows found
-                LogEvent($"Polling completed. Found {rowsToUpdate.Count} rows to update.");
-
                 if (rowsToUpdate.Count == 0) {
-                    LogEvent("No rows found for updating. Polling complete.");
+                    Console.Write(".");
                     return;
                 }
 
-                // Process each row concurrently
-                await Task.WhenAll(Parallel.ForEachAsync(rowsToUpdate, new ParallelOptions { MaxDegreeOfParallelism = 8 }, async (row, token) => {
-                    await ProcessRowAsync(row.rowId, row.mint);
-                }));
+                await Task.WhenAll(Parallel.ForEachAsync(rowsToUpdate,
+                    new ParallelOptions { MaxDegreeOfParallelism = 2 },
+                    async (row, token) => {
+                        await ProcessRowAsync(row.rowId, row.mint, timeframe);
+                    }));
 
-                // Log after processing rows
-                LogEvent("Processing of rows completed successfully.");
+                Console.WriteLine($"Processing completed for {metaType} meta.");
             }
             catch (Exception ex) {
-                LogError($"Error occurred during polling and processing: {ex.Message}");
+                Console.WriteLine($"Error during polling for {metaType} meta: {ex.Message}");
             }
         }
 
-        private static async Task ProcessRowAsync(int rowId, string mint) {
+        private static async Task ProcessRowAsync(int rowId, string mint, MetaTimeframe timeframe) {
             try {
-                var responseContent = await FetchMetaFromApiAsync(mint);
+                var responseContent = await FetchMetaWithRetryAsync(mint);
 
                 if (!string.IsNullOrEmpty(responseContent)) {
-                    // Update the row in the database with the API response
-                    await UpdateRowAsync(rowId, responseContent);
-                    Console.WriteLine($"Successfully updated row {rowId}");
+                    await UpdateRowAsync(rowId, responseContent, timeframe);
+                    Console.WriteLine($"Successfully updated row {rowId} for {timeframe} meta");
                 }
             }
             catch (Exception ex) {
@@ -92,54 +140,87 @@ namespace meta_getter {
             }
         }
 
+        private static async Task<string?> FetchMetaWithRetryAsync(string mint) {
+            for (int attempt = 1; attempt <= _maxRetries; attempt++) {
+                try {
+                    return await FetchMetaFromApiAsync(mint);
+                }
+                catch (HttpRequestException ex) when (attempt < _maxRetries) {
+                    Console.WriteLine($"Attempt {attempt} failed: {ex.Message}. Retrying...");
+                    await Task.Delay(_retryDelayMilliseconds);
+                }
+                catch (Exception ex) {
+                    Console.WriteLine($"Error fetching metadata: {ex.Message}");
+                    return null;
+                }
+            }
+            Console.WriteLine("Max retry attempts reached. Giving up.");
+            return null;
+        }
+
         private static async Task<string?> FetchMetaFromApiAsync(string mint) {
-            try {
-                // Add query parameter "address" to the URL
-                string address = "FUGCJuUmbRQionrJxEHiEp5Dw8a7hcQQc4dwPNXwpump";
-                string urlWithParams = $"{_solScanApiUrl}?address={mint}";
+            string urlWithParams = $"{_solScanApiUrl}?address={mint}";
+            var request = new HttpRequestMessage(HttpMethod.Get, urlWithParams);
+            request.Headers.Add("token", _apiKey);
+            request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                var client = new HttpClient();
-                var request = new HttpRequestMessage(HttpMethod.Get, urlWithParams);
-                request.Headers.Add("token", _apiKey);
+            var response = await _client.SendAsync(request);
+            response.EnsureSuccessStatusCode();
 
-                client.DefaultRequestHeaders
-                      .Accept
-                      .Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-                var content = new StringContent(string.Empty);
-                content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-                request.Content = content;
-
-                // Send the request and ensure the status code is successful
-                var response = await client.SendAsync(request);
-                response.EnsureSuccessStatusCode();
-
-                // Read and return the response content
+            if (response.Content != null) {
                 return await response.Content.ReadAsStringAsync();
             }
-            catch (Exception ex) {
-                Console.WriteLine($"Error fetching metadata: {ex.Message}");
-                return null;
+            else {
+                throw new HttpRequestException("The response content is null.");
             }
         }
 
-        private static async Task UpdateRowAsync(int rowId, string metaJson) {
+        private static async Task UpdateRowAsync(int rowId, string metaJson, MetaTimeframe timeframe) {
             using (var connection = new SqlConnection(_connectionString)) {
                 await connection.OpenAsync();
-
-                string query = @"
-                    UPDATE [dbo].[mint]
-                    SET [meta_json_1hr] = @MetaJson
-                    WHERE [id] = @Id";
+                string query;
+                if (timeframe == MetaTimeframe.OneHour) {
+                    query = @"
+                        UPDATE [dbo].[mint]
+                        SET [meta_json_1hr] = @MetaJson,
+                            [fetched_utc_1hr] = @FetchedUtc
+                        WHERE [id] = @Id";
+                }
+                else if (timeframe == MetaTimeframe.SixHours) {
+                    query = @"
+                        UPDATE [dbo].[mint]
+                        SET [meta_json_6hr] = @MetaJson,
+                            [fetched_utc_6hr] = @FetchedUtc
+                        WHERE [id] = @Id";
+                }
+                else if (timeframe == MetaTimeframe.TwelveHours) {
+                    query = @"
+                        UPDATE [dbo].[mint]
+                        SET [meta_json_12hr] = @MetaJson,
+                            [fetched_utc_12hr] = @FetchedUtc
+                        WHERE [id] = @Id";
+                }
+                else if (timeframe == MetaTimeframe.OneDay) {
+                    query = @"
+                        UPDATE [dbo].[mint]
+                        SET [meta_json_1day] = @MetaJson,
+                            [fetched_utc_1day] = @FetchedUtc
+                        WHERE [id] = @Id";
+                }
+                else {
+                    throw new ArgumentException("Invalid timeframe");
+                }
 
                 using (var command = new SqlCommand(query, connection)) {
                     command.Parameters.AddWithValue("@MetaJson", metaJson);
+                    command.Parameters.AddWithValue("@FetchedUtc", DateTime.UtcNow);
                     command.Parameters.AddWithValue("@Id", rowId);
 
                     await command.ExecuteNonQueryAsync();
                 }
             }
         }
+
         static void LogEvent(string message, bool isDebug = false, bool isStats = false) {
             var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
             var logLevel = isDebug ? "DEBUG" : (isStats ? "STATS" : "INFO");
@@ -151,5 +232,4 @@ namespace meta_getter {
             Console.WriteLine($"[{timestamp}] [ERROR] {message}");
         }
     }
-
 }
