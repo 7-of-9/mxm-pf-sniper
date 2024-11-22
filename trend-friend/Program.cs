@@ -11,6 +11,9 @@ using Newtonsoft.Json;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 using static System.Formats.Asn1.AsnWriter;
+using System.Globalization;
+using System.Diagnostics;
+using System.Xml.Linq;
 
 class Program {
     private static readonly string ApifyToken = ConfigurationManager.AppSettings["ApifyApiToken"];
@@ -32,38 +35,106 @@ class Program {
         public bool? IsPartial { get; set; }
     }
 
+    public static void TestFromCache() {
+        var cacheDir = Path.Combine("..", "..", "..", "cache");
+        if (!Directory.Exists(cacheDir)) {
+            Console.WriteLine($"Cache directory not found: {cacheDir}");
+            return;
+        }
+
+        var csvFiles = Directory.GetFiles(cacheDir, "*.csv");
+        foreach (var csvFile in csvFiles) {
+            try {
+                // Get symbol and name from filename
+                var fileName = Path.GetFileNameWithoutExtension(csvFile);
+                var separatorIndex = fileName.IndexOf('_');
+                string symbol = separatorIndex >= 0 ? fileName.Substring(0, separatorIndex) : fileName;
+                string name = separatorIndex >= 0 ? fileName.Substring(separatorIndex + 1).Replace("_", " ") : "";
+
+                // Read values from CSV
+                var lines = File.ReadAllLines(csvFile);
+                var values = lines.Select(l => double.Parse(l, CultureInfo.InvariantCulture)).ToList();
+
+                // Call AnalyzeAndSaveTrend
+                AnalyzeAndSaveTrend(symbol, values, -1);
+            }
+            catch (Exception ex) {
+                Console.WriteLine($"Error processing file {csvFile}: {ex.Message}");
+            }
+        }
+    }
+
     static async Task Main(string[] args) {
-        
-        // test 
-        AnalyzeAndSaveTrend("BARD", File.ReadAllText(@"..\..\..\bardai.json"), -1); // periodic, no trend
-        AnalyzeAndSaveTrend("HOLD", File.ReadAllText(@"..\..\..\whatifweallhold.json"), -1); // periodic, no trend
+        // tests
+        //AnalyzeAndSaveTrend("BARD", File.ReadAllText(@"..\..\..\bardai.json"), -1); // periodic, no trend
+        //AnalyzeAndSaveTrend("HOLD", File.ReadAllText(@"..\..\..\whatifweallhold.json"), -1); // periodic, no trend
 
-        //AnalyzeAndSaveTrend("HUSKY", File.ReadAllText(@"..\..\..\tiktoktalkinghusky.json"), -1); // one spike, no trend
+        ////AnalyzeAndSaveTrend("HUSKY", File.ReadAllText(@"..\..\..\tiktoktalkinghusky.json"), -1); // one spike, no trend
 
-        AnalyzeAndSaveTrend("CHILLGUY", File.ReadAllText(@"..\..\..\chillguy.json"), -1); // uptrend at end, clear
-        AnalyzeAndSaveTrend("CHILLFAM", File.ReadAllText(@"..\..\..\chillfamily.json"), -1); // uptrend at end, clear
+        //AnalyzeAndSaveTrend("CHILLGUY", File.ReadAllText(@"..\..\..\chillguy.json"), -1); // uptrend at end, clear
+        //AnalyzeAndSaveTrend("CHILLFAM", File.ReadAllText(@"..\..\..\chillfamily.json"), -1); // uptrend at end, clear
 
-        /*while (true) {
+        // get trending tokens into the cache for testing...
+        //AnalyzeAndSaveTrend("CHILLGUY", await RunActorSyncAsync("CHILLGUY", "Chill Guy", new {
+        //    isMultiple = false,
+        //    isPublic = false,
+        //    searchTerms = new[] { "Chill Guy" },
+        //    skipDebugScreen = false,
+        //    timeRange = "now 7-d",
+        //    viewedFrom = "us"
+        //}), -1);
+        //AnalyzeAndSaveTrend("CHILLFAM", await RunActorSyncAsync("CHILLFAM", "chill family", new {
+        //    isMultiple = false,
+        //    isPublic = false,
+        //    searchTerms = new[] { "chill family" },
+        //    skipDebugScreen = false,
+        //    timeRange = "now 7-d",
+        //    viewedFrom = "us"
+        //}), -1);
+
+        // test from cache
+        //TestFromCache();
+        //return;
+
+        while (true) {
             try {
                 // Query the top 5% of rows with missing tr1_slope, inserted in the last 6 hrs
                 List<(int rowId, string name, string symbol)> rowsToUpdate = new List<(int, string, string)>();
+                List<string> rowsToCheck = new List<string>();
                 using (var connection = new SqlConnection(_connectionString)) {
                     await connection.OpenAsync();
                     string query = @"
-                        SELECT TOP 5 PERCENT id, name, symbol
-                        FROM hr1_avg_mc
-                        WHERE inserted_utc >= DATEADD(HOUR, -6, GETUTCDATE())
-                        AND tr1_slope IS NULL
-                        ORDER BY z_score DESC";
+                        SELECT TOP 50 PERCENT 
+                            id, name, symbol, 
+                            datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+                            tr1_slope, tr1_pvalue, hr6_price, hr1_price, *
+                        FROM hr1_avg_mc 
+                        WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
+	                        AND z_score > 0
+                            AND hr6_price IS NOT NULL
+                            AND hr6_price > hr1_price
+                            --AND tr1_slope is null 
+                        ORDER BY z_score DESC
+                        ";
 
                     using (var command = new SqlCommand(query, connection)) {
                         using (var reader = await command.ExecuteReaderAsync()) {
                             while (await reader.ReadAsync()) {
-                                rowsToUpdate.Add((reader.GetInt32(0), reader.GetString(1), reader.GetString(2)));
+                                int id = reader.GetInt32(0);
+                                string name = reader.GetString(1);
+                                string symbol = reader.GetString(2);
+                                double? tr1_slope = reader.IsDBNull(4) ? null : reader.GetDouble(4);
+                                //Console.WriteLine($"{id} {symbol} {name} tr1_slope={tr1_slope}");
+                                rowsToCheck.Add(symbol);
+                                if (tr1_slope == null) { // if not already got trend1 data
+                                    rowsToUpdate.Add((id, name, symbol));
+                                }
                             }
                         }
                     }
                 }
+                var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
+                Console.WriteLine($"{timestamp} {string.Join(',', rowsToCheck)}");
 
                 // Process each row using RunActorSyncAsync
                 await Task.WhenAll(Parallel.ForEachAsync(rowsToUpdate,
@@ -79,34 +150,53 @@ class Program {
                         };
 
                         // get trend
-                        var jsonResponse = await RunActorSyncAsync(row.symbol, row.name, input);
+                        var values = await RunActorSyncAsync(row.symbol, row.name, input);
 
                         // save DB
-                        if (!string.IsNullOrEmpty(jsonResponse)) {
-                            AnalyzeAndSaveTrend(row.symbol, jsonResponse, row.rowId);
+                        if (values.Any()) {
+                            AnalyzeAndSaveTrend(row.symbol, values, row.rowId);
+                        }
+                        else {
+                            HandleEmptyData(row.rowId, -888);
                         }
                     }));
 
                 // Poll every minute
-                await Task.Delay(TimeSpan.FromMinutes(1));
+                await Task.Delay(TimeSpan.FromMinutes(5));
             }
             catch (Exception ex) {
                 Console.WriteLine($"Error occurred: {ex.Message}");
             }
-        }*/
+        }
     }
 
-    private static async Task<string> RunActorSyncAsync(string symbol, string name, object input) {
+    private static async Task<List<double>> RunActorSyncAsync(string symbol, string name, object input) {
+        // Setup cache paths for both JSON and CSV
+        var cacheDir = Path.Combine("..", "..", "..", "cache");
+        Directory.CreateDirectory(cacheDir);
+        var csvPath = Path.Combine(cacheDir, $"{symbol}_{name.Replace(" ", "_")}.csv");
+
+        // Check CSV cache first
+        if (File.Exists(csvPath)) {
+            var fileInfo = new FileInfo(csvPath);
+            if (DateTime.UtcNow - fileInfo.LastWriteTimeUtc < TimeSpan.FromHours(24)) {
+                Console.WriteLine($"Using cached data for {symbol} {name} from {csvPath}");
+                var lines = await File.ReadAllLinesAsync(csvPath);
+                return lines.Select(l => double.Parse(l, CultureInfo.InvariantCulture)).ToList();
+            }
+        }
+
+        // If not in cache or too old, fetch from API
         using (var client = new HttpClient()) {
-            client.Timeout = TimeSpan.FromMinutes(5); // Set timeout to 5 minutes to handle long-running requests
+            client.Timeout = TimeSpan.FromMinutes(5);
 
             var content = new StringContent(
-                Newtonsoft.Json.JsonConvert.SerializeObject(input),
+                JsonConvert.SerializeObject(input),
                 Encoding.UTF8,
                 "application/json"
             );
 
-            Console.WriteLine($"Calling Google Trends actor: ${symbol} {name}...");
+            //Console.WriteLine($"Calling Google Trends actor for {symbol} {name}...");
             var response = await client.PostAsync(
                 $"https://api.apify.com/v2/acts/{ActorId}/run-sync-get-dataset-items?token={ApifyToken}&format=json",
                 content
@@ -114,39 +204,40 @@ class Program {
 
             response.EnsureSuccessStatusCode();
             var responseBody = await response.Content.ReadAsStringAsync();
-            return responseBody;
+
+            // Parse JSON to extract values
+            var inputDataList = JsonConvert.DeserializeObject<List<InputData>>(responseBody);
+            if (inputDataList == null || !inputDataList.Any()) return new List<double>();
+
+            var values = inputDataList[0].interestOverTime_timelineData?
+                .Where(dataPoint => dataPoint.Value != null && dataPoint.Value.Count > 0)
+                .Select(dataPoint => (double)dataPoint.Value[0])
+                .ToList() ?? new List<double>();
+
+            // Save to CSV cache
+            await File.WriteAllLinesAsync(csvPath, values.Select(v => v.ToString(CultureInfo.InvariantCulture)));
+            //Console.WriteLine($"Cached response for {symbol} {name} to {csvPath}");
+
+            return values;
         }
     }
 
-    public static void AnalyzeAndSaveTrend(string symbol, string jsonData, int rowId) {
+    public static void AnalyzeAndSaveTrend(string symbol, List<double> values, int rowId) {
         try {
-            // Deserialize and validation checks remain the same...
-            var inputDataList = JsonConvert.DeserializeObject<List<InputData>>(jsonData);
-            if (inputDataList == null || !inputDataList.Any()) {
+            if (values == null || values.Count == 0) {
                 HandleEmptyData(rowId, -999);
                 return;
             }
 
-            var timelineData = inputDataList[0].interestOverTime_timelineData;
-            if (timelineData == null || !timelineData.Any()) {
-                HandleEmptyData(rowId, -888);
-                return;
-            }
-
-            // Extract values
-            var values = timelineData
-                .Where(dataPoint => dataPoint.Value != null && dataPoint.Value.Count > 0)
-                .Select(dataPoint => (double)dataPoint.Value[0])
-                .ToList();
-
-            if (values.Count < 10) // Require minimum points for reliable analysis
-            {
+            if (values.Count < 10) {
                 HandleEmptyData(rowId, -777);
                 return;
             }
 
-            // Calculate multiple indicators
             var analysisResult = AnalyzeTrend(values);
+
+            //if (symbol == "Bullseye")
+            //    Debugger.Break();
 
             // Save results to database
             using (var connection = new SqlConnection(_connectionString)) {
@@ -158,61 +249,76 @@ class Program {
                 WHERE id = @RowId";
 
                 using (var command = new SqlCommand(updateQuery, connection)) {
-                    command.Parameters.AddWithValue("@Slope", analysisResult.Slope);
+                    command.Parameters.AddWithValue("@Slope", double.IsNaN(analysisResult.Slope) ? 0 : analysisResult.Slope);
                     command.Parameters.AddWithValue("@TrendScore", analysisResult.TrendScore);
                     command.Parameters.AddWithValue("@RowId", rowId);
                     command.ExecuteNonQuery();
                 }
             }
 
-            Console.WriteLine($"{symbol}\trowId {rowId} //\t" +
+            Console.WriteLine($"{symbol.PadLeft(20)}\trowId {rowId} //\t" +
                 $"Slope: {analysisResult.Slope:F3}, Trend Score: {analysisResult.TrendScore:F3} - " +
-                $"{(analysisResult.HasUpwardTrend ? "Upward trend detected!" : "No clear upward trend.")}");
+                $"{(analysisResult.HasUpwardTrend ? "UPTREND!" : "")}");
         }
         catch (Exception ex) {
-            Console.WriteLine($"An error occurred: {ex.Message}");
+            Console.WriteLine($"${symbol} An error occurred: {ex.Message}");
         }
     }
 
     private static TrendAnalysisResult AnalyzeTrend(List<double> values) {
-        int n = values.Count;
-
-        // Split the series into segments for more granular analysis
-        int segmentSize = n / 4; // Analyze quarters of the data
-        var segments = new List<List<double>>();
-        for (int i = 0; i < n; i += segmentSize) {
-            segments.Add(values.Skip(i).Take(segmentSize).ToList());
+        if (values == null || values.Count < 4) {
+            return new TrendAnalysisResult { Slope = 0, TrendScore = 0, HasUpwardTrend = false };
         }
 
-        // Calculate baseline (average of first segment) and peak (max of any later segment)
-        double baseline = segments.First().Average();
-        double peak = segments.Skip(1).SelectMany(s => s).Max();
+        try {
+            int n = values.Count;
+            var xValues = Enumerable.Range(0, n).Select(x => (double)x).ToList();
 
-        // Calculate relative increase from baseline
-        double relativeIncrease = (peak - baseline) / Math.Max(baseline, 1.0);
+            // Calculate means
+            double xMean = xValues.Average();
+            double yMean = values.Average();
 
-        // Calculate sustained elevation
-        // (what proportion of later values are significantly above baseline?)
-        double threshold = baseline + (baseline * 0.5); // 50% above baseline
-        int elevatedPoints = values.Skip(segmentSize)  // Skip first segment
-                                  .Count(v => v > threshold);
-        double sustainedElevation = (double)elevatedPoints / (n - segmentSize);
+            // Calculate linear regression coefficients
+            double numerator = 0;
+            double denominator = 0;
 
-        // Calculate final trend score
-        // Combine relative increase and sustained elevation
-        double trendScore = (relativeIncrease * 0.7) + (sustainedElevation * 0.3);
+            for (int i = 0; i < n; i++) {
+                double xDiff = xValues[i] - xMean;
+                double yDiff = values[i] - yMean;
+                numerator += xDiff * yDiff;
+                denominator += xDiff * xDiff;
+            }
 
-        // Determine if there's a meaningful upward trend
-        // More lenient thresholds, focused on sustained increase from baseline
-        bool hasUpwardTrend =
-            (trendScore > 20.0) || // Clear strong trend
-            (relativeIncrease > 30.0 && trendScore > 15.0); // Strong rise with decent sustainability
+            // Calculate slope (beta1)
+            double slope = denominator != 0 ? numerator / denominator : 0;
+            if (double.IsNaN(slope)) slope = 0;
 
-        return new TrendAnalysisResult {
-            Slope = relativeIncrease,
-            TrendScore = trendScore,
-            HasUpwardTrend = hasUpwardTrend
-        };
+            // Calculate R-squared
+            double rSquared = 0;
+            if (denominator != 0) {
+                double beta0 = yMean - slope * xMean;
+
+                double totalSS = values.Sum(y => Math.Pow(y - yMean, 2));
+                double regressionSS = values.Zip(xValues, (y, x) =>
+                    Math.Pow((beta0 + slope * x) - yMean, 2)).Sum();
+
+                rSquared = totalSS != 0 ? regressionSS / totalSS : 0;
+                if (double.IsNaN(rSquared)) rSquared = 0;
+            }
+
+            // Determine if there's a significant upward trend
+            // Considering both slope and R-squared for confidence
+            bool hasUpwardTrend = slope > 0.05 && rSquared > 0.1;
+
+            return new TrendAnalysisResult {
+                Slope = slope,
+                TrendScore = rSquared,
+                HasUpwardTrend = hasUpwardTrend
+            };
+        }
+        catch (Exception) {
+            return new TrendAnalysisResult { Slope = 0, TrendScore = 0, HasUpwardTrend = false };
+        }
     }
 
     private class TrendAnalysisResult {

@@ -4,7 +4,6 @@ select top 100 * from hr1_avg_holder order by z_score desc
 select top 100 * from hr1_avg_mc order by z_score desc
 	select count(*) from hr1_avg_mc 
 
-
 -- MC
 alter view hr1_avg_mc as 
 	SELECT m.id, m.symbol, m.name, mint, m.inserted_utc,
@@ -14,7 +13,8 @@ alter view hr1_avg_mc as
 		CohortStats.mean_market_cap,
 		CohortStats.stddev_market_cap,
 		(m.hr1_market_cap - CohortStats.mean_market_cap) / NULLIF(CohortStats.stddev_market_cap, 0) AS z_score,
-		m.tr1_slope
+		m.tr1_slope, m.tr1_pvalue,
+		m.hr6_price, m.hr6_market_cap
 	FROM 
 		dbo.mint m
 	CROSS APPLY
@@ -41,7 +41,8 @@ alter view hr1_avg_holder as
 		CohortStats.mean_holder,
 		CohortStats.stddev_holder,
 		(m.hr1_holder - CohortStats.mean_holder) / NULLIF(CohortStats.stddev_holder, 0) AS z_score,
-		m.tr1_slope
+		m.tr1_slope, m.tr1_pvalue,
+		m.hr6_price, m.hr6_market_cap
 	FROM 
 		dbo.mint m
 	CROSS APPLY
