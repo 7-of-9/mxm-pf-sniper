@@ -18,7 +18,8 @@ using System.Xml.Linq;
 class Program {
     private static readonly string ApifyToken = ConfigurationManager.AppSettings["ApifyApiToken"];
     private static readonly string ActorId = "emastra~google-trends-scraper";
-    private static readonly string _connectionString = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.mintDbConnectionString"].ConnectionString;
+    private static readonly string DbConStr = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.mintDbConnectionString"].ConnectionString;
+    private static readonly TelegramBot Bot = new TelegramBot(ConfigurationManager.AppSettings["TelegramBotToken"]);
 
     public class InputData {
         public string InputUrlOrTerm { get; set; }
@@ -65,6 +66,8 @@ class Program {
     }
 
     static async Task Main(string[] args) {
+        Bot.StartAsync();
+
         // tests
         //AnalyzeAndSaveTrend("BARD", File.ReadAllText(@"..\..\..\bardai.json"), -1); // periodic, no trend
         //AnalyzeAndSaveTrend("HOLD", File.ReadAllText(@"..\..\..\whatifweallhold.json"), -1); // periodic, no trend
@@ -100,14 +103,15 @@ class Program {
             try {
                 // Query the top 5% of rows with missing tr1_slope, inserted in the last 6 hrs
                 List<(int rowId, string name, string symbol)> rowsToUpdate = new List<(int, string, string)>();
-                List<string> rowsToCheck = new List<string>();
-                using (var connection = new SqlConnection(_connectionString)) {
+                List<(string symbol, string mint)> rowsToCheck = new List<(string, string)>();
+                using (var connection = new SqlConnection(DbConStr)) {
                     await connection.OpenAsync();
                     string query = @"
                         SELECT TOP 50 PERCENT 
                             id, name, symbol, 
                             datediff(hh, getutcdate(), inserted_utc) 'hrs old',
-                            tr1_slope, tr1_pvalue, hr6_price, hr1_price, *
+                            tr1_slope, mint,
+                            tr1_pvalue, hr6_price, hr1_price, *
                         FROM hr1_avg_mc 
                         WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
 	                        AND z_score > 0
@@ -124,8 +128,9 @@ class Program {
                                 string name = reader.GetString(1);
                                 string symbol = reader.GetString(2);
                                 double? tr1_slope = reader.IsDBNull(4) ? null : reader.GetDouble(4);
+                                string mint = reader.GetString(5);
                                 //Console.WriteLine($"{id} {symbol} {name} tr1_slope={tr1_slope}");
-                                rowsToCheck.Add(symbol);
+                                rowsToCheck.Add((symbol, mint));
                                 if (tr1_slope == null) { // if not already got trend1 data
                                     rowsToUpdate.Add((id, name, symbol));
                                 }
@@ -134,7 +139,9 @@ class Program {
                     }
                 }
                 var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
-                Console.WriteLine($"{timestamp} {string.Join(',', rowsToCheck)}");
+                var info = $"{timestamp}\n{string.Join("\n", rowsToCheck.Select(p => $"{p.symbol} [{p.mint}]").ToList()).Trim()}";
+                Console.WriteLine(info);
+                Bot.BroadcastMessageAsync(info);
 
                 // Process each row using RunActorSyncAsync
                 await Task.WhenAll(Parallel.ForEachAsync(rowsToUpdate,
@@ -161,8 +168,8 @@ class Program {
                         }
                     }));
 
-                // Poll every minute
-                await Task.Delay(TimeSpan.FromMinutes(5));
+                // sleep
+                await Task.Delay(TimeSpan.FromMinutes(60));
             }
             catch (Exception ex) {
                 Console.WriteLine($"Error occurred: {ex.Message}");
@@ -196,7 +203,7 @@ class Program {
                 "application/json"
             );
 
-            //Console.WriteLine($"Calling Google Trends actor for {symbol} {name}...");
+            Console.WriteLine($"Calling Google Trends actor for {symbol} {name}...");
             var response = await client.PostAsync(
                 $"https://api.apify.com/v2/acts/{ActorId}/run-sync-get-dataset-items?token={ApifyToken}&format=json",
                 content
@@ -240,7 +247,7 @@ class Program {
             //    Debugger.Break();
 
             // Save results to database
-            using (var connection = new SqlConnection(_connectionString)) {
+            using (var connection = new SqlConnection(DbConStr)) {
                 connection.Open();
                 string updateQuery = @"
                 UPDATE [dbo].[mint]
@@ -256,9 +263,11 @@ class Program {
                 }
             }
 
-            Console.WriteLine($"{symbol.PadLeft(20)}\trowId {rowId} //\t" +
+            string info = $"{symbol.PadLeft(20)}\trowId {rowId} //\t" +
                 $"Slope: {analysisResult.Slope:F3}, Trend Score: {analysisResult.TrendScore:F3} - " +
-                $"{(analysisResult.HasUpwardTrend ? "UPTREND!" : "")}");
+                $"{(analysisResult.HasUpwardTrend ? "UPTREND!" : "")}";
+            Bot.BroadcastMessageAsync(info);
+            Console.WriteLine(info);
         }
         catch (Exception ex) {
             Console.WriteLine($"${symbol} An error occurred: {ex.Message}");
@@ -328,7 +337,7 @@ class Program {
     }
 
     private static void HandleEmptyData(int rowId, double errorCode) {
-        using (var connection = new SqlConnection(_connectionString)) {
+        using (var connection = new SqlConnection(DbConStr)) {
             connection.Open();
             string updateQuery = @"UPDATE [dbo].[mint] SET tr1_slope = @ErrorCode, tr1_pvalue = @ErrorCode WHERE id = @RowId";
             using (var command = new SqlCommand(updateQuery, connection)) {
@@ -338,66 +347,4 @@ class Program {
             }
         }
     }
-
-    public static (double Tau, double PValue) MannKendallTrendTest(List<double> values) {
-        int n = values.Count;
-        int s = 0; // Mann-Kendall statistic
-        int varS = 0; // Variance of S
-
-        // Compute S statistic
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (values[j] > values[i]) {
-                    s += 1;
-                }
-                else if (values[j] < values[i]) {
-                    s -= 1;
-                }
-                // Ties (values[j] == values[i]) do not contribute to S
-            }
-        }
-
-        // Handle ties in the data
-        var uniqueValues = values.GroupBy(v => v).Select(g => g.Count()).ToList();
-        bool hasTies = uniqueValues.Any(count => count > 1);
-
-        // Compute variance of S
-        if (n <= 10) {
-            // For small samples, use exact tables (not implemented here)
-            throw new InvalidOperationException("Sample size too small for normal approximation.");
-        }
-        else {
-            // For larger samples, use normal approximation
-            if (hasTies) {
-                // Adjust variance for ties
-                var tieCounts = uniqueValues.Where(count => count > 1).ToList();
-                double tieSum = tieCounts.Sum(count => count * (count - 1) * (2 * count + 5));
-                varS = (int)((n * (n - 1) * (2 * n + 5) - tieSum) / 18);
-            }
-            else {
-                varS = n * (n - 1) * (2 * n + 5) / 18;
-            }
-        }
-
-        // Compute Z statistic
-        double z = 0;
-        if (s > 0) {
-            z = (s - 1) / Math.Sqrt(varS);
-        }
-        else if (s < 0) {
-            z = (s + 1) / Math.Sqrt(varS);
-        }
-        else {
-            z = 0;
-        }
-
-        // Compute p-value (two-tailed test)
-        double pValue = 2 * (1 - Normal.CDF(0, 1, Math.Abs(z)));
-
-        // Compute Tau
-        double tau = s / (0.5 * n * (n - 1));
-
-        return (tau, pValue);
-    }
-
 }

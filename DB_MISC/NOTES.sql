@@ -1,9 +1,43 @@
 --
 -- todo: harvest 6hr metas...
 --		filter for +ve 1hr (vs avg) & 6hr (price up) >> take out the quick rugs, after 6hrs
+--
 
-	SELECT TOP 5 PERCENT * FROM hr1_avg_mc WHERE inserted_utc >= DATEADD(HOUR, -6, GETUTCDATE()) ORDER BY z_score DESC
-	-- todo - filter above by +ve price 6hrs later...
+	--update mint set tr1_slope = null, tr1_pvalue = null where tr1_pvalue != -888
+
+	-- WIP: from the accumulated rolling 6hr windows... any clear UPTRENDs??
+	select symbol, name, * from mint where tr1_slope > 0.05 and tr1_pvalue > 0.1
+		--update mint set tr1_slope = null, tr1_pvalue = null where id in (13596, 13032)
+	
+		-- OR: without requiring confirm uptrend? -- all were in the 6hr window... manual review set?
+			select symbol, name, * from mint where tr1_slope is not null and tr1_pvalue is not null and hr6_price is not null
+
+			-- TODO: setup TG bot to tell me whenever a new coin enters the 6hr rolling window - to manually check out?
+
+	-- current rolling 6hr window (working set for trend-friend)
+		SELECT TOP 50 PERCENT 
+			id, name, symbol, 
+			datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+			tr1_slope, tr1_pvalue, hr6_price, hr1_price, *
+		FROM hr1_avg_mc 
+		WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
+			AND z_score > 0
+			AND hr6_price IS NOT NULL
+			AND hr6_price > hr1_price
+			--AND tr1_slope is null 
+		ORDER BY z_score DESC
+
+
+	select * from mint where id = 6684
+
+	select count(*) from hr1_avg_mc where hr6_price is not null
+
+	select datediff(hh, getutcdate(), inserted_utc) 'hrs old', symbol, name, tr1_slope, tr1_pvalue, * from mint where tr1_slope is not null order by 5 desc
+		-- pvalue: WHAT IF WE ALL HOLD -- DUBIOUS: pval 0.03, slope 0.1
+	
+	select * from mint where id = 10804
+
+-- todo - filter above by +ve price 6hrs later...
 
 
 --
@@ -17,9 +51,7 @@ datediff(n, getutcdate(), inserted_utc) 'mins old',
 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
 * from mint order by id asc
 
-select * from mint where id = 6066
-
-select count(*) from mint 
+	--select top 10 * from mint where hr6_price is not null
 
 --alter table mint add inserted_utc datetime default(getutcdate())
 
