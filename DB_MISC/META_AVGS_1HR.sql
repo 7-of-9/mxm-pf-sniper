@@ -9,12 +9,12 @@ alter view hr1_avg_mc as
 	SELECT m.id, m.symbol, m.name, mint, m.inserted_utc,
 		m.fetched_utc_1hr,
 		m.hr1_market_cap,
-		m.hr1_price,
+		m.hr1_price, m.hr1_holder,
 		CohortStats.mean_market_cap,
 		CohortStats.stddev_market_cap,
 		(m.hr1_market_cap - CohortStats.mean_market_cap) / NULLIF(CohortStats.stddev_market_cap, 0) AS z_score,
 		m.tr1_slope, m.tr1_pvalue,
-		m.hr6_price, m.hr6_market_cap
+		m.hr6_price, m.hr6_market_cap, m.hr6_holder
 	FROM 
 		dbo.mint m
 	CROSS APPLY
@@ -36,13 +36,12 @@ alter view hr1_avg_mc as
 alter view hr1_avg_holder as 
 	SELECT m.id, m.symbol, m.name, mint, m.inserted_utc,
 		m.fetched_utc_1hr,
-		m.hr1_holder,
-		m.hr1_price,
+		m.hr1_price, m.hr1_holder,
 		CohortStats.mean_holder,
 		CohortStats.stddev_holder,
 		(m.hr1_holder - CohortStats.mean_holder) / NULLIF(CohortStats.stddev_holder, 0) AS z_score,
 		m.tr1_slope, m.tr1_pvalue,
-		m.hr6_price, m.hr6_market_cap
+		m.hr6_price, m.hr6_market_cap, m.hr6_holder
 	FROM 
 		dbo.mint m
 	CROSS APPLY

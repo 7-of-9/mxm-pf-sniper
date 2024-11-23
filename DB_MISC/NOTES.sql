@@ -9,23 +9,32 @@
 	select symbol, name, * from mint where tr1_slope > 0.05 and tr1_pvalue > 0.1
 		--update mint set tr1_slope = null, tr1_pvalue = null where id in (13596, 13032)
 	
-		-- OR: without requiring confirm uptrend? -- all were in the 6hr window... manual review set?
-			select symbol, name, * from mint where tr1_slope is not null and tr1_pvalue is not null and hr6_price is not null
+		-- OR: (irrespective of confirmed uptrend) -- all these *were* in the 6hr window... a manual review set:
+			select symbol, name, * from mint where tr1_slope is not null and tr1_pvalue is not null and hr6_price is not null 
+				and hr6_holder > hr1_holder -- !!
+				order by hr6_holder desc
+				--order by ((hr6_holder - hr1_holder) * 100.0 / hr1_holder) DESC
 
-			-- TODO: setup TG bot to tell me whenever a new coin enters the 6hr rolling window - to manually check out?
+			-- TODO: mint-collector should parse URI to get Twitter account (or lack of) and record # of followers... to feed into filtering @ 6hr check...
 
-	-- current rolling 6hr window (working set for trend-friend)
-		SELECT TOP 50 PERCENT 
-			id, name, symbol, 
-			datediff(hh, getutcdate(), inserted_utc) 'hrs old',
-			tr1_slope, tr1_pvalue, hr6_price, hr1_price, *
-		FROM hr1_avg_mc 
-		WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
-			AND z_score > 0
-			AND hr6_price IS NOT NULL
-			AND hr6_price > hr1_price
-			--AND tr1_slope is null 
-		ORDER BY z_score DESC
+			-- TODO: repeat whole analysis but on 6hr vs 24hr timeframes... sustained 24hr rise presages pump?
+
+	-- *current* rolling 6hr window (working set for trend-friend)
+		 SELECT TOP 50 PERCENT 
+			 id, name, symbol, 
+			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+			 tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap,
+			 hr6_price, hr1_price
+		 FROM hr1_avg_mc 
+		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
+			 AND z_score > 0
+			 AND hr6_price IS NOT NULL
+			 AND hr6_holder > hr1_holder
+			 AND hr6_price > hr1_price
+			 --AND tr1_slope is null 
+		ORDER BY 7 DESC
+
+		select * from mint where symbol = 'msnbc'
 
 
 	select * from mint where id = 6684

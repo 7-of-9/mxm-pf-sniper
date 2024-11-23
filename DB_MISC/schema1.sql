@@ -353,6 +353,7 @@ CREATE view [dbo].[day1_avg_holder] as
 	WHERE 
 		m.day1_holder IS NOT NULL
 GO
+
 /****** Object:  View [dbo].[hr6_avg_mc]    Script Date: 22 Nov 2024 18:43:44 ******/
 SET ANSI_NULLS ON
 GO
