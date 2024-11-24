@@ -10,32 +10,55 @@
 		--update mint set tr1_slope = null, tr1_pvalue = null where id in (13596, 13032)
 	
 		-- OR: (irrespective of confirmed uptrend) -- all these *were* in the 6hr window... a manual review set:
-			select symbol, name, * from mint where tr1_slope is not null and tr1_pvalue is not null and hr6_price is not null 
+			select symbol, name, hr6_holder, * from mint where tr1_slope is not null and tr1_pvalue is not null and hr6_price is not null 
 				and hr6_holder > hr1_holder -- !!
-				order by hr6_holder desc
+				order by 3 desc
 				--order by ((hr6_holder - hr1_holder) * 100.0 / hr1_holder) DESC
 
-			-- TODO: mint-collector should parse URI to get Twitter account (or lack of) and record # of followers... to feed into filtering @ 6hr check...
-
-			-- TODO: repeat whole analysis but on 6hr vs 24hr timeframes... sustained 24hr rise presages pump?
-
-	-- *current* rolling 6hr window (working set for trend-friend)
-		 SELECT TOP 50 PERCENT 
-			 id, name, symbol, 
+	-- 1hr => 6hr :: *current* rolling window (working set for trend-friend)
+		 SELECT TOP 100 PERCENT --top 10 hr1_market_cap, mean_market_cap, --TOP 10 PERCENT 
+			 id, name, symbol, mean_market_cap, hr1_market_cap,
 			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
 			 tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap,
-			 hr6_price, hr1_price
+			 hr6_price, hr1_price, tr1_graph_ipfs, hr6_best_rank
 		 FROM hr1_avg_mc 
 		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
 			 AND z_score > 0
 			 AND hr6_price IS NOT NULL
 			 AND hr6_holder > hr1_holder
 			 AND hr6_price > hr1_price
-			 --AND tr1_slope is null 
-		ORDER BY 7 DESC
+		ORDER BY z_score DESC
 
-		select * from mint where symbol = 'msnbc'
+		SELECT id, name, symbol, hr1_market_cap, mint from mint where fetched_utc_1hr BETWEEN DATEADD(hour, -12, fetched_utc_1hr) AND fetched_utc_1hr order by hr1_market_cap desc
+		
+		--create index idx_mint_3 on mint (id, fetched_utc_1hr, hr12_market_cap)
 
+		--select * from mint where mint = 'am1sqwahhakws4h9uwhweeyxcaecr5ydyzix1jd9rvmp'
+
+	-- 6hr => 12hr :: *current* rolling window (working set for trend-friend)
+	-- ....
+		 SELECT TOP 50 PERCENT 
+			 id, name, symbol, 
+			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+			 tr2_slope, tr2_pvalue,
+			 mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap,
+			 hr12_price, hr6_price, tr2_graph_ipfs, hr12_best_rank, hr6_best_rank
+		 FROM hr6_avg_mc 
+		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -24, GETUTCDATE()) AND DATEADD(HOUR, -12, GETUTCDATE())
+			 AND z_score > 0
+			 AND hr12_price IS NOT NULL
+			 AND hr12_holder > hr6_holder
+			 AND hr12_price > hr6_price
+			 --AND tr2_slope is null 
+		ORDER BY 8 DESC
+		
+	--
+	-- TODO: https://countik.com/popular/hashtags ==> import each day; x-ref coins with these ... 
+	--	
+		--....
+
+		update mint set tr2_slope = null, tr2_pvalue=null where id=14458
+		alter table mint add hr12_best_rank int
 
 	select * from mint where id = 6684
 

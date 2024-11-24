@@ -34,7 +34,7 @@ namespace meta_getter {
                 try {
                     await PollAndProcessAsync(MetaTimeframe.OneHour);   // 1-hour
                     await PollAndProcessAsync(MetaTimeframe.SixHours);  // 6-hour
-                    //await PollAndProcessAsync(MetaTimeframe.TwelveHours); // 12-hour
+                    await PollAndProcessAsync(MetaTimeframe.TwelveHours); // 12-hour
                     //await PollAndProcessAsync(MetaTimeframe.OneDay);    // 1-day
                 }
                 catch (Exception ex) {

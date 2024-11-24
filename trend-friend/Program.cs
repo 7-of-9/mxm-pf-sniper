@@ -18,6 +18,7 @@ using ScottPlot;
 using ScottPlot.Plottable;
 using Telegram.Bot.Types.Enums;
 using ScottPlot.Plottable.AxisManagers;
+using Microsoft.AspNetCore.Server.HttpSys;
 
 public class Program {
     private static readonly string ApifyToken = ConfigurationManager.AppSettings["ApifyApiToken"];
@@ -27,6 +28,10 @@ public class Program {
 
     const double TREND_MIN_SLOPE = 0.05;
     const double TREND_MIN_RSQ = 0.1;
+
+    const int LIMIT_N = 8;
+
+    const int MINS_SLEEP = 5;       // should be log enough to let appify calls return, else we will re-enter
 
     public class InputData {
         public string InputUrlOrTerm { get; set; }
@@ -42,6 +47,83 @@ public class Program {
         public List<string> FormattedValue { get; set; }
         public bool? IsPartial { get; set; }
     }
+
+    #region IPFS Graph Saver
+    public class PinataResponse {
+        [JsonProperty("IpfsHash")]
+        public string IpfsHash { get; set; }
+
+        [JsonProperty("PinSize")]
+        public long PinSize { get; set; }
+
+        [JsonProperty("Timestamp")]
+        public string Timestamp { get; set; }
+    }
+    public class GraphMetadata {
+        public string Symbol { get; set; }
+        public string Timeframe { get; set; }
+        public DateTime Timestamp { get; set; }
+        public string IpfsHash { get; set; }
+        public string IpfsUrl { get; set; }
+        public double Slope { get; set; }
+        public double TrendScore { get; set; }
+    }
+
+    public static class IpfsUploader {
+        private static readonly string PinataApiKey = ConfigurationManager.AppSettings["PinataApiKey"];
+        private static readonly string PinataSecretKey = ConfigurationManager.AppSettings["PinataSecretApiKey"];
+        private static readonly string DbConStr = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.mintDbConnectionString"].ConnectionString;
+
+        public static async Task<string> UploadToIpfsAsync(string filePath, string symbol, string timeframe) {
+            try {
+                using var client = new HttpClient();
+                client.DefaultRequestHeaders.Add("pinata_api_key", PinataApiKey);
+                client.DefaultRequestHeaders.Add("pinata_secret_api_key", PinataSecretKey);
+
+                using var form = new MultipartFormDataContent();
+                using var fileStream = File.OpenRead(filePath);
+                using var streamContent = new StreamContent(fileStream);
+
+                form.Add(streamContent, "file", Path.GetFileName(filePath));
+
+                // Add metadata
+                var metadata = new {
+                    name = $"{timeframe}_{symbol}_trend_graph",
+                    keyvalues = new {
+                        symbol = symbol,
+                        timeframe = timeframe,
+                        timestamp = DateTime.UtcNow
+                    }
+                };
+
+                var metadataContent = new StringContent(
+                    JsonConvert.SerializeObject(metadata),
+                    Encoding.UTF8,
+                    "application/json"
+                );
+                form.Add(metadataContent, "pinataMetadata");
+
+                var response = await client.PostAsync("https://api.pinata.cloud/pinning/pinFileToIPFS", form);
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                if (!response.IsSuccessStatusCode) {
+                    throw new Exception($"Failed to upload to IPFS: {responseContent}");
+                }
+
+                var pinataResponse = JsonConvert.DeserializeObject<PinataResponse>(responseContent);
+                return pinataResponse.IpfsHash;
+            }
+            catch (Exception ex) {
+                Console.WriteLine($"Error uploading to IPFS: {ex.Message}");
+                return null;
+            }
+        }
+
+        public static async Task SaveGraphMetadataAsync(GraphMetadata metadata) {
+            
+        }
+    }
+    #endregion
 
     public static void TestFromCache() {
         var cacheDir = Path.Combine("..", "..", "..", "cache");
@@ -64,7 +146,7 @@ public class Program {
                 var values = lines.Select(l => double.Parse(l, CultureInfo.InvariantCulture)).ToList();
 
                 // Call AnalyzeAndSaveTrend
-                AnalyzeAndSaveTrend(symbol, symbol, values, -1);
+                AnalyzeAndSaveTrend("test", symbol, symbol, values, -1);
             }
             catch (Exception ex) {
                 Console.WriteLine($"Error processing file {csvFile}: {ex.Message}");
@@ -83,15 +165,24 @@ public class Program {
         return $"${value:F0}"; // Less than 1000
     }
 
+    public static string FormatMillions(double value) {
+        // Convert to millions
+        double inMillions = value / 1_000_000;
+
+        // Format with two decimal places
+        return $"{inMillions:F2}";
+    }
+
+
     static async Task Main(string[] args) {
         Bot.StartAsync();
 
         // tests
-        //AnalyzeAndSaveTrend("BARD", "", System.IO.File.ReadAllLines(@"..\..\..\cache\NAS_Not_a_Security.csv").Select(p => double.Parse(p)).ToList(), -1); // periodic, no trend
-        //AnalyzeAndSaveTrend("CHILLGUY", "", System.IO.File.ReadAllLines(@"..\..\..\cache\CHILLGUY_Chill_Guy.csv").Select(p => double.Parse(p)).ToList(), -1); // uptrend at end, clear
+        //AnalyzeAndSaveTrend("test", "BARD", "", System.IO.File.ReadAllLines(@"..\..\..\cache\NAS_Not_a_Security.csv").Select(p => double.Parse(p)).ToList(), -1); // periodic, no trend
+        //AnalyzeAndSaveTrend("test", "CHILLGUY", "", System.IO.File.ReadAllLines(@"..\..\..\cache\CHILLGUY_Chill_Guy.csv").Select(p => double.Parse(p)).ToList(), -1); // uptrend at end, clear
 
         // get trending tokens into the cache for testing...
-        //AnalyzeAndSaveTrend("CHILLGUY", "", await RunActorSyncAsync("CHILLGUY", "Chill Guy", new {
+        //AnalyzeAndSaveTrend("test", "CHILLGUY", "", await GetGoogleTrends("CHILLGUY", "Chill Guy", new {
         //    isMultiple = false,
         //    isPublic = false,
         //    searchTerms = new[] { "Chill Guy" },
@@ -99,7 +190,7 @@ public class Program {
         //    timeRange = "now 7-d",
         //    viewedFrom = "us"
         //}), -1);
-        //AnalyzeAndSaveTrend("CHILLFAM", "", await RunActorSyncAsync("CHILLFAM", "chill family", new {
+        //AnalyzeAndSaveTrend("test", "CHILLFAM", "", await GetGoogleTrends("CHILLFAM", "chill family", new {
         //    isMultiple = false,
         //    isPublic = false,
         //    searchTerms = new[] { "chill family" },
@@ -112,141 +203,52 @@ public class Program {
         //TestFromCache();
         //return;
 
-        List<string> symbolsSeen = new List<string>();
+        List<string> hr6_symbolsSeen = new List<string>();
+        List<string> hr12_symbolsSeen = new List<string>();
         while (true) {
             try {
-                // Query the top 5% of rows with missing tr1_slope, inserted in the last 6 hrs
-                List<(int rowId, string name, string symbol)> rowsToUpdate = new List<(int, string, string)>();
-                List<(string symbol, string mint)> rowsToCheck = new List<(string, string)>();
-                using (var connection = new SqlConnection(DbConStr)) {
-                    await connection.OpenAsync();
-                    string query = @"
-                        SELECT TOP 50 PERCENT 
-                            id, name, symbol, 
-                            datediff(hh, getutcdate(), inserted_utc) 'hrs old',
-                            tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap, 
-                            hr6_price, hr1_price
-                        FROM hr1_avg_mc 
-                        WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
-	                        AND z_score > 0
-                            AND hr6_price IS NOT NULL
-                            AND hr6_holder > hr1_holder
-                            AND hr6_price > hr1_price
-                            --AND tr1_slope is null 
-                        ORDER BY z_score DESC
-                        ";
+                // tr1 -- trend sample 1: down at 6hrs
+                // tr2 -- trend sample 2: down at 12hrs
 
-                    int pos = 0;
-                    Bot.Currents = new List<string>();
-                    bool sawNew = false;
+                string query_6hr = @"
+                    SELECT TOP 100 PERCENT 
+                        id, name, symbol, 
+                        datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+                        tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap, tr1_graph_ipfs, hr6_best_rank,
+                        hr1_holder, hr1_price
+                    FROM hr1_avg_mc 
+                    WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
+	                    AND z_score > 0
+                        AND hr6_price IS NOT NULL
+                        AND hr6_holder > hr1_holder
+                        AND hr6_price > hr1_price
+                        --AND tr_slope is null 
+                    ORDER BY z_score DESC
+                ";
 
-                    var tableBuilder = new StringBuilder();
-                    tableBuilder.AppendLine("```");
-                    tableBuilder.AppendLine("Symbol    Name          Age   Score   Holders");
-                    tableBuilder.AppendLine("--------------------------------------------");
+                string query_12hr = @"
+		             SELECT TOP 100 PERCENT 
+			             id, name, symbol, 
+			             datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+			             tr2_slope, tr2_pvalue, mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap, tr2_graph_ipfs, hr12_best_rank,
+                         hr6_holder, hr6_price
+		             FROM hr6_avg_mc 
+		             WHERE inserted_utc BETWEEN DATEADD(HOUR, -24, GETUTCDATE()) AND DATEADD(HOUR, -12, GETUTCDATE())
+			             AND z_score > 0
+			             AND hr12_price IS NOT NULL
+			             AND hr12_holder > hr6_holder
+			             AND hr12_price > hr6_price
+			             --AND tr2_slope is null 
+		            ORDER BY z_score DESC
+                ";
 
-                    using (var command = new SqlCommand(query, connection)) {
-                        using (var reader = await command.ExecuteReaderAsync()) {
-                            while (await reader.ReadAsync()) {
-                                int id = reader.GetInt32(0);
-                                string name = reader.GetString(1);
-                                string symbol = reader.GetString(2);
-                                int hrs_old = reader.GetInt32(3);
-                                double? tr1_slope = reader.IsDBNull(4) ? null : reader.GetDouble(4);
-                                double? tr1_pvalue = reader.IsDBNull(5) ? null : reader.GetDouble(5);
-                                string mint = reader.GetString(6);
-                                double z_score = reader.GetDouble(7);
-                                int hr6_holder = reader.GetInt32(8);
-                                string uri = reader.GetString(9);
-                                //string icon = reader.IsDBNull(10) ? null : reader.GetString(10);
-                                double hr6_mc = reader.GetDouble(11);
+                // Process both queries
+                Bot.Currents = new List<string>();
+                //await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen);
+                await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen);
 
-                                var metadata = await TokenMetadataParser.ParseMetadataFromUri(uri);
-
-                                bool? tr1_trend = tr1_slope != null && tr1_pvalue != null 
-                                                    ? (tr1_slope > TREND_MIN_SLOPE && tr1_pvalue > TREND_MIN_RSQ) : null;
-                                string tr1_info = "Google Trends: " + (tr1_trend == null ? "tbd" : (tr1_trend == true ? "CONFIRMED !!!" : "none"));
-
-                                //if (metadata != null) {
-                                //    Console.WriteLine($"Description: {metadata.Description}");
-                                //    Console.WriteLine($"Twitter: {metadata.Twitter}");
-                                //    Console.WriteLine($"Telegram: {metadata.Telegram}");
-                                //    Console.WriteLine($"Website: {metadata.Website}");
-                                //}
-
-                                //Console.WriteLine($"{id} {symbol} {name} tr1_slope={tr1_slope}");
-                                rowsToCheck.Add((symbol, mint));
-                                if (tr1_slope == null) { // if not already got trend1 data
-                                    rowsToUpdate.Add((id, name, symbol));
-                                }
-                                pos++;
-                                string row_info =
-                                     $"#{pos} [{symbol}](https://dexscreener.com/solana/{mint}) *{name}* ([website]({metadata.Website})) ([twitter]({metadata.Twitter}))"
-                                      + $" / MC={FormatCurrency(hr6_mc)} / age={hrs_old * -1} hrs / z\\_score={z_score.ToString("0.00")} / hr6\\_holders={hr6_holder}"
-                                      + $" / {tr1_info}"
-                                      + "\n_" + metadata.Description + "_";
-
-                                // Add formatted table row
-                                tableBuilder.AppendLine(String.Format("{0,-9} {1,-13} {2,4}h {3,7:F1} {4,8:N0}",
-                                    (symbol.Length > 8 ? symbol.Substring(0, 8) : symbol),
-                                    name.Length > 12 ? name.Substring(0, 12) : name,
-                                    hrs_old * -1,
-                                    z_score,
-                                    hr6_holder
-                                ));
-
-                                if (!symbolsSeen.Contains(symbol)) {
-                                    Bot.BroadcastMessageAsync(row_info);
-                                    symbolsSeen.Add(symbol);
-                                    sawNew = true; 
-                                }
-
-                                Bot.Currents.Add(row_info);
-                            }
-                        }
-                    }
-
-                    // After the loop, close the code block and send the table
-                    tableBuilder.AppendLine("```");
-                    Bot.Currents.Add(tableBuilder.ToString());
-
-                    if (sawNew) {
-                        Bot.BroadcastMessageAsync(tableBuilder.ToString());
-                    }
-                }
-                var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
-                //var info = $"{timestamp}\n{string.Join("\n", rowsToCheck.Select(p => $"{p.symbol} [{p.mint}]").ToList()).Trim()}";
-                var info = $"{timestamp} {string.Join(", ", rowsToCheck.Select(p => $"{p.symbol}").ToList()).Trim()}";
-                Console.WriteLine(info);
-                //Bot.BroadcastMessageAsync(info);
-
-                // Process each row using RunActorSyncAsync
-                await Task.WhenAll(Parallel.ForEachAsync(rowsToUpdate,
-                    new ParallelOptions { MaxDegreeOfParallelism = 8 },
-                    async (row, token) => {
-                        var input = new {
-                            isMultiple = false,
-                            isPublic = false,
-                            searchTerms = new[] { row.name },
-                            skipDebugScreen = false,
-                            timeRange = "now 7-d",
-                            viewedFrom = "us"
-                        };
-
-                        // get trend
-                        var values = await RunActorSyncAsync(row.symbol, row.name, input);
-
-                        // save DB
-                        if (values.Any()) {
-                            AnalyzeAndSaveTrend(row.symbol, row.name, values, row.rowId);
-                        }
-                        else {
-                            HandleEmptyData(row.rowId, -888);
-                        }
-                    }));
-
-                // sleep
-                await Task.Delay(TimeSpan.FromMinutes(1));
+                // Sleep between iterations
+                await Task.Delay(TimeSpan.FromMinutes(MINS_SLEEP));
             }
             catch (Exception ex) {
                 Console.WriteLine($"Error occurred: {ex.Message}");
@@ -254,23 +256,189 @@ public class Program {
         }
     }
 
-    private static async Task<List<double>> RunActorSyncAsync(string symbol, string name, object input) {
-        // Setup cache paths for both JSON and CSV
+    private static async Task ProcessQuery(string prefix, string query, List<string> symbolsSeen) {
+        if (prefix != "6HR" && prefix != "12HR") throw new ApplicationException();
+
+        List<(int rowId, string name, string symbol)> rowsNeedingTrendData = new List<(int, string, string)>();
+        List<(string symbol, string mint)> rowsDbg = new List<(string, string)>();
+
+        using (var connection = new SqlConnection(DbConStr)) {
+            await connection.OpenAsync();
+
+            int pos = 0;
+            bool sawNew = false;
+
+            var tableBuilder = new StringBuilder();
+            tableBuilder.AppendLine("```");
+            tableBuilder.AppendLine($"{prefix} Results:");
+            tableBuilder.AppendLine("Sym+Age   MC$m  Score  Holders");
+            tableBuilder.AppendLine("------------------------------");
+
+            using (var command = new SqlCommand(query, connection)) {
+                using (var reader = await command.ExecuteReaderAsync()) {
+                    while (await reader.ReadAsync()) {
+                        pos++;
+
+                        try {
+                            int id = reader.GetInt32(0);
+                            string name = reader.GetString(1);
+                            string symbol = reader.GetString(2);
+                            int hrs_old = reader.GetInt32(3);
+                            double? tr_slope = reader.IsDBNull(4) ? null : reader.GetDouble(4);
+                            double? tr_pvalue = reader.IsDBNull(5) ? null : reader.GetDouble(5);
+                            string mint = reader.GetString(6);
+                            double z_score = reader.GetDouble(7);
+                            int cur_holders = reader.GetInt32(8);
+                            string uri = reader.GetString(9);
+                            double cur_mc = reader.IsDBNull(11) ? 0 : (double)reader.GetDecimal(11);
+                            string graph_ipfs = reader.IsDBNull(12) ? null : reader.GetString(12);
+                            int? best_rank = reader.IsDBNull(13) ? null : reader.GetInt32(13);
+
+                            // maintain best rank (entire shortlist) -- timing out, on hold
+                            //if (best_rank == null || best_rank > pos) {
+                            //    UpdateBestRank(prefix, id, pos);
+                            //}
+
+                            // limit shortlist for display/processing
+                            if (pos > LIMIT_N) {
+                                continue;
+                            }
+
+                            var metadata = await TokenMetadataParser.ParseMetadataFromUri(uri);
+
+                            bool? tr_trend = tr_slope != null && tr_pvalue != null
+                                                ? (tr_slope > TREND_MIN_SLOPE && tr_pvalue > TREND_MIN_RSQ) : null;
+                            string tr_info = "Google Trends: " + (tr_trend == null ? "tbd" :
+                                (tr_trend == true ? "[CONFIRMED!!!]" : "[none]") + $"({graph_ipfs})"
+                                );
+
+                            rowsDbg.Add((symbol, mint));
+                            if (tr_slope == null) {
+                                rowsNeedingTrendData.Add((id, name, symbol));
+                            }
+
+                            string web_str = !string.IsNullOrEmpty(metadata.Website) ? $"[website]({metadata.Website})" : "no website";
+                            string twitter_str = !string.IsNullOrEmpty(metadata.Twitter) ? $"[twitter]({metadata.Twitter})" : "no twitter";
+
+                            string row_info =
+                                    $"{prefix} #{pos} [{symbol}](https://dexscreener.com/solana/{mint}) *{name}* ({web_str}) ({twitter_str})"
+                                    + $" / MC={FormatCurrency(cur_mc)} / age={hrs_old * -1}h / z\\_score={z_score.ToString("0.00")} / holders={cur_holders}"
+                                    + $" / {tr_info}"
+                                    + "\n_" + (!string.IsNullOrEmpty(metadata.Description) ? metadata.Description.Replace("http", "").Replace("_", " ") : "") + "_";
+
+                            // Sym+Age   MC$m  Score  Holders
+                            tableBuilder.AppendLine(String.Format("{0,-8} {1,5} {2,6} {3,8:N0}",
+                                (symbol.Length > 5 ? symbol.Substring(0, 5) : symbol) + $"+{hrs_old * -1}",
+                                FormatMillions(cur_mc),
+                                (tr_trend == true ? "*" : "") + z_score.ToString("0.00"),
+                                cur_holders
+                            ));
+
+                            //tableBuilder.AppendLine(String.Format("{0,-7} {1,4}h {2,7:F1} {3,8:N0}",
+                            //    (symbol.Length > 6 ? symbol.Substring(0, 6) : symbol)/*.PadRight(7, tr_trend == true ? '*' : ' ')*/,
+                            //    hrs_old * -1,
+                            //    (tr_trend==true ? "*" : "") + z_score.ToString("0.00"),
+                            //    cur_holders
+                            //));
+
+                            if (!symbolsSeen.Contains($"{prefix}_{symbol}")) {
+                                await Bot.BroadcastMessageAsync(row_info); // we want these to arrive in order
+                                symbolsSeen.Add($"{prefix}_{symbol}");
+                                sawNew = true;
+                            }
+
+                            Bot.Currents.Add(row_info);
+                        }
+                        catch (Exception ex) {
+                            Console.WriteLine(ex.ToString());
+                        }
+                    }
+                }
+            }
+
+            tableBuilder.AppendLine("```");
+            Bot.Currents.Add(tableBuilder.ToString());
+
+            if (sawNew) {
+                Bot.BroadcastMessageAsync(tableBuilder.ToString());
+            }
+        }
+
+        var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
+        var info = $"{prefix} {timestamp} info: {string.Join(", ", rowsDbg.Select(p => $"{p.symbol}").ToList()).Trim()}";
+        Console.WriteLine(info);
+
+        // Process each row using GetGoogleTrends
+        await Task.WhenAll(Parallel.ForEachAsync(rowsNeedingTrendData,
+            new ParallelOptions { MaxDegreeOfParallelism = 8 },
+            async (row, token) => {
+                var input = new {
+                    isMultiple = false,
+                    isPublic = false,
+                    searchTerms = new[] { row.name },
+                    skipDebugScreen = false,
+                    timeRange = "now 7-d",
+                    viewedFrom = "us"
+                };
+
+                // run google trends
+                //var values = await GetGoogleTrends(prefix, row.symbol, row.name, input);
+                //if (values.Any()) {
+                //    AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId);
+                //}
+                //else {
+                //    HandleEmptyData(prefix, row.rowId, -888);
+                //}
+                GetGoogleTrends(prefix, row.symbol, row.name, input) // non-blocking
+                    .ContinueWith(valuesTask => {
+                        var values = valuesTask.Result;
+                        if (values.Any()) {
+                            AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId);
+                        }
+                        else {
+                            HandleEmptyData(prefix, row.rowId, -888);
+                        }
+                    }, TaskContinuationOptions.OnlyOnRanToCompletion);
+            }));
+    }
+
+    // ### this is timing out - locking, no doubt // anyway - do we **really** want to go down the road of correlation analysis of ranks vs returns over market? COMPLEX
+    private static void UpdateBestRank(string prefix, int id, int pos) {
+        //string hr_prefix = prefix == "6HR" ? "hr6" : "hr12";
+        //try {
+        //    using (var connection = new SqlConnection(DbConStr)) {
+        //        connection.Open();
+        //        var sql = $@"
+        //        UPDATE [mint]
+        //        SET {hr_prefix}_best_rank = @Position 
+        //        WHERE id = @Id";
+
+        //        using (var command = new SqlCommand(sql, connection)) {
+        //            command.Parameters.AddWithValue("@Position", pos);
+        //            command.Parameters.AddWithValue("@Id", id);
+        //            command.ExecuteNonQuery();
+        //        }
+        //    }
+        //}
+        //catch (Exception ex) {
+        //    Console.WriteLine($"{prefix} Error updating best rank for ID {id}: {ex.Message}");
+        //}
+    }
+
+    private static async Task<List<double>> GetGoogleTrends(string prefix, string symbol, string name, object input) {
         var cacheDir = Path.Combine("..", "..", "..", "cache");
         Directory.CreateDirectory(cacheDir);
-        var csvPath = Path.Combine(cacheDir, $"{symbol}_{name.Replace(" ", "_")}.csv");
+        var csvPath = Path.Combine(cacheDir, $"{prefix}_{symbol}_{name.Replace(" ", "_")}.csv");
 
-        // Check CSV cache first
         if (File.Exists(csvPath)) {
             var fileInfo = new FileInfo(csvPath);
             if (DateTime.UtcNow - fileInfo.LastWriteTimeUtc < TimeSpan.FromHours(24)) {
-                Console.WriteLine($"Using cached data for {symbol} {name} from {csvPath}");
+                Console.WriteLine($"{prefix} Using cached data for {symbol} {name} from {csvPath}");
                 var lines = await File.ReadAllLinesAsync(csvPath);
                 return lines.Select(l => double.Parse(l, CultureInfo.InvariantCulture)).ToList();
             }
         }
 
-        // If not in cache or too old, fetch from API
         using (var client = new HttpClient()) {
             client.Timeout = TimeSpan.FromMinutes(5);
 
@@ -280,7 +448,7 @@ public class Program {
                 "application/json"
             );
 
-            Console.WriteLine($"Calling Google Trends actor for {symbol} {name}...");
+            Console.WriteLine($"{prefix} {symbol} Calling Google Trends actor for search term '{name}'...");
             var response = await client.PostAsync(
                 $"https://api.apify.com/v2/acts/{ActorId}/run-sync-get-dataset-items?token={ApifyToken}&format=json",
                 content
@@ -289,48 +457,44 @@ public class Program {
             response.EnsureSuccessStatusCode();
             var responseBody = await response.Content.ReadAsStringAsync();
 
-            // Parse JSON to extract values
             var inputDataList = JsonConvert.DeserializeObject<List<InputData>>(responseBody);
-            if (inputDataList == null || !inputDataList.Any()) return new List<double>();
+            if (inputDataList == null || !inputDataList.Any()) {
+                return new List<double>();
+            }
 
             var values = inputDataList[0].interestOverTime_timelineData?
                 .Where(dataPoint => dataPoint.Value != null && dataPoint.Value.Count > 0)
                 .Select(dataPoint => (double)dataPoint.Value[0])
                 .ToList() ?? new List<double>();
 
-            // Save to CSV cache
             await File.WriteAllLinesAsync(csvPath, values.Select(v => v.ToString(CultureInfo.InvariantCulture)));
-            //Console.WriteLine($"Cached response for {symbol} {name} to {csvPath}");
 
             return values;
         }
     }
 
-    public static void AnalyzeAndSaveTrend(string symbol, string name, List<double> values, int rowId) {
+    public static async void AnalyzeAndSaveTrend(string prefix, string symbol, string name, List<double> values, int rowId) {
         try {
+            string tr_prefix = prefix == "6HR" ? "tr1" : "tr2";
+
             if (values == null || values.Count == 0) {
-                HandleEmptyData(rowId, -999);
+                HandleEmptyData(prefix, rowId, -999);
                 return;
             }
-
             if (values.Count < 10) {
-                HandleEmptyData(rowId, -777);
+                HandleEmptyData(prefix, rowId, -777);
                 return;
             }
 
             var analysisResult = AnalyzeTrend(values);
 
-            //if (symbol == "Bullseye")
-            //    Debugger.Break();
-
-            // Save results to database
             using (var connection = new SqlConnection(DbConStr)) {
                 connection.Open();
-                string updateQuery = @"
-                UPDATE [dbo].[mint]
-                SET tr1_slope = @Slope,
-                    tr1_pvalue = @TrendScore
-                WHERE id = @RowId";
+                string updateQuery = @$"
+                        UPDATE [dbo].[mint]
+                        SET {tr_prefix}_slope = @Slope,
+                            {tr_prefix}_pvalue = @TrendScore
+                        WHERE id = @RowId";
 
                 using (var command = new SqlCommand(updateQuery, connection)) {
                     command.Parameters.AddWithValue("@Slope", double.IsNaN(analysisResult.Slope) ? 0 : analysisResult.Slope);
@@ -340,33 +504,47 @@ public class Program {
                 }
             }
 
-            // Generate and save the graph
-            string graphPath = 
-                GenerateTrendGraph(
+            // make graph
+            string graphPath = GenerateTrendGraph(
                 values,
                 analysisResult.Slope,
                 analysisResult.TrendScore,
-                symbol
+                $"{prefix}_{symbol}"
             );
 
-            // broadcast result
-            string info = $"*{symbol}* {name} " +
-                $"Slope: {analysisResult.Slope:F3}, Trend Score: {analysisResult.TrendScore:F3} - " +
-                $"{(analysisResult.HasUpwardTrend ? "UPTREND!" : "no trend.")}";
+            // Upload to IPFS
+            string ipfsHash = await IpfsUploader.UploadToIpfsAsync(graphPath, symbol, prefix);
+            if (ipfsHash != null) {
+                string ipfsUrl = $"https://gateway.pinata.cloud/ipfs/{ipfsHash}";
+                using (var connection = new SqlConnection(DbConStr)) {
+                    await connection.OpenAsync();
+                    var sql = @$"
+                        UPDATE [mint]
+                            SET {tr_prefix}_graph_ipfs = @ipfs
+                        WHERE id = @RowId";
+                    using (var command = new SqlCommand(sql, connection)) {
+                        command.Parameters.AddWithValue("@ipfs", ipfsUrl);
+                        command.Parameters.AddWithValue("@RowId", rowId);
+                        command.ExecuteNonQuery();
+                        Console.WriteLine($"{prefix} ${symbol} Saved GT graph ipfsUrl: {ipfsUrl}");
+                    }
+                }
+            }
 
-            // Send both text and image
+            string info = $"{prefix} *{symbol}* {name} " +
+            $"Slope: {analysisResult.Slope:F3}, Trend Score: {analysisResult.TrendScore:F3} - " +
+            $"{(analysisResult.HasUpwardTrend ? "UPTREND!" : "no trend.")}";
             using (var stream = File.OpenRead(graphPath)) {
                 Bot.SendPhotoAsync(
                     photo: Telegram.Bot.Types.InputFile.FromStream(stream),
                     caption: info
                 ).Wait();
             }
-            //Bot.BroadcastMessageAsync(info);
 
             Console.WriteLine(info);
         }
         catch (Exception ex) {
-            Console.WriteLine($"${symbol} An error occurred: {ex.Message}");
+            Console.WriteLine($"{prefix} ${symbol} #### An error occurred: {ex.Message}");
         }
     }
 
@@ -395,7 +573,7 @@ public class Program {
             lineWidth: 2);
 
         // Customize the plot
-        plot.Title($"Google Trends: {symbol}");
+        plot.Title($"Google Trends: {symbol} @{DateTime.Now.ToString("dd MMM yyyy HH:mm")}");
         plot.XLabel("7 DAYS");
         plot.YLabel("n");
 
@@ -472,10 +650,12 @@ public class Program {
         public bool HasUpwardTrend { get; set; }
     }
 
-    private static void HandleEmptyData(int rowId, double errorCode) {
+    private static void HandleEmptyData(string prefix, int rowId, double errorCode) {
+        string tr_prefix = prefix == "6HR" ? "tr1" : "tr2";
+
         using (var connection = new SqlConnection(DbConStr)) {
             connection.Open();
-            string updateQuery = @"UPDATE [dbo].[mint] SET tr1_slope = @ErrorCode, tr1_pvalue = @ErrorCode WHERE id = @RowId";
+            string updateQuery = @$"UPDATE [dbo].[mint] SET {tr_prefix}_slope = @ErrorCode, {tr_prefix}_pvalue = @ErrorCode WHERE id = @RowId";
             using (var command = new SqlCommand(updateQuery, connection)) {
                 command.Parameters.AddWithValue("@ErrorCode", errorCode);
                 command.Parameters.AddWithValue("@RowId", rowId);

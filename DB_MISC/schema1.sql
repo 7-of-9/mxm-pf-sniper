@@ -1,12 +1,12 @@
 USE [master]
 GO
-/****** Object:  Database [pf_sniper]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  Database [pf_sniper]    Script Date: 24 Nov 2024 02:14:46 ******/
 CREATE DATABASE [pf_sniper]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'pf_sniper', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\pf_sniper.mdf' , SIZE = 73728KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+( NAME = N'pf_sniper', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\pf_sniper.mdf' , SIZE = 401408KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
  LOG ON 
-( NAME = N'pf_sniper_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\pf_sniper_log.ldf' , SIZE = 139264KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+( NAME = N'pf_sniper_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\pf_sniper_log.ldf' , SIZE = 204800KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
  WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
 GO
 ALTER DATABASE [pf_sniper] SET COMPATIBILITY_LEVEL = 160
@@ -84,10 +84,10 @@ ALTER DATABASE [pf_sniper] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP
 GO
 USE [pf_sniper]
 GO
-/****** Object:  User [sniper]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  User [sniper]    Script Date: 24 Nov 2024 02:14:46 ******/
 CREATE USER [sniper] FOR LOGIN [sniper] WITH DEFAULT_SCHEMA=[dbo]
 GO
-/****** Object:  Table [dbo].[mint]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  Table [dbo].[mint]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -151,27 +151,33 @@ CREATE TABLE [dbo].[mint](
 	[tr1_slope] [float] NULL,
 	[tr1_pvalue] [float] NULL,
 	[hr1_market_cap]  AS (CONVERT([decimal](18,2),json_value([meta_json_1hr],'$.data.market_cap'))),
+	[tr2_slope] [float] NULL,
+	[tr2_pvalue] [float] NULL,
+	[tr2_graph_ipfs] [nvarchar](200) NULL,
+	[hr6_best_rank] [int] NULL,
+	[hr12_best_rank] [int] NULL,
+	[tr1_graph_ipfs] [nvarchar](200) NULL,
  CONSTRAINT [PK_mint] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[hr1_avg_mc]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[hr1_avg_mc]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
--- MC
 CREATE view [dbo].[hr1_avg_mc] as 
-	SELECT m.id, m.symbol, m.name, mint, m.inserted_utc,
-		m.fetched_utc_1hr,
-		m.hr1_market_cap,
-		m.hr1_price,
+	SELECT m.*, --m.id, m.symbol, m.name, mint, m.inserted_utc,
+		--m.fetched_utc_1hr,
+		--m.hr1_market_cap,
+		--m.hr1_price, m.hr1_holder,
 		CohortStats.mean_market_cap,
 		CohortStats.stddev_market_cap,
-		(m.hr1_market_cap - CohortStats.mean_market_cap) / NULLIF(CohortStats.stddev_market_cap, 0) AS z_score,
-		m.tr1_slope
+		(m.hr1_market_cap - CohortStats.mean_market_cap) / NULLIF(CohortStats.stddev_market_cap, 0) AS z_score
+		--m.tr1_slope, m.tr1_pvalue,
+		--m.hr6_price, m.hr6_market_cap, m.hr6_holder, m.uri, m.hr1_icon,
 	FROM 
 		dbo.mint m
 	CROSS APPLY
@@ -189,7 +195,7 @@ CREATE view [dbo].[hr1_avg_mc] as
 	WHERE 
 		m.hr1_market_cap IS NOT NULL
 GO
-/****** Object:  View [dbo].[hr1_avg_holder]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[hr1_avg_holder]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -197,14 +203,14 @@ GO
 
 -- # HOLDERS
 CREATE view [dbo].[hr1_avg_holder] as 
-	SELECT m.id, m.symbol, m.name, mint, m.inserted_utc,
-		m.fetched_utc_1hr,
-		m.hr1_holder,
-		m.hr1_price,
+	SELECT m.*, --m.id, m.symbol, m.name, mint, m.inserted_utc,
+		--m.fetched_utc_1hr,
+		--m.hr1_price, m.hr1_holder,
 		CohortStats.mean_holder,
 		CohortStats.stddev_holder,
-		(m.hr1_holder - CohortStats.mean_holder) / NULLIF(CohortStats.stddev_holder, 0) AS z_score,
-		m.tr1_slope
+		(m.hr1_holder - CohortStats.mean_holder) / NULLIF(CohortStats.stddev_holder, 0) AS z_score
+		--m.tr1_slope, m.tr1_pvalue,
+		--m.hr6_price, m.hr6_market_cap, m.hr6_holder, m.uri, m.hr1_icon
 	FROM 
 		dbo.mint m
 	CROSS APPLY
@@ -221,9 +227,8 @@ CREATE view [dbo].[hr1_avg_holder] as
 	) CohortStats
 	WHERE 
 		m.hr1_holder IS NOT NULL
-
 GO
-/****** Object:  View [dbo].[hr12_avg_mc]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[hr12_avg_mc]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -254,7 +259,7 @@ CREATE view [dbo].[hr12_avg_mc] as
 	WHERE 
 		m.hr12_market_cap IS NOT NULL
 GO
-/****** Object:  View [dbo].[hr12_avg_holder]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[hr12_avg_holder]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -289,7 +294,7 @@ CREATE view [dbo].[hr12_avg_holder] as
 
 		
 GO
-/****** Object:  View [dbo].[day1_avg_mc]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[day1_avg_mc]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -321,7 +326,7 @@ CREATE view [dbo].[day1_avg_mc] as
 	WHERE 
 		m.day1_market_cap IS NOT NULL
 GO
-/****** Object:  View [dbo].[day1_avg_holder]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[day1_avg_holder]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -353,22 +358,21 @@ CREATE view [dbo].[day1_avg_holder] as
 	WHERE 
 		m.day1_holder IS NOT NULL
 GO
-
-/****** Object:  View [dbo].[hr6_avg_mc]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[hr6_avg_mc]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
--- MC
 CREATE view [dbo].[hr6_avg_mc] as 
-	SELECT m.id, m.symbol, m.name, mint, m.inserted_utc,
-		m.fetched_utc_1hr,
-		m.hr6_market_cap,
-		m.hr6_price,
+	SELECT m.*, --m.id, m.symbol, m.name, mint, m.inserted_utc,
+		--m.fetched_utc_1hr,
+		--m.hr6_market_cap,
+		--m.hr6_price, m.hr6_holder,
 		CohortStats.mean_market_cap,
 		CohortStats.stddev_market_cap,
-		(m.hr6_market_cap - CohortStats.mean_market_cap) / NULLIF(CohortStats.stddev_market_cap, 0) AS z_score,
-		m.tr1_slope
+		(m.hr6_market_cap - CohortStats.mean_market_cap) / NULLIF(CohortStats.stddev_market_cap, 0) AS z_score
+		--m.tr2_slope, m.tr2_pvalue,
+		--m.hr12_price, m.hr12_market_cap, m.hr12_holder, m.uri, m.hr1_icon
 	FROM 
 		dbo.mint m
 	CROSS APPLY
@@ -380,13 +384,13 @@ CREATE view [dbo].[hr6_avg_mc] as
 			dbo.mint m2
 		WHERE 
 			m2.hr6_market_cap IS NOT NULL
-			AND m2.fetched_utc_1hr BETWEEN DATEADD(hour, -12, m.fetched_utc_1hr) AND m.fetched_utc_1hr
+			AND m2.fetched_utc_6hr BETWEEN DATEADD(hour, -12, m.fetched_utc_6hr) AND m.fetched_utc_6hr
 			AND m2.id <> m.id  -- Exclude the current row
 	) CohortStats
 	WHERE 
 		m.hr6_market_cap IS NOT NULL
 GO
-/****** Object:  View [dbo].[hr6_avg_holder]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  View [dbo].[hr6_avg_holder]    Script Date: 24 Nov 2024 02:14:46 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -394,14 +398,15 @@ GO
 
 -- # HOLDERS
 CREATE view [dbo].[hr6_avg_holder] as 
-	SELECT m.id, m.symbol, m.name, mint, m.inserted_utc,
-		m.fetched_utc_1hr,
-		m.hr6_holder,
-		m.hr6_price,
+	SELECT m.*, --m.id, m.symbol, m.name, mint, m.inserted_utc,
+		--m.fetched_utc_1hr,
+		--m.hr6_holder,
+		--m.hr6_price, 
 		CohortStats.mean_holder,
 		CohortStats.stddev_holder,
-		(m.hr6_holder - CohortStats.mean_holder) / NULLIF(CohortStats.stddev_holder, 0) AS z_score,
-		m.tr1_slope
+		(m.hr6_holder - CohortStats.mean_holder) / NULLIF(CohortStats.stddev_holder, 0) AS z_score
+		--m.tr2_slope,  m.tr2_pvalue,
+		--m.hr12_price, m.hr12_market_cap, m.hr12_holder, m.uri, m.hr1_icon
 	FROM 
 		dbo.mint m
 	CROSS APPLY
@@ -418,15 +423,30 @@ CREATE view [dbo].[hr6_avg_holder] as
 	) CohortStats
 	WHERE 
 		m.hr6_holder IS NOT NULL
-
 GO
-/****** Object:  Index [IX_mint]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  Table [dbo].[mint_best_rank]    Script Date: 24 Nov 2024 02:14:46 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[mint_best_rank](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[mint_id] [int] NOT NULL,
+	[hr] [int] NOT NULL,
+	[best_rank] [int] NOT NULL,
+ CONSTRAINT [PK_mint_best_rank] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Index [IX_mint]    Script Date: 24 Nov 2024 02:14:46 ******/
 CREATE NONCLUSTERED INDEX [IX_mint] ON [dbo].[mint]
 (
 	[inserted_utc] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [IX_mint_1]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  Index [IX_mint_1]    Script Date: 24 Nov 2024 02:14:46 ******/
 CREATE NONCLUSTERED INDEX [IX_mint_1] ON [dbo].[mint]
 (
 	[tr1_slope] ASC
@@ -440,7 +460,7 @@ SET ANSI_PADDING ON
 SET ANSI_WARNINGS ON
 SET NUMERIC_ROUNDABORT OFF
 GO
-/****** Object:  Index [ix_mint_inserted_hr1_mc]    Script Date: 22 Nov 2024 18:43:44 ******/
+/****** Object:  Index [ix_mint_inserted_hr1_mc]    Script Date: 24 Nov 2024 02:14:46 ******/
 CREATE NONCLUSTERED INDEX [ix_mint_inserted_hr1_mc] ON [dbo].[mint]
 (
 	[inserted_utc] ASC,
@@ -448,6 +468,11 @@ CREATE NONCLUSTERED INDEX [ix_mint_inserted_hr1_mc] ON [dbo].[mint]
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[mint] ADD  DEFAULT (getutcdate()) FOR [inserted_utc]
+GO
+ALTER TABLE [dbo].[mint_best_rank]  WITH CHECK ADD  CONSTRAINT [FK_mint_best_rank_mint] FOREIGN KEY([mint_id])
+REFERENCES [dbo].[mint] ([id])
+GO
+ALTER TABLE [dbo].[mint_best_rank] CHECK CONSTRAINT [FK_mint_best_rank_mint]
 GO
 USE [master]
 GO

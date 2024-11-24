@@ -123,6 +123,7 @@ public class TelegramBot {
     public async Task BroadcastMessageAsync(string message) {
         foreach (var chatId in _subscribedChats.ToList()) {
             try {
+                //Console.WriteLine($"bot - broadcast: {message}");
                 await _botClient.SendTextMessageAsync(
                     chatId: chatId,
                     text: message,
@@ -131,7 +132,7 @@ public class TelegramBot {
             }
             catch (Exception ex) {
                 Console.WriteLine($"Failed to broadcast to {chatId}: {ex.Message}");
-                _subscribedChats.Remove(chatId);
+                //_subscribedChats.Remove(chatId);
                 SaveSubscribers();
             }
         }
@@ -150,7 +151,7 @@ public class TelegramBot {
             }
             catch (Exception ex) {
                 Console.WriteLine($"Failed to send photo to {chatId}: {ex.Message}");
-                _subscribedChats.Remove(chatId);
+                //_subscribedChats.Remove(chatId);
                 SaveSubscribers();
             }
         }
