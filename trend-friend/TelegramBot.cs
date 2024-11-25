@@ -11,7 +11,7 @@ public class TelegramBot {
     private const string STORAGE_FILE = "subscribers.json";
     private CancellationTokenSource _cts;
 
-    public List<string> Currents = new List<string>();
+    public Dictionary<string, List<string>> Currents = new Dictionary<string, List<string>>();
 
     public TelegramBot(string token) {
         _botClient = new TelegramBotClient(token);
@@ -45,12 +45,34 @@ public class TelegramBot {
                                     text: "GM!\n\n" +
                                     "This bot tracks young PF coins trending by MC, and runs Google Trends searches for new entries." +
                                     "\n" +
-                                    "\nAvailable commands:\n/current - Show all ranked current trending\n/help - Show available commands",
+                                    "\nAvailable commands:\n" +
+                                    "/all - Show all ranked all eval periods\n" +
+                                    "/6 - Show all ranked at 6hr eval\n" +
+                                    "/12 - Show all ranked at 12hr eval\n" +
+                                    "/help - Show available commands",
                                     parseMode: ParseMode.Markdown);
                                 break;
 
-                            case "/current":
-                                foreach (string s in Currents) {
+                            case "/all":
+                                foreach (var timePeriod in Currents.Keys) {
+                                    foreach (string s in Currents[timePeriod]) {
+                                        await _botClient.SendTextMessageAsync(
+                                            chatId: message.Chat.Id,
+                                            text: s,
+                                            parseMode: ParseMode.Markdown);
+                                    }
+                                }
+                                break;
+                            case "/6":
+                                foreach (string s in Currents["6HR"]) {
+                                    await _botClient.SendTextMessageAsync(
+                                        chatId: message.Chat.Id,
+                                        text: s,
+                                        parseMode: ParseMode.Markdown);
+                                }
+                                break;
+                            case "/12":
+                                foreach (string s in Currents["12HR"]) {
                                     await _botClient.SendTextMessageAsync(
                                         chatId: message.Chat.Id,
                                         text: s,

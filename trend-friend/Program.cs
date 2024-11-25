@@ -33,147 +33,6 @@ public class Program {
 
     const int MINS_SLEEP = 5;       // should be log enough to let appify calls return, else we will re-enter
 
-    public class InputData {
-        public string InputUrlOrTerm { get; set; }
-        public string SearchTerm { get; set; }
-        public List<TimelineData> interestOverTime_timelineData { get; set; }
-    }
-    public class TimelineData {
-        public string Time { get; set; }
-        public string FormattedTime { get; set; }
-        public string FormattedAxisTime { get; set; }
-        public List<int> Value { get; set; }
-        public List<bool> HasData { get; set; }
-        public List<string> FormattedValue { get; set; }
-        public bool? IsPartial { get; set; }
-    }
-
-    #region IPFS Graph Saver
-    public class PinataResponse {
-        [JsonProperty("IpfsHash")]
-        public string IpfsHash { get; set; }
-
-        [JsonProperty("PinSize")]
-        public long PinSize { get; set; }
-
-        [JsonProperty("Timestamp")]
-        public string Timestamp { get; set; }
-    }
-    public class GraphMetadata {
-        public string Symbol { get; set; }
-        public string Timeframe { get; set; }
-        public DateTime Timestamp { get; set; }
-        public string IpfsHash { get; set; }
-        public string IpfsUrl { get; set; }
-        public double Slope { get; set; }
-        public double TrendScore { get; set; }
-    }
-
-    public static class IpfsUploader {
-        private static readonly string PinataApiKey = ConfigurationManager.AppSettings["PinataApiKey"];
-        private static readonly string PinataSecretKey = ConfigurationManager.AppSettings["PinataSecretApiKey"];
-        private static readonly string DbConStr = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.mintDbConnectionString"].ConnectionString;
-
-        public static async Task<string> UploadToIpfsAsync(string filePath, string symbol, string timeframe) {
-            try {
-                using var client = new HttpClient();
-                client.DefaultRequestHeaders.Add("pinata_api_key", PinataApiKey);
-                client.DefaultRequestHeaders.Add("pinata_secret_api_key", PinataSecretKey);
-
-                using var form = new MultipartFormDataContent();
-                using var fileStream = File.OpenRead(filePath);
-                using var streamContent = new StreamContent(fileStream);
-
-                form.Add(streamContent, "file", Path.GetFileName(filePath));
-
-                // Add metadata
-                var metadata = new {
-                    name = $"{timeframe}_{symbol}_trend_graph",
-                    keyvalues = new {
-                        symbol = symbol,
-                        timeframe = timeframe,
-                        timestamp = DateTime.UtcNow
-                    }
-                };
-
-                var metadataContent = new StringContent(
-                    JsonConvert.SerializeObject(metadata),
-                    Encoding.UTF8,
-                    "application/json"
-                );
-                form.Add(metadataContent, "pinataMetadata");
-
-                var response = await client.PostAsync("https://api.pinata.cloud/pinning/pinFileToIPFS", form);
-                var responseContent = await response.Content.ReadAsStringAsync();
-
-                if (!response.IsSuccessStatusCode) {
-                    throw new Exception($"Failed to upload to IPFS: {responseContent}");
-                }
-
-                var pinataResponse = JsonConvert.DeserializeObject<PinataResponse>(responseContent);
-                return pinataResponse.IpfsHash;
-            }
-            catch (Exception ex) {
-                Console.WriteLine($"Error uploading to IPFS: {ex.Message}");
-                return null;
-            }
-        }
-
-        public static async Task SaveGraphMetadataAsync(GraphMetadata metadata) {
-            
-        }
-    }
-    #endregion
-
-    public static void TestFromCache() {
-        var cacheDir = Path.Combine("..", "..", "..", "cache");
-        if (!Directory.Exists(cacheDir)) {
-            Console.WriteLine($"Cache directory not found: {cacheDir}");
-            return;
-        }
-
-        var csvFiles = Directory.GetFiles(cacheDir, "*.csv");
-        foreach (var csvFile in csvFiles) {
-            try {
-                // Get symbol and name from filename
-                var fileName = Path.GetFileNameWithoutExtension(csvFile);
-                var separatorIndex = fileName.IndexOf('_');
-                string symbol = separatorIndex >= 0 ? fileName.Substring(0, separatorIndex) : fileName;
-                string name = separatorIndex >= 0 ? fileName.Substring(separatorIndex + 1).Replace("_", " ") : "";
-
-                // Read values from CSV
-                var lines = File.ReadAllLines(csvFile);
-                var values = lines.Select(l => double.Parse(l, CultureInfo.InvariantCulture)).ToList();
-
-                // Call AnalyzeAndSaveTrend
-                AnalyzeAndSaveTrend("test", symbol, symbol, values, -1);
-            }
-            catch (Exception ex) {
-                Console.WriteLine($"Error processing file {csvFile}: {ex.Message}");
-            }
-        }
-    }
-
-    public static string FormatCurrency(double value) {
-        if (value >= 1_000_000_000) // Billions
-            return $"${value / 1_000_000_000:F1}B";
-        if (value >= 1_000_000) // Millions 
-            return $"${value / 1_000_000:F1}M";
-        if (value >= 1_000) // Thousands
-            return $"${value / 1_000:F1}K";
-
-        return $"${value:F0}"; // Less than 1000
-    }
-
-    public static string FormatMillions(double value) {
-        // Convert to millions
-        double inMillions = value / 1_000_000;
-
-        // Format with two decimal places
-        return $"{inMillions:F2}";
-    }
-
-
     static async Task Main(string[] args) {
         Bot.StartAsync();
 
@@ -243,8 +102,9 @@ public class Program {
                 ";
 
                 // Process both queries
-                Bot.Currents = new List<string>();
-                //await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen);
+                Bot.Currents["6HR"] = new List<string>();
+                Bot.Currents["12HR"] = new List<string>();
+                await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen);
                 await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen);
 
                 // Sleep between iterations
@@ -271,14 +131,19 @@ public class Program {
             var tableBuilder = new StringBuilder();
             tableBuilder.AppendLine("```");
             tableBuilder.AppendLine($"{prefix} Results:");
-            tableBuilder.AppendLine("Sym+Age   MC$m  Score  Holders");
+            tableBuilder.AppendLine("Sym+Age  MC$m Z      Hs   /kMC");
             tableBuilder.AppendLine("------------------------------");
 
-            using (var command = new SqlCommand(query, connection)) {
+
+            using (var command = connection.CreateCommand()) {
+                command.CommandText = "SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED";
+                command.ExecuteNonQuery();
+
+                command.CommandText = query;
+                Console.WriteLine($"{prefix} {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff")} querying shortlist...");
                 using (var reader = await command.ExecuteReaderAsync()) {
                     while (await reader.ReadAsync()) {
                         pos++;
-
                         try {
                             int id = reader.GetInt32(0);
                             string name = reader.GetString(1);
@@ -295,9 +160,9 @@ public class Program {
                             int? best_rank = reader.IsDBNull(13) ? null : reader.GetInt32(13);
 
                             // maintain best rank (entire shortlist) -- timing out, on hold
-                            //if (best_rank == null || best_rank > pos) {
-                            //    UpdateBestRank(prefix, id, pos);
-                            //}
+                            if (best_rank == null || best_rank > pos) {
+                                UpdateBestRank(prefix, id, pos);
+                            }
 
                             // limit shortlist for display/processing
                             if (pos > LIMIT_N) {
@@ -309,7 +174,7 @@ public class Program {
                             bool? tr_trend = tr_slope != null && tr_pvalue != null
                                                 ? (tr_slope > TREND_MIN_SLOPE && tr_pvalue > TREND_MIN_RSQ) : null;
                             string tr_info = "Google Trends: " + (tr_trend == null ? "tbd" :
-                                (tr_trend == true ? "[CONFIRMED!!!]" : "[none]") + $"({graph_ipfs})"
+                                (tr_trend == true ? "[CONFIRMED!!!]" : "[none found]") + $"({graph_ipfs})"
                                 );
 
                             rowsDbg.Add((symbol, mint));
@@ -320,19 +185,33 @@ public class Program {
                             string web_str = !string.IsNullOrEmpty(metadata.Website) ? $"[website]({metadata.Website})" : "no website";
                             string twitter_str = !string.IsNullOrEmpty(metadata.Twitter) ? $"[twitter]({metadata.Twitter})" : "no twitter";
 
+                            double holders_per_mc = cur_mc > 0 ? cur_holders / (cur_mc/1000) : 0;
+
+                            // full info row
                             string row_info =
                                     $"{prefix} #{pos} [{symbol}](https://dexscreener.com/solana/{mint}) *{name}* ({web_str}) ({twitter_str})"
-                                    + $" / MC={FormatCurrency(cur_mc)} / age={hrs_old * -1}h / z\\_score={z_score.ToString("0.00")} / holders={cur_holders}"
-                                    + $" / {tr_info}"
+                                    + $"\n MC = {FormatCurrency(cur_mc)}"
+                                    + $"\n age = {hrs_old * -1}h"
+                                    + $"\n z\\_score = {z_score.ToString("0.00")}"
+                                    + $"\n holders = {cur_holders}"
+                                    + $"\n h/k$MC = {holders_per_mc.ToString("0.00")} "
+                                    + $"\n {tr_info}"
                                     + "\n_" + (!string.IsNullOrEmpty(metadata.Description) ? metadata.Description.Replace("http", "").Replace("_", " ") : "") + "_";
 
-                            // Sym+Age   MC$m  Score  Holders
-                            tableBuilder.AppendLine(String.Format("{0,-8} {1,5} {2,6} {3,8:N0}",
+                            // summary table row
+                            tableBuilder.AppendLine(String.Format("{0,-8} {1,4} {2,5} {3,5} {4,4}",
                                 (symbol.Length > 5 ? symbol.Substring(0, 5) : symbol) + $"+{hrs_old * -1}",
                                 FormatMillions(cur_mc),
-                                (tr_trend == true ? "*" : "") + z_score.ToString("0.00"),
-                                cur_holders
+                                (tr_trend == true ? "*" : "/") + z_score.ToString("0.0"),
+                                FormatThousandsToK(cur_holders),
+                                holders_per_mc.ToString("0.0")
                             ));
+                            //tableBuilder.AppendLine(String.Format("{0,-8} {1,5} {2,6} {3,8:N0}",
+                            //    (symbol.Length > 5 ? symbol.Substring(0, 5) : symbol) + $"+{hrs_old * -1}",
+                            //    FormatMillions(cur_mc),
+                            //    (tr_trend == true ? "*" : "/") + z_score.ToString("0.0"),
+                            //    cur_holders
+                            //));
 
                             //tableBuilder.AppendLine(String.Format("{0,-7} {1,4}h {2,7:F1} {3,8:N0}",
                             //    (symbol.Length > 6 ? symbol.Substring(0, 6) : symbol)/*.PadRight(7, tr_trend == true ? '*' : ' ')*/,
@@ -347,7 +226,7 @@ public class Program {
                                 sawNew = true;
                             }
 
-                            Bot.Currents.Add(row_info);
+                            Bot.Currents[prefix].Add(row_info);
                         }
                         catch (Exception ex) {
                             Console.WriteLine(ex.ToString());
@@ -357,15 +236,15 @@ public class Program {
             }
 
             tableBuilder.AppendLine("```");
-            Bot.Currents.Add(tableBuilder.ToString());
+            Bot.Currents[prefix].Add(tableBuilder.ToString());
 
             if (sawNew) {
                 Bot.BroadcastMessageAsync(tableBuilder.ToString());
             }
         }
 
-        var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
-        var info = $"{prefix} {timestamp} info: {string.Join(", ", rowsDbg.Select(p => $"{p.symbol}").ToList()).Trim()}";
+        // log working set
+        var info = $"{prefix} {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff")} SET: {(rowsDbg.Count() == 0 ? "empty!" : string.Join(", ", rowsDbg.Select(p => $"{p.symbol}").ToList()).Trim())}";
         Console.WriteLine(info);
 
         // Process each row using GetGoogleTrends
@@ -377,23 +256,16 @@ public class Program {
                     isPublic = false,
                     searchTerms = new[] { row.name },
                     skipDebugScreen = false,
-                    timeRange = "now 7-d",
+                    timeRange = "now 1-d", //"now 7-d",
                     viewedFrom = "us"
                 };
 
                 // run google trends
-                //var values = await GetGoogleTrends(prefix, row.symbol, row.name, input);
-                //if (values.Any()) {
-                //    AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId);
-                //}
-                //else {
-                //    HandleEmptyData(prefix, row.rowId, -888);
-                //}
                 GetGoogleTrends(prefix, row.symbol, row.name, input) // non-blocking
                     .ContinueWith(valuesTask => {
                         var values = valuesTask.Result;
                         if (values.Any()) {
-                            AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId);
+                            AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId, input.timeRange);
                         }
                         else {
                             HandleEmptyData(prefix, row.rowId, -888);
@@ -404,25 +276,25 @@ public class Program {
 
     // ### this is timing out - locking, no doubt // anyway - do we **really** want to go down the road of correlation analysis of ranks vs returns over market? COMPLEX
     private static void UpdateBestRank(string prefix, int id, int pos) {
-        //string hr_prefix = prefix == "6HR" ? "hr6" : "hr12";
-        //try {
-        //    using (var connection = new SqlConnection(DbConStr)) {
-        //        connection.Open();
-        //        var sql = $@"
-        //        UPDATE [mint]
-        //        SET {hr_prefix}_best_rank = @Position 
-        //        WHERE id = @Id";
+        string hr_prefix = prefix == "6HR" ? "hr6" : "hr12";
+        try {
+            using (var connection = new SqlConnection(DbConStr)) {
+                connection.Open();
+                var sql = $@"
+                UPDATE [mint]
+                SET {hr_prefix}_best_rank = @Position 
+                WHERE id = @Id";
 
-        //        using (var command = new SqlCommand(sql, connection)) {
-        //            command.Parameters.AddWithValue("@Position", pos);
-        //            command.Parameters.AddWithValue("@Id", id);
-        //            command.ExecuteNonQuery();
-        //        }
-        //    }
-        //}
-        //catch (Exception ex) {
-        //    Console.WriteLine($"{prefix} Error updating best rank for ID {id}: {ex.Message}");
-        //}
+                using (var command = new SqlCommand(sql, connection)) {
+                    command.Parameters.AddWithValue("@Position", pos);
+                    command.Parameters.AddWithValue("@Id", id);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+        catch (Exception ex) {
+            Console.WriteLine($"{prefix} Error updating best rank for ID {id}: {ex.Message}");
+        }
     }
 
     private static async Task<List<double>> GetGoogleTrends(string prefix, string symbol, string name, object input) {
@@ -442,13 +314,14 @@ public class Program {
         using (var client = new HttpClient()) {
             client.Timeout = TimeSpan.FromMinutes(5);
 
+            string timeRange = input.GetType().GetProperty("timeRange").GetValue(input).ToString();
             var content = new StringContent(
                 JsonConvert.SerializeObject(input),
                 Encoding.UTF8,
                 "application/json"
             );
 
-            Console.WriteLine($"{prefix} {symbol} Calling Google Trends actor for search term '{name}'...");
+            Console.WriteLine($"{prefix} {symbol} Calling Google Trends ({timeRange}) actor for search term '{name}'...");
             var response = await client.PostAsync(
                 $"https://api.apify.com/v2/acts/{ActorId}/run-sync-get-dataset-items?token={ApifyToken}&format=json",
                 content
@@ -473,7 +346,7 @@ public class Program {
         }
     }
 
-    public static async void AnalyzeAndSaveTrend(string prefix, string symbol, string name, List<double> values, int rowId) {
+    public static async void AnalyzeAndSaveTrend(string prefix, string symbol, string name, List<double> values, int rowId, string timeRange) {
         try {
             string tr_prefix = prefix == "6HR" ? "tr1" : "tr2";
 
@@ -509,7 +382,9 @@ public class Program {
                 values,
                 analysisResult.Slope,
                 analysisResult.TrendScore,
-                $"{prefix}_{symbol}"
+                $"{prefix}_{symbol}",
+                timeRange,
+                name
             );
 
             // Upload to IPFS
@@ -548,7 +423,7 @@ public class Program {
         }
     }
 
-    private static string GenerateTrendGraph(List<double> values, double slope, double trendScore, string symbol) {
+    private static string GenerateTrendGraph(List<double> values, double slope, double trendScore, string symbol, string timeRange, string name) {
         // Create plot
         var plot = new Plot(600, 400);
 
@@ -573,8 +448,8 @@ public class Program {
             lineWidth: 2);
 
         // Customize the plot
-        plot.Title($"Google Trends: {symbol} @{DateTime.Now.ToString("dd MMM yyyy HH:mm")}");
-        plot.XLabel("7 DAYS");
+        plot.Title($"Google Trends: {symbol} '{name}' @{DateTime.Now.ToString("dd MMM yyyy HH:mm")}");
+        plot.XLabel($"{timeRange}");
         plot.YLabel("n");
 
         // Add stats text
@@ -662,5 +537,151 @@ public class Program {
                 command.ExecuteNonQuery();
             }
         }
+    }
+
+
+    public class InputData {
+        public string InputUrlOrTerm { get; set; }
+        public string SearchTerm { get; set; }
+        public List<TimelineData> interestOverTime_timelineData { get; set; }
+    }
+    public class TimelineData {
+        public string Time { get; set; }
+        public string FormattedTime { get; set; }
+        public string FormattedAxisTime { get; set; }
+        public List<int> Value { get; set; }
+        public List<bool> HasData { get; set; }
+        public List<string> FormattedValue { get; set; }
+        public bool? IsPartial { get; set; }
+    }
+
+    #region IPFS Graph Saver
+    public class PinataResponse {
+        [JsonProperty("IpfsHash")]
+        public string IpfsHash { get; set; }
+
+        [JsonProperty("PinSize")]
+        public long PinSize { get; set; }
+
+        [JsonProperty("Timestamp")]
+        public string Timestamp { get; set; }
+    }
+    public class GraphMetadata {
+        public string Symbol { get; set; }
+        public string Timeframe { get; set; }
+        public DateTime Timestamp { get; set; }
+        public string IpfsHash { get; set; }
+        public string IpfsUrl { get; set; }
+        public double Slope { get; set; }
+        public double TrendScore { get; set; }
+    }
+
+    public static class IpfsUploader {
+        private static readonly string PinataApiKey = ConfigurationManager.AppSettings["PinataApiKey"];
+        private static readonly string PinataSecretKey = ConfigurationManager.AppSettings["PinataSecretApiKey"];
+        private static readonly string DbConStr = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.mintDbConnectionString"].ConnectionString;
+
+        public static async Task<string> UploadToIpfsAsync(string filePath, string symbol, string timeframe) {
+            try {
+                using var client = new HttpClient();
+                client.DefaultRequestHeaders.Add("pinata_api_key", PinataApiKey);
+                client.DefaultRequestHeaders.Add("pinata_secret_api_key", PinataSecretKey);
+
+                using var form = new MultipartFormDataContent();
+                using var fileStream = File.OpenRead(filePath);
+                using var streamContent = new StreamContent(fileStream);
+
+                form.Add(streamContent, "file", Path.GetFileName(filePath));
+
+                // Add metadata
+                var metadata = new {
+                    name = $"{timeframe}_{symbol}_trend_graph",
+                    keyvalues = new {
+                        symbol = symbol,
+                        timeframe = timeframe,
+                        timestamp = DateTime.UtcNow
+                    }
+                };
+
+                var metadataContent = new StringContent(
+                    JsonConvert.SerializeObject(metadata),
+                    Encoding.UTF8,
+                    "application/json"
+                );
+                form.Add(metadataContent, "pinataMetadata");
+
+                var response = await client.PostAsync("https://api.pinata.cloud/pinning/pinFileToIPFS", form);
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                if (!response.IsSuccessStatusCode) {
+                    throw new Exception($"Failed to upload to IPFS: {responseContent}");
+                }
+
+                var pinataResponse = JsonConvert.DeserializeObject<PinataResponse>(responseContent);
+                return pinataResponse.IpfsHash;
+            }
+            catch (Exception ex) {
+                Console.WriteLine($"Error uploading to IPFS: {ex.Message}");
+                return null;
+            }
+        }
+
+        public static async Task SaveGraphMetadataAsync(GraphMetadata metadata) {
+
+        }
+    }
+    #endregion
+
+    public static void TestFromCache() {
+        var cacheDir = Path.Combine("..", "..", "..", "cache");
+        if (!Directory.Exists(cacheDir)) {
+            Console.WriteLine($"Cache directory not found: {cacheDir}");
+            return;
+        }
+
+        var csvFiles = Directory.GetFiles(cacheDir, "*.csv");
+        foreach (var csvFile in csvFiles) {
+            try {
+                // Get symbol and name from filename
+                var fileName = Path.GetFileNameWithoutExtension(csvFile);
+                var separatorIndex = fileName.IndexOf('_');
+                string symbol = separatorIndex >= 0 ? fileName.Substring(0, separatorIndex) : fileName;
+                string name = separatorIndex >= 0 ? fileName.Substring(separatorIndex + 1).Replace("_", " ") : "";
+
+                // Read values from CSV
+                var lines = File.ReadAllLines(csvFile);
+                var values = lines.Select(l => double.Parse(l, CultureInfo.InvariantCulture)).ToList();
+
+                // Call AnalyzeAndSaveTrend
+                AnalyzeAndSaveTrend("test", symbol, symbol, values, -1, "?");
+            }
+            catch (Exception ex) {
+                Console.WriteLine($"Error processing file {csvFile}: {ex.Message}");
+            }
+        }
+    }
+
+    public static string FormatCurrency(double value) {
+        if (value >= 1_000_000_000) // Billions
+            return $"${value / 1_000_000_000:F1}B";
+        if (value >= 1_000_000) // Millions 
+            return $"${value / 1_000_000:F1}M";
+        if (value >= 1_000) // Thousands
+            return $"${value / 1_000:F1}K";
+
+        return $"${value:F0}"; // Less than 1000
+    }
+
+    public static string FormatMillions(double value) {
+        // Convert to millions
+        double inMillions = value / 1_000_000;
+
+        // Format with two decimal places
+        return $"{inMillions:F2}";
+    }
+    private static string FormatThousandsToK(double number) {
+        if (number >= 1000)
+            return (number / 1000).ToString("0.0") + "k";
+        return number.ToString("0");
     }
 }

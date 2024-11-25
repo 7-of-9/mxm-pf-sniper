@@ -73,7 +73,7 @@ namespace meta_getter {
                             SELECT [id], [mint]
                             FROM [dbo].[mint]
                             WHERE [inserted_utc] BETWEEN
-                                DATEADD(HOUR, -12, GETUTCDATE())
+                                DATEADD(HOUR, -24, GETUTCDATE())            -- -12
                                 AND DATEADD(HOUR, -6, GETUTCDATE())
                             AND [meta_json_6hr] IS NULL";
                     }
@@ -114,7 +114,7 @@ namespace meta_getter {
                 }
 
                 await Task.WhenAll(Parallel.ForEachAsync(rowsToUpdate,
-                    new ParallelOptions { MaxDegreeOfParallelism = 2 },
+                    new ParallelOptions { MaxDegreeOfParallelism = 8 },
                     async (row, token) => {
                         await ProcessRowAsync(row.rowId, row.mint, timeframe);
                     }));

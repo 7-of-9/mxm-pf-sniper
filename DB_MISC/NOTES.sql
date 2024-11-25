@@ -15,34 +15,35 @@
 				order by 3 desc
 				--order by ((hr6_holder - hr1_holder) * 100.0 / hr1_holder) DESC
 
-	-- 1hr => 6hr :: *current* rolling window (working set for trend-friend)
-		 SELECT TOP 100 PERCENT --top 10 hr1_market_cap, mean_market_cap, --TOP 10 PERCENT 
+	-- 1hr vs 6hr :: *current* rolling window (working set for trend-friend) 
+		 SELECT top 10 meta_json_6hr,
+				hr1_market_cap, mean_market_cap, --TOP 10 PERCENT 
 			 id, name, symbol, mean_market_cap, hr1_market_cap,
 			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
 			 tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap,
 			 hr6_price, hr1_price, tr1_graph_ipfs, hr6_best_rank
 		 FROM hr1_avg_mc 
 		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
-			 AND z_score > 0
-			 AND hr6_price IS NOT NULL
-			 AND hr6_holder > hr1_holder
-			 AND hr6_price > hr1_price
-		ORDER BY z_score DESC
+			 --AND z_score > 0
+			 --AND hr6_price IS NOT NULL
+			 --AND hr6_holder > hr1_holder
+			 --AND hr6_price > hr1_price
+		--ORDER BY z_score DESC
+		ORDER BY id DESC
 
-		SELECT id, name, symbol, hr1_market_cap, mint from mint where fetched_utc_1hr BETWEEN DATEADD(hour, -12, fetched_utc_1hr) AND fetched_utc_1hr order by hr1_market_cap desc
+			-- 6hr cohort:
+			SELECT id, name, symbol, hr1_market_cap, mint from mint where fetched_utc_1hr BETWEEN DATEADD(hour, -12, fetched_utc_1hr) AND fetched_utc_1hr order by hr1_market_cap desc
+				-- delete from mint where mint = '8usm7F5hdhjd3dm5YZsLi6uSJi7QsBoVz6QC8ycvpump'
 		
-		--create index idx_mint_3 on mint (id, fetched_utc_1hr, hr12_market_cap)
+				--create index idx_mint_3 on mint (id, fetched_utc_1hr, hr12_market_cap)
+				--select * from mint where mint = 'am1sqwahhakws4h9uwhweeyxcaecr5ydyzix1jd9rvmp'
 
-		--select * from mint where mint = 'am1sqwahhakws4h9uwhweeyxcaecr5ydyzix1jd9rvmp'
-
-	-- 6hr => 12hr :: *current* rolling window (working set for trend-friend)
-	-- ....
-		 SELECT TOP 50 PERCENT 
+	-- 6hr vs 12hr :: *current* rolling window (working set for trend-friend)
+		 SELECT TOP 100 PERCENT 
 			 id, name, symbol, 
 			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
-			 tr2_slope, tr2_pvalue,
-			 mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap,
-			 hr12_price, hr6_price, tr2_graph_ipfs, hr12_best_rank, hr6_best_rank
+			 tr2_slope, tr2_pvalue, mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap, tr2_graph_ipfs, hr12_best_rank,
+			 hr6_holder, hr6_price
 		 FROM hr6_avg_mc 
 		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -24, GETUTCDATE()) AND DATEADD(HOUR, -12, GETUTCDATE())
 			 AND z_score > 0
@@ -50,9 +51,9 @@
 			 AND hr12_holder > hr6_holder
 			 AND hr12_price > hr6_price
 			 --AND tr2_slope is null 
-		ORDER BY 8 DESC
+		ORDER BY z_score DESC
 		
-	--
+		--
 	-- TODO: https://countik.com/popular/hashtags ==> import each day; x-ref coins with these ... 
 	--	
 		--....
