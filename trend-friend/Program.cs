@@ -29,8 +29,6 @@ public class Program {
     const double TREND_MIN_SLOPE = 0.05;
     const double TREND_MIN_RSQ = 0.1;
 
-    const int LIMIT_N = 8;
-
     const int MINS_SLEEP = 5;       // should be log enough to let appify calls return, else we will re-enter
 
     static async Task Main(string[] args) {
@@ -66,9 +64,27 @@ public class Program {
         List<string> hr12_symbolsSeen = new List<string>();
         while (true) {
             try {
-                // tr1 -- trend sample 1: down at 6hrs
-                // tr2 -- trend sample 2: down at 12hrs
+                // tr0 -- trend sample 0: taken at 3hrs
+                // tr1 -- trend sample 1: taken at 6hrs
+                // tr2 -- trend sample 2: taken at 12hrs
 
+                // 1hr zscored with 3hr +ve performance -- "youngest set"
+                string query_3hr = @"
+                    SELECT TOP 100 PERCENT 
+                        id, name, symbol, 
+                        datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+                        tr0_slope, tr0_pvalue, mint, z_score, hr3_holder, Uri, hr1_icon, hr3_market_cap, tr0_graph_ipfs, hr3_best_rank,
+                        hr1_holder, hr1_price
+                    FROM hr1_avg_mc 
+                    WHERE inserted_utc BETWEEN DATEADD(HOUR, -6, GETUTCDATE()) AND DATEADD(HOUR, -3, GETUTCDATE())
+                        AND z_score > 0
+                        AND hr3_price IS NOT NULL
+                        AND hr3_holder > hr1_holder
+                        AND hr3_price > hr1_price
+                    ORDER BY z_score DESC
+                ";
+
+                // 1hr zscored with 6hr +ve performance -- "medium set"
                 string query_6hr = @"
                     SELECT TOP 100 PERCENT 
                         id, name, symbol, 
@@ -81,10 +97,10 @@ public class Program {
                         AND hr6_price IS NOT NULL
                         AND hr6_holder > hr1_holder
                         AND hr6_price > hr1_price
-                        --AND tr_slope is null 
                     ORDER BY z_score DESC
                 ";
 
+                // 6hr zscored w/ 12hr +ve performance :: "mature set"
                 string query_12hr = @"
 		             SELECT TOP 100 PERCENT 
 			             id, name, symbol, 
@@ -97,15 +113,16 @@ public class Program {
 			             AND hr12_price IS NOT NULL
 			             AND hr12_holder > hr6_holder
 			             AND hr12_price > hr6_price
-			             --AND tr2_slope is null 
 		            ORDER BY z_score DESC
                 ";
 
                 // Process both queries
+                Bot.Currents["3HR"] = new List<string>();
                 Bot.Currents["6HR"] = new List<string>();
                 Bot.Currents["12HR"] = new List<string>();
-                await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen);
-                await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen);
+                await ProcessQuery("3HR", query_3hr, hr6_symbolsSeen, 1);
+                await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen, 2);
+                await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen, 3);
 
                 // Sleep between iterations
                 await Task.Delay(TimeSpan.FromMinutes(MINS_SLEEP));
@@ -116,10 +133,10 @@ public class Program {
         }
     }
 
-    private static async Task ProcessQuery(string prefix, string query, List<string> symbolsSeen) {
-        if (prefix != "6HR" && prefix != "12HR") throw new ApplicationException();
+    private static async Task ProcessQuery(string prefix, string query, List<string> symbolsSeen, int LIMIT_N) {
+        if (prefix != "6HR" && prefix != "12HR" && prefix != "3HR") throw new ApplicationException();
 
-        List<(int rowId, string name, string symbol)> rowsNeedingTrendData = new List<(int, string, string)>();
+        List<(int rowId, string name, string symbol, string mint)> rowsNeedingTrendData = new List<(int, string, string, string)>();
         List<(string symbol, string mint)> rowsDbg = new List<(string, string)>();
 
         using (var connection = new SqlConnection(DbConStr)) {
@@ -130,9 +147,9 @@ public class Program {
 
             var tableBuilder = new StringBuilder();
             tableBuilder.AppendLine("```");
-            tableBuilder.AppendLine($"{prefix} Results:");
-            tableBuilder.AppendLine("Sym+Age  MC$m Z      Hs   /kMC");
-            tableBuilder.AppendLine("------------------------------");
+            tableBuilder.AppendLine($"{prefix} Results (LIMIT_N={LIMIT_N}):");
+            tableBuilder.AppendLine("Sym+Age  MC$m Z       Hs   /kMC");
+            tableBuilder.AppendLine("-------------------------------");
 
 
             using (var command = connection.CreateCommand()) {
@@ -179,7 +196,7 @@ public class Program {
 
                             rowsDbg.Add((symbol, mint));
                             if (tr_slope == null) {
-                                rowsNeedingTrendData.Add((id, name, symbol));
+                                rowsNeedingTrendData.Add((id, name, symbol, mint));
                             }
 
                             string web_str = !string.IsNullOrEmpty(metadata.Website) ? $"[website]({metadata.Website})" : "no website";
@@ -199,27 +216,14 @@ public class Program {
                                     + "\n_" + (!string.IsNullOrEmpty(metadata.Description) ? metadata.Description.Replace("http", "").Replace("_", " ") : "") + "_";
 
                             // summary table row
-                            tableBuilder.AppendLine(String.Format("{0,-8} {1,4} {2,5} {3,5} {4,4}",
+                            tableBuilder.AppendLine(String.Format("{0,-8} {1,4} {2,5}  {3,5} {4,4}",
                                 (symbol.Length > 5 ? symbol.Substring(0, 5) : symbol) + $"+{hrs_old * -1}",
                                 FormatMillions(cur_mc),
-                                (tr_trend == true ? "*" : "/") + z_score.ToString("0.0"),
+                                (tr_trend == true ? "*" : "/") + FormatZ(z_score), //.ToString("0.0"),
                                 FormatThousandsToK(cur_holders),
                                 holders_per_mc.ToString("0.0")
                             ));
-                            //tableBuilder.AppendLine(String.Format("{0,-8} {1,5} {2,6} {3,8:N0}",
-                            //    (symbol.Length > 5 ? symbol.Substring(0, 5) : symbol) + $"+{hrs_old * -1}",
-                            //    FormatMillions(cur_mc),
-                            //    (tr_trend == true ? "*" : "/") + z_score.ToString("0.0"),
-                            //    cur_holders
-                            //));
-
-                            //tableBuilder.AppendLine(String.Format("{0,-7} {1,4}h {2,7:F1} {3,8:N0}",
-                            //    (symbol.Length > 6 ? symbol.Substring(0, 6) : symbol)/*.PadRight(7, tr_trend == true ? '*' : ' ')*/,
-                            //    hrs_old * -1,
-                            //    (tr_trend==true ? "*" : "") + z_score.ToString("0.00"),
-                            //    cur_holders
-                            //));
-
+                    
                             if (!symbolsSeen.Contains($"{prefix}_{symbol}")) {
                                 await Bot.BroadcastMessageAsync(row_info); // we want these to arrive in order
                                 symbolsSeen.Add($"{prefix}_{symbol}");
@@ -256,7 +260,7 @@ public class Program {
                     isPublic = false,
                     searchTerms = new[] { row.name },
                     skipDebugScreen = false,
-                    timeRange = "now 1-d", //"now 7-d",
+                    timeRange = "now 7-d", //"now 1-d",
                     viewedFrom = "us"
                 };
 
@@ -265,7 +269,7 @@ public class Program {
                     .ContinueWith(valuesTask => {
                         var values = valuesTask.Result;
                         if (values.Any()) {
-                            AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId, input.timeRange);
+                            AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId, input.timeRange, row.mint);
                         }
                         else {
                             HandleEmptyData(prefix, row.rowId, -888);
@@ -274,9 +278,11 @@ public class Program {
             }));
     }
 
-    // ### this is timing out - locking, no doubt // anyway - do we **really** want to go down the road of correlation analysis of ranks vs returns over market? COMPLEX
     private static void UpdateBestRank(string prefix, int id, int pos) {
-        string hr_prefix = prefix == "6HR" ? "hr6" : "hr12";
+        Console.WriteLine($"{prefix} updating best rank for ID {id}...");
+        string hr_prefix = prefix == "6HR"  ? "hr6" 
+                         : prefix == "12HR" ? "hr12" 
+                                            : "hr3";
         try {
             using (var connection = new SqlConnection(DbConStr)) {
                 connection.Open();
@@ -346,9 +352,11 @@ public class Program {
         }
     }
 
-    public static async void AnalyzeAndSaveTrend(string prefix, string symbol, string name, List<double> values, int rowId, string timeRange) {
+    public static async void AnalyzeAndSaveTrend(string prefix, string symbol, string name, List<double> values, int rowId, string timeRange, string mint) {
         try {
-            string tr_prefix = prefix == "6HR" ? "tr1" : "tr2";
+            string tr_prefix = prefix == "6HR" ? "tr1"
+                            : prefix == "12HR" ? "tr2"
+                                               : "tr0";
 
             if (values == null || values.Count == 0) {
                 HandleEmptyData(prefix, rowId, -999);
@@ -384,7 +392,8 @@ public class Program {
                 analysisResult.TrendScore,
                 $"{prefix}_{symbol}",
                 timeRange,
-                name
+                name, 
+                mint
             );
 
             // Upload to IPFS
@@ -406,7 +415,7 @@ public class Program {
                 }
             }
 
-            string info = $"{prefix} *{symbol}* {name} " +
+            string info = $"{prefix} *{symbol}* {name} {mint}" +
             $"Slope: {analysisResult.Slope:F3}, Trend Score: {analysisResult.TrendScore:F3} - " +
             $"{(analysisResult.HasUpwardTrend ? "UPTREND!" : "no trend.")}";
             using (var stream = File.OpenRead(graphPath)) {
@@ -423,7 +432,7 @@ public class Program {
         }
     }
 
-    private static string GenerateTrendGraph(List<double> values, double slope, double trendScore, string symbol, string timeRange, string name) {
+    private static string GenerateTrendGraph(List<double> values, double slope, double trendScore, string symbol, string timeRange, string name, string mint) {
         // Create plot
         var plot = new Plot(600, 400);
 
@@ -526,7 +535,9 @@ public class Program {
     }
 
     private static void HandleEmptyData(string prefix, int rowId, double errorCode) {
-        string tr_prefix = prefix == "6HR" ? "tr1" : "tr2";
+        string tr_prefix = prefix == "6HR" ? "tr1"
+                        : prefix == "12HR" ? "tr2"
+                                           : "tr0";
 
         using (var connection = new SqlConnection(DbConStr)) {
             connection.Open();
@@ -653,7 +664,7 @@ public class Program {
                 var values = lines.Select(l => double.Parse(l, CultureInfo.InvariantCulture)).ToList();
 
                 // Call AnalyzeAndSaveTrend
-                AnalyzeAndSaveTrend("test", symbol, symbol, values, -1, "?");
+                AnalyzeAndSaveTrend("test", symbol, symbol, values, -1, "", "");
             }
             catch (Exception ex) {
                 Console.WriteLine($"Error processing file {csvFile}: {ex.Message}");
@@ -676,9 +687,20 @@ public class Program {
         // Convert to millions
         double inMillions = value / 1_000_000;
 
-        // Format with two decimal places
-        return $"{inMillions:F2}";
+        // Handle values 10M and above
+        if (inMillions >= 10)
+            return $"{Math.Floor(inMillions)}M";
+
+        // Handle values under 10M with one decimal
+        return $"{inMillions:F1}M";
     }
+    public static string FormatZ(double value) {
+        if (value >= 100)
+            return Math.Floor(value).ToString();
+
+        return $"{value:F1}";
+    }
+
     private static string FormatThousandsToK(double number) {
         if (number >= 1000)
             return (number / 1000).ToString("0.0") + "k";

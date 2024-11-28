@@ -23,7 +23,8 @@ namespace meta_getter {
         private static readonly int _retryDelayMilliseconds = 2000;
 
         public enum MetaTimeframe {
-            OneHour,
+            OneHour, 
+            ThreeHours,
             SixHours,
             TwelveHours,
             OneDay
@@ -32,10 +33,11 @@ namespace meta_getter {
         static async Task Main(string[] args) {
             while (true) {
                 try {
-                    await PollAndProcessAsync(MetaTimeframe.OneHour);   // 1-hour
-                    await PollAndProcessAsync(MetaTimeframe.SixHours);  // 6-hour
-                    await PollAndProcessAsync(MetaTimeframe.TwelveHours); // 12-hour
-                    //await PollAndProcessAsync(MetaTimeframe.OneDay);    // 1-day
+                    await PollAndProcessAsync(MetaTimeframe.OneHour);   
+                    await PollAndProcessAsync(MetaTimeframe.ThreeHours);   
+                    await PollAndProcessAsync(MetaTimeframe.SixHours);  
+                    await PollAndProcessAsync(MetaTimeframe.TwelveHours); 
+                    //await PollAndProcessAsync(MetaTimeframe.OneDay);
                 }
                 catch (Exception ex) {
                     Console.WriteLine($"Error occurred: {ex.Message}");
@@ -49,6 +51,7 @@ namespace meta_getter {
             List<(int rowId, string mint)> rowsToUpdate = new List<(int, string)>();
             string metaType = timeframe switch {
                 MetaTimeframe.OneHour => "1-hour",
+                MetaTimeframe.ThreeHours => "3-hour",
                 MetaTimeframe.SixHours => "6-hour",
                 MetaTimeframe.TwelveHours => "12-hour",
                 MetaTimeframe.OneDay => "1-day",
@@ -68,12 +71,21 @@ namespace meta_getter {
                                 AND DATEADD(MINUTE, -60, GETUTCDATE())
                             AND [meta_json_1hr] IS NULL";
                     }
+                    else if (timeframe == MetaTimeframe.ThreeHours) {
+                        query = @"
+                            SELECT [id], [mint]
+                            FROM [dbo].[mint]
+                            WHERE [inserted_utc] BETWEEN
+                                DATEADD(HOUR, -6, GETUTCDATE())
+                                AND DATEADD(HOUR, -3, GETUTCDATE())
+                            AND [meta_json_3hr] IS NULL";
+                    }
                     else if (timeframe == MetaTimeframe.SixHours) {
                         query = @"
                             SELECT [id], [mint]
                             FROM [dbo].[mint]
                             WHERE [inserted_utc] BETWEEN
-                                DATEADD(HOUR, -24, GETUTCDATE())            -- -12
+                                DATEADD(HOUR, -12, GETUTCDATE())
                                 AND DATEADD(HOUR, -6, GETUTCDATE())
                             AND [meta_json_6hr] IS NULL";
                     }
@@ -184,6 +196,13 @@ namespace meta_getter {
                         UPDATE [dbo].[mint]
                         SET [meta_json_1hr] = @MetaJson,
                             [fetched_utc_1hr] = @FetchedUtc
+                        WHERE [id] = @Id";
+                }
+                else if (timeframe == MetaTimeframe.ThreeHours) {
+                    query = @"
+                        UPDATE [dbo].[mint]
+                        SET [meta_json_3hr] = @MetaJson,
+                            [fetched_utc_3hr] = @FetchedUtc
                         WHERE [id] = @Id";
                 }
                 else if (timeframe == MetaTimeframe.SixHours) {

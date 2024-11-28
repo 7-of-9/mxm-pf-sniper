@@ -15,30 +15,27 @@
 				order by 3 desc
 				--order by ((hr6_holder - hr1_holder) * 100.0 / hr1_holder) DESC
 
-	-- 1hr vs 6hr :: *current* rolling window (working set for trend-friend) 
-		 SELECT top 10 meta_json_6hr,
-				hr1_market_cap, mean_market_cap, --TOP 10 PERCENT 
+	-- 1hr zscores vs 6hr performance :: *current* rolling window (working set for trend-friend) 
+		 SELECT TOP 50 PERCENT 
 			 id, name, symbol, mean_market_cap, hr1_market_cap,
 			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
 			 tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap,
 			 hr6_price, hr1_price, tr1_graph_ipfs, hr6_best_rank
 		 FROM hr1_avg_mc 
 		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
-			 --AND z_score > 0
-			 --AND hr6_price IS NOT NULL
-			 --AND hr6_holder > hr1_holder
-			 --AND hr6_price > hr1_price
-		--ORDER BY z_score DESC
-		ORDER BY id DESC
+			 AND z_score > 0
+			 AND hr6_price IS NOT NULL
+			 AND hr6_holder > hr1_holder
+			 AND hr6_price > hr1_price
+		ORDER BY z_score DESC
 
 			-- 6hr cohort:
 			SELECT id, name, symbol, hr1_market_cap, mint from mint where fetched_utc_1hr BETWEEN DATEADD(hour, -12, fetched_utc_1hr) AND fetched_utc_1hr order by hr1_market_cap desc
 				-- delete from mint where mint = '8usm7F5hdhjd3dm5YZsLi6uSJi7QsBoVz6QC8ycvpump'
-		
 				--create index idx_mint_3 on mint (id, fetched_utc_1hr, hr12_market_cap)
 				--select * from mint where mint = 'am1sqwahhakws4h9uwhweeyxcaecr5ydyzix1jd9rvmp'
 
-	-- 6hr vs 12hr :: *current* rolling window (working set for trend-friend)
+	-- 6hr zscores vs 12hr performance :: *current* rolling window (working set for trend-friend)
 		 SELECT TOP 100 PERCENT 
 			 id, name, symbol, 
 			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
@@ -145,12 +142,12 @@ ADD
 
 ALTER TABLE [dbo].[mint]
 ADD
-    [hr6_supply] AS (TRY_CAST(JSON_VALUE(meta_json_6hr, '$.data.supply') AS BIGINT)),  -- Assuming supply is a large number
-    [hr6_address] AS (JSON_VALUE(meta_json_6hr, '$.data.address')),
-    [hr6_name] AS (JSON_VALUE(meta_json_6hr, '$.data.name')),
-    [hr6_symbol] AS (JSON_VALUE(meta_json_6hr, '$.data.symbol')),
-    [hr6_icon] AS (JSON_VALUE(meta_json_6hr, '$.data.icon')),
-    [hr6_decimals] AS (TRY_CAST(JSON_VALUE(meta_json_6hr, '$.data.decimals') AS INT)),
-    [hr6_holder] AS (TRY_CAST(JSON_VALUE(meta_json_6hr, '$.data.holder') AS INT)),
-    [hr6_price] AS (TRY_CAST(JSON_VALUE(meta_json_6hr, '$.data.price') AS FLOAT)),
-    [hr6_market_cap] AS (TRY_CAST(JSON_VALUE(meta_json_6hr, '$.data.market_cap') AS FLOAT));
+   	[hr3_supply]  AS (TRY_CAST(json_value([meta_json_3hr],'$.data.supply') AS [bigint])),
+	[hr3_address]  AS (json_value([meta_json_3hr],'$.data.address')),
+	[hr3_name]  AS (json_value([meta_json_3hr],'$.data.name')),
+	[hr3_symbol]  AS (json_value([meta_json_3hr],'$.data.symbol')),
+	[hr3_icon]  AS (json_value([meta_json_3hr],'$.data.icon')),
+	[hr3_decimals]  AS (TRY_CAST(json_value([meta_json_3hr],'$.data.decimals') AS [int])),
+	[hr3_holder]  AS (TRY_CAST(json_value([meta_json_3hr],'$.data.holder') AS [int])),
+	[hr3_price]  AS (TRY_CAST(json_value([meta_json_3hr],'$.data.price') AS [float])),
+	[hr3_market_cap]  AS (CONVERT([decimal](18,2),json_value([meta_json_3hr],'$.data.market_cap')))

@@ -45,10 +45,6 @@ public class TelegramBot {
                                     text: "GM!\n\n" +
                                     "This bot tracks young PF coins trending by MC, and runs Google Trends searches for new entries." +
                                     "\n" +
-                                    "\nAvailable commands:\n" +
-                                    "/all - Show all ranked all eval periods\n" +
-                                    "/6 - Show all ranked at 6hr eval\n" +
-                                    "/12 - Show all ranked at 12hr eval\n" +
                                     "/help - Show available commands",
                                     parseMode: ParseMode.Markdown);
                                 break;
@@ -84,9 +80,10 @@ public class TelegramBot {
                                 await _botClient.SendTextMessageAsync(
                                     chatId: message.Chat.Id,
                                     text: "Available commands:\n" +
-                                          "/current - Show current trending\n" +
-                                          "/help - Show this help message",
-                                    parseMode: ParseMode.Markdown);
+                                        "/all - Show all ranked all eval periods\n" +
+                                        "/6 - Show all ranked at 6hr eval\n" +
+                                        "/12 - Show all ranked at 12hr eval\n"
+                                    , parseMode: ParseMode.Markdown);
                                 break;
                         }
                     }
