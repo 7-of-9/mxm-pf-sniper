@@ -59,6 +59,14 @@ public class TelegramBot {
                                     }
                                 }
                                 break;
+                            case "/3":
+                                foreach (string s in Currents["3HR"]) {
+                                    await _botClient.SendTextMessageAsync(
+                                        chatId: message.Chat.Id,
+                                        text: s,
+                                        parseMode: ParseMode.Markdown);
+                                }
+                                break;
                             case "/6":
                                 foreach (string s in Currents["6HR"]) {
                                     await _botClient.SendTextMessageAsync(
@@ -81,6 +89,7 @@ public class TelegramBot {
                                     chatId: message.Chat.Id,
                                     text: "Available commands:\n" +
                                         "/all - Show all ranked all eval periods\n" +
+                                        "/3 - Show all ranked at 3hr eval\n" +
                                         "/6 - Show all ranked at 6hr eval\n" +
                                         "/12 - Show all ranked at 12hr eval\n"
                                     , parseMode: ParseMode.Markdown);

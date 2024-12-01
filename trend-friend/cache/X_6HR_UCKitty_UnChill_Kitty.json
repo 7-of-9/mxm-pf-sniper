@@ -1,0 +1,161 @@
+[{
+  "id": 1747138084653990000,
+  "id_str": "1747138084653989888",
+  "name": "thegreatskullz157 🐷🐸",
+  "screen_name": "theskullz157",
+  "location": "",
+  "description": "@base chain maxi base is the future! https://t.co/PRqEYspe2n",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/PRqEYspe2n",
+          "expanded_url": "http://www.landwolftoken.vip",
+          "display_url": "landwolftoken.vip",
+          "indices": [
+            37,
+            60
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 477,
+  "fast_followers_count": 0,
+  "normal_followers_count": 477,
+  "friends_count": 757,
+  "listed_count": 1,
+  "created_at": "Tue Jan 16 06:06:05 +0000 2024",
+  "favourites_count": 2501,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 5036,
+  "media_count": 1948,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 05:02:12 +0000 2024",
+    "id": 1863086171691040800,
+    "id_str": "1863086171691040834",
+    "text": "@Dior100x #unchillkitty \n\nWebsite - https://t.co/Z0JOIKOeoS\n\nX - https://t.co/kskrN4yNDk\n\nTG -… https://t.co/4aPMhcNs58",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "unchillkitty",
+          "indices": [
+            10,
+            23
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Dior100x",
+          "name": "Dior",
+          "id": 2728708501,
+          "id_str": "2728708501",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/Z0JOIKOeoS",
+          "expanded_url": "https://unchillkitty.co/",
+          "display_url": "unchillkitty.co",
+          "indices": [
+            36,
+            59
+          ]
+        },
+        {
+          "url": "https://t.co/kskrN4yNDk",
+          "expanded_url": "https://x.com/unchillkitty",
+          "display_url": "x.com/unchillkitty",
+          "indices": [
+            65,
+            88
+          ]
+        },
+        {
+          "url": "https://t.co/4aPMhcNs58",
+          "expanded_url": "https://twitter.com/i/web/status/1863086171691040834",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            96,
+            119
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1863077883566071800,
+    "in_reply_to_status_id_str": "1863077883566071902",
+    "in_reply_to_user_id": 2728708501,
+    "in_reply_to_user_id_str": "2728708501",
+    "in_reply_to_screen_name": "Dior100x",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1784744166616092672/4UVgglvm_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1784744166616092672/4UVgglvm_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1747138084653989888/1714351154",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1780855760811172000
+  ],
+  "pinned_tweet_ids_str": [
+    "1780855760811172195"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "unchillkitty"
+}]

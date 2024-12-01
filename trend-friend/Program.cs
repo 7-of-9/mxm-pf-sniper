@@ -22,9 +22,23 @@ using Microsoft.AspNetCore.Server.HttpSys;
 
 public class Program {
     private static readonly string ApifyToken = ConfigurationManager.AppSettings["ApifyApiToken"];
-    private static readonly string ActorId = "emastra~google-trends-scraper";
+    private static readonly string GoogleTrends_ActorId = "emastra~google-trends-scraper";
+    private static readonly string TwitterFollowers_ActorId = "kaitoeasyapi~premium-x-follower-scraper-following-data";
     private static readonly string DbConStr = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.mintDbConnectionString"].ConnectionString;
     private static readonly TelegramBot Bot = new TelegramBot(ConfigurationManager.AppSettings["TelegramBotToken"]);
+
+    private static string CACHE_DIR = Path.Combine("..", "..", "..", "cache");
+
+    private static List<string> X_GOOD_NAMES = new List<string>();
+
+    private static async Task<int> PopulateXGoodNames(string x_account) {
+        var input = new { getFollowers = false, getFollowing = true, user_names = new[] { x_account }, maxFollowings = 10000, };
+        var json = await GetTwitterFollowersOrFollowing("-", "X_" + x_account, "X_" + x_account, input, x_account);
+        var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(json);
+        X_GOOD_NAMES.AddRange(data.Select(p => p.Name));
+        return data.Count();
+
+    }
 
     const double TREND_MIN_SLOPE = 0.05;
     const double TREND_MIN_RSQ = 0.1;
@@ -64,32 +78,36 @@ public class Program {
         List<string> hr12_symbolsSeen = new List<string>();
         while (true) {
             try {
+                // fetch template accounts: we'll use their x followings to grade coins' followers
+                await PopulateXGoodNames("_Sabai_Sabai");
+                await PopulateXGoodNames("dubbingwifhat");
+
                 // tr0 -- trend sample 0: taken at 3hrs
                 // tr1 -- trend sample 1: taken at 6hrs
                 // tr2 -- trend sample 2: taken at 12hrs
 
                 // 1hr zscored with 3hr +ve performance -- "youngest set"
-                string query_3hr = @"
-                    SELECT TOP 100 PERCENT 
-                        id, name, symbol, 
-                        datediff(hh, getutcdate(), inserted_utc) 'hrs old',
-                        tr0_slope, tr0_pvalue, mint, z_score, hr3_holder, Uri, hr1_icon, hr3_market_cap, tr0_graph_ipfs, hr3_best_rank,
-                        hr1_holder, hr1_price
-                    FROM hr1_avg_mc 
-                    WHERE inserted_utc BETWEEN DATEADD(HOUR, -6, GETUTCDATE()) AND DATEADD(HOUR, -3, GETUTCDATE())
-                        AND z_score > 0
-                        AND hr3_price IS NOT NULL
-                        AND hr3_holder > hr1_holder
-                        AND hr3_price > hr1_price
-                    ORDER BY z_score DESC
-                ";
+                //string query_3hr = @"
+                //    SELECT TOP 100 PERCENT 
+                //        id, name, symbol, 
+                //        datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+                //        tr0_slope, tr0_pvalue, mint, z_score, hr3_holder, Uri, hr1_icon, hr3_market_cap, tr0_graph_ipfs, hr3_best_rank,
+                //        hr1_holder, hr1_price
+                //    FROM hr1_avg_mc 
+                //    WHERE inserted_utc BETWEEN DATEADD(HOUR, -6, GETUTCDATE()) AND DATEADD(HOUR, -3, GETUTCDATE())
+                //        AND z_score > 0
+                //        AND hr3_price IS NOT NULL
+                //        AND hr3_holder > hr1_holder
+                //        AND hr3_price > hr1_price
+                //    ORDER BY z_score DESC
+                //";
 
                 // 1hr zscored with 6hr +ve performance -- "medium set"
                 string query_6hr = @"
                     SELECT TOP 100 PERCENT 
                         id, name, symbol, 
                         datediff(hh, getutcdate(), inserted_utc) 'hrs old',
-                        tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap, tr1_graph_ipfs, hr6_best_rank,
+                        tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap, tr1_graph_ipfs, hr6_best_rank, hr6_x_score,
                         hr1_holder, hr1_price
                     FROM hr1_avg_mc 
                     WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
@@ -105,7 +123,7 @@ public class Program {
 		             SELECT TOP 100 PERCENT 
 			             id, name, symbol, 
 			             datediff(hh, getutcdate(), inserted_utc) 'hrs old',
-			             tr2_slope, tr2_pvalue, mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap, tr2_graph_ipfs, hr12_best_rank,
+			             tr2_slope, tr2_pvalue, mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap, tr2_graph_ipfs, hr12_best_rank, hr12_x_score,
                          hr6_holder, hr6_price
 		             FROM hr6_avg_mc 
 		             WHERE inserted_utc BETWEEN DATEADD(HOUR, -24, GETUTCDATE()) AND DATEADD(HOUR, -12, GETUTCDATE())
@@ -120,9 +138,9 @@ public class Program {
                 Bot.Currents["3HR"] = new List<string>();
                 Bot.Currents["6HR"] = new List<string>();
                 Bot.Currents["12HR"] = new List<string>();
-                await ProcessQuery("3HR", query_3hr, hr6_symbolsSeen, 1);
-                await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen, 2);
-                await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen, 3);
+                //await ProcessQuery("3HR", query_3hr, hr6_symbolsSeen, 3);
+                await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen, 8);
+                await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen, 8);
 
                 // Sleep between iterations
                 await Task.Delay(TimeSpan.FromMinutes(MINS_SLEEP));
@@ -137,6 +155,8 @@ public class Program {
         if (prefix != "6HR" && prefix != "12HR" && prefix != "3HR") throw new ApplicationException();
 
         List<(int rowId, string name, string symbol, string mint)> rowsNeedingTrendData = new List<(int, string, string, string)>();
+        List<(int rowId, string name, string symbol, string mint, string x_account)> rowsNeedingTwitterScore = new List<(int, string, string, string, string)>();
+        
         List<(string symbol, string mint)> rowsDbg = new List<(string, string)>();
 
         using (var connection = new SqlConnection(DbConStr)) {
@@ -175,6 +195,7 @@ public class Program {
                             double cur_mc = reader.IsDBNull(11) ? 0 : (double)reader.GetDecimal(11);
                             string graph_ipfs = reader.IsDBNull(12) ? null : reader.GetString(12);
                             int? best_rank = reader.IsDBNull(13) ? null : reader.GetInt32(13);
+                            int? x_score = reader.IsDBNull(14) ? null : reader.GetInt32(14);
 
                             // maintain best rank (entire shortlist) -- timing out, on hold
                             if (best_rank == null || best_rank > pos) {
@@ -186,25 +207,29 @@ public class Program {
                                 continue;
                             }
 
+                            // load token URI for metadata fields (socials)
                             var metadata = await TokenMetadataParser.ParseMetadataFromUri(uri);
 
-                            bool? tr_trend = tr_slope != null && tr_pvalue != null
-                                                ? (tr_slope > TREND_MIN_SLOPE && tr_pvalue > TREND_MIN_RSQ) : null;
-                            string tr_info = "Google Trends: " + (tr_trend == null ? "tbd" :
-                                (tr_trend == true ? "[CONFIRMED!!!]" : "[none found]") + $"({graph_ipfs})"
-                                );
-
+                            // keep track of rows for which we need to gather trend data
                             rowsDbg.Add((symbol, mint));
                             if (tr_slope == null) {
                                 rowsNeedingTrendData.Add((id, name, symbol, mint));
                             }
 
-                            string web_str = !string.IsNullOrEmpty(metadata.Website) ? $"[website]({metadata.Website})" : "no website";
-                            string twitter_str = !string.IsNullOrEmpty(metadata.Twitter) ? $"[twitter]({metadata.Twitter})" : "no twitter";
-
-                            double holders_per_mc = cur_mc > 0 ? cur_holders / (cur_mc/1000) : 0;
+                            // keep track of rows for which we need to get twitter followers score
+                            if (x_score == null && !string.IsNullOrEmpty(metadata.Twitter)) {
+                                rowsNeedingTwitterScore.Add((id, name, symbol, mint, metadata.Twitter));
+                            }
 
                             // full info row
+                            bool? tr_trend = tr_slope != null && tr_pvalue != null
+                                                ? (tr_slope > TREND_MIN_SLOPE && tr_pvalue > TREND_MIN_RSQ) : null;
+                            string tr_info = "Google Trends: " + (tr_trend == null ? "tbd" :
+                                (tr_trend == true ? "[CONFIRMED!!!]" : "[none found]") + $"({graph_ipfs})"
+                                );
+                            string web_str = !string.IsNullOrEmpty(metadata.Website) ? $"[website]({metadata.Website})" : "no website";
+                            string twitter_str = !string.IsNullOrEmpty(metadata.Twitter) ? $"[twitter]({metadata.Twitter})" : "no twitter";
+                            double holders_per_mc = cur_mc > 0 ? cur_holders / (cur_mc / 1000) : 0;
                             string row_info =
                                     $"{prefix} #{pos} [{symbol}](https://dexscreener.com/solana/{mint}) *{name}* ({web_str}) ({twitter_str})"
                                     + $"\n MC = {FormatCurrency(cur_mc)}"
@@ -251,7 +276,7 @@ public class Program {
         var info = $"{prefix} {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff")} SET: {(rowsDbg.Count() == 0 ? "empty!" : string.Join(", ", rowsDbg.Select(p => $"{p.symbol}").ToList()).Trim())}";
         Console.WriteLine(info);
 
-        // Process each row using GetGoogleTrends
+        // Process rows for trend data using GetGoogleTrends
         await Task.WhenAll(Parallel.ForEachAsync(rowsNeedingTrendData,
             new ParallelOptions { MaxDegreeOfParallelism = 8 },
             async (row, token) => {
@@ -266,16 +291,37 @@ public class Program {
 
                 // run google trends
                 GetGoogleTrends(prefix, row.symbol, row.name, input) // non-blocking
-                    .ContinueWith(valuesTask => {
-                        var values = valuesTask.Result;
-                        if (values.Any()) {
-                            AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId, input.timeRange, row.mint);
-                        }
-                        else {
-                            HandleEmptyData(prefix, row.rowId, -888);
-                        }
+                .ContinueWith(taskResult => {
+                    var values = taskResult.Result;
+                    if (values.Any()) {
+                        AnalyzeAndSaveTrend(prefix, row.symbol, row.name, values, row.rowId, input.timeRange, row.mint);
+                    }
+                    else {
+                        HandleEmptyData(prefix, row.rowId, -888);
+                    }
+                }, TaskContinuationOptions.OnlyOnRanToCompletion);
+        }));
+
+        // process rows for x follower data
+        await Task.WhenAll(Parallel.ForEachAsync(rowsNeedingTwitterScore,
+            new ParallelOptions { MaxDegreeOfParallelism = 8 },
+            async (row, token) => {
+                var input = new {
+                    getFollowers = true,
+                    getFollowing = false,
+                    user_names = new[] { row.x_account },
+                    maxFollowers = 1000, // sample size max 1000 last
+                    //maxFollowings = 0
+                };
+
+                // get followers
+                GetTwitterFollowersOrFollowing(prefix, row.symbol, row.name, input, row.x_account)
+                    .ContinueWith(taskResult => {
+                        var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(taskResult.Result);
+                        var x_score = data.Where(p => X_GOOD_NAMES.Contains(p.Name)).Select(p => p.Followers_Count).Sum();
+                        AnalyzeAndSaveXScore(prefix, row.symbol, row.name, x_score, row.rowId, row.mint);
                     }, TaskContinuationOptions.OnlyOnRanToCompletion);
-            }));
+        }));
     }
 
     private static void UpdateBestRank(string prefix, int id, int pos) {
@@ -304,9 +350,8 @@ public class Program {
     }
 
     private static async Task<List<double>> GetGoogleTrends(string prefix, string symbol, string name, object input) {
-        var cacheDir = Path.Combine("..", "..", "..", "cache");
-        Directory.CreateDirectory(cacheDir);
-        var csvPath = Path.Combine(cacheDir, $"{prefix}_{symbol}_{name.Replace(" ", "_")}.csv");
+        Directory.CreateDirectory(CACHE_DIR);
+        var csvPath = Path.Combine(CACHE_DIR, $"{prefix}_{symbol}_{name.Replace(" ", "_")}.csv");
 
         if (File.Exists(csvPath)) {
             var fileInfo = new FileInfo(csvPath);
@@ -329,14 +374,14 @@ public class Program {
 
             Console.WriteLine($"{prefix} {symbol} Calling Google Trends ({timeRange}) actor for search term '{name}'...");
             var response = await client.PostAsync(
-                $"https://api.apify.com/v2/acts/{ActorId}/run-sync-get-dataset-items?token={ApifyToken}&format=json",
+                $"https://api.apify.com/v2/acts/{GoogleTrends_ActorId}/run-sync-get-dataset-items?token={ApifyToken}&format=json",
                 content
             );
 
             response.EnsureSuccessStatusCode();
             var responseBody = await response.Content.ReadAsStringAsync();
 
-            var inputDataList = JsonConvert.DeserializeObject<List<InputData>>(responseBody);
+            var inputDataList = JsonConvert.DeserializeObject<List<GoogleTrends_ReturnData>>(responseBody);
             if (inputDataList == null || !inputDataList.Any()) {
                 return new List<double>();
             }
@@ -352,7 +397,55 @@ public class Program {
         }
     }
 
-    public static async void AnalyzeAndSaveTrend(string prefix, string symbol, string name, List<double> values, int rowId, string timeRange, string mint) {
+    private static async Task<string> GetTwitterFollowersOrFollowing(string prefix, string symbol, string name, object input, string x_account) {
+        Directory.CreateDirectory(CACHE_DIR);
+        var jsonPath = Path.Combine(CACHE_DIR, $"X_{prefix}_{symbol}_{name.Replace(" ", "_")}.json");
+
+        if (File.Exists(jsonPath)) {
+            var fileInfo = new FileInfo(jsonPath);
+            if (DateTime.UtcNow - fileInfo.LastWriteTimeUtc < TimeSpan.FromHours(24)) {
+                Console.WriteLine($"{prefix} GetTwitterFollowersOrFollowing - Using cached data for {symbol} {name} from {jsonPath}");
+                string json = await File.ReadAllTextAsync(jsonPath);
+                return json;
+                //var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(json);
+                //if (data == null) return 0;
+                //var old_followers = data.Where(p => DateTime.ParseExact(p.Created_At, "ddd MMM dd HH:mm:ss +0000 yyyy", CultureInfo.InvariantCulture) < DateTime.UtcNow.AddMonths(-1)).ToList();
+                //return old_followers.Sum(p => p.Followers_Count); // exclude accounts created in last one month
+            }
+        }
+
+        using (var client = new HttpClient()) {
+            client.Timeout = TimeSpan.FromMinutes(5);
+
+            var content = new StringContent(
+                JsonConvert.SerializeObject(input),
+                Encoding.UTF8,
+                "application/json"
+            );
+
+            Console.WriteLine($"{prefix} {symbol} Calling X Followers Scraper actor for search term '{x_account}'...");
+            var response = await client.PostAsync(
+                $"https://api.apify.com/v2/acts/{TwitterFollowers_ActorId}/run-sync-get-dataset-items?token={ApifyToken}&format=json",
+                content
+            );
+
+            response.EnsureSuccessStatusCode();
+            var responseBody = await response.Content.ReadAsStringAsync();
+            if (string.IsNullOrEmpty(responseBody)) {
+                return null;
+            }
+
+            await File.WriteAllTextAsync(jsonPath, responseBody);
+
+            return responseBody;
+            //var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(responseBody);
+            //if (data == null) return 0;
+            //var old_followers = data.Where(p => DateTime.ParseExact(p.Created_At, "ddd MMM dd HH:mm:ss +0000 yyyy", CultureInfo.InvariantCulture) < DateTime.UtcNow.AddMonths(-1)).ToList();
+            //return old_followers.Sum(p => p.Followers_Count); // exclude accounts created in last one month
+        }
+    }
+
+    private static async void AnalyzeAndSaveTrend(string prefix, string symbol, string name, List<double> values, int rowId, string timeRange, string mint) {
         try {
             string tr_prefix = prefix == "6HR" ? "tr1"
                             : prefix == "12HR" ? "tr2"
@@ -415,7 +508,7 @@ public class Program {
                 }
             }
 
-            string info = $"{prefix} *{symbol}* {name} {mint}" +
+            string info = $"{prefix} *{symbol}* {name} {mint} " +
             $"Slope: {analysisResult.Slope:F3}, Trend Score: {analysisResult.TrendScore:F3} - " +
             $"{(analysisResult.HasUpwardTrend ? "UPTREND!" : "no trend.")}";
             using (var stream = File.OpenRead(graphPath)) {
@@ -550,13 +643,12 @@ public class Program {
         }
     }
 
-
-    public class InputData {
+    private class GoogleTrends_ReturnData {
         public string InputUrlOrTerm { get; set; }
         public string SearchTerm { get; set; }
         public List<TimelineData> interestOverTime_timelineData { get; set; }
     }
-    public class TimelineData {
+    private class TimelineData {
         public string Time { get; set; }
         public string FormattedTime { get; set; }
         public string FormattedAxisTime { get; set; }
@@ -566,8 +658,71 @@ public class Program {
         public bool? IsPartial { get; set; }
     }
 
+    private class Twitter_ReturnData {
+        public string Type { get; set; }
+        public string Target_Username { get; set; }
+        public long Id { get; set; }
+        public string Name { get; set; }
+        public string Screen_Name { get; set; }
+        public string Description { get; set; }
+        public string? Url { get; set; }
+        public string Profile_Image_Url_Https { get; set; }
+        public string Profile_Banner_Url { get; set; }
+        public int Followers_Count { get; set; }
+        public int Fast_Followers_Count { get; set; }
+        public int Normal_Followers_Count { get; set; }
+        public int Friends_Count { get; set; }
+        public int Listed_Count { get; set; }
+        public int Favourites_Count { get; set; }
+        public int Statuses_Count { get; set; }
+        public int Media_Count { get; set; }
+        public string Created_At { get; set; }
+        public bool Verified { get; set; }
+        public string Location { get; set; }
+        public bool Protected { get; set; }
+        public bool Geo_Enabled { get; set; }
+        public bool Is_Translator { get; set; }
+        public bool Has_Extended_Profile { get; set; }
+        public bool Default_Profile { get; set; }
+        public bool Default_Profile_Image { get; set; }
+        public TwitterFollowers_ReturnData_Status Status { get; set; }
+
+    }
+    private class TwitterFollowers_ReturnData_Status {
+        public string Created_At { get; set; }
+        public long Id { get; set; }
+        public string Text { get; set; }
+    }
+
+    private static async void AnalyzeAndSaveXScore(string prefix, string symbol, string name, int x_score, int rowId, string mint) {
+        try {
+            string hr_prefix = prefix == "6HR" ? "hr6"
+                                               : "hr12";
+
+            using (var connection = new SqlConnection(DbConStr)) {
+                connection.Open();
+                string updateQuery = @$"
+                        UPDATE [dbo].[mint]
+                        SET {hr_prefix}_x_score = @XScore
+                        WHERE id = @RowId";
+
+                using (var command = new SqlCommand(updateQuery, connection)) {
+                    command.Parameters.AddWithValue("@XScore", x_score);
+                    command.Parameters.AddWithValue("@RowId", rowId);
+                    command.ExecuteNonQuery();
+                }
+            }
+
+            var info = $"{prefix} AnalyzeAndSaveXScore {symbol} x_score={x_score} - SAVED.";
+            Console.WriteLine(info);
+        }
+        catch (Exception ex) {
+            Console.WriteLine($"{prefix} ${symbol} #### An error occurred: {ex.Message}");
+        }
+    }
+
     #region IPFS Graph Saver
-    public class PinataResponse {
+    private class PinataResponse {
         [JsonProperty("IpfsHash")]
         public string IpfsHash { get; set; }
 
@@ -577,7 +732,7 @@ public class Program {
         [JsonProperty("Timestamp")]
         public string Timestamp { get; set; }
     }
-    public class GraphMetadata {
+    private class GraphMetadata {
         public string Symbol { get; set; }
         public string Timeframe { get; set; }
         public DateTime Timestamp { get; set; }
@@ -587,7 +742,7 @@ public class Program {
         public double TrendScore { get; set; }
     }
 
-    public static class IpfsUploader {
+    private static class IpfsUploader {
         private static readonly string PinataApiKey = ConfigurationManager.AppSettings["PinataApiKey"];
         private static readonly string PinataSecretKey = ConfigurationManager.AppSettings["PinataSecretApiKey"];
         private static readonly string DbConStr = ConfigurationManager.ConnectionStrings["pf.Properties.Settings.mintDbConnectionString"].ConnectionString;
@@ -643,14 +798,14 @@ public class Program {
     }
     #endregion
 
-    public static void TestFromCache() {
-        var cacheDir = Path.Combine("..", "..", "..", "cache");
-        if (!Directory.Exists(cacheDir)) {
-            Console.WriteLine($"Cache directory not found: {cacheDir}");
+    private static void TestFromCache() {
+        //var CACHE_DIR = Path.Combine("..", "..", "..", "cache");
+        if (!Directory.Exists(CACHE_DIR)) {
+            Console.WriteLine($"Cache directory not found: {CACHE_DIR}");
             return;
         }
 
-        var csvFiles = Directory.GetFiles(cacheDir, "*.csv");
+        var csvFiles = Directory.GetFiles(CACHE_DIR, "*.csv");
         foreach (var csvFile in csvFiles) {
             try {
                 // Get symbol and name from filename
@@ -672,7 +827,7 @@ public class Program {
         }
     }
 
-    public static string FormatCurrency(double value) {
+    private static string FormatCurrency(double value) {
         if (value >= 1_000_000_000) // Billions
             return $"${value / 1_000_000_000:F1}B";
         if (value >= 1_000_000) // Millions 
@@ -683,7 +838,7 @@ public class Program {
         return $"${value:F0}"; // Less than 1000
     }
 
-    public static string FormatMillions(double value) {
+    private static string FormatMillions(double value) {
         // Convert to millions
         double inMillions = value / 1_000_000;
 
@@ -694,7 +849,7 @@ public class Program {
         // Handle values under 10M with one decimal
         return $"{inMillions:F1}M";
     }
-    public static string FormatZ(double value) {
+    private static string FormatZ(double value) {
         if (value >= 100)
             return Math.Floor(value).ToString();
 

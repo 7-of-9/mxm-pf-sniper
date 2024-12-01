@@ -34,10 +34,9 @@ namespace meta_getter {
             while (true) {
                 try {
                     await PollAndProcessAsync(MetaTimeframe.OneHour);   
-                    await PollAndProcessAsync(MetaTimeframe.ThreeHours);   
+                    //await PollAndProcessAsync(MetaTimeframe.ThreeHours);   
                     await PollAndProcessAsync(MetaTimeframe.SixHours);  
                     await PollAndProcessAsync(MetaTimeframe.TwelveHours); 
-                    //await PollAndProcessAsync(MetaTimeframe.OneDay);
                 }
                 catch (Exception ex) {
                     Console.WriteLine($"Error occurred: {ex.Message}");

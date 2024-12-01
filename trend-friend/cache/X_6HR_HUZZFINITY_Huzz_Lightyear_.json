@@ -1,0 +1,1601 @@
+[{
+  "id": 1642994360424751000,
+  "id_str": "1642994360424751105",
+  "name": "jack dlugokinski",
+  "screen_name": "jackdugo415",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 4,
+  "fast_followers_count": 0,
+  "normal_followers_count": 4,
+  "friends_count": 30,
+  "listed_count": 0,
+  "created_at": "Mon Apr 03 20:56:10 +0000 2023",
+  "favourites_count": 12,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 13,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 17:43:40 +0000 2024",
+    "id": 1862553023546794200,
+    "id_str": "1862553023546794272",
+    "text": "@BSCGemsAlert @SANTATOKENSOL2 RIZZMAS",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "BSCGemsAlert",
+          "name": "🚨BSC Gems Alert🚨",
+          "id": 2424259633,
+          "id_str": "2424259633",
+          "indices": [
+            0,
+            13
+          ]
+        },
+        {
+          "screen_name": "SANTATOKENSOL2",
+          "name": "SANTA",
+          "id": 1862135474816458800,
+          "id_str": "1862135474816458752",
+          "indices": [
+            14,
+            29
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1862475149578044000,
+    "in_reply_to_status_id_str": "1862475149578043831",
+    "in_reply_to_user_id": 2424259633,
+    "in_reply_to_user_id_str": "2424259633",
+    "in_reply_to_screen_name": "BSCGemsAlert",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ht",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1642997092028239872/1dOx7hQb_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1642997092028239872/1dOx7hQb_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "HuzzLightyear24"
+},
+{
+  "id": 1839312840240541700,
+  "id_str": "1839312840240541703",
+  "name": "$RIZZMAS| COMMUNITY",
+  "screen_name": "GalmoreLes82692",
+  "location": "",
+  "description": "The official community for SRIZZMAS on the Solana Network.",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1,
+  "friends_count": 114,
+  "listed_count": 0,
+  "created_at": "Thu Sep 26 14:35:46 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 6,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 21:00:52 +0000 2024",
+    "id": 1862965038815875300,
+    "id_str": "1862965038815875455",
+    "text": "RT @rizzmascto: Rizzmas mode activated.😈⛄️ Father Rizzmas is in town.🎄🚀\n\n#rizzmas https://t.co/b3TrnJ7Eb8",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "rizzmas",
+          "indices": [
+            73,
+            81
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "rizzmascto",
+          "name": "$RIZZMAS",
+          "id": 1860738719977742300,
+          "id_str": "1860738719977742336",
+          "indices": [
+            3,
+            14
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1862941773061881900,
+          "id_str": "1862941773061881856",
+          "indices": [
+            82,
+            105
+          ],
+          "media_url": "http://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+          "url": "https://t.co/b3TrnJ7Eb8",
+          "display_url": "pic.twitter.com/b3TrnJ7Eb8",
+          "expanded_url": "https://twitter.com/rizzmascto/status/1862941888552038752/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1179,
+            "height": 1153,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 288,
+                "h": 660,
+                "w": 1179
+              },
+              {
+                "x": 26,
+                "y": 0,
+                "h": 1153,
+                "w": 1153
+              },
+              {
+                "x": 168,
+                "y": 0,
+                "h": 1153,
+                "w": 1011
+              },
+              {
+                "x": 566,
+                "y": 0,
+                "h": 1153,
+                "w": 577
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1153,
+                "w": 1179
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1179,
+              "h": 1153,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1179,
+              "h": 1153,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 665,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1862941888552038700,
+          "source_status_id_str": "1862941888552038752",
+          "source_user_id": 1860738719977742300,
+          "source_user_id_str": "1860738719977742336",
+          "features": {
+            "orig": {
+              "faces": [
+                {
+                  "x": 446,
+                  "y": 930,
+                  "h": 55,
+                  "w": 55
+                },
+                {
+                  "x": 1024,
+                  "y": 830,
+                  "h": 89,
+                  "w": 89
+                },
+                {
+                  "x": 1035,
+                  "y": 893,
+                  "h": 86,
+                  "w": 86
+                },
+                {
+                  "x": 782,
+                  "y": 519,
+                  "h": 125,
+                  "w": 125
+                },
+                {
+                  "x": 307,
+                  "y": 529,
+                  "h": 107,
+                  "w": 107
+                },
+                {
+                  "x": 501,
+                  "y": 439,
+                  "h": 165,
+                  "w": 165
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 446,
+                  "y": 930,
+                  "h": 55,
+                  "w": 55
+                },
+                {
+                  "x": 1024,
+                  "y": 830,
+                  "h": 89,
+                  "w": 89
+                },
+                {
+                  "x": 1035,
+                  "y": 893,
+                  "h": 86,
+                  "w": 86
+                },
+                {
+                  "x": 782,
+                  "y": 519,
+                  "h": 125,
+                  "w": 125
+                },
+                {
+                  "x": 307,
+                  "y": 529,
+                  "h": 107,
+                  "w": 107
+                },
+                {
+                  "x": 501,
+                  "y": 439,
+                  "h": 165,
+                  "w": 165
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 446,
+                  "y": 930,
+                  "h": 55,
+                  "w": 55
+                },
+                {
+                  "x": 1024,
+                  "y": 830,
+                  "h": 89,
+                  "w": 89
+                },
+                {
+                  "x": 1035,
+                  "y": 893,
+                  "h": 86,
+                  "w": 86
+                },
+                {
+                  "x": 782,
+                  "y": 519,
+                  "h": 125,
+                  "w": 125
+                },
+                {
+                  "x": 307,
+                  "y": 529,
+                  "h": 107,
+                  "w": 107
+                },
+                {
+                  "x": 501,
+                  "y": 439,
+                  "h": 165,
+                  "w": 165
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 257,
+                  "y": 536,
+                  "h": 31,
+                  "w": 31
+                },
+                {
+                  "x": 590,
+                  "y": 478,
+                  "h": 51,
+                  "w": 51
+                },
+                {
+                  "x": 596,
+                  "y": 515,
+                  "h": 49,
+                  "w": 49
+                },
+                {
+                  "x": 451,
+                  "y": 299,
+                  "h": 72,
+                  "w": 72
+                },
+                {
+                  "x": 177,
+                  "y": 305,
+                  "h": 61,
+                  "w": 61
+                },
+                {
+                  "x": 288,
+                  "y": 253,
+                  "h": 95,
+                  "w": 95
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1862941773061881900,
+          "id_str": "1862941773061881856",
+          "indices": [
+            82,
+            105
+          ],
+          "media_url": "http://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+          "url": "https://t.co/b3TrnJ7Eb8",
+          "display_url": "pic.twitter.com/b3TrnJ7Eb8",
+          "expanded_url": "https://twitter.com/rizzmascto/status/1862941888552038752/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1179,
+            "height": 1153,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 288,
+                "h": 660,
+                "w": 1179
+              },
+              {
+                "x": 26,
+                "y": 0,
+                "h": 1153,
+                "w": 1153
+              },
+              {
+                "x": 168,
+                "y": 0,
+                "h": 1153,
+                "w": 1011
+              },
+              {
+                "x": 566,
+                "y": 0,
+                "h": 1153,
+                "w": 577
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1153,
+                "w": 1179
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1179,
+              "h": 1153,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1179,
+              "h": 1153,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 665,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1862941888552038700,
+          "source_status_id_str": "1862941888552038752",
+          "source_user_id": 1860738719977742300,
+          "source_user_id_str": "1860738719977742336",
+          "features": {
+            "orig": {
+              "faces": [
+                {
+                  "x": 446,
+                  "y": 930,
+                  "h": 55,
+                  "w": 55
+                },
+                {
+                  "x": 1024,
+                  "y": 830,
+                  "h": 89,
+                  "w": 89
+                },
+                {
+                  "x": 1035,
+                  "y": 893,
+                  "h": 86,
+                  "w": 86
+                },
+                {
+                  "x": 782,
+                  "y": 519,
+                  "h": 125,
+                  "w": 125
+                },
+                {
+                  "x": 307,
+                  "y": 529,
+                  "h": 107,
+                  "w": 107
+                },
+                {
+                  "x": 501,
+                  "y": 439,
+                  "h": 165,
+                  "w": 165
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 446,
+                  "y": 930,
+                  "h": 55,
+                  "w": 55
+                },
+                {
+                  "x": 1024,
+                  "y": 830,
+                  "h": 89,
+                  "w": 89
+                },
+                {
+                  "x": 1035,
+                  "y": 893,
+                  "h": 86,
+                  "w": 86
+                },
+                {
+                  "x": 782,
+                  "y": 519,
+                  "h": 125,
+                  "w": 125
+                },
+                {
+                  "x": 307,
+                  "y": 529,
+                  "h": 107,
+                  "w": 107
+                },
+                {
+                  "x": 501,
+                  "y": 439,
+                  "h": 165,
+                  "w": 165
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 446,
+                  "y": 930,
+                  "h": 55,
+                  "w": 55
+                },
+                {
+                  "x": 1024,
+                  "y": 830,
+                  "h": 89,
+                  "w": 89
+                },
+                {
+                  "x": 1035,
+                  "y": 893,
+                  "h": 86,
+                  "w": 86
+                },
+                {
+                  "x": 782,
+                  "y": 519,
+                  "h": 125,
+                  "w": 125
+                },
+                {
+                  "x": 307,
+                  "y": 529,
+                  "h": 107,
+                  "w": 107
+                },
+                {
+                  "x": 501,
+                  "y": 439,
+                  "h": 165,
+                  "w": 165
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 257,
+                  "y": 536,
+                  "h": 31,
+                  "w": 31
+                },
+                {
+                  "x": 590,
+                  "y": 478,
+                  "h": 51,
+                  "w": 51
+                },
+                {
+                  "x": 596,
+                  "y": 515,
+                  "h": 49,
+                  "w": 49
+                },
+                {
+                  "x": 451,
+                  "y": 299,
+                  "h": 72,
+                  "w": 72
+                },
+                {
+                  "x": 177,
+                  "y": 305,
+                  "h": 61,
+                  "w": 61
+                },
+                {
+                  "x": 288,
+                  "y": 253,
+                  "h": 95,
+                  "w": 95
+                }
+              ]
+            }
+          },
+          "media_key": "3_1862941773061881856"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 30 19:28:52 +0000 2024",
+      "id": 1862941888552038700,
+      "id_str": "1862941888552038752",
+      "text": "Rizzmas mode activated.😈⛄️ Father Rizzmas is in town.🎄🚀\n\n#rizzmas https://t.co/b3TrnJ7Eb8… https://t.co/LmwTzzyyOQ",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "rizzmas",
+            "indices": [
+              57,
+              65
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/LmwTzzyyOQ",
+            "expanded_url": "https://twitter.com/i/web/status/1862941888552038752",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              91,
+              114
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1862941773061881900,
+            "id_str": "1862941773061881856",
+            "indices": [
+              66,
+              89
+            ],
+            "media_url": "http://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+            "url": "https://t.co/b3TrnJ7Eb8",
+            "display_url": "pic.twitter.com/b3TrnJ7Eb8",
+            "expanded_url": "https://twitter.com/rizzmascto/status/1862941888552038752/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 1179,
+              "height": 1153,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 288,
+                  "h": 660,
+                  "w": 1179
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 1153
+                },
+                {
+                  "x": 168,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 1011
+                },
+                {
+                  "x": 566,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 577
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 1179
+                }
+              ]
+            },
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1179,
+                "h": 1153,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1179,
+                "h": 1153,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 665,
+                "resize": "fit"
+              }
+            },
+            "features": {
+              "orig": {
+                "faces": [
+                  {
+                    "x": 446,
+                    "y": 930,
+                    "h": 55,
+                    "w": 55
+                  },
+                  {
+                    "x": 1024,
+                    "y": 830,
+                    "h": 89,
+                    "w": 89
+                  },
+                  {
+                    "x": 1035,
+                    "y": 893,
+                    "h": 86,
+                    "w": 86
+                  },
+                  {
+                    "x": 782,
+                    "y": 519,
+                    "h": 125,
+                    "w": 125
+                  },
+                  {
+                    "x": 307,
+                    "y": 529,
+                    "h": 107,
+                    "w": 107
+                  },
+                  {
+                    "x": 501,
+                    "y": 439,
+                    "h": 165,
+                    "w": 165
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "x": 446,
+                    "y": 930,
+                    "h": 55,
+                    "w": 55
+                  },
+                  {
+                    "x": 1024,
+                    "y": 830,
+                    "h": 89,
+                    "w": 89
+                  },
+                  {
+                    "x": 1035,
+                    "y": 893,
+                    "h": 86,
+                    "w": 86
+                  },
+                  {
+                    "x": 782,
+                    "y": 519,
+                    "h": 125,
+                    "w": 125
+                  },
+                  {
+                    "x": 307,
+                    "y": 529,
+                    "h": 107,
+                    "w": 107
+                  },
+                  {
+                    "x": 501,
+                    "y": 439,
+                    "h": 165,
+                    "w": 165
+                  }
+                ]
+              },
+              "large": {
+                "faces": [
+                  {
+                    "x": 446,
+                    "y": 930,
+                    "h": 55,
+                    "w": 55
+                  },
+                  {
+                    "x": 1024,
+                    "y": 830,
+                    "h": 89,
+                    "w": 89
+                  },
+                  {
+                    "x": 1035,
+                    "y": 893,
+                    "h": 86,
+                    "w": 86
+                  },
+                  {
+                    "x": 782,
+                    "y": 519,
+                    "h": 125,
+                    "w": 125
+                  },
+                  {
+                    "x": 307,
+                    "y": 529,
+                    "h": 107,
+                    "w": 107
+                  },
+                  {
+                    "x": 501,
+                    "y": 439,
+                    "h": 165,
+                    "w": 165
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "x": 257,
+                    "y": 536,
+                    "h": 31,
+                    "w": 31
+                  },
+                  {
+                    "x": 590,
+                    "y": 478,
+                    "h": 51,
+                    "w": 51
+                  },
+                  {
+                    "x": 596,
+                    "y": 515,
+                    "h": 49,
+                    "w": 49
+                  },
+                  {
+                    "x": 451,
+                    "y": 299,
+                    "h": 72,
+                    "w": 72
+                  },
+                  {
+                    "x": 177,
+                    "y": 305,
+                    "h": 61,
+                    "w": 61
+                  },
+                  {
+                    "x": 288,
+                    "y": 253,
+                    "h": 95,
+                    "w": 95
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1862941773061881900,
+            "id_str": "1862941773061881856",
+            "indices": [
+              66,
+              89
+            ],
+            "media_url": "http://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Gdp_rByXAAAF5_V.jpg",
+            "url": "https://t.co/b3TrnJ7Eb8",
+            "display_url": "pic.twitter.com/b3TrnJ7Eb8",
+            "expanded_url": "https://twitter.com/rizzmascto/status/1862941888552038752/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 1179,
+              "height": 1153,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 288,
+                  "h": 660,
+                  "w": 1179
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 1153
+                },
+                {
+                  "x": 168,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 1011
+                },
+                {
+                  "x": 566,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 577
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1153,
+                  "w": 1179
+                }
+              ]
+            },
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1179,
+                "h": 1153,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1179,
+                "h": 1153,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 665,
+                "resize": "fit"
+              }
+            },
+            "features": {
+              "orig": {
+                "faces": [
+                  {
+                    "x": 446,
+                    "y": 930,
+                    "h": 55,
+                    "w": 55
+                  },
+                  {
+                    "x": 1024,
+                    "y": 830,
+                    "h": 89,
+                    "w": 89
+                  },
+                  {
+                    "x": 1035,
+                    "y": 893,
+                    "h": 86,
+                    "w": 86
+                  },
+                  {
+                    "x": 782,
+                    "y": 519,
+                    "h": 125,
+                    "w": 125
+                  },
+                  {
+                    "x": 307,
+                    "y": 529,
+                    "h": 107,
+                    "w": 107
+                  },
+                  {
+                    "x": 501,
+                    "y": 439,
+                    "h": 165,
+                    "w": 165
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "x": 446,
+                    "y": 930,
+                    "h": 55,
+                    "w": 55
+                  },
+                  {
+                    "x": 1024,
+                    "y": 830,
+                    "h": 89,
+                    "w": 89
+                  },
+                  {
+                    "x": 1035,
+                    "y": 893,
+                    "h": 86,
+                    "w": 86
+                  },
+                  {
+                    "x": 782,
+                    "y": 519,
+                    "h": 125,
+                    "w": 125
+                  },
+                  {
+                    "x": 307,
+                    "y": 529,
+                    "h": 107,
+                    "w": 107
+                  },
+                  {
+                    "x": 501,
+                    "y": 439,
+                    "h": 165,
+                    "w": 165
+                  }
+                ]
+              },
+              "large": {
+                "faces": [
+                  {
+                    "x": 446,
+                    "y": 930,
+                    "h": 55,
+                    "w": 55
+                  },
+                  {
+                    "x": 1024,
+                    "y": 830,
+                    "h": 89,
+                    "w": 89
+                  },
+                  {
+                    "x": 1035,
+                    "y": 893,
+                    "h": 86,
+                    "w": 86
+                  },
+                  {
+                    "x": 782,
+                    "y": 519,
+                    "h": 125,
+                    "w": 125
+                  },
+                  {
+                    "x": 307,
+                    "y": 529,
+                    "h": 107,
+                    "w": 107
+                  },
+                  {
+                    "x": 501,
+                    "y": 439,
+                    "h": 165,
+                    "w": 165
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "x": 257,
+                    "y": 536,
+                    "h": 31,
+                    "w": 31
+                  },
+                  {
+                    "x": 590,
+                    "y": 478,
+                    "h": 51,
+                    "w": 51
+                  },
+                  {
+                    "x": 596,
+                    "y": 515,
+                    "h": 49,
+                    "w": 49
+                  },
+                  {
+                    "x": 451,
+                    "y": 299,
+                    "h": 72,
+                    "w": 72
+                  },
+                  {
+                    "x": 177,
+                    "y": 305,
+                    "h": 61,
+                    "w": 61
+                  },
+                  {
+                    "x": 288,
+                    "y": 253,
+                    "h": 95,
+                    "w": 95
+                  }
+                ]
+              }
+            },
+            "media_key": "3_1862941773061881856"
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 244,
+      "favorite_count": 888,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 244,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862965074316460032/lgDE8UyZ_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862965074316460032/lgDE8UyZ_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1839312840240541703/1733000475",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "HuzzLightyear24"
+},
+{
+  "id": 2598505773,
+  "id_str": "2598505773",
+  "name": "Kasey",
+  "screen_name": "Kasey2315",
+  "location": "London",
+  "description": "Brace yourself for unapologetic honesty",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 2367,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2367,
+  "friends_count": 1285,
+  "listed_count": 0,
+  "created_at": "Tue Jun 10 18:43:57 +0000 2014",
+  "favourites_count": 13,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 52,
+  "media_count": 51,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 11:10:45 +0000 2024",
+    "id": 1862816530721079600,
+    "id_str": "1862816530721079652",
+    "text": "The first time I saw snow abroad was when I went to Switzerland, where the Alps were as beautiful as a fairy tale.… https://t.co/ByqKIf5gGe",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/ByqKIf5gGe",
+          "expanded_url": "https://twitter.com/i/web/status/1862816530721079652",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1792699217686974464/2RztDaDn_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1792699217686974464/2RztDaDn_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2598505773/1724328890",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "HuzzLightyear24"
+},
+{
+  "id": 1862892111936282600,
+  "id_str": "1862892111936282624",
+  "name": "AverageJoeSOL",
+  "screen_name": "AvgJoeSOL",
+  "location": "Solana",
+  "description": "Meet Joe, the quintessential 'Average Joe.' He's the guy next door who loves his morning coffee, weekend barbecues, and a good game on TV.",
+  "url": "https://t.co/t6YEg4uFtG",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/t6YEg4uFtG",
+          "expanded_url": "https://averagejoesol.my.canva.site/",
+          "display_url": "averagejoesol.my.canva.site",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1,
+  "friends_count": 31,
+  "listed_count": 0,
+  "created_at": "Sat Nov 30 16:11:11 +0000 2024",
+  "favourites_count": 4,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 9,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 01:53:52 +0000 2024",
+    "id": 1863038778211697000,
+    "id_str": "1863038778211696872",
+    "text": "@CryptoBrainiac1 @tekee ROCKET",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "CryptoBrainiac1",
+          "name": "Brainer 🧠",
+          "id": 1535006290178879500,
+          "id_str": "1535006290178879488",
+          "indices": [
+            0,
+            16
+          ]
+        },
+        {
+          "screen_name": "tekee",
+          "name": "tekee",
+          "id": 1496256880015990800,
+          "id_str": "1496256880015990789",
+          "indices": [
+            17,
+            23
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1863037713508712400,
+    "in_reply_to_status_id_str": "1863037713508712522",
+    "in_reply_to_user_id": 1535006290178879500,
+    "in_reply_to_user_id_str": "1535006290178879488",
+    "in_reply_to_screen_name": "CryptoBrainiac1",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862892177585496064/7NudzXWE_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862892177585496064/7NudzXWE_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1862892111936282624/1732983288",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1862909115757941200
+  ],
+  "pinned_tweet_ids_str": [
+    "1862909115757941142"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "HuzzLightyear24"
+},
+{
+  "id": 492239778,
+  "id_str": "492239778",
+  "name": "Miya",
+  "screen_name": "Syamie82",
+  "location": "hongkong",
+  "description": "When you are poor and only have dreams, you must work harder than others.",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 265,
+  "fast_followers_count": 0,
+  "normal_followers_count": 265,
+  "friends_count": 67,
+  "listed_count": 0,
+  "created_at": "Tue Feb 14 14:04:27 +0000 2012",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 2,
+  "media_count": 2,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 06:42:49 +0000 2024",
+    "id": 1862749103236817200,
+    "id_str": "1862749103236817248",
+    "text": "The private placement price of BTC in 2009 was $0.01. It has risen tens of thousands of times since then, but it is… https://t.co/qhLgN56uVJ",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/qhLgN56uVJ",
+          "expanded_url": "https://twitter.com/i/web/status/1862749103236817248",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1839099429846228992/fLXPBjku_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1839099429846228992/fLXPBjku_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/492239778/1727310548",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "HuzzLightyear24"
+}]

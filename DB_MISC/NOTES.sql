@@ -15,12 +15,27 @@
 				order by 3 desc
 				--order by ((hr6_holder - hr1_holder) * 100.0 / hr1_holder) DESC
 
-	-- 1hr zscores vs 6hr performance :: *current* rolling window (working set for trend-friend) 
+	-- 1hr zscores vs 3hr performance :: NOT USED
 		 SELECT TOP 50 PERCENT 
 			 id, name, symbol, mean_market_cap, hr1_market_cap,
 			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
+			 tr1_slope, tr1_pvalue, mint, z_score, hr3_holder, Uri, hr1_icon, hr3_market_cap,
+			 hr3_price, hr3_price, tr0_graph_ipfs, hr3_best_rank
+		 FROM hr1_avg_mc 
+		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -6, GETUTCDATE()) AND DATEADD(HOUR, -3, GETUTCDATE())
+			 AND z_score > 0
+			 AND hr3_price IS NOT NULL
+			 AND hr3_holder > hr1_holder
+			 AND hr3_price > hr1_price
+		ORDER BY z_score DESC
+
+	-- 1hr zscores vs 6hr performance :: #1
+		 SELECT TOP 50 PERCENT 
+			 hr6_x_score,
+			 id, name, symbol, mean_market_cap, hr1_market_cap, meta_json_1hr,
+			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
 			 tr1_slope, tr1_pvalue, mint, z_score, hr6_holder, Uri, hr1_icon, hr6_market_cap,
-			 hr6_price, hr1_price, tr1_graph_ipfs, hr6_best_rank
+			 hr6_price, hr1_price, tr1_graph_ipfs, hr6_best_rank, hr3_best_rank
 		 FROM hr1_avg_mc 
 		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -12, GETUTCDATE()) AND DATEADD(HOUR, -6, GETUTCDATE())
 			 AND z_score > 0
@@ -29,18 +44,22 @@
 			 AND hr6_price > hr1_price
 		ORDER BY z_score DESC
 
+		--alter table mint add hr12_x_score int
+		--update mint set hr6_x_score = null, hr12_x_score = null where hr6_x_score is not null or hr12_x_score is not null
+
 			-- 6hr cohort:
 			SELECT id, name, symbol, hr1_market_cap, mint from mint where fetched_utc_1hr BETWEEN DATEADD(hour, -12, fetched_utc_1hr) AND fetched_utc_1hr order by hr1_market_cap desc
 				-- delete from mint where mint = '8usm7F5hdhjd3dm5YZsLi6uSJi7QsBoVz6QC8ycvpump'
 				--create index idx_mint_3 on mint (id, fetched_utc_1hr, hr12_market_cap)
 				--select * from mint where mint = 'am1sqwahhakws4h9uwhweeyxcaecr5ydyzix1jd9rvmp'
 
-	-- 6hr zscores vs 12hr performance :: *current* rolling window (working set for trend-friend)
+	-- 6hr zscores vs 12hr performance :: #2
 		 SELECT TOP 100 PERCENT 
+		 	 hr6_x_score, hr12_x_score,
 			 id, name, symbol, 
 			 datediff(hh, getutcdate(), inserted_utc) 'hrs old',
 			 tr2_slope, tr2_pvalue, mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap, tr2_graph_ipfs, hr12_best_rank,
-			 hr6_holder, hr6_price
+			 hr6_holder, hr6_price, hr12_best_rank, hr6_best_rank, hr3_best_rank
 		 FROM hr6_avg_mc 
 		 WHERE inserted_utc BETWEEN DATEADD(HOUR, -24, GETUTCDATE()) AND DATEADD(HOUR, -12, GETUTCDATE())
 			 AND z_score > 0
