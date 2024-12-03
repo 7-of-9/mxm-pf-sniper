@@ -120,6 +120,7 @@ public class Program {
                 await PopulateXGoodNames("Topxl00", 1, 2);
                 await PopulateXGoodNames("MustStopMurad", 1, 2);
                 await PopulateXGoodNames("7etsuo", 1, 2, true);
+                await PopulateXGoodNames("7etsuo", 1, 2);
                 await PopulateXGoodNames("kkashi_yt", 1, 2, true);
                 await PopulateXGoodNames("kkashi_yt", 1, 2);
 
@@ -167,11 +168,12 @@ public class Program {
 			             tr2_slope, tr2_pvalue, mint, z_score, hr12_holder, Uri, hr1_icon, hr12_market_cap, tr2_graph_ipfs, hr12_best_rank, hr12_x_score,
                          hr6_holder, hr6_price
 		             FROM hr6_avg_mc 
-		             WHERE inserted_utc BETWEEN DATEADD(HOUR, -24, GETUTCDATE()) AND DATEADD(HOUR, -12, GETUTCDATE())
+		             WHERE (inserted_utc BETWEEN DATEADD(HOUR, -24, GETUTCDATE()) AND DATEADD(HOUR, -12, GETUTCDATE())
 			             AND z_score > 0
 			             AND hr12_price IS NOT NULL
 			             AND hr12_holder > hr6_holder
-			             AND hr12_price > hr6_price
+			             AND hr12_price > hr6_price) 
+                       -- OR id = 465173
 		            ORDER BY z_score DESC
                 ";
 
@@ -224,6 +226,7 @@ public class Program {
                         pos++;
                         try {
                             int id = reader.GetInt32(0);
+
                             string name = reader.GetString(1);
                             string symbol = reader.GetString(2);
                             int hrs_old = reader.GetInt32(3);
@@ -250,6 +253,9 @@ public class Program {
 
                             // load token URI for metadata fields (socials)
                             var metadata = await TokenMetadataParser.ParseMetadataFromUri(uri);
+                            //if (id == 465173) {
+                            //    metadata.Twitter = "https://x.com/7etsuo"; // hack/test
+                            //}
 
                             // keep track of rows for which we need to gather trend data
                             rowsDbg.Add((symbol, mint));
@@ -361,7 +367,7 @@ public class Program {
                 GetTwitterFollowersOrFollowing(prefix, row.symbol, row.name, input, row.x_account)
                     .ContinueWith(taskResult => {
                         var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(taskResult.Result);
-                        var x_score = data.Where(p => X_GOOD_NAMES.Contains(p.Name)).Select(p => p.Followers_Count).Sum();
+                        var x_score = data.Where(p => X_GOOD_NAMES.Contains(p.Name)).Count(); //.Select(p => p.Followers_Count).Sum();
                         AnalyzeAndSaveXScore(prefix, row.symbol, row.name, x_score, row.rowId, row.mint);
                     }, TaskContinuationOptions.OnlyOnRanToCompletion);
         }));
