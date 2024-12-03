@@ -1,0 +1,1207 @@
+[{
+  "id": 1851539089323147300,
+  "id_str": "1851539089323147264",
+  "name": "Thosob",
+  "screen_name": "ThosobhWQf69S",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 2,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2,
+  "friends_count": 64,
+  "listed_count": 0,
+  "created_at": "Wed Oct 30 08:18:14 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1851539104355196928/orcpC_PC_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1851539104355196928/orcpC_PC_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1851539089323147264/1730276307",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1716850210914152400,
+  "id_str": "1716850210914152450",
+  "name": "Viki Velten",
+  "screen_name": "vi_velt",
+  "location": "",
+  "description": "",
+  "url": "https://t.co/pU5dCEd6Fp",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/pU5dCEd6Fp",
+          "expanded_url": "https://alyciafriling.ru.com/vi_velt",
+          "display_url": "alyciafriling.ru.com/vi_velt",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3,
+  "friends_count": 628,
+  "listed_count": 0,
+  "created_at": "Tue Oct 24 16:13:01 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1856270499296292864/g7q1Davh_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1856270499296292864/g7q1Davh_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1678541257491247000,
+  "id_str": "1678541257491247105",
+  "name": "Mattie Gillan",
+  "screen_name": "gillan60569",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 121,
+  "fast_followers_count": 0,
+  "normal_followers_count": 121,
+  "friends_count": 7391,
+  "listed_count": 0,
+  "created_at": "Mon Jul 10 23:06:41 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1678541375833268225/ulMZ7JMc_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1678541375833268225/ulMZ7JMc_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1735214757748068400,
+  "id_str": "1735214757748068352",
+  "name": "Daryl Dullum",
+  "screen_name": "dar_dull",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 59,
+  "fast_followers_count": 0,
+  "normal_followers_count": 59,
+  "friends_count": 7422,
+  "listed_count": 0,
+  "created_at": "Thu Dec 14 08:27:05 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1735214901067395072/N37RDb6V_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1735214901067395072/N37RDb6V_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1695877438373515300,
+  "id_str": "1695877438373515264",
+  "name": "Laureen Binning",
+  "screen_name": "LaurBinnin",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 65,
+  "fast_followers_count": 0,
+  "normal_followers_count": 65,
+  "friends_count": 6198,
+  "listed_count": 0,
+  "created_at": "Sun Aug 27 19:14:39 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1695877595278241792/c7zfJYj2_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1695877595278241792/c7zfJYj2_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1685828839178371000,
+  "id_str": "1685828839178371072",
+  "name": "Theadora Emiliano",
+  "screen_name": "EmilianTheado",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 128,
+  "fast_followers_count": 0,
+  "normal_followers_count": 128,
+  "friends_count": 7479,
+  "listed_count": 0,
+  "created_at": "Mon Jul 31 01:44:59 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1685829009634926593/2uEh9pKU_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1685829009634926593/2uEh9pKU_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1663483661227036700,
+  "id_str": "1663483661227036673",
+  "name": "Mari Carnalla",
+  "screen_name": "CarnallaMa68539",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 112,
+  "fast_followers_count": 0,
+  "normal_followers_count": 112,
+  "friends_count": 7435,
+  "listed_count": 0,
+  "created_at": "Tue May 30 09:53:16 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1663483821080350721/NhZ1YpCV_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1663483821080350721/NhZ1YpCV_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1717941401990672400,
+  "id_str": "1717941401990672393",
+  "name": "Lean Macallister",
+  "screen_name": "MacallistLea",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 116,
+  "fast_followers_count": 0,
+  "normal_followers_count": 116,
+  "friends_count": 7422,
+  "listed_count": 0,
+  "created_at": "Fri Oct 27 16:28:56 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1717941645159641090/izzOnKx0_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1717941645159641090/izzOnKx0_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1684882271512531000,
+  "id_str": "1684882271512530945",
+  "name": "Breann Turnmyre",
+  "screen_name": "BTurnmyre84433",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 127,
+  "fast_followers_count": 0,
+  "normal_followers_count": 127,
+  "friends_count": 7411,
+  "listed_count": 0,
+  "created_at": "Fri Jul 28 11:03:36 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1684882518309470208/J9Q16NSt_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1684882518309470208/J9Q16NSt_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1737845862817267700,
+  "id_str": "1737845862817267712",
+  "name": "Teresa",
+  "screen_name": "TeresaJohn_",
+  "location": "NYC",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 851,
+  "fast_followers_count": 0,
+  "normal_followers_count": 851,
+  "friends_count": 451,
+  "listed_count": 0,
+  "created_at": "Thu Dec 21 14:42:05 +0000 2023",
+  "favourites_count": 12,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 13,
+  "media_count": 5,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Jun 26 12:32:10 +0000 2024",
+    "id": 1805942128284987400,
+    "id_str": "1805942128284987458",
+    "text": "Leitao Portuguese food🇵🇹 https://t.co/XapaWrJOQB",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1805942018696257500,
+          "id_str": "1805942018696257538",
+          "indices": [
+            25,
+            48
+          ],
+          "media_url": "http://pbs.twimg.com/media/GQ_-sp1XoAIqXPu.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GQ_-sp1XoAIqXPu.jpg",
+          "url": "https://t.co/XapaWrJOQB",
+          "display_url": "pic.twitter.com/XapaWrJOQB",
+          "expanded_url": "https://twitter.com/TeresaJohn_/status/1805942128284987458/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 2560,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 423,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1920,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2189,
+                "w": 1920
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "h": 2560,
+                "w": 1280
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2560,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 485,
+                  "y": 1584,
+                  "h": 136,
+                  "w": 136
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 161,
+                  "y": 525,
+                  "h": 45,
+                  "w": 45
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 607,
+                  "y": 1980,
+                  "h": 170,
+                  "w": 170
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 284,
+                  "y": 928,
+                  "h": 79,
+                  "w": 79
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1805942018696257500,
+          "id_str": "1805942018696257538",
+          "indices": [
+            25,
+            48
+          ],
+          "media_url": "http://pbs.twimg.com/media/GQ_-sp1XoAIqXPu.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GQ_-sp1XoAIqXPu.jpg",
+          "url": "https://t.co/XapaWrJOQB",
+          "display_url": "pic.twitter.com/XapaWrJOQB",
+          "expanded_url": "https://twitter.com/TeresaJohn_/status/1805942128284987458/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 2560,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 423,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1920,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2189,
+                "w": 1920
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "h": 2560,
+                "w": 1280
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2560,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 485,
+                  "y": 1584,
+                  "h": 136,
+                  "w": 136
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 161,
+                  "y": 525,
+                  "h": 45,
+                  "w": 45
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 607,
+                  "y": 1980,
+                  "h": 170,
+                  "w": 170
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 284,
+                  "y": 928,
+                  "h": 79,
+                  "w": 79
+                }
+              ]
+            }
+          },
+          "media_key": "3_1805942018696257538"
+        },
+        {
+          "id": 1805942018700374000,
+          "id_str": "1805942018700374018",
+          "indices": [
+            25,
+            48
+          ],
+          "media_url": "http://pbs.twimg.com/media/GQ_-sp2WcAIvtD0.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GQ_-sp2WcAIvtD0.jpg",
+          "url": "https://t.co/XapaWrJOQB",
+          "display_url": "pic.twitter.com/XapaWrJOQB",
+          "expanded_url": "https://twitter.com/TeresaJohn_/status/1805942128284987458/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 2560,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 1485,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 640,
+                "h": 1920,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 371,
+                "h": 2189,
+                "w": 1920
+              },
+              {
+                "x": 640,
+                "y": 0,
+                "h": 2560,
+                "w": 1280
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2560,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1805942018700374018"
+        },
+        {
+          "id": 1805942018700386300,
+          "id_str": "1805942018700386304",
+          "indices": [
+            25,
+            48
+          ],
+          "media_url": "http://pbs.twimg.com/media/GQ_-sp2WoAAE98N.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GQ_-sp2WoAAE98N.jpg",
+          "url": "https://t.co/XapaWrJOQB",
+          "display_url": "pic.twitter.com/XapaWrJOQB",
+          "expanded_url": "https://twitter.com/TeresaJohn_/status/1805942128284987458/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 2560,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1920,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2189,
+                "w": 1920
+              },
+              {
+                "x": 640,
+                "y": 0,
+                "h": 2560,
+                "w": 1280
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2560,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1805942018700386304"
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "pt",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1789518971261394944/4tJRn2ro_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1789518971261394944/4tJRn2ro_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1737845862817267712/1715489570",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+},
+{
+  "id": 1788365439212417000,
+  "id_str": "1788365439212417024",
+  "name": "SMB Attorney ✪",
+  "screen_name": "_SMB_Attorney_",
+  "location": "Florida, USA",
+  "description": "Eric Pacifici | Helping folks buy, sell and operate enduringly profitable businesses at @SMBLawGroup &@theSMBCenter l @Kirkland Ellis & @GibsonDunn |@dukelaw",
+  "url": "https://t.co/CnsFC9dooB",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/CnsFC9dooB",
+          "expanded_url": "http://linktr.ee/smb_attorney",
+          "display_url": "linktr.ee/smb_attorney",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 441,
+  "fast_followers_count": 0,
+  "normal_followers_count": 441,
+  "friends_count": 7383,
+  "listed_count": 0,
+  "created_at": "Thu May 09 00:29:24 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1788529182542118912/08Zo5pfE_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1788529182542118912/08Zo5pfE_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1788365439212417024/1715253576",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "KN10417"
+}]

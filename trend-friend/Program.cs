@@ -31,13 +31,48 @@ public class Program {
 
     private static List<string> X_GOOD_NAMES = new List<string>();
 
-    private static async Task<int> PopulateXGoodNames(string x_account) {
-        var input = new { getFollowers = false, getFollowing = true, user_names = new[] { x_account }, maxFollowings = 10000, };
+    // invert to get people following the supplied account (otherwise we get people the supplied account follows)
+    private static async Task<int> PopulateXGoodNames(string x_account, int depth = 1, int max_depth = 1, bool invert = false) {
+        var input = new { getFollowers = invert ? true : false, getFollowing = invert ? false : true, user_names = new[] { x_account }, /*maxFollowings = 1000,*/ };
         var json = await GetTwitterFollowersOrFollowing("-", "X_" + x_account, "X_" + x_account, input, x_account);
         var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(json);
-        X_GOOD_NAMES.AddRange(data.Select(p => p.Name));
-        return data.Count();
+        foreach (var name in data.Select(p => p.Name)) {
+            if (!X_GOOD_NAMES.Contains(name)) {
+                X_GOOD_NAMES.Add(name);
+            }
+        }
 
+        if (depth < max_depth) {
+            // recursing followings by their follower counts basically adds celebrity accounts
+            var top_followings_by_followers = data.Where(p => p.Type != "mock_user").OrderByDescending(p => p.Followers_Count).Take(invert ? 20 : 5);
+            await Task.WhenAll(
+                top_followings_by_followers
+                    .AsParallel()
+                    .WithDegreeOfParallelism(8)
+                    .Select(async x => {
+                        if (!X_GOOD_NAMES.Contains(x.Name)) {
+                            X_GOOD_NAMES.Add(x.Name);
+                        }
+                        await PopulateXGoodNames(x.Screen_Name, depth + 1, max_depth, invert);
+                    })
+            );
+
+            // so lets also recurse followings by default sort (most recently followed first), just for some variety
+            var top_followings_by_date = data.Where(p => p.Type != "mock_user").Take(invert ? 20 : 5);
+            await Task.WhenAll(
+                top_followings_by_date
+                    .AsParallel()
+                    .WithDegreeOfParallelism(8)
+                    .Select(async x => {
+                        if (!X_GOOD_NAMES.Contains(x.Name)) {
+                            X_GOOD_NAMES.Add(x.Name);
+                        }
+                        await PopulateXGoodNames(x.Screen_Name, depth + 1, max_depth, invert);
+                    })
+            );
+        }
+
+        return data.Count();
     }
 
     const double TREND_MIN_SLOPE = 0.05;
@@ -79,8 +114,14 @@ public class Program {
         while (true) {
             try {
                 // fetch template accounts: we'll use their x followings to grade coins' followers
-                await PopulateXGoodNames("_Sabai_Sabai");
-                await PopulateXGoodNames("dubbingwifhat");
+                await PopulateXGoodNames("_Sabai_Sabai", 1, 2);
+                await PopulateXGoodNames("dubbingwifhat", 1, 2);
+                await PopulateXGoodNames("Topxl63", 1, 2);
+                await PopulateXGoodNames("Topxl00", 1, 2);
+                await PopulateXGoodNames("MustStopMurad", 1, 2);
+                await PopulateXGoodNames("7etsuo", 1, 2, true);
+                await PopulateXGoodNames("kkashi_yt", 1, 2, true);
+                await PopulateXGoodNames("kkashi_yt", 1, 2);
 
                 // tr0 -- trend sample 0: taken at 3hrs
                 // tr1 -- trend sample 1: taken at 6hrs
@@ -139,8 +180,8 @@ public class Program {
                 Bot.Currents["6HR"] = new List<string>();
                 Bot.Currents["12HR"] = new List<string>();
                 //await ProcessQuery("3HR", query_3hr, hr6_symbolsSeen, 3);
-                await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen, 8);
-                await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen, 8);
+                await ProcessQuery("6HR", query_6hr, hr6_symbolsSeen, 3);
+                await ProcessQuery("12HR", query_12hr, hr12_symbolsSeen, 3);
 
                 // Sleep between iterations
                 await Task.Delay(TimeSpan.FromMinutes(MINS_SLEEP));
@@ -168,7 +209,7 @@ public class Program {
             var tableBuilder = new StringBuilder();
             tableBuilder.AppendLine("```");
             tableBuilder.AppendLine($"{prefix} Results (LIMIT_N={LIMIT_N}):");
-            tableBuilder.AppendLine("Sym+Age  MC$m Z       Hs   /kMC");
+            tableBuilder.AppendLine("Sym+Age  MC$m Z       X   H/kMC");
             tableBuilder.AppendLine("-------------------------------");
 
 
@@ -237,6 +278,7 @@ public class Program {
                                     + $"\n z\\_score = {z_score.ToString("0.00")}"
                                     + $"\n holders = {cur_holders}"
                                     + $"\n h/k$MC = {holders_per_mc.ToString("0.00")} "
+                                    + $"\n x\\_score = {x_score} "
                                     + $"\n {tr_info}"
                                     + "\n_" + (!string.IsNullOrEmpty(metadata.Description) ? metadata.Description.Replace("http", "").Replace("_", " ") : "") + "_";
 
@@ -245,7 +287,8 @@ public class Program {
                                 (symbol.Length > 5 ? symbol.Substring(0, 5) : symbol) + $"+{hrs_old * -1}",
                                 FormatMillions(cur_mc),
                                 (tr_trend == true ? "*" : "/") + FormatZ(z_score), //.ToString("0.0"),
-                                FormatThousandsToK(cur_holders),
+                                //FormatThousandsToK(cur_holders),
+                                FormatThousandsToK(x_score ?? 0),
                                 holders_per_mc.ToString("0.0")
                             ));
                     
@@ -403,15 +446,11 @@ public class Program {
 
         if (File.Exists(jsonPath)) {
             var fileInfo = new FileInfo(jsonPath);
-            if (DateTime.UtcNow - fileInfo.LastWriteTimeUtc < TimeSpan.FromHours(24)) {
+            //if (DateTime.UtcNow - fileInfo.LastWriteTimeUtc < TimeSpan.FromHours(24)) {
                 Console.WriteLine($"{prefix} GetTwitterFollowersOrFollowing - Using cached data for {symbol} {name} from {jsonPath}");
                 string json = await File.ReadAllTextAsync(jsonPath);
                 return json;
-                //var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(json);
-                //if (data == null) return 0;
-                //var old_followers = data.Where(p => DateTime.ParseExact(p.Created_At, "ddd MMM dd HH:mm:ss +0000 yyyy", CultureInfo.InvariantCulture) < DateTime.UtcNow.AddMonths(-1)).ToList();
-                //return old_followers.Sum(p => p.Followers_Count); // exclude accounts created in last one month
-            }
+            //}
         }
 
         using (var client = new HttpClient()) {
@@ -438,10 +477,6 @@ public class Program {
             await File.WriteAllTextAsync(jsonPath, responseBody);
 
             return responseBody;
-            //var data = JsonConvert.DeserializeObject<List<Twitter_ReturnData>>(responseBody);
-            //if (data == null) return 0;
-            //var old_followers = data.Where(p => DateTime.ParseExact(p.Created_At, "ddd MMM dd HH:mm:ss +0000 yyyy", CultureInfo.InvariantCulture) < DateTime.UtcNow.AddMonths(-1)).ToList();
-            //return old_followers.Sum(p => p.Followers_Count); // exclude accounts created in last one month
         }
     }
 

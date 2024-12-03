@@ -1,0 +1,806 @@
+[{
+  "id": 971662602680987600,
+  "id_str": "971662602680987648",
+  "name": "fram2",
+  "screen_name": "framonauts",
+  "location": "",
+  "description": "First human spaceflight to Earth’s polar regions.",
+  "url": "https://t.co/oKSxLnglS3",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/oKSxLnglS3",
+          "expanded_url": "http://f2.com",
+          "display_url": "f2.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3651,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3651,
+  "friends_count": 8,
+  "listed_count": 42,
+  "created_at": "Thu Mar 08 08:23:11 +0000 2018",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 46,
+  "media_count": 1,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 28 01:53:37 +0000 2024",
+    "id": 1861951551155163400,
+    "id_str": "1861951551155163337",
+    "text": "RT @rprogge: We just completed another round of training!\n\nThis session featured: \n🚀 flight simulations in the Dragon spacecraft mockup veh…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "rprogge",
+          "name": "Rabea Rogge",
+          "id": 1817879729707626500,
+          "id_str": "1817879729707626496",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Nov 27 14:02:44 +0000 2024",
+      "id": 1861772649870791000,
+      "id_str": "1861772649870791005",
+      "text": "We just completed another round of training!\n\nThis session featured: \n🚀 flight simulations in the Dragon spacecraft… https://t.co/JIMsVRvAOu",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/JIMsVRvAOu",
+            "expanded_url": "https://twitter.com/i/web/status/1861772649870791005",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 46,
+      "favorite_count": 571,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 46,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1820645948541796352/nvlXAVyR_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1820645948541796352/nvlXAVyR_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/971662602680987648/1723491865",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "rprogge"
+},
+{
+  "id": 843586794155196400,
+  "id_str": "843586794155196416",
+  "name": "Chun",
+  "screen_name": "satofishi",
+  "location": "Sol III",
+  "description": "Bitcoin. f2pool. stakefish. Documenting my travel to every country/territory in the world following ISO 3166: 51% (128 of 249) on 1 planet(s) done and counting…",
+  "url": "https://t.co/Ghp8ZMBdmp",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/Ghp8ZMBdmp",
+          "expanded_url": "https://www.youtube.com/@satofishi",
+          "display_url": "youtube.com/@satofishi",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 45045,
+  "fast_followers_count": 0,
+  "normal_followers_count": 45045,
+  "friends_count": 291,
+  "listed_count": 703,
+  "created_at": "Sun Mar 19 22:15:39 +0000 2017",
+  "favourites_count": 1404,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1826,
+  "media_count": 617,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 21 05:56:08 +0000 2024",
+    "id": 1859475866272911600,
+    "id_str": "1859475866272911548",
+    "text": "Do you miss those bitcoins you sold for under $100,000?",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 8,
+    "favorite_count": 55,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1365418964084420608/vaulbpTg_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1365418964084420608/vaulbpTg_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/843586794155196416/1719453809",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "rprogge"
+},
+{
+  "id": 1291389427630121000,
+  "id_str": "1291389427630120961",
+  "name": "Jannicke Mikkelsen",
+  "screen_name": "astro_jannicke",
+  "location": "Svalbard",
+  "description": "Specialized in high-tech film production in polar environments.",
+  "url": "https://t.co/pwShpnTx8g",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/pwShpnTx8g",
+          "expanded_url": "http://www.jmfnf.com",
+          "display_url": "jmfnf.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1229,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1229,
+  "friends_count": 109,
+  "listed_count": 17,
+  "created_at": "Thu Aug 06 15:03:38 +0000 2020",
+  "favourites_count": 254,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 41,
+  "media_count": 2,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 11:05:16 +0000 2024",
+    "id": 1863177539562119700,
+    "id_str": "1863177539562119586",
+    "text": "Inspiration https://t.co/EUMTtahlEM",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/EUMTtahlEM",
+          "expanded_url": "https://twitter.com/astro_pettit/status/1863113416098873407",
+          "display_url": "twitter.com/astro_pettit/s…",
+          "indices": [
+            12,
+            35
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1863113416098873300,
+    "quoted_status_id_str": "1863113416098873407",
+    "retweet_count": 0,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862121890799624193/CPpOzoyQ_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862121890799624193/CPpOzoyQ_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1291389427630120961/1732799441",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "rprogge"
+},
+{
+  "id": 532755214,
+  "id_str": "532755214",
+  "name": "Eric Philips",
+  "screen_name": "Icetrek",
+  "location": "Australia",
+  "description": "I'm a professional polar adventurer and guide, co-founder of the Int Polar Guides Association & co-creator of the Polar Expeditions Classification Scheme (PECS)",
+  "url": "https://t.co/EERARPuRSV",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/EERARPuRSV",
+          "expanded_url": "http://ericphilips.com",
+          "display_url": "ericphilips.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1077,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1077,
+  "friends_count": 15,
+  "listed_count": 16,
+  "created_at": "Thu Mar 22 02:25:59 +0000 2012",
+  "favourites_count": 34,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 868,
+  "media_count": 3,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Oct 02 00:04:49 +0000 2024",
+    "id": 1841268060508057600,
+    "id_str": "1841268060508057726",
+    "text": "First photo of the Framonauts in our training suits. Soon our patch sticker will join previous missions on the side… https://t.co/rZ0GfNs87s",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/rZ0GfNs87s",
+          "expanded_url": "https://twitter.com/i/web/status/1841268060508057726",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 66,
+    "favorite_count": 475,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/744845214250991616/4_uZGDHa_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/744845214250991616/4_uZGDHa_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/532755214/1724022259",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "rprogge"
+},
+{
+  "id": 11348282,
+  "id_str": "11348282",
+  "name": "NASA",
+  "screen_name": "NASA",
+  "location": "Pale Blue Dot",
+  "description": "There's space for everybody. ✨\n\nVerification: https://t.co/8nok3NP4PW",
+  "url": "https://t.co/9NkQJKAnuU",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/9NkQJKAnuU",
+          "expanded_url": "http://www.nasa.gov/",
+          "display_url": "nasa.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/8nok3NP4PW",
+          "expanded_url": "http://nasa.gov/socialmedia",
+          "display_url": "nasa.gov/socialmedia",
+          "indices": [
+            46,
+            69
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 84052244,
+  "fast_followers_count": 0,
+  "normal_followers_count": 84052244,
+  "friends_count": 173,
+  "listed_count": 98155,
+  "created_at": "Wed Dec 19 20:20:32 +0000 2007",
+  "favourites_count": 16460,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 72536,
+  "media_count": 27256,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 18:11:01 +0000 2024",
+    "id": 1862559909935534000,
+    "id_str": "1862559909935534198",
+    "text": "Small businesses are an integral part of what we do at NASA. On #SmallBusinessSaturday, see how your business can t… https://t.co/ZBpBIE1qqP",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SmallBusinessSaturday",
+          "indices": [
+            64,
+            86
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/ZBpBIE1qqP",
+          "expanded_url": "https://twitter.com/i/web/status/1862559909935534198",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 433,
+    "favorite_count": 2054,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/11348282/1718393721",
+  "profile_link_color": "205BA7",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "F3F2F2",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1861429939410444300
+  ],
+  "pinned_tweet_ids_str": [
+    "1861429939410444407"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "rprogge"
+},
+{
+  "id": 34743251,
+  "id_str": "34743251",
+  "name": "SpaceX",
+  "screen_name": "SpaceX",
+  "location": "Earth",
+  "description": "SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft",
+  "url": "https://t.co/VOJ6qEctND",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/VOJ6qEctND",
+          "expanded_url": "http://spacex.com",
+          "display_url": "spacex.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 36958312,
+  "fast_followers_count": 0,
+  "normal_followers_count": 36958312,
+  "friends_count": 120,
+  "listed_count": 42797,
+  "created_at": "Thu Apr 23 21:53:30 +0000 2009",
+  "favourites_count": 495,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 9508,
+  "media_count": 3529,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 17:34:48 +0000 2024",
+    "id": 1862913184015024400,
+    "id_str": "1862913184015024327",
+    "text": "Falcon 9 launches the @NatReconOfc's NROL-126 mission and 20 Starlink satellites to orbit, completing our 100th suc… https://t.co/M1yWKbArBp",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "NatReconOfc",
+          "name": "NRO",
+          "id": 2785785023,
+          "id_str": "2785785023",
+          "indices": [
+            22,
+            34
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/M1yWKbArBp",
+          "expanded_url": "https://twitter.com/i/web/status/1862913184015024327",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 709,
+    "favorite_count": 5278,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/34743251/1681251194",
+  "profile_link_color": "62616B",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1857841326542434300
+  ],
+  "pinned_tweet_ids_str": [
+    "1857841326542434339"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "rprogge"
+}]

@@ -1,0 +1,1981 @@
+[{
+  "id": 971662602680987600,
+  "id_str": "971662602680987648",
+  "name": "fram2",
+  "screen_name": "framonauts",
+  "location": "",
+  "description": "First human spaceflight to Earth’s polar regions.",
+  "url": "https://t.co/oKSxLnglS3",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/oKSxLnglS3",
+          "expanded_url": "http://f2.com",
+          "display_url": "f2.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3651,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3651,
+  "friends_count": 8,
+  "listed_count": 42,
+  "created_at": "Thu Mar 08 08:23:11 +0000 2018",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 46,
+  "media_count": 1,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 28 01:53:37 +0000 2024",
+    "id": 1861951551155163400,
+    "id_str": "1861951551155163337",
+    "text": "RT @rprogge: We just completed another round of training!\n\nThis session featured: \n🚀 flight simulations in the Dragon spacecraft mockup veh…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "rprogge",
+          "name": "Rabea Rogge",
+          "id": 1817879729707626500,
+          "id_str": "1817879729707626496",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Nov 27 14:02:44 +0000 2024",
+      "id": 1861772649870791000,
+      "id_str": "1861772649870791005",
+      "text": "We just completed another round of training!\n\nThis session featured: \n🚀 flight simulations in the Dragon spacecraft… https://t.co/JIMsVRvAOu",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/JIMsVRvAOu",
+            "expanded_url": "https://twitter.com/i/web/status/1861772649870791005",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 46,
+      "favorite_count": 571,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 46,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1820645948541796352/nvlXAVyR_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1820645948541796352/nvlXAVyR_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/971662602680987648/1723491865",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 843586794155196400,
+  "id_str": "843586794155196416",
+  "name": "Chun",
+  "screen_name": "satofishi",
+  "location": "Sol III",
+  "description": "Bitcoin. f2pool. stakefish. Documenting my travel to every country/territory in the world following ISO 3166: 51% (128 of 249) on 1 planet(s) done and counting…",
+  "url": "https://t.co/Ghp8ZMBdmp",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/Ghp8ZMBdmp",
+          "expanded_url": "https://www.youtube.com/@satofishi",
+          "display_url": "youtube.com/@satofishi",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 45045,
+  "fast_followers_count": 0,
+  "normal_followers_count": 45045,
+  "friends_count": 291,
+  "listed_count": 703,
+  "created_at": "Sun Mar 19 22:15:39 +0000 2017",
+  "favourites_count": 1404,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1826,
+  "media_count": 617,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 21 05:56:08 +0000 2024",
+    "id": 1859475866272911600,
+    "id_str": "1859475866272911548",
+    "text": "Do you miss those bitcoins you sold for under $100,000?",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 8,
+    "favorite_count": 55,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1365418964084420608/vaulbpTg_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1365418964084420608/vaulbpTg_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/843586794155196416/1719453809",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 1817879729707626500,
+  "id_str": "1817879729707626496",
+  "name": "Rabea Rogge",
+  "screen_name": "rprogge",
+  "location": "",
+  "description": "Arctic roboticist & space enthusiast. Always excited about science, tech and future visions! Let's go - ad astra ✨",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1503,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1503,
+  "friends_count": 6,
+  "listed_count": 18,
+  "created_at": "Mon Jul 29 11:09:19 +0000 2024",
+  "favourites_count": 46,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 10,
+  "media_count": 2,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Nov 27 14:02:44 +0000 2024",
+    "id": 1861772649870791000,
+    "id_str": "1861772649870791005",
+    "text": "We just completed another round of training!\n\nThis session featured: \n🚀 flight simulations in the Dragon spacecraft… https://t.co/JIMsVRvAOu",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/JIMsVRvAOu",
+          "expanded_url": "https://twitter.com/i/web/status/1861772649870791005",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 46,
+    "favorite_count": 571,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1821245861243781120/zfw_pYxd_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1821245861243781120/zfw_pYxd_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1817879729707626496/1723055585",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 1291389427630121000,
+  "id_str": "1291389427630120961",
+  "name": "Jannicke Mikkelsen",
+  "screen_name": "astro_jannicke",
+  "location": "Svalbard",
+  "description": "Specialized in high-tech film production in polar environments.",
+  "url": "https://t.co/pwShpnTx8g",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/pwShpnTx8g",
+          "expanded_url": "http://www.jmfnf.com",
+          "display_url": "jmfnf.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1229,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1229,
+  "friends_count": 109,
+  "listed_count": 17,
+  "created_at": "Thu Aug 06 15:03:38 +0000 2020",
+  "favourites_count": 254,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 41,
+  "media_count": 2,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 11:05:16 +0000 2024",
+    "id": 1863177539562119700,
+    "id_str": "1863177539562119586",
+    "text": "Inspiration https://t.co/EUMTtahlEM",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/EUMTtahlEM",
+          "expanded_url": "https://twitter.com/astro_pettit/status/1863113416098873407",
+          "display_url": "twitter.com/astro_pettit/s…",
+          "indices": [
+            12,
+            35
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1863113416098873300,
+    "quoted_status_id_str": "1863113416098873407",
+    "retweet_count": 0,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862121890799624193/CPpOzoyQ_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862121890799624193/CPpOzoyQ_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1291389427630120961/1732799441",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 19725644,
+  "id_str": "19725644",
+  "name": "Neil deGrasse Tyson",
+  "screen_name": "neiltyson",
+  "location": "New York City",
+  "description": "Astrophysicist\nhttps://t.co/sujhGiva2J",
+  "url": "https://t.co/FoylFeRQzY",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/FoylFeRQzY",
+          "expanded_url": "http://www.neildegrassetyson.com",
+          "display_url": "neildegrassetyson.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/sujhGiva2J",
+          "expanded_url": "https://braid.ai/neildegrassetyson",
+          "display_url": "braid.ai/neildegrassety…",
+          "indices": [
+            15,
+            38
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 14512349,
+  "fast_followers_count": 0,
+  "normal_followers_count": 14512349,
+  "friends_count": 27,
+  "listed_count": 40727,
+  "created_at": "Thu Jan 29 18:40:26 +0000 2009",
+  "favourites_count": 6,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 8202,
+  "media_count": 1185,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 13:03:52 +0000 2024",
+    "id": 1862844999475323100,
+    "id_str": "1862844999475323021",
+    "text": "**November 30**\n\nToday, after  just a week in Scorpio, the Sun crosses Ophiuchus, where it will visit for three wee… https://t.co/R5PMV8ZBHz",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/R5PMV8ZBHz",
+          "expanded_url": "https://twitter.com/i/web/status/1862844999475323021",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 106,
+    "favorite_count": 713,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "DBE9ED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1554062945096794113/-MPAg1pY_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1554062945096794113/-MPAg1pY_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/19725644/1730434317",
+  "profile_link_color": "CC3366",
+  "profile_sidebar_border_color": "DBE9ED",
+  "profile_sidebar_fill_color": "E6F6F9",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1608938917704929300
+  ],
+  "pinned_tweet_ids_str": [
+    "1608938917704929282"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 14283618,
+  "id_str": "14283618",
+  "name": "The Skeptics' Guide To The Universe ⚛️",
+  "screen_name": "SkepticsGuide",
+  "location": "USA",
+  "description": "The official Twitter for The Skeptics' Guide To The Universe.",
+  "url": "https://t.co/mvLKlsT9vx",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/mvLKlsT9vx",
+          "expanded_url": "http://SkepticsGuidetotheFutureBook.com",
+          "display_url": "SkepticsGuidetotheFutureBook.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 76873,
+  "fast_followers_count": 0,
+  "normal_followers_count": 76873,
+  "friends_count": 245,
+  "listed_count": 1367,
+  "created_at": "Wed Apr 02 15:00:01 +0000 2008",
+  "favourites_count": 503,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 5498,
+  "media_count": 959,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 17:00:32 +0000 2024",
+    "id": 1862904557728104700,
+    "id_str": "1862904557728104638",
+    "text": "We're just one week away from our DC shows! On top of a Private Show Plus, you're getting a rare, holiday-themed Sk… https://t.co/MHjW50EvMS",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/MHjW50EvMS",
+          "expanded_url": "https://twitter.com/i/web/status/1862904557728104638",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 7,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "9AE4E8",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1055526861625872384/uqFWwZXg_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1055526861625872384/uqFWwZXg_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/14283618/1731632766",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "BDDCAD",
+  "profile_sidebar_fill_color": "DDFFCC",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 11348282,
+  "id_str": "11348282",
+  "name": "NASA",
+  "screen_name": "NASA",
+  "location": "Pale Blue Dot",
+  "description": "There's space for everybody. ✨\n\nVerification: https://t.co/8nok3NP4PW",
+  "url": "https://t.co/9NkQJKAnuU",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/9NkQJKAnuU",
+          "expanded_url": "http://www.nasa.gov/",
+          "display_url": "nasa.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/8nok3NP4PW",
+          "expanded_url": "http://nasa.gov/socialmedia",
+          "display_url": "nasa.gov/socialmedia",
+          "indices": [
+            46,
+            69
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 84052244,
+  "fast_followers_count": 0,
+  "normal_followers_count": 84052244,
+  "friends_count": 173,
+  "listed_count": 98155,
+  "created_at": "Wed Dec 19 20:20:32 +0000 2007",
+  "favourites_count": 16460,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 72536,
+  "media_count": 27256,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 18:11:01 +0000 2024",
+    "id": 1862559909935534000,
+    "id_str": "1862559909935534198",
+    "text": "Small businesses are an integral part of what we do at NASA. On #SmallBusinessSaturday, see how your business can t… https://t.co/ZBpBIE1qqP",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SmallBusinessSaturday",
+          "indices": [
+            64,
+            86
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/ZBpBIE1qqP",
+          "expanded_url": "https://twitter.com/i/web/status/1862559909935534198",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 433,
+    "favorite_count": 2054,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/11348282/1718393721",
+  "profile_link_color": "205BA7",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "F3F2F2",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1861429939410444300
+  ],
+  "pinned_tweet_ids_str": [
+    "1861429939410444407"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 50115087,
+  "id_str": "50115087",
+  "name": "NASA's Johnson Space Center",
+  "screen_name": "NASA_Johnson",
+  "location": "Houston, TX",
+  "description": "Lead center for the @Space_Station, @NASA_Orion, and @NASA_Gateway. Home to Mission Control and the @NASA_Astronauts corps. Verification: https://t.co/7u1SQekfru",
+  "url": "https://t.co/BFBZ3UVVlW",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/BFBZ3UVVlW",
+          "expanded_url": "http://www.nasa.gov/johnson",
+          "display_url": "nasa.gov/johnson",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/7u1SQekfru",
+          "expanded_url": "http://nasa.gov/socialmedia",
+          "display_url": "nasa.gov/socialmedia",
+          "indices": [
+            138,
+            161
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 2173910,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2173910,
+  "friends_count": 183,
+  "listed_count": 10923,
+  "created_at": "Tue Jun 23 21:54:57 +0000 2009",
+  "favourites_count": 8037,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 18483,
+  "media_count": 6088,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 23:31:10 +0000 2024",
+    "id": 1862640475913490700,
+    "id_str": "1862640475913490758",
+    "text": "It’s timeeee ✨🎄\n\nWe hope the 2024 holiday season brings you joy and many sparkling lights to admire, including thos… https://t.co/LkzVHbSgjk",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/LkzVHbSgjk",
+          "expanded_url": "https://twitter.com/i/web/status/1862640475913490758",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 98,
+    "favorite_count": 470,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "040A0A",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/915969030250405888/T0OggIEx_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/915969030250405888/T0OggIEx_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/50115087/1665538942",
+  "profile_link_color": "2E77B0",
+  "profile_sidebar_border_color": "0E0F0D",
+  "profile_sidebar_fill_color": "292929",
+  "profile_text_color": "8A8A8C",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 34743251,
+  "id_str": "34743251",
+  "name": "SpaceX",
+  "screen_name": "SpaceX",
+  "location": "Earth",
+  "description": "SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft",
+  "url": "https://t.co/VOJ6qEctND",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/VOJ6qEctND",
+          "expanded_url": "http://spacex.com",
+          "display_url": "spacex.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 36958305,
+  "fast_followers_count": 0,
+  "normal_followers_count": 36958305,
+  "friends_count": 120,
+  "listed_count": 42797,
+  "created_at": "Thu Apr 23 21:53:30 +0000 2009",
+  "favourites_count": 495,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 9508,
+  "media_count": 3529,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 17:34:48 +0000 2024",
+    "id": 1862913184015024400,
+    "id_str": "1862913184015024327",
+    "text": "Falcon 9 launches the @NatReconOfc's NROL-126 mission and 20 Starlink satellites to orbit, completing our 100th suc… https://t.co/M1yWKbArBp",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "NatReconOfc",
+          "name": "NRO",
+          "id": 2785785023,
+          "id_str": "2785785023",
+          "indices": [
+            22,
+            34
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/M1yWKbArBp",
+          "expanded_url": "https://twitter.com/i/web/status/1862913184015024327",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 709,
+    "favorite_count": 5278,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/34743251/1681251194",
+  "profile_link_color": "62616B",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1857841326542434300
+  ],
+  "pinned_tweet_ids_str": [
+    "1857841326542434339"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 510129400,
+  "id_str": "510129400",
+  "name": "International Polar Foundation",
+  "screen_name": "PolarFoundation",
+  "location": "Brussels, Belgium",
+  "description": "The International Polar Foundation supports polar scientific research for the advancement of knowledge, the promotion of informed action on climate change, and",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 7953,
+  "fast_followers_count": 0,
+  "normal_followers_count": 7953,
+  "friends_count": 4503,
+  "listed_count": 215,
+  "created_at": "Thu Mar 01 12:00:31 +0000 2012",
+  "favourites_count": 12010,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 8047,
+  "media_count": 675,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 10:02:07 +0000 2024",
+    "id": 1862799259914862800,
+    "id_str": "1862799259914862729",
+    "text": "A beautiful chance encounter with a pod of 4 Arnoux Beaked Whales! Even laying eyes on this species is extremely un… https://t.co/jb1VnveHIw",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/jb1VnveHIw",
+          "expanded_url": "https://twitter.com/i/web/status/1862799259914862729",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1630207725144621058/zCpsurTl_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1630207725144621058/zCpsurTl_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/510129400/1677506430",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1853861738556293000
+  ],
+  "pinned_tweet_ids_str": [
+    "1853861738556293246"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 324418577,
+  "id_str": "324418577",
+  "name": "Dixie Dansercoer",
+  "screen_name": "DixieDansercoer",
+  "location": "Belgium",
+  "description": "Polar Explorer, Polar Guide, Author, Public Speaker, Film Production @polarxperience",
+  "url": "https://t.co/oZJkQGiyAB",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/oZJkQGiyAB",
+          "expanded_url": "http://www.polarexperience.com",
+          "display_url": "polarexperience.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 514,
+  "fast_followers_count": 0,
+  "normal_followers_count": 514,
+  "friends_count": 47,
+  "listed_count": 9,
+  "created_at": "Sun Jun 26 15:46:17 +0000 2011",
+  "favourites_count": 146,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 545,
+  "media_count": 193,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Apr 17 14:10:21 +0000 2021",
+    "id": 1383422583433949200,
+    "id_str": "1383422583433949191",
+    "text": "@AshRouten hey Ash, keeping you updated: we managed to get an exemption from the Greenland authorities to enter for… https://t.co/udt58Esajd",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "AshRouten",
+          "name": "Ash Routen",
+          "id": 1400269873,
+          "id_str": "1400269873",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/udt58Esajd",
+          "expanded_url": "https://twitter.com/i/web/status/1383422583433949191",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 1400269873,
+    "in_reply_to_user_id_str": "1400269873",
+    "in_reply_to_screen_name": "AshRouten",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1414223997/1_March_20u17_Dixie_end_of_workdaylores_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1414223997/1_March_20u17_Dixie_end_of_workdaylores_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 511970716,
+  "id_str": "511970716",
+  "name": "EducaPoles",
+  "screen_name": "EducaPoles",
+  "location": "Brussels",
+  "description": "Education initiative from @polarfoundation to communicate the importance of the polar science and climate change to young people.",
+  "url": "http://t.co/mrhVNvaTok",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "http://t.co/mrhVNvaTok",
+          "expanded_url": "http://www.educapoles.org/",
+          "display_url": "educapoles.org",
+          "indices": [
+            0,
+            22
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 844,
+  "fast_followers_count": 0,
+  "normal_followers_count": 844,
+  "friends_count": 1183,
+  "listed_count": 37,
+  "created_at": "Fri Mar 02 13:57:40 +0000 2012",
+  "favourites_count": 54,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 521,
+  "media_count": 87,
+  "lang": null,
+  "status": {
+    "created_at": "Tue May 09 15:37:09 +0000 2017",
+    "id": 861968289995653100,
+    "id_str": "861968289995653120",
+    "text": "Calling all teachers interested in #Arctic education. Plz contribute to this survey and circulate to others. Thnx!… https://t.co/X3KFthqKP6",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Arctic",
+          "indices": [
+            35,
+            42
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/X3KFthqKP6",
+          "expanded_url": "https://twitter.com/i/web/status/861968289995653120",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1921785306/educapoles_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1921785306/educapoles_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/511970716/1359630747",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    767695568781049900
+  ],
+  "pinned_tweet_ids_str": [
+    "767695568781049857"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": true,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 511990190,
+  "id_str": "511990190",
+  "name": "ExploraPoles",
+  "screen_name": "ExploraPoles",
+  "location": "Brussels",
+  "description": "News and updates on polar expeditions and Arctic & Antarctic explorers, and the importance of polar regions to our planet's climate system - by @polarfoundation",
+  "url": "http://t.co/QhmbblvGKs",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "http://t.co/QhmbblvGKs",
+          "expanded_url": "http://www.explorapoles.org/",
+          "display_url": "explorapoles.org",
+          "indices": [
+            0,
+            22
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 620,
+  "fast_followers_count": 0,
+  "normal_followers_count": 620,
+  "friends_count": 787,
+  "listed_count": 30,
+  "created_at": "Fri Mar 02 14:12:30 +0000 2012",
+  "favourites_count": 1,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 92,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Jun 24 12:08:29 +0000 2016",
+    "id": 746314046157299700,
+    "id_str": "746314046157299712",
+    "text": "Just to let you know we are combining our Twiiter account with our parent organisation, find us @PolarFoundation for educators @EducaPoles",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "PolarFoundation",
+          "name": "International Polar Foundation",
+          "id": 510129400,
+          "id_str": "510129400",
+          "indices": [
+            96,
+            112
+          ]
+        },
+        {
+          "screen_name": "EducaPoles",
+          "name": "EducaPoles",
+          "id": 511970716,
+          "id_str": "511970716",
+          "indices": [
+            127,
+            138
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1921803522/explorapoles_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1921803522/explorapoles_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/511990190/1359632760",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": true,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 2956646293,
+  "id_str": "2956646293",
+  "name": "John (Jon) Muir",
+  "screen_name": "suzanmuir",
+  "location": "Grampians Victoria Australia",
+  "description": "Motivational Speaker and Australia's most widely experienced adventurer; at the cutting edge of world exploration for many decades. Contact, suzanmuir@gmail.com",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 721,
+  "fast_followers_count": 0,
+  "normal_followers_count": 721,
+  "friends_count": 1010,
+  "listed_count": 24,
+  "created_at": "Sat Jan 03 00:30:26 +0000 2015",
+  "favourites_count": 16,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 247,
+  "media_count": 122,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Feb 24 23:32:04 +0000 2021",
+    "id": 1364719774089945000,
+    "id_str": "1364719774089945088",
+    "text": "https://t.co/UaC37WbiiM\nAn invitation to you, to sit down with a glass of wine and  read Suzy's  story about the in… https://t.co/cE4dwlNRuY",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/UaC37WbiiM",
+          "expanded_url": "https://vocal.media/humans/remembering-wlixa90fop",
+          "display_url": "vocal.media/humans/remembe…",
+          "indices": [
+            0,
+            23
+          ]
+        },
+        {
+          "url": "https://t.co/cE4dwlNRuY",
+          "expanded_url": "https://twitter.com/i/web/status/1364719774089945088",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/551533632754421760/jS8ZXgdo_normal.jpeg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/551533632754421760/jS8ZXgdo_normal.jpeg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2956646293/1588389100",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+},
+{
+  "id": 313402909,
+  "id_str": "313402909",
+  "name": "Martin Hartley",
+  "screen_name": "MartinRHartley",
+  "location": "Bristol",
+  "description": "Expedition & Portrait Photographer @TIME Environmental Hero. @SidetrackedMag Director of Photography.",
+  "url": "https://t.co/5VSzQO5dAs",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/5VSzQO5dAs",
+          "expanded_url": "http://www.martinhartley.com",
+          "display_url": "martinhartley.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 4624,
+  "fast_followers_count": 0,
+  "normal_followers_count": 4624,
+  "friends_count": 864,
+  "listed_count": 156,
+  "created_at": "Wed Jun 08 16:10:30 +0000 2011",
+  "favourites_count": 2443,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2322,
+  "media_count": 899,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Apr 26 09:48:17 +0000 2023",
+    "id": 1651161267602702300,
+    "id_str": "1651161267602702336",
+    "text": "RT @xr_GPsAndElders: I don't know whose banner this was at  the Big One but it is stunning and should be shared as widely as possible. Plea…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "xr_GPsAndElders",
+          "name": "XRGrandparentsAndElders @xrgpsandelders.bsky.",
+          "id": 1506913579877998600,
+          "id_str": "1506913579877998598",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 25 18:56:43 +0000 2023",
+      "id": 1650936895667413000,
+      "id_str": "1650936895667412997",
+      "text": "I don't know whose banner this was at  the Big One but it is stunning and should be shared as widely as possible. P… https://t.co/Wh78XkEVZd",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Wh78XkEVZd",
+            "expanded_url": "https://twitter.com/i/web/status/1650936895667412997",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 424,
+      "favorite_count": 839,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 424,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "ACDED6",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1511609342398771204/U-sy-pWs_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1511609342398771204/U-sy-pWs_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/313402909/1649230671",
+  "profile_link_color": "21262B",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Icetrek"
+}]

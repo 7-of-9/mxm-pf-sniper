@@ -1,0 +1,1830 @@
+[{
+  "id": 1421110746122002400,
+  "id_str": "1421110746122002436",
+  "name": "Chronicling America Historic Newspapers",
+  "screen_name": "ChronAmLOC",
+  "location": "Washington, DC",
+  "description": "Official account of the Chronicling America historic newspapers collection from @LibraryCongress & @NEHgov. All Library accounts: https://t.co/IOiFXv1w0J",
+  "url": "https://t.co/2fOCymhZzJ",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/2fOCymhZzJ",
+          "expanded_url": "https://chroniclingamerica.loc.gov/",
+          "display_url": "chroniclingamerica.loc.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/IOiFXv1w0J",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            130,
+            153
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 3928,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3928,
+  "friends_count": 44,
+  "listed_count": 60,
+  "created_at": "Fri Jul 30 14:13:00 +0000 2021",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 2354,
+  "media_count": 1581,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Nov 27 21:48:58 +0000 2024",
+    "id": 1861889980504674600,
+    "id_str": "1861889980504674598",
+    "text": "RT @ArArkives: Fun fact - did you know that Arkansas provided the first (and currently only) Choctaw-language content to the Library of Con…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ArArkives",
+          "name": "Arkansas State Archives",
+          "id": 2493359827,
+          "id_str": "2493359827",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Thu Nov 21 21:02:50 +0000 2024",
+      "id": 1859704046455587000,
+      "id_str": "1859704046455587170",
+      "text": "Fun fact - did you know that Arkansas provided the first (and currently only) Choctaw-language content to the Libra… https://t.co/o9r4EMOQ5S",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/o9r4EMOQ5S",
+            "expanded_url": "https://twitter.com/i/web/status/1859704046455587170",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.loomly.com/\" rel=\"nofollow\">Loomly</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1859704046455587000,
+        "id_str": "1859704046455587170"
+      }
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1422900702356164615/a0rkss_e_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1422900702356164615/a0rkss_e_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1421110746122002436/1628080940",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 1155808831735251000,
+  "id_str": "1155808831735250946",
+  "name": "LOC National Audio-Visual Conservation Center",
+  "screen_name": "LOC_AV",
+  "location": "",
+  "description": "Official account of @LibraryCongress National Audio-Visual Conservation Center, preserving film, video & sound. All Library accounts: https://t.co/wDyoLn7ffw",
+  "url": "https://t.co/yqJ7BOeLz8",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/yqJ7BOeLz8",
+          "expanded_url": "https://www.loc.gov/avconservation/",
+          "display_url": "loc.gov/avconservation/",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/wDyoLn7ffw",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            134,
+            157
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 4212,
+  "fast_followers_count": 0,
+  "normal_followers_count": 4212,
+  "friends_count": 4,
+  "listed_count": 62,
+  "created_at": "Mon Jul 29 11:54:34 +0000 2019",
+  "favourites_count": 41,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1121,
+  "media_count": 1043,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Nov 27 12:47:22 +0000 2024",
+    "id": 1861753681630122000,
+    "id_str": "1861753681630122007",
+    "text": "Quincy Jones, a legendary figure in American music, passed away earlier this month. We're remembering him today wit… https://t.co/kxf7eSIuKo",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/kxf7eSIuKo",
+          "expanded_url": "https://twitter.com/i/web/status/1861753681630122007",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 7,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1155847590719774722/I1AqhdSy_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1155847590719774722/I1AqhdSy_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1155808831735250946/1564401954",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 1046864087068696600,
+  "id_str": "1046864087068696578",
+  "name": "LOC Crowdsourcing",
+  "screen_name": "Crowd_LOC",
+  "location": "Washington, DC",
+  "description": "Official account for @LibraryCongress virtual volunteering: transcribe, review & tag digital collections. All Library accounts: https://t.co/hbRGv5A718",
+  "url": "https://t.co/OJ90BDiC3f",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/OJ90BDiC3f",
+          "expanded_url": "https://crowd.loc.gov/",
+          "display_url": "crowd.loc.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/hbRGv5A718",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            128,
+            151
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 8689,
+  "fast_followers_count": 0,
+  "normal_followers_count": 8689,
+  "friends_count": 13,
+  "listed_count": 117,
+  "created_at": "Mon Oct 01 20:47:02 +0000 2018",
+  "favourites_count": 4513,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 2519,
+  "media_count": 1042,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Nov 25 16:00:14 +0000 2024",
+    "id": 1861077444393923000,
+    "id_str": "1861077444393922972",
+    "text": "RT @DouglassDayorg: Hey Teachers!\n\n🎂 Join us for DOUGLASS DAY!🎂\n\nOn Feb 14 we are transcribing Black history with the @Crowd_LOC! Open to a…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "DouglassDayorg",
+          "name": "Douglass Day",
+          "id": 1196951705033818000,
+          "id_str": "1196951705033818113",
+          "indices": [
+            3,
+            18
+          ]
+        },
+        {
+          "screen_name": "Crowd_LOC",
+          "name": "LOC Crowdsourcing",
+          "id": 1046864087068696600,
+          "id_str": "1046864087068696578",
+          "indices": [
+            118,
+            128
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 23 18:25:16 +0000 2024",
+      "id": 1860389167860977700,
+      "id_str": "1860389167860977762",
+      "text": "Hey Teachers!\n\n🎂 Join us for DOUGLASS DAY!🎂\n\nOn Feb 14 we are transcribing Black history with the @Crowd_LOC! Open… https://t.co/9K3ju7GvV6",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Crowd_LOC",
+            "name": "LOC Crowdsourcing",
+            "id": 1046864087068696600,
+            "id_str": "1046864087068696578",
+            "indices": [
+              98,
+              108
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/9K3ju7GvV6",
+            "expanded_url": "https://twitter.com/i/web/status/1860389167860977762",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 19,
+      "favorite_count": 25,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 19,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1054799135776407552/KOPuePlQ_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1054799135776407552/KOPuePlQ_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1046864087068696578/1540318656",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 903345674472878100,
+  "id_str": "903345674472878081",
+  "name": "LC Labs",
+  "screen_name": "LC_Labs",
+  "location": "Washington, DC",
+  "description": "Official account for news about https://t.co/lctN8kOfYR & digital strategy & collections of the @LibraryCongress. All Library accounts: https://t.co/Fie2HgyZlE",
+  "url": "https://t.co/7RsapSomJt",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/7RsapSomJt",
+          "expanded_url": "https://labs.loc.gov/",
+          "display_url": "labs.loc.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/lctN8kOfYR",
+          "expanded_url": "http://labs.loc.gov",
+          "display_url": "labs.loc.gov",
+          "indices": [
+            32,
+            55
+          ]
+        },
+        {
+          "url": "https://t.co/Fie2HgyZlE",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            136,
+            159
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 11458,
+  "fast_followers_count": 0,
+  "normal_followers_count": 11458,
+  "friends_count": 12,
+  "listed_count": 192,
+  "created_at": "Thu Aug 31 19:56:06 +0000 2017",
+  "favourites_count": 2730,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2502,
+  "media_count": 790,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Oct 30 14:32:44 +0000 2024",
+    "id": 1851633338697535700,
+    "id_str": "1851633338697535772",
+    "text": "Jonathan Walton, a 2024 CCDI Junior Fellow, created a soundscape featuring Library collections to explore history a… https://t.co/muhfBqaiSw",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/muhfBqaiSw",
+          "expanded_url": "https://twitter.com/i/web/status/1851633338697535772",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1031923297330647040/V2-reIFH_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1031923297330647040/V2-reIFH_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/903345674472878081/1534873242",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 774337933893636100,
+  "id_str": "774337933893636096",
+  "name": "Carla Hayden",
+  "screen_name": "LibnOfCongress",
+  "location": "Washington, DC",
+  "description": "Official account of the 14th Librarian of Congress. Let's explore @LibraryCongress & make history together. All Library accounts: https://t.co/omng4mnVAa",
+  "url": "https://t.co/IDfJcmNDvu",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/IDfJcmNDvu",
+          "expanded_url": "https://www.loc.gov/",
+          "display_url": "loc.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/omng4mnVAa",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            130,
+            153
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 80651,
+  "fast_followers_count": 0,
+  "normal_followers_count": 80651,
+  "friends_count": 14,
+  "listed_count": 830,
+  "created_at": "Fri Sep 09 20:05:24 +0000 2016",
+  "favourites_count": 6926,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 4346,
+  "media_count": 2312,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Nov 24 14:42:26 +0000 2024",
+    "id": 1860695475822736000,
+    "id_str": "1860695475822735826",
+    "text": "RT @librarycongress: In celebration of the release of “Wicked,” we decided to dig up the original source material for all things Oz. Check…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "librarycongress",
+          "name": "Library of Congress",
+          "id": 7152572,
+          "id_str": "7152572",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Nov 22 21:30:22 +0000 2024",
+      "id": 1860073359330976300,
+      "id_str": "1860073359330976235",
+      "text": "In celebration of the release of “Wicked,” we decided to dig up the original source material for all things Oz. Che… https://t.co/WR3igMvaym",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/WR3igMvaym",
+            "expanded_url": "https://twitter.com/i/web/status/1860073359330976235",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 120,
+      "favorite_count": 373,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 120,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/776034096392859648/M-tdzTnU_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/776034096392859648/M-tdzTnU_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/774337933893636096/1473855904",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 2831909250,
+  "id_str": "2831909250",
+  "name": "Events at the Library of Congress",
+  "screen_name": "Events_LOC",
+  "location": "",
+  "description": "Official @LibraryCongress account for concerts & events. Request ADA accommodations 5 business days prior ADA@loc.gov All accounts: https://t.co/Ck3Ksgx7MK",
+  "url": "https://t.co/7pZC82EhOp",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/7pZC82EhOp",
+          "expanded_url": "http://www.loc.gov/loc/events/",
+          "display_url": "loc.gov/loc/events/",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/Ck3Ksgx7MK",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            132,
+            155
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 25194,
+  "fast_followers_count": 0,
+  "normal_followers_count": 25194,
+  "friends_count": 12,
+  "listed_count": 230,
+  "created_at": "Thu Sep 25 15:12:16 +0000 2014",
+  "favourites_count": 396,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 4547,
+  "media_count": 2324,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Nov 28 22:00:51 +0000 2023",
+    "id": 1729621402314019000,
+    "id_str": "1729621402314019020",
+    "text": "TOMORROW at 8 p.m. ET : Explore music for string quartet and guitar from a different perspective with the Escher Qu… https://t.co/UrUXxQzFVo",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/UrUXxQzFVo",
+          "expanded_url": "https://twitter.com/i/web/status/1729621402314019020",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1031923545545351170/lnYNOSoY_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1031923545545351170/lnYNOSoY_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2831909250/1536687559",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1539966513695916000
+  ],
+  "pinned_tweet_ids_str": [
+    "1539966513695916032"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 2766634470,
+  "id_str": "2766634470",
+  "name": "John W. Kluge Center",
+  "screen_name": "KlugeCtr",
+  "location": "Washington, DC",
+  "description": "Official account of @LibraryCongress Kluge Center, bringing top scholars to DC to share research w/policymakers. All Library accounts: https://t.co/WGEdrSgzX2",
+  "url": "https://t.co/NU1ga5S69g",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/NU1ga5S69g",
+          "expanded_url": "http://www.loc.gov/loc/kluge/",
+          "display_url": "loc.gov/loc/kluge/",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/WGEdrSgzX2",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            135,
+            158
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 9454,
+  "fast_followers_count": 0,
+  "normal_followers_count": 9454,
+  "friends_count": 37,
+  "listed_count": 119,
+  "created_at": "Mon Aug 25 15:09:48 +0000 2014",
+  "favourites_count": 985,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 3687,
+  "media_count": 430,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Mar 27 19:49:38 +0000 2024",
+    "id": 1773074922245353500,
+    "id_str": "1773074922245353550",
+    "text": "Our annual Kislak Lecture, with Kislak Chair Marcy Norton, is about to begin at 4pm ET! Register and watch here: https://t.co/Ln3nYEN0Nz",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Ln3nYEN0Nz",
+          "expanded_url": "https://loc.zoomgov.com/webinar/register/WN_nAtViag1SACKWklidD2Zvg",
+          "display_url": "loc.zoomgov.com/webinar/regist…",
+          "indices": [
+            113,
+            136
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1031921670628560896/e_EOWtqd_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1031921670628560896/e_EOWtqd_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2766634470/1409248490",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 1710530342,
+  "id_str": "1710530342",
+  "name": "Teaching with the LC",
+  "screen_name": "TeachingLC",
+  "location": "Washington, DC",
+  "description": "Official @LibraryCongress account providing primary source materials, ideas & inspiration for teachers. All Library accounts: https://t.co/8jcIOKkDNC",
+  "url": "https://t.co/6z0WqJ7YyU",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/6z0WqJ7YyU",
+          "expanded_url": "http://www.loc.gov/teachers",
+          "display_url": "loc.gov/teachers",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/8jcIOKkDNC",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            126,
+            149
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 33922,
+  "fast_followers_count": 0,
+  "normal_followers_count": 33922,
+  "friends_count": 35,
+  "listed_count": 585,
+  "created_at": "Thu Aug 29 17:08:10 +0000 2013",
+  "favourites_count": 634,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 22233,
+  "media_count": 4963,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Nov 26 17:54:09 +0000 2024",
+    "id": 1861468500067291600,
+    "id_str": "1861468500067291619",
+    "text": "Thinking about holiday baking? Explore resources from the Library of Congress to find inspiration and learn more ab… https://t.co/sdKK92YeO3",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/sdKK92YeO3",
+          "expanded_url": "https://twitter.com/i/web/status/1861468500067291619",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1031924095611490306/QyrnICA9_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1031924095611490306/QyrnICA9_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1710530342/1399469928",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1433847919300522000
+  ],
+  "pinned_tweet_ids_str": [
+    "1433847919300521995"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 258805021,
+  "id_str": "258805021",
+  "name": "US Copyright Office",
+  "screen_name": "CopyrightOffice",
+  "location": "Washington, D.C.",
+  "description": "Official account of the U.S. Copyright Office, part of the @LibraryCongress. Promoting creativity & free expression via U.S. copyright law: https://t.co/hlpd68Mi3N",
+  "url": "https://t.co/OspZrQ0cbS",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/OspZrQ0cbS",
+          "expanded_url": "http://www.copyright.gov",
+          "display_url": "copyright.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/hlpd68Mi3N",
+          "expanded_url": "http://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            140,
+            163
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 33278,
+  "fast_followers_count": 0,
+  "normal_followers_count": 33278,
+  "friends_count": 78,
+  "listed_count": 672,
+  "created_at": "Mon Feb 28 14:54:41 +0000 2011",
+  "favourites_count": 74,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 4034,
+  "media_count": 2882,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 13:48:00 +0000 2024",
+    "id": 1862856105518575900,
+    "id_str": "1862856105518575764",
+    "text": "November 29 is Native American Heritage Day. Be sure to check out our blog celebrating Woodrow “Woody” Crumbo, a re… https://t.co/63hRaQ9zcF",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/63hRaQ9zcF",
+          "expanded_url": "https://twitter.com/i/web/status/1862856105518575764",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/931245326928883712/hBezPkX5_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/931245326928883712/hBezPkX5_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/258805021/1510867563",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 317750991,
+  "id_str": "317750991",
+  "name": "LOCMaps",
+  "screen_name": "LOCMaps",
+  "location": "Washington, DC",
+  "description": "Official account of the @LibraryCongress Geography & Map Division, the largest map library in the world. All Library accounts: https://t.co/T907knoXYf",
+  "url": "https://t.co/W3RyT9nODG",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/W3RyT9nODG",
+          "expanded_url": "http://www.loc.gov/rr/geogmap",
+          "display_url": "loc.gov/rr/geogmap",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/T907knoXYf",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            127,
+            150
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 35269,
+  "fast_followers_count": 0,
+  "normal_followers_count": 35269,
+  "friends_count": 89,
+  "listed_count": 857,
+  "created_at": "Wed Jun 15 12:28:15 +0000 2011",
+  "favourites_count": 1507,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 5754,
+  "media_count": 4104,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Nov 27 21:00:01 +0000 2024",
+    "id": 1861877664380072000,
+    "id_str": "1861877664380071985",
+    "text": "Aṭlas, ay majmūʻ khārīṭat rasm al-arḍ (1835)—a rare second edition of the first world atlas printed in Arabic scrip… https://t.co/RHPMQovZRI",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/RHPMQovZRI",
+          "expanded_url": "https://twitter.com/i/web/status/1861877664380071985",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1031922037785354241/HYRQbf5E_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1031922037785354241/HYRQbf5E_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/317750991/1488310265",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 288308178,
+  "id_str": "288308178",
+  "name": "Congressdotgov",
+  "screen_name": "congressdotgov",
+  "location": "Washington, DC",
+  "description": "Official account of the https://t.co/98X38Tf8gT U.S. legislative information system from the @LibraryCongress. All Library accounts: https://t.co/txSIoOFj4D",
+  "url": "https://t.co/ci9U16DBWL",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/ci9U16DBWL",
+          "expanded_url": "http://www.congress.gov",
+          "display_url": "congress.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/98X38Tf8gT",
+          "expanded_url": "http://Congress.gov",
+          "display_url": "Congress.gov",
+          "indices": [
+            24,
+            47
+          ]
+        },
+        {
+          "url": "https://t.co/txSIoOFj4D",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            133,
+            156
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 72732,
+  "fast_followers_count": 0,
+  "normal_followers_count": 72732,
+  "friends_count": 29,
+  "listed_count": 1274,
+  "created_at": "Tue Apr 26 16:30:46 +0000 2011",
+  "favourites_count": 624,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 11492,
+  "media_count": 185,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Nov 27 17:57:06 +0000 2024",
+    "id": 1861831632157631000,
+    "id_str": "1861831632157630971",
+    "text": "RT @LawLibCongress: Today on the blog, legislative data specialist Andrew from the Congressional Research Service brings us a post on moder…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "LawLibCongress",
+          "name": "Law Library of Congress",
+          "id": 82959058,
+          "id_str": "82959058",
+          "indices": [
+            3,
+            18
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Nov 27 17:00:01 +0000 2024",
+      "id": 1861817264812507400,
+      "id_str": "1861817264812507347",
+      "text": "Today on the blog, legislative data specialist Andrew from the Congressional Research Service brings us a post on m… https://t.co/Ke5pi3fI07",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Ke5pi3fI07",
+            "expanded_url": "https://twitter.com/i/web/status/1861817264812507347",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/877585596914573312/6ttC_Krm_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/877585596914573312/6ttC_Krm_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/288308178/1357671769",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+},
+{
+  "id": 82959058,
+  "id_str": "82959058",
+  "name": "Law Library of Congress",
+  "screen_name": "LawLibCongress",
+  "location": "Washington, DC",
+  "description": "Official news & information from the Law Library of Congress, a division of the @LibraryCongress. All Library accounts: https://t.co/BZS2HKMH5q",
+  "url": "https://t.co/Js6UlJ6J5c",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/Js6UlJ6J5c",
+          "expanded_url": "http://www.loc.gov/law",
+          "display_url": "loc.gov/law",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/BZS2HKMH5q",
+          "expanded_url": "https://loc.gov/connect",
+          "display_url": "loc.gov/connect",
+          "indices": [
+            120,
+            143
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 71889,
+  "fast_followers_count": 0,
+  "normal_followers_count": 71889,
+  "friends_count": 16,
+  "listed_count": 1788,
+  "created_at": "Fri Oct 16 19:56:07 +0000 2009",
+  "favourites_count": 2117,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 19926,
+  "media_count": 1990,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 12:46:57 +0000 2024",
+    "id": 1862478353338429400,
+    "id_str": "1862478353338429442",
+    "text": "#Germany: Court Recognizes Inherent Rights of Nature in Calculating Damages https://t.co/WsQCSTVBns #GlobalLegalMonitor",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Germany",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "GlobalLegalMonitor",
+          "indices": [
+            100,
+            119
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/WsQCSTVBns",
+          "expanded_url": "https://www.loc.gov/item/global-legal-monitor/2024-11-28/germany-court-recognizes-inherent-rights-of-nature-in-calculating-damages/?loclr=twlaw",
+          "display_url": "loc.gov/item/global-le…",
+          "indices": [
+            76,
+            99
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1031924314474512385/0M5hXqE0_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1031924314474512385/0M5hXqE0_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/82959058/1399666805",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1842307935659032600
+  ],
+  "pinned_tweet_ids_str": [
+    "1842307935659032630"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "librarycongress"
+}]

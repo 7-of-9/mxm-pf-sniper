@@ -1,0 +1,379 @@
+[{
+  "id": 1862930463842537500,
+  "id_str": "1862930463842537473",
+  "name": "Trey Chris",
+  "screen_name": "TreyChris122016",
+  "location": "United States",
+  "description": "Mycologist and a psychedelic enthusiast..Micro-dosing or macro-dosing🍄",
+  "url": "https://t.co/oQhyMLhSVo",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/oQhyMLhSVo",
+          "expanded_url": "http://onlinepsychedelicnauts.com",
+          "display_url": "onlinepsychedelicnauts.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 4,
+  "fast_followers_count": 0,
+  "normal_followers_count": 4,
+  "friends_count": 149,
+  "listed_count": 0,
+  "created_at": "Sat Nov 30 18:43:50 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 15,
+  "media_count": 14,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 11:27:37 +0000 2024",
+    "id": 1863545552396239400,
+    "id_str": "1863545552396239316",
+    "text": "🍄🍄\nHAPPY NEW WEEK 🎉\n\nMagical https://t.co/TSeoSHfgjU",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1863545548948615200,
+          "id_str": "1863545548948615168",
+          "indices": [
+            29,
+            52
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdykzaPXsAAd1lS.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdykzaPXsAAd1lS.jpg",
+          "url": "https://t.co/TSeoSHfgjU",
+          "display_url": "pic.twitter.com/TSeoSHfgjU",
+          "expanded_url": "https://twitter.com/TreyChris122016/status/1863545552396239316/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 778,
+            "height": 1600,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 460,
+                "h": 436,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 289,
+                "h": 778,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 235,
+                "h": 887,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1556,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1600,
+                "w": 778
+              }
+            ]
+          },
+          "sizes": {
+            "medium": {
+              "w": 584,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 331,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 778,
+              "h": 1600,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1863545548948615200,
+          "id_str": "1863545548948615168",
+          "indices": [
+            29,
+            52
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdykzaPXsAAd1lS.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdykzaPXsAAd1lS.jpg",
+          "url": "https://t.co/TSeoSHfgjU",
+          "display_url": "pic.twitter.com/TSeoSHfgjU",
+          "expanded_url": "https://twitter.com/TreyChris122016/status/1863545552396239316/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 778,
+            "height": 1600,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 460,
+                "h": 436,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 289,
+                "h": 778,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 235,
+                "h": 887,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1556,
+                "w": 778
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1600,
+                "w": 778
+              }
+            ]
+          },
+          "sizes": {
+            "medium": {
+              "w": 584,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 331,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 778,
+              "h": 1600,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1863545548948615168"
+        },
+        {
+          "id": 1863545549451919400,
+          "id_str": "1863545549451919360",
+          "indices": [
+            29,
+            52
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdykzcHXgAAcdf6.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdykzcHXgAAcdf6.jpg",
+          "url": "https://t.co/TSeoSHfgjU",
+          "display_url": "pic.twitter.com/TSeoSHfgjU",
+          "expanded_url": "https://twitter.com/TreyChris122016/status/1863545552396239316/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 486,
+            "height": 1080,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 323,
+                "h": 272,
+                "w": 486
+              },
+              {
+                "x": 0,
+                "y": 216,
+                "h": 486,
+                "w": 486
+              },
+              {
+                "x": 0,
+                "y": 182,
+                "h": 554,
+                "w": 486
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 972,
+                "w": 486
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1080,
+                "w": 486
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 306,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 486,
+              "h": 1080,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 486,
+              "h": 1080,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1863545549451919360"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862938437285822464/d0SRYLkt_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862938437285822464/d0SRYLkt_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1862930463842537473/1732993257",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "thedidicated"
+}]

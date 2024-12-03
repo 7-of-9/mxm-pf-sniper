@@ -1,0 +1,383 @@
+[{
+  "id": 265902729,
+  "id_str": "265902729",
+  "name": "BBC Sport",
+  "screen_name": "BBCSport",
+  "location": "MediaCityUK, Salford",
+  "description": "Official https://t.co/UU1K81meyH account. Also follow @bbcmotd and @bbctms.",
+  "url": "https://t.co/LmA8PNnIlr",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/LmA8PNnIlr",
+          "expanded_url": "http://www.bbc.co.uk/sport",
+          "display_url": "bbc.co.uk/sport",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/UU1K81meyH",
+          "expanded_url": "http://bbc.co.uk/sport",
+          "display_url": "bbc.co.uk/sport",
+          "indices": [
+            9,
+            32
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 10693846,
+  "fast_followers_count": 0,
+  "normal_followers_count": 10693846,
+  "friends_count": 722,
+  "listed_count": 23343,
+  "created_at": "Mon Mar 14 09:44:40 +0000 2011",
+  "favourites_count": 3029,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 627070,
+  "media_count": 323470,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 10:35:16 +0000 2024",
+    "id": 1863532380625031700,
+    "id_str": "1863532380625031588",
+    "text": "More: https://t.co/gYtrHh7K4I",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/gYtrHh7K4I",
+          "expanded_url": "https://www.bbc.co.uk/sport/american-football/articles/cm2enxly714o",
+          "display_url": "bbc.co.uk/sport/american…",
+          "indices": [
+            6,
+            29
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1863532378351608000,
+    "in_reply_to_status_id_str": "1863532378351608027",
+    "in_reply_to_user_id": 265902729,
+    "in_reply_to_user_id_str": "265902729",
+    "in_reply_to_screen_name": "BBCSport",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 13,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null,
+    "self_thread": {
+      "id": 1863532378351608000,
+      "id_str": "1863532378351608027"
+    }
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1486488950680215553/Rc0iOmOY_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1486488950680215553/Rc0iOmOY_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/265902729/1727174713",
+  "profile_link_color": "FFD230",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "BBCBreaking"
+},
+{
+  "id": 742143,
+  "id_str": "742143",
+  "name": "BBC News (World)",
+  "screen_name": "BBCWorld",
+  "location": "London, UK",
+  "description": "News, features and analysis from the World's newsroom. Breaking news, follow @BBCBreaking. UK news, @BBCNews. Latest sports news @BBCSport",
+  "url": "https://t.co/4zUWrLAYqP",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/4zUWrLAYqP",
+          "expanded_url": "http://www.bbc.com/news",
+          "display_url": "bbc.com/news",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 41112850,
+  "fast_followers_count": 0,
+  "normal_followers_count": 41112850,
+  "friends_count": 17,
+  "listed_count": 134371,
+  "created_at": "Thu Feb 01 07:44:29 +0000 2007",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 389104,
+  "media_count": 27228,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 09:48:45 +0000 2024",
+    "id": 1863520674121207800,
+    "id_str": "1863520674121207846",
+    "text": "Biden's full statement pardoning son Hunter https://t.co/AxAV8O7mqG",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/AxAV8O7mqG",
+          "expanded_url": "https://bbc.in/3ZtukYN",
+          "display_url": "bbc.in/3ZtukYN",
+          "indices": [
+            44,
+            67
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 43,
+    "favorite_count": 165,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1529107170448523264/q3VwEx38_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1529107170448523264/q3VwEx38_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/742143/1663658662",
+  "profile_link_color": "1F527B",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "FFFFFF",
+  "profile_text_color": "5A5A5A",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "BBCBreaking"
+},
+{
+  "id": 612473,
+  "id_str": "612473",
+  "name": "BBC News (UK)",
+  "screen_name": "BBCNews",
+  "location": "London",
+  "description": "News, features and analysis. For world news, follow @BBCWorld. Breaking news, follow @BBCBreaking. Latest sport news @BBCSport. Our Instagram: BBCNews",
+  "url": "https://t.co/9WpHz3Aebw",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/9WpHz3Aebw",
+          "expanded_url": "http://www.bbc.co.uk/news",
+          "display_url": "bbc.co.uk/news",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 15399140,
+  "fast_followers_count": 0,
+  "normal_followers_count": 15399140,
+  "friends_count": 86,
+  "listed_count": 50498,
+  "created_at": "Mon Jan 08 08:05:57 +0000 2007",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 583237,
+  "media_count": 49000,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 09:59:08 +0000 2024",
+    "id": 1863523285557772500,
+    "id_str": "1863523285557772518",
+    "text": "Irish street signs vandalised 300 times costing councils £60,000 https://t.co/4NjSXbEUci",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/4NjSXbEUci",
+          "expanded_url": "https://bbc.in/3OwS7Rv",
+          "display_url": "bbc.in/3OwS7Rv",
+          "indices": [
+            65,
+            88
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 16,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1529107486271225859/03qcVNIk_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1529107486271225859/03qcVNIk_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/612473/1663662081",
+  "profile_link_color": "1F527B",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "FFFFFF",
+  "profile_text_color": "5A5A5A",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "BBCBreaking"
+}]

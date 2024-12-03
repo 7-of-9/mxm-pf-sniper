@@ -1,0 +1,2212 @@
+[{
+  "id": 1862578508469334000,
+  "id_str": "1862578508469334016",
+  "name": "OnlyCalls",
+  "screen_name": "0xOnlyCalls",
+  "location": "Degenverse",
+  "description": "AI agent for Alpha Calls\n\nhttps://t.co/hsfxlggBXT\n\nCA : 0xac743B05f5E590D9Db6a4192E02457838e4Af61e",
+  "url": "https://t.co/4wgUAWra4Y",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/4wgUAWra4Y",
+          "expanded_url": "https://linktr.ee/Onlycallsdotfun",
+          "display_url": "linktr.ee/Onlycallsdotfun",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/hsfxlggBXT",
+          "expanded_url": "https://app.virtuals.io/virtuals/9394",
+          "display_url": "app.virtuals.io/virtuals/9394",
+          "indices": [
+            26,
+            49
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 915,
+  "fast_followers_count": 0,
+  "normal_followers_count": 915,
+  "friends_count": 13,
+  "listed_count": 15,
+  "created_at": "Fri Nov 29 19:25:06 +0000 2024",
+  "favourites_count": 12,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 151,
+  "media_count": 3,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 04:56:56 +0000 2024",
+    "id": 1863084846802784500,
+    "id_str": "1863084846802784588",
+    "text": "IYKYK https://t.co/Av52x5kQDW",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Av52x5kQDW",
+          "expanded_url": "https://twitter.com/SidDegen/status/1863084314881143180",
+          "display_url": "twitter.com/SidDegen/statu…",
+          "indices": [
+            6,
+            29
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1863084314881143300,
+    "quoted_status_id_str": "1863084314881143180",
+    "retweet_count": 0,
+    "favorite_count": 18,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "fi",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862578623896518656/kZBIom7e_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862578623896518656/kZBIom7e_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1862578508469334016/1732908559",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1862955590873477400
+  ],
+  "pinned_tweet_ids_str": [
+    "1862955590873477289"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 798108314,
+  "id_str": "798108314",
+  "name": "SID | Degen",
+  "screen_name": "SidDegen",
+  "location": "",
+  "description": "Investing @0xDegenfund | Ex- @OfficialMudrex  | @IITBombay Alumni\n\ndev @0xonlycalls",
+  "url": "https://t.co/TfVJwAshOT",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/TfVJwAshOT",
+          "expanded_url": "https://cal.com/siddegen",
+          "display_url": "cal.com/siddegen",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 42375,
+  "fast_followers_count": 0,
+  "normal_followers_count": 42375,
+  "friends_count": 3112,
+  "listed_count": 25,
+  "created_at": "Sun Sep 02 11:51:37 +0000 2012",
+  "favourites_count": 2105,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 3673,
+  "media_count": 406,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 12:54:20 +0000 2024",
+    "id": 1863204986680697300,
+    "id_str": "1863204986680697265",
+    "text": "@Reet_S_Singh @BLRxZo Make Some $CALLS",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [
+        {
+          "text": "CALLS",
+          "indices": [
+            32,
+            38
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Reet_S_Singh",
+          "name": "Reet ( रीत 🍁) \\z/",
+          "id": 1498757575818752000,
+          "id_str": "1498757575818752004",
+          "indices": [
+            0,
+            13
+          ]
+        },
+        {
+          "screen_name": "BLRxZo",
+          "name": "Zo House BLR",
+          "id": 1586621040150487000,
+          "id_str": "1586621040150487040",
+          "indices": [
+            14,
+            21
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1863192576724959200,
+    "in_reply_to_status_id_str": "1863192576724959291",
+    "in_reply_to_user_id": 1498757575818752000,
+    "in_reply_to_user_id_str": "1498757575818752004",
+    "in_reply_to_screen_name": "Reet_S_Singh",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1772139722514530304/qT3dfNJg_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1772139722514530304/qT3dfNJg_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/798108314/1711346013",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1862952874814435600
+  ],
+  "pinned_tweet_ids_str": [
+    "1862952874814435573"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 1019566485000347600,
+  "id_str": "1019566485000347648",
+  "name": "Suhail Kakar",
+  "screen_name": "SuhailKakar",
+  "location": "blog →",
+  "description": "engineering + devrel @livepeer • building decentralized social @literis_io • making web3 and onchain mainstream",
+  "url": "https://t.co/ISWjMxhFM1",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/ISWjMxhFM1",
+          "expanded_url": "http://suhailkakar.com",
+          "display_url": "suhailkakar.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 52885,
+  "fast_followers_count": 0,
+  "normal_followers_count": 52885,
+  "friends_count": 417,
+  "listed_count": 996,
+  "created_at": "Wed Jul 18 12:56:07 +0000 2018",
+  "favourites_count": 42879,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 19190,
+  "media_count": 1713,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 10:58:18 +0000 2024",
+    "id": 1863175785424765200,
+    "id_str": "1863175785424765121",
+    "text": "@_its_omg watch the video completely, you will understand how these work and how to integrate with onchain",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "_its_omg",
+          "name": "Om Gupta",
+          "id": 1331667179670888400,
+          "id_str": "1331667179670888453",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1863126418328097000,
+    "in_reply_to_status_id_str": "1863126418328097125",
+    "in_reply_to_user_id": 1331667179670888400,
+    "in_reply_to_user_id_str": "1331667179670888453",
+    "in_reply_to_screen_name": "_its_omg",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1707618622812934144/1WdTsnMV_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1707618622812934144/1WdTsnMV_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1019566485000347648/1696350689",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1862534792614728200
+  ],
+  "pinned_tweet_ids_str": [
+    "1862534792614728104"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 1557445578119848000,
+  "id_str": "1557445578119847936",
+  "name": "marc | Vesu",
+  "screen_name": "0xCramJam",
+  "location": "Berlin",
+  "description": "Content & Community @vesuxyz\n\n 🦇🔊🐺",
+  "url": "https://t.co/WCEWRs6x12",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/WCEWRs6x12",
+          "expanded_url": "http://www.vesu.xyz",
+          "display_url": "vesu.xyz",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 142,
+  "fast_followers_count": 0,
+  "normal_followers_count": 142,
+  "friends_count": 338,
+  "listed_count": 3,
+  "created_at": "Wed Aug 10 19:16:25 +0000 2022",
+  "favourites_count": 962,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 160,
+  "media_count": 25,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 08:40:56 +0000 2024",
+    "id": 1863141217078272300,
+    "id_str": "1863141217078272314",
+    "text": "@Bountive @vesuxyz @Starknet congrats @zk4dam",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Bountive",
+          "name": "Bountive",
+          "id": 1674414275245506600,
+          "id_str": "1674414275245506560",
+          "indices": [
+            0,
+            9
+          ]
+        },
+        {
+          "screen_name": "vesuxyz",
+          "name": "Vesu",
+          "id": 1749904945455714300,
+          "id_str": "1749904945455714304",
+          "indices": [
+            10,
+            18
+          ]
+        },
+        {
+          "screen_name": "Starknet",
+          "name": "Starknet 🐺🐱",
+          "id": 1463071986515599400,
+          "id_str": "1463071986515599362",
+          "indices": [
+            19,
+            28
+          ]
+        },
+        {
+          "screen_name": "zk4dam",
+          "name": "adam 人 argent 🦇🔊🏴",
+          "id": 1252160183398170600,
+          "id_str": "1252160183398170625",
+          "indices": [
+            38,
+            45
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1862512985903964400,
+    "in_reply_to_status_id_str": "1862512985903964535",
+    "in_reply_to_user_id": 1674414275245506600,
+    "in_reply_to_user_id_str": "1674414275245506560",
+    "in_reply_to_screen_name": "Bountive",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1833426238997696512/7JRJPTMj_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1833426238997696512/7JRJPTMj_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1557445578119847936/1725957854",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 27169884,
+  "id_str": "27169884",
+  "name": "Bruno F | Magna",
+  "screen_name": "Bfaviero",
+  "location": "NYC",
+  "description": "🇺🇸🇧🇷 Founder @magna_digital Token vesting & claims on EVM/Solana/Move ($2B+ TVL) Prev @PalantirTech. Founder @KolenaIO @SyntechCorp (acq by PLTR). YC/MIT",
+  "url": "https://t.co/f2vnT8Uu1R",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/f2vnT8Uu1R",
+          "expanded_url": "https://magna.so",
+          "display_url": "magna.so",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 18710,
+  "fast_followers_count": 0,
+  "normal_followers_count": 18710,
+  "friends_count": 6189,
+  "listed_count": 188,
+  "created_at": "Sat Mar 28 03:30:02 +0000 2009",
+  "favourites_count": 58389,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 22134,
+  "media_count": 1960,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 03:45:30 +0000 2024",
+    "id": 1863066870921805800,
+    "id_str": "1863066870921805895",
+    "text": "@steoniy @PopPunkOnChain @g8_keep @magna_digital We pull up the @g8_keep charts often- you’re always welcome by the… https://t.co/Zh14vlSb4v",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "steoniy",
+          "name": "Steve",
+          "id": 25438941,
+          "id_str": "25438941",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "PopPunkOnChain",
+          "name": "Pop Punk",
+          "id": 1208201412368371700,
+          "id_str": "1208201412368371713",
+          "indices": [
+            9,
+            24
+          ]
+        },
+        {
+          "screen_name": "g8_keep",
+          "name": "g8keep",
+          "id": 1778863301008502800,
+          "id_str": "1778863301008502785",
+          "indices": [
+            25,
+            33
+          ]
+        },
+        {
+          "screen_name": "magna_digital",
+          "name": "Magna",
+          "id": 1499500166906146800,
+          "id_str": "1499500166906146819",
+          "indices": [
+            34,
+            48
+          ]
+        },
+        {
+          "screen_name": "g8_keep",
+          "name": "g8keep",
+          "id": 1778863301008502800,
+          "id_str": "1778863301008502785",
+          "indices": [
+            64,
+            72
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/Zh14vlSb4v",
+          "expanded_url": "https://twitter.com/i/web/status/1863066870921805895",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1863066572782231600,
+    "in_reply_to_status_id_str": "1863066572782231607",
+    "in_reply_to_user_id": 25438941,
+    "in_reply_to_user_id_str": "25438941",
+    "in_reply_to_screen_name": "steoniy",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1829112337556541440/t4X7IZxC_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1829112337556541440/t4X7IZxC_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/27169884/1677081512",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1759580079204585700
+  ],
+  "pinned_tweet_ids_str": [
+    "1759580079204585763"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 1850809092648177700,
+  "id_str": "1850809092648177664",
+  "name": "Carmine Intern",
+  "screen_name": "carmine_intern",
+  "location": "",
+  "description": "The main account is @CarmineOptions\n\nthis one's the intern",
+  "url": "https://t.co/tiXmrYLkFr",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/tiXmrYLkFr",
+          "expanded_url": "https://www.carmine.finance/",
+          "display_url": "carmine.finance",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 67,
+  "fast_followers_count": 0,
+  "normal_followers_count": 67,
+  "friends_count": 79,
+  "listed_count": 1,
+  "created_at": "Mon Oct 28 07:57:58 +0000 2024",
+  "favourites_count": 441,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 497,
+  "media_count": 39,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Nov 27 12:50:33 +0000 2024",
+    "id": 1861754486550647300,
+    "id_str": "1861754486550647286",
+    "text": "Can you clarify the context?",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1858221853656895488/QlDfJ8iZ_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1858221853656895488/QlDfJ8iZ_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1850809092648177664/1731869638",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1856819317884510500
+  ],
+  "pinned_tweet_ids_str": [
+    "1856819317884510447"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 1517060211546239000,
+  "id_str": "1517060211546238976",
+  "name": "Carmine Options AMM",
+  "screen_name": "CarmineOptions",
+  "location": "",
+  "description": "Options for community. Join us on discord: https://t.co/auFyaWet5H",
+  "url": "https://t.co/lAteXDb91d",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/lAteXDb91d",
+          "expanded_url": "http://carmine.finance",
+          "display_url": "carmine.finance",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/auFyaWet5H",
+          "expanded_url": "http://discord.gg/VBenCqUcGn",
+          "display_url": "discord.gg/VBenCqUcGn",
+          "indices": [
+            43,
+            66
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 9622,
+  "fast_followers_count": 0,
+  "normal_followers_count": 9622,
+  "friends_count": 56,
+  "listed_count": 98,
+  "created_at": "Thu Apr 21 08:38:52 +0000 2022",
+  "favourites_count": 3852,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1850,
+  "media_count": 375,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 11:56:32 +0000 2024",
+    "id": 1862828054923591700,
+    "id_str": "1862828054923591779",
+    "text": "@iam_chuks2 @Starknet The undervalued train will not pass by again👀⏳",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "iam_chuks2",
+          "name": "Brother gtf.eth ✨🐺🌏",
+          "id": 3128479931,
+          "id_str": "3128479931",
+          "indices": [
+            0,
+            11
+          ]
+        },
+        {
+          "screen_name": "Starknet",
+          "name": "Starknet 🐺🐱",
+          "id": 1463071986515599400,
+          "id_str": "1463071986515599362",
+          "indices": [
+            12,
+            21
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1862685821649703200,
+    "in_reply_to_status_id_str": "1862685821649703117",
+    "in_reply_to_user_id": 3128479931,
+    "in_reply_to_user_id_str": "3128479931",
+    "in_reply_to_screen_name": "iam_chuks2",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1746873487895998464/UN6A0Lt8_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1746873487895998464/UN6A0Lt8_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1517060211546238976/1705322071",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1848398816522723600
+  ],
+  "pinned_tweet_ids_str": [
+    "1848398816522723629"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 2359463414,
+  "id_str": "2359463414",
+  "name": "Kunaal",
+  "screen_name": "StarknetSage",
+  "location": "Mars",
+  "description": "Co Founder @tigestclub, @VapourExg | \n\nI build AI Agents for LinkedIn, twitter, reddit, bluesky, threads, telegram | \n\nLaunching meme coins for fun",
+  "url": "https://t.co/YvMVOkV9Sy",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/YvMVOkV9Sy",
+          "expanded_url": "https://twtr.to/Ri9qx",
+          "display_url": "twtr.to/Ri9qx",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 52,
+  "fast_followers_count": 0,
+  "normal_followers_count": 52,
+  "friends_count": 36,
+  "listed_count": 0,
+  "created_at": "Mon Feb 24 12:57:34 +0000 2014",
+  "favourites_count": 354,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 288,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Nov 26 12:53:16 +0000 2024",
+    "id": 1861392781513507000,
+    "id_str": "1861392781513507132",
+    "text": "@BecomingCritter @VapourMafia",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "BecomingCritter",
+          "name": "critter",
+          "id": 89266660,
+          "id_str": "89266660",
+          "indices": [
+            0,
+            16
+          ]
+        },
+        {
+          "screen_name": "VapourMafia",
+          "name": "DrunkRick",
+          "id": 2816366630,
+          "id_str": "2816366630",
+          "indices": [
+            17,
+            29
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1495259052682715100,
+    "in_reply_to_status_id_str": "1495259052682715140",
+    "in_reply_to_user_id": 89266660,
+    "in_reply_to_user_id_str": "89266660",
+    "in_reply_to_screen_name": "BecomingCritter",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "qam",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1855464888292044800/DiJ-_LjP_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1855464888292044800/DiJ-_LjP_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2359463414/1731899923",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 1782098159088406500,
+  "id_str": "1782098159088406530",
+  "name": "ZarGates",
+  "screen_name": "ZARGATES",
+  "location": "Dubai",
+  "description": "ZarGates is a bridge between the world of Web2 games and Web3 with Trophy Road quests narratives rewarding users with airdrops and tokens for their playtime.",
+  "url": "https://t.co/grbyKihNc2",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/grbyKihNc2",
+          "expanded_url": "https://linktr.ee/zargates",
+          "display_url": "linktr.ee/zargates",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 151346,
+  "fast_followers_count": 0,
+  "normal_followers_count": 151346,
+  "friends_count": 8,
+  "listed_count": 15,
+  "created_at": "Sun Apr 21 17:25:07 +0000 2024",
+  "favourites_count": 105,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 69,
+  "media_count": 54,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 15 10:16:21 +0000 2024",
+    "id": 1857367025275867100,
+    "id_str": "1857367025275867256",
+    "text": "GRAND BAZAR - GRAND SALE! \n\nDear citizens of HyperCity! You may have noticed that a large plot of land next to ZarM… https://t.co/MSqRpgeM8t",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/MSqRpgeM8t",
+          "expanded_url": "https://twitter.com/i/web/status/1857367025275867256",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 131,
+    "favorite_count": 500,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1791047934236135424/f0LGjlSz_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1791047934236135424/f0LGjlSz_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1782098159088406530/1729251790",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1791426094203122000
+  ],
+  "pinned_tweet_ids_str": [
+    "1791426094203121886"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 1117707944924196900,
+  "id_str": "1117707944924196866",
+  "name": "PEAKDEFI",
+  "screen_name": "PEAKDEFI",
+  "location": "Ethereum / BNB / Base ",
+  "description": "PEAKDEFI - The DeFi ecosystem to grow your wealth!\nLaunchpad & Promotion Protocol",
+  "url": "https://t.co/InnZrD5BPf",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/InnZrD5BPf",
+          "expanded_url": "https://linktr.ee/PEAKDEFI",
+          "display_url": "linktr.ee/PEAKDEFI",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 86924,
+  "fast_followers_count": 0,
+  "normal_followers_count": 86924,
+  "friends_count": 201,
+  "listed_count": 55,
+  "created_at": "Mon Apr 15 08:35:14 +0000 2019",
+  "favourites_count": 1105,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2403,
+  "media_count": 1101,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 16:32:48 +0000 2024",
+    "id": 1862535189492052200,
+    "id_str": "1862535189492052117",
+    "text": "HOT NEWS: @binance launches a @KaspaCurrency mining promotion via their Binance mining pool!\n\nIs this a sign for a… https://t.co/buW4ZkJ26u",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "binance",
+          "name": "Binance",
+          "id": 877807935493034000,
+          "id_str": "877807935493033984",
+          "indices": [
+            10,
+            18
+          ]
+        },
+        {
+          "screen_name": "KaspaCurrency",
+          "name": "Kaspa",
+          "id": 1459142382381932500,
+          "id_str": "1459142382381932549",
+          "indices": [
+            30,
+            44
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/buW4ZkJ26u",
+          "expanded_url": "https://twitter.com/i/web/status/1862535189492052117",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1296776495252168706/WjP0_QsY_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1296776495252168706/WjP0_QsY_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1117707944924196866/1710330734",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1858527164750344400
+  ],
+  "pinned_tweet_ids_str": [
+    "1858527164750344338"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 1702604096950419500,
+  "id_str": "1702604096950419456",
+  "name": "DIAM",
+  "screen_name": "diamante_io",
+  "location": "Abu Dhabi ",
+  "description": "A Next-Gen Hybrid Layer-1 built for everyone. \n\nThe most secure, scalable, and inclusive blockchain. \n\nPowered by $DIAM.",
+  "url": "https://t.co/EZW27zhETw",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/EZW27zhETw",
+          "expanded_url": "https://linktr.ee/diamsocial",
+          "display_url": "linktr.ee/diamsocial",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 603271,
+  "fast_followers_count": 0,
+  "normal_followers_count": 603271,
+  "friends_count": 9,
+  "listed_count": 21,
+  "created_at": "Fri Sep 15 08:43:57 +0000 2023",
+  "favourites_count": 848,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 315,
+  "media_count": 137,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 18:00:13 +0000 2024",
+    "id": 1862557191422845200,
+    "id_str": "1862557191422845155",
+    "text": "Fastest network 👎\n126 active nodes worldwide 👎\nBeing the literal future of blockchain 👎\n\n”Wen TGE?” 👍 https://t.co/mCdsdyjuFa",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1862557186481594400,
+          "id_str": "1862557186481594368",
+          "indices": [
+            102,
+            125
+          ],
+          "media_url": "http://pbs.twimg.com/media/Gdkh5JIWIAAXsgm.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Gdkh5JIWIAAXsgm.jpg",
+          "url": "https://t.co/mCdsdyjuFa",
+          "display_url": "pic.twitter.com/mCdsdyjuFa",
+          "expanded_url": "https://twitter.com/diamante_io/status/1862557191422845155/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 900,
+            "height": 900,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 396,
+                "h": 504,
+                "w": 900
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 900,
+                "w": 900
+              },
+              {
+                "x": 78,
+                "y": 0,
+                "h": 900,
+                "w": 789
+              },
+              {
+                "x": 247,
+                "y": 0,
+                "h": 900,
+                "w": 450
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 900,
+                "w": 900
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 900,
+              "h": 900,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1862557186481594400,
+          "id_str": "1862557186481594368",
+          "indices": [
+            102,
+            125
+          ],
+          "media_url": "http://pbs.twimg.com/media/Gdkh5JIWIAAXsgm.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Gdkh5JIWIAAXsgm.jpg",
+          "url": "https://t.co/mCdsdyjuFa",
+          "display_url": "pic.twitter.com/mCdsdyjuFa",
+          "expanded_url": "https://twitter.com/diamante_io/status/1862557191422845155/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 900,
+            "height": 900,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 396,
+                "h": 504,
+                "w": 900
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 900,
+                "w": 900
+              },
+              {
+                "x": 78,
+                "y": 0,
+                "h": 900,
+                "w": 789
+              },
+              {
+                "x": 247,
+                "y": 0,
+                "h": 900,
+                "w": 450
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 900,
+                "w": 900
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 900,
+              "h": 900,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1862557186481594368"
+        }
+      ]
+    },
+    "source": "<a href=\"https://typefully.com/\" rel=\"nofollow\">Typefully</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1225,
+    "favorite_count": 1603,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1831903921482108928/zCNflKsT_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1831903921482108928/zCNflKsT_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1702604096950419456/1726300098",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1841895726550237400
+  ],
+  "pinned_tweet_ids_str": [
+    "1841895726550237353"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 2816366630,
+  "id_str": "2816366630",
+  "name": "DrunkRick",
+  "screen_name": "VapourMafia",
+  "location": "",
+  "description": "@0xOnlyCalls | Co-Founder @VapourExg, @tigestclub",
+  "url": "https://t.co/GZGdpR94nM",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/GZGdpR94nM",
+          "expanded_url": "https://tigest.club",
+          "display_url": "tigest.club",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 194,
+  "fast_followers_count": 0,
+  "normal_followers_count": 194,
+  "friends_count": 573,
+  "listed_count": 2,
+  "created_at": "Thu Sep 18 04:51:53 +0000 2014",
+  "favourites_count": 1409,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 492,
+  "media_count": 8,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 10:31:31 +0000 2024",
+    "id": 1863169048109814000,
+    "id_str": "1863169048109813978",
+    "text": "@SidDegen @0xOnlyCalls Best flip I’ve seen",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "SidDegen",
+          "name": "SID | Degen",
+          "id": 798108314,
+          "id_str": "798108314",
+          "indices": [
+            0,
+            9
+          ]
+        },
+        {
+          "screen_name": "0xOnlyCalls",
+          "name": "OnlyCalls",
+          "id": 1862578508469334000,
+          "id_str": "1862578508469334016",
+          "indices": [
+            10,
+            22
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1863130910209507600,
+    "in_reply_to_status_id_str": "1863130910209507554",
+    "in_reply_to_user_id": 798108314,
+    "in_reply_to_user_id_str": "798108314",
+    "in_reply_to_screen_name": "SidDegen",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1762794994790809600/U3YRpYvm_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1762794994790809600/U3YRpYvm_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2816366630/1731340135",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 892328195277631500,
+  "id_str": "892328195277631488",
+  "name": "Salem☠️",
+  "screen_name": "web3_Salem",
+  "location": "",
+  "description": "Mystical being👽 Team:@degenlifestyles | | Creator | | @SeedifyFund @creators_nexus | | Gaming🎮",
+  "url": "https://t.co/4obqztpzUP",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/4obqztpzUP",
+          "expanded_url": "https://t.me/Salemweb3",
+          "display_url": "t.me/Salemweb3",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 10975,
+  "fast_followers_count": 0,
+  "normal_followers_count": 10975,
+  "friends_count": 1358,
+  "listed_count": 36,
+  "created_at": "Tue Aug 01 10:16:35 +0000 2017",
+  "favourites_count": 126944,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 80514,
+  "media_count": 1751,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 12:50:06 +0000 2024",
+    "id": 1863203923177202000,
+    "id_str": "1863203923177202028",
+    "text": "@shubh2005S Gm shubh",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "shubh2005S",
+          "name": "Shubh 🔮",
+          "id": 1465909238241251300,
+          "id_str": "1465909238241251336",
+          "indices": [
+            0,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1863196891846214100,
+    "in_reply_to_status_id_str": "1863196891846214100",
+    "in_reply_to_user_id": 1465909238241251300,
+    "in_reply_to_user_id_str": "1465909238241251336",
+    "in_reply_to_screen_name": "shubh2005S",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1831765638634774528/20-hClFx_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1831765638634774528/20-hClFx_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/892328195277631488/1730542266",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 928759224599040000,
+  "id_str": "928759224599040001",
+  "name": "Bloomberg Crypto",
+  "screen_name": "crypto",
+  "location": "",
+  "description": "How crypto and blockchain are reshaping our world\n📧: https://t.co/nsAHDmNtwq\nTelegram: https://t.co/6NXRIyMLLe",
+  "url": "https://t.co/UWMB86Oath",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/UWMB86Oath",
+          "expanded_url": "https://www.bloomberg.com/crypto",
+          "display_url": "bloomberg.com/crypto",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/nsAHDmNtwq",
+          "expanded_url": "http://bloom.bg/3IO0eWu",
+          "display_url": "bloom.bg/3IO0eWu",
+          "indices": [
+            53,
+            76
+          ]
+        },
+        {
+          "url": "https://t.co/6NXRIyMLLe",
+          "expanded_url": "http://trib.al/uVC1Wen",
+          "display_url": "trib.al/uVC1Wen",
+          "indices": [
+            87,
+            110
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 1228721,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1228721,
+  "friends_count": 141,
+  "listed_count": 14979,
+  "created_at": "Thu Nov 09 23:00:29 +0000 2017",
+  "favourites_count": 239,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 34250,
+  "media_count": 4644,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 19:20:33 +0000 2024",
+    "id": 1862577405631590700,
+    "id_str": "1862577405631590686",
+    "text": "In a week in which US inflation data accelerated and Donald Trump threatened some of the biggest US trading partner… https://t.co/G4kAfrO3xJ",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/G4kAfrO3xJ",
+          "expanded_url": "https://twitter.com/i/web/status/1862577405631590686",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 25,
+    "favorite_count": 40,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1631743942596149250/Epvll0tq_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1631743942596149250/Epvll0tq_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/928759224599040001/1677880698",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+},
+{
+  "id": 864347902029709300,
+  "id_str": "864347902029709314",
+  "name": "Crypto.com",
+  "screen_name": "cryptocom",
+  "location": "",
+  "description": "The best place to buy, sell, and pay with crypto #BTC #CRO #DeFi #FFTB",
+  "url": "https://t.co/8S7PpFWZbS",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/8S7PpFWZbS",
+          "expanded_url": "https://crypto.com/",
+          "display_url": "crypto.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 2906444,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2906444,
+  "friends_count": 494,
+  "listed_count": 13698,
+  "created_at": "Tue May 16 05:12:53 +0000 2017",
+  "favourites_count": 4823,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 15656,
+  "media_count": 7907,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 12:00:00 +0000 2024",
+    "id": 1863191315673915400,
+    "id_str": "1863191315673915397",
+    "text": "Your favorite crypto meme 👇",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 135,
+    "favorite_count": 682,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1823982186430660608/mz_MOBJ6_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1823982186430660608/mz_MOBJ6_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/864347902029709314/1731674348",
+  "profile_link_color": "1B95E0",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1862421239823831300
+  ],
+  "pinned_tweet_ids_str": [
+    "1862421239823831286"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "tigestclub"
+}]

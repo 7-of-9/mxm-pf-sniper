@@ -1,0 +1,1327 @@
+[{
+  "id": 1757084075876065300,
+  "id_str": "1757084075876065280",
+  "name": "GracefulCharm",
+  "screen_name": "Potato433382",
+  "location": "USA",
+  "description": "Don't let past failures tie up your future, and don't let negative emotions linger in your life.",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 93,
+  "fast_followers_count": 0,
+  "normal_followers_count": 93,
+  "friends_count": 1228,
+  "listed_count": 0,
+  "created_at": "Mon Feb 12 16:47:44 +0000 2024",
+  "favourites_count": 34,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 5,
+  "media_count": 5,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Jul 10 17:48:14 +0000 2024",
+    "id": 1811095096676516000,
+    "id_str": "1811095096676516115",
+    "text": "gastrologer  foveole ᱸluteofulvous chunnel\nFinally ⬝tried that ⳿new ﾠsushi ᠎place ﾞdowntown—⳿definitely ᠎going ﾞbac… https://t.co/XiJTX3UGSC",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/XiJTX3UGSC",
+          "expanded_url": "https://twitter.com/i/web/status/1811095096676516115",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1819553751318892544/AnVWoIcd_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1819553751318892544/AnVWoIcd_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1757084075876065280/1722650589",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "OdhnerDanielle"
+},
+{
+  "id": 219988749,
+  "id_str": "219988749",
+  "name": "Vivek ⚡️",
+  "screen_name": "Vivek4neal_",
+  "location": "",
+  "description": "Founder @Bitgrow_lab • Reporter @BitcoinMagazine • Advisor @Bringinxyz • Tweet daily about #Bitcoin",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 25631,
+  "fast_followers_count": 0,
+  "normal_followers_count": 25631,
+  "friends_count": 5441,
+  "listed_count": 0,
+  "created_at": "Fri Nov 26 13:18:35 +0000 2010",
+  "favourites_count": 64,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 318,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Sep 08 15:06:39 +0000 2024",
+    "id": 1832797707057893600,
+    "id_str": "1832797707057893701",
+    "text": "RT @Vivek4real_: “If you are going to invest in #Bitcoin, a short time horizon is four years, a mid-time horizon is ten years, &amp; the right…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Bitcoin",
+          "indices": [
+            48,
+            56
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Vivek4real_",
+          "name": "Vivek⚡️",
+          "id": 851277718368829400,
+          "id_str": "851277718368829443",
+          "indices": [
+            3,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Sep 08 10:58:07 +0000 2024",
+      "id": 1832735159067525400,
+      "id_str": "1832735159067525366",
+      "text": "“If you are going to invest in #Bitcoin, a short time horizon is four years, a mid-time horizon is ten years, &amp; the… https://t.co/J3B3ePujTZ",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Bitcoin",
+            "indices": [
+              31,
+              39
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/J3B3ePujTZ",
+            "expanded_url": "https://twitter.com/i/web/status/1832735159067525366",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              121,
+              144
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 465,
+      "favorite_count": 2750,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 465,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1844639293991464967/vZXNUyQq_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1844639293991464967/vZXNUyQq_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/219988749/1719822566",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "OdhnerDanielle"
+},
+{
+  "id": 202315911,
+  "id_str": "202315911",
+  "name": "Vivek ⚡️",
+  "screen_name": "vivek4reaql",
+  "location": "",
+  "description": "Founder @Bitgrow_lab • Reporter @BitcoinMagazine • Advisor @Bringinxyz • Tweet daily about #Bitcoin",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3755,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3755,
+  "friends_count": 7454,
+  "listed_count": 1,
+  "created_at": "Wed Oct 13 19:40:02 +0000 2010",
+  "favourites_count": 9,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 171,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Jun 16 09:01:00 +0000 2024",
+    "id": 1802265105909809200,
+    "id_str": "1802265105909809205",
+    "text": "RT @Vivek4real_: Saylor sharing MicroStrategy #Bitcoin playbook with Elon Musk in 2020 🤯 https://t.co/VNjK35OXwH",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Bitcoin",
+          "indices": [
+            46,
+            54
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Vivek4real_",
+          "name": "Vivek⚡️",
+          "id": 851277718368829400,
+          "id_str": "851277718368829443",
+          "indices": [
+            3,
+            15
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1802257877920358400,
+          "id_str": "1802257877920358400",
+          "indices": [
+            89,
+            112
+          ],
+          "media_url": "http://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+          "url": "https://t.co/VNjK35OXwH",
+          "display_url": "pic.twitter.com/VNjK35OXwH",
+          "expanded_url": "https://twitter.com/Vivek4real_/status/1802257882328535217/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1284,
+            "height": 1506,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 719,
+                "w": 1284
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1284,
+                "w": 1284
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1464,
+                "w": 1284
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1506,
+                "w": 753
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1506,
+                "w": 1284
+              }
+            ]
+          },
+          "sizes": {
+            "large": {
+              "w": 1284,
+              "h": 1506,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1023,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 580,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1802257882328535300,
+          "source_status_id_str": "1802257882328535217",
+          "source_user_id": 851277718368829400,
+          "source_user_id_str": "851277718368829443",
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 51,
+                  "y": 54,
+                  "h": 148,
+                  "w": 148
+                },
+                {
+                  "x": 52,
+                  "y": 914,
+                  "h": 148,
+                  "w": 148
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 40,
+                  "y": 43,
+                  "h": 117,
+                  "w": 117
+                },
+                {
+                  "x": 41,
+                  "y": 728,
+                  "h": 117,
+                  "w": 117
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 23,
+                  "y": 24,
+                  "h": 66,
+                  "w": 66
+                },
+                {
+                  "x": 23,
+                  "y": 412,
+                  "h": 66,
+                  "w": 66
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 51,
+                  "y": 54,
+                  "h": 148,
+                  "w": 148
+                },
+                {
+                  "x": 52,
+                  "y": 914,
+                  "h": 148,
+                  "w": 148
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1802257877920358400,
+          "id_str": "1802257877920358400",
+          "indices": [
+            89,
+            112
+          ],
+          "media_url": "http://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+          "url": "https://t.co/VNjK35OXwH",
+          "display_url": "pic.twitter.com/VNjK35OXwH",
+          "expanded_url": "https://twitter.com/Vivek4real_/status/1802257882328535217/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1284,
+            "height": 1506,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 719,
+                "w": 1284
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1284,
+                "w": 1284
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1464,
+                "w": 1284
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1506,
+                "w": 753
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1506,
+                "w": 1284
+              }
+            ]
+          },
+          "sizes": {
+            "large": {
+              "w": 1284,
+              "h": 1506,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1023,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 580,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1802257882328535300,
+          "source_status_id_str": "1802257882328535217",
+          "source_user_id": 851277718368829400,
+          "source_user_id_str": "851277718368829443",
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 51,
+                  "y": 54,
+                  "h": 148,
+                  "w": 148
+                },
+                {
+                  "x": 52,
+                  "y": 914,
+                  "h": 148,
+                  "w": 148
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 40,
+                  "y": 43,
+                  "h": 117,
+                  "w": 117
+                },
+                {
+                  "x": 41,
+                  "y": 728,
+                  "h": 117,
+                  "w": 117
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 23,
+                  "y": 24,
+                  "h": 66,
+                  "w": 66
+                },
+                {
+                  "x": 23,
+                  "y": 412,
+                  "h": 66,
+                  "w": 66
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 51,
+                  "y": 54,
+                  "h": 148,
+                  "w": 148
+                },
+                {
+                  "x": 52,
+                  "y": 914,
+                  "h": 148,
+                  "w": 148
+                }
+              ]
+            }
+          },
+          "media_key": "3_1802257877920358400"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Jun 16 08:32:18 +0000 2024",
+      "id": 1802257882328535300,
+      "id_str": "1802257882328535217",
+      "text": "Saylor sharing MicroStrategy #Bitcoin playbook with Elon Musk in 2020 🤯 https://t.co/VNjK35OXwH",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Bitcoin",
+            "indices": [
+              29,
+              37
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 1802257877920358400,
+            "id_str": "1802257877920358400",
+            "indices": [
+              72,
+              95
+            ],
+            "media_url": "http://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+            "url": "https://t.co/VNjK35OXwH",
+            "display_url": "pic.twitter.com/VNjK35OXwH",
+            "expanded_url": "https://twitter.com/Vivek4real_/status/1802257882328535217/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 1284,
+              "height": 1506,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 719,
+                  "w": 1284
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1284,
+                  "w": 1284
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1464,
+                  "w": 1284
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1506,
+                  "w": 753
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1506,
+                  "w": 1284
+                }
+              ]
+            },
+            "sizes": {
+              "large": {
+                "w": 1284,
+                "h": 1506,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1023,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 580,
+                "h": 680,
+                "resize": "fit"
+              }
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "x": 51,
+                    "y": 54,
+                    "h": 148,
+                    "w": 148
+                  },
+                  {
+                    "x": 52,
+                    "y": 914,
+                    "h": 148,
+                    "w": 148
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "x": 40,
+                    "y": 43,
+                    "h": 117,
+                    "w": 117
+                  },
+                  {
+                    "x": 41,
+                    "y": 728,
+                    "h": 117,
+                    "w": 117
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "x": 23,
+                    "y": 24,
+                    "h": 66,
+                    "w": 66
+                  },
+                  {
+                    "x": 23,
+                    "y": 412,
+                    "h": 66,
+                    "w": 66
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "x": 51,
+                    "y": 54,
+                    "h": 148,
+                    "w": 148
+                  },
+                  {
+                    "x": 52,
+                    "y": 914,
+                    "h": 148,
+                    "w": 148
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1802257877920358400,
+            "id_str": "1802257877920358400",
+            "indices": [
+              72,
+              95
+            ],
+            "media_url": "http://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/GQLn_b8XoAAns2O.jpg",
+            "url": "https://t.co/VNjK35OXwH",
+            "display_url": "pic.twitter.com/VNjK35OXwH",
+            "expanded_url": "https://twitter.com/Vivek4real_/status/1802257882328535217/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 1284,
+              "height": 1506,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 719,
+                  "w": 1284
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1284,
+                  "w": 1284
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1464,
+                  "w": 1284
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1506,
+                  "w": 753
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 1506,
+                  "w": 1284
+                }
+              ]
+            },
+            "sizes": {
+              "large": {
+                "w": 1284,
+                "h": 1506,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1023,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 580,
+                "h": 680,
+                "resize": "fit"
+              }
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "x": 51,
+                    "y": 54,
+                    "h": 148,
+                    "w": 148
+                  },
+                  {
+                    "x": 52,
+                    "y": 914,
+                    "h": 148,
+                    "w": 148
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "x": 40,
+                    "y": 43,
+                    "h": 117,
+                    "w": 117
+                  },
+                  {
+                    "x": 41,
+                    "y": 728,
+                    "h": 117,
+                    "w": 117
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "x": 23,
+                    "y": 24,
+                    "h": 66,
+                    "w": 66
+                  },
+                  {
+                    "x": 23,
+                    "y": 412,
+                    "h": 66,
+                    "w": 66
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "x": 51,
+                    "y": 54,
+                    "h": 148,
+                    "w": 148
+                  },
+                  {
+                    "x": 52,
+                    "y": 914,
+                    "h": 148,
+                    "w": 148
+                  }
+                ]
+              }
+            },
+            "media_key": "3_1802257877920358400"
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 649,
+      "favorite_count": 4732,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 649,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1842947997983719425/z9l1vMn2_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1842947997983719425/z9l1vMn2_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/202315911/1718528639",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "OdhnerDanielle"
+},
+{
+  "id": 2736857790,
+  "id_str": "2736857790",
+  "name": "Candice😼🎆",
+  "screen_name": "Candicejan00",
+  "location": "the love",
+  "description": "A good book is a good friend.",
+  "url": "https://t.co/Mi0xdWCcT9",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/Mi0xdWCcT9",
+          "expanded_url": "https://maps.app.goo.gl/Qhjy8menfbbkEK6h7",
+          "display_url": "maps.app.goo.gl/Qhjy8menfbbkEK…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1339,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1339,
+  "friends_count": 1599,
+  "listed_count": 0,
+  "created_at": "Sat Aug 16 09:34:15 +0000 2014",
+  "favourites_count": 1979,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 757,
+  "media_count": 248,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Sep 04 12:12:58 +0000 2024",
+    "id": 1831304445902381000,
+    "id_str": "1831304445902381142",
+    "text": "@Crazymoments01 @AMAZlNGNATURE https://t.co/xQkXoYMkDn",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Crazymoments01",
+          "name": "Crazy Moments",
+          "id": 1502831572298436600,
+          "id_str": "1502831572298436611",
+          "indices": [
+            0,
+            15
+          ]
+        },
+        {
+          "screen_name": "AMAZlNGNATURE",
+          "name": "Nature is Amazing ☘️",
+          "id": 2828212668,
+          "id_str": "2828212668",
+          "indices": [
+            16,
+            30
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1831304417775362000,
+          "id_str": "1831304417775362048",
+          "indices": [
+            31,
+            54
+          ],
+          "media_url": "http://pbs.twimg.com/media/GWoZqlEaoAA_9W1.png",
+          "media_url_https": "https://pbs.twimg.com/media/GWoZqlEaoAA_9W1.png",
+          "url": "https://t.co/xQkXoYMkDn",
+          "display_url": "pic.twitter.com/xQkXoYMkDn",
+          "expanded_url": "https://twitter.com/Candicejan00/status/1831304445902381142/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 360,
+            "height": 300,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 51,
+                "h": 202,
+                "w": 360
+              },
+              {
+                "x": 60,
+                "y": 0,
+                "h": 300,
+                "w": 300
+              },
+              {
+                "x": 97,
+                "y": 0,
+                "h": 300,
+                "w": 263
+              },
+              {
+                "x": 203,
+                "y": 0,
+                "h": 300,
+                "w": 150
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 300,
+                "w": 360
+              }
+            ]
+          },
+          "sizes": {
+            "small": {
+              "w": 360,
+              "h": 300,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 360,
+              "h": 300,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 360,
+              "h": 300,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1831304417775362000,
+          "id_str": "1831304417775362048",
+          "indices": [
+            31,
+            54
+          ],
+          "media_url": "http://pbs.twimg.com/media/GWoZqlEaoAA_9W1.png",
+          "media_url_https": "https://pbs.twimg.com/media/GWoZqlEaoAA_9W1.png",
+          "url": "https://t.co/xQkXoYMkDn",
+          "display_url": "pic.twitter.com/xQkXoYMkDn",
+          "expanded_url": "https://twitter.com/Candicejan00/status/1831304445902381142/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 360,
+            "height": 300,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 51,
+                "h": 202,
+                "w": 360
+              },
+              {
+                "x": 60,
+                "y": 0,
+                "h": 300,
+                "w": 300
+              },
+              {
+                "x": 97,
+                "y": 0,
+                "h": 300,
+                "w": 263
+              },
+              {
+                "x": 203,
+                "y": 0,
+                "h": 300,
+                "w": 150
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 300,
+                "w": 360
+              }
+            ]
+          },
+          "sizes": {
+            "small": {
+              "w": 360,
+              "h": 300,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 360,
+              "h": 300,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 360,
+              "h": 300,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1831304417775362048"
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1831139108351029800,
+    "in_reply_to_status_id_str": "1831139108351029671",
+    "in_reply_to_user_id": 1502831572298436600,
+    "in_reply_to_user_id_str": "1502831572298436611",
+    "in_reply_to_screen_name": "Crazymoments01",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "qme",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1643212794437804033/PrsMPSKT_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1643212794437804033/PrsMPSKT_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2736857790/1680607436",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1648893015510110200
+  ],
+  "pinned_tweet_ids_str": [
+    "1648893015510110210"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "OdhnerDanielle"
+}]

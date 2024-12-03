@@ -1,0 +1,271 @@
+[{
+  "id": 1862282728055406600,
+  "id_str": "1862282728055406592",
+  "name": "James Carlos",
+  "screen_name": "JamesCarlo48043",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3,
+  "friends_count": 107,
+  "listed_count": 0,
+  "created_at": "Thu Nov 28 23:49:47 +0000 2024",
+  "favourites_count": 184,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 3,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 00:16:45 +0000 2024",
+    "id": 1863014335393489200,
+    "id_str": "1863014335393489152",
+    "text": "RT @USNavy: #USNavyPhotosoftheDay:\n\n1️⃣ @USSHARRYSTRUMAN #UNREP w/ @MSCSealift USNS Arctic\n2️⃣ #USSPreble #VERTREP w/ #HSM51\n3️⃣ #USSDewey…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "USNavyPhotosoftheDay",
+          "indices": [
+            12,
+            33
+          ]
+        },
+        {
+          "text": "UNREP",
+          "indices": [
+            57,
+            63
+          ]
+        },
+        {
+          "text": "USSPreble",
+          "indices": [
+            95,
+            105
+          ]
+        },
+        {
+          "text": "VERTREP",
+          "indices": [
+            106,
+            114
+          ]
+        },
+        {
+          "text": "HSM51",
+          "indices": [
+            118,
+            124
+          ]
+        },
+        {
+          "text": "USSDewey",
+          "indices": [
+            129,
+            138
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "USNavy",
+          "name": "U.S. Navy",
+          "id": 54885400,
+          "id_str": "54885400",
+          "indices": [
+            3,
+            10
+          ]
+        },
+        {
+          "screen_name": "USSHARRYSTRUMAN",
+          "name": "USS Harry S. Truman (CVN 75)",
+          "id": 52593821,
+          "id_str": "52593821",
+          "indices": [
+            40,
+            56
+          ]
+        },
+        {
+          "screen_name": "MSCSealift",
+          "name": "U.S. Navy's Military Sealift Command",
+          "id": 600097847,
+          "id_str": "600097847",
+          "indices": [
+            67,
+            78
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Nov 22 00:00:10 +0000 2024",
+      "id": 1859748672348500200,
+      "id_str": "1859748672348500193",
+      "text": "#USNavyPhotosoftheDay:\n\n1️⃣ @USSHARRYSTRUMAN #UNREP w/ @MSCSealift USNS Arctic\n2️⃣ #USSPreble #VERTREP w/ #HSM51… https://t.co/sRmHu3TSqh",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "USNavyPhotosoftheDay",
+            "indices": [
+              0,
+              21
+            ]
+          },
+          {
+            "text": "UNREP",
+            "indices": [
+              45,
+              51
+            ]
+          },
+          {
+            "text": "USSPreble",
+            "indices": [
+              83,
+              93
+            ]
+          },
+          {
+            "text": "VERTREP",
+            "indices": [
+              94,
+              102
+            ]
+          },
+          {
+            "text": "HSM51",
+            "indices": [
+              106,
+              112
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "USSHARRYSTRUMAN",
+            "name": "USS Harry S. Truman (CVN 75)",
+            "id": 52593821,
+            "id_str": "52593821",
+            "indices": [
+              28,
+              44
+            ]
+          },
+          {
+            "screen_name": "MSCSealift",
+            "name": "U.S. Navy's Military Sealift Command",
+            "id": 600097847,
+            "id_str": "600097847",
+            "indices": [
+              55,
+              66
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/sRmHu3TSqh",
+            "expanded_url": "https://twitter.com/i/web/status/1859748672348500193",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              114,
+              137
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.meltwater.com/\" rel=\"nofollow\">Meltwater Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 132,
+      "favorite_count": 604,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 132,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862514945679585280/Fe8evhJI_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862514945679585280/Fe8evhJI_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1862282728055406592/1732893192",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "ADanielson11794"
+}]

@@ -1,0 +1,739 @@
+[{
+  "id": 1246440482760085500,
+  "id_str": "1246440482760085504",
+  "name": "Stella Assange",
+  "screen_name": "Stella_Assange",
+  "location": "",
+  "description": "Via @UniOfOxford @SOAS Insta: StellaAssange",
+  "url": "https://t.co/w50sQEfSgy",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/w50sQEfSgy",
+          "expanded_url": "https://linkin.bio/stellaassange",
+          "display_url": "linkin.bio/stellaassange",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 271972,
+  "fast_followers_count": 0,
+  "normal_followers_count": 271972,
+  "friends_count": 4575,
+  "listed_count": 728,
+  "created_at": "Sat Apr 04 14:15:18 +0000 2020",
+  "favourites_count": 12509,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 16014,
+  "media_count": 1734,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 23:34:09 +0000 2024",
+    "id": 1863003614811140000,
+    "id_str": "1863003614811140133",
+    "text": "RT @AssangeCampaign: Gabriel Shipton 🎙️ speaks to ABC RN Breakfast about supporters of Julian Assange calling on U.S. President Joe Biden t…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "AssangeCampaign",
+          "name": "Australian Assange Campaign",
+          "id": 1158128853606211600,
+          "id_str": "1158128853606211587",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 30 04:53:38 +0000 2024",
+      "id": 1862721628804981000,
+      "id_str": "1862721628804981019",
+      "text": "Gabriel Shipton 🎙️ speaks to ABC RN Breakfast about supporters of Julian Assange calling on U.S. President Joe Bide… https://t.co/h8p9buXqjC",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/h8p9buXqjC",
+            "expanded_url": "https://twitter.com/i/web/status/1862721628804981019",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 74,
+      "favorite_count": 111,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 74,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1851588578821672960/D62y2_6P_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1851588578821672960/D62y2_6P_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1246440482760085504/1719901157",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1840725181330829600
+  ],
+  "pinned_tweet_ids_str": [
+    "1840725181330829450"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "jack"
+},
+{
+  "id": 2178833927,
+  "id_str": "2178833927",
+  "name": "DANI MOON",
+  "screen_name": "070shake",
+  "location": "North Bergen, NJ",
+  "description": "PETRICHOR \nALBUM OUT NOW\n\nMGMT:070shake@fullstopmgmt.com\nAGENT: 070shake@teamwass.com",
+  "url": "https://t.co/H682mOBtDF",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/H682mOBtDF",
+          "expanded_url": "http://070Shake.lnk.to/070Shake",
+          "display_url": "070Shake.lnk.to/070Shake",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 83994,
+  "fast_followers_count": 0,
+  "normal_followers_count": 83994,
+  "friends_count": 490,
+  "listed_count": 133,
+  "created_at": "Tue Nov 12 23:07:54 +0000 2013",
+  "favourites_count": 4160,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 15319,
+  "media_count": 544,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Nov 24 06:24:06 +0000 2024",
+    "id": 1860570069538951200,
+    "id_str": "1860570069538951173",
+    "text": "RT @070shake: What other song should I do a video to though??",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "070shake",
+          "name": "DANI MOON",
+          "id": 2178833927,
+          "id_str": "2178833927",
+          "indices": [
+            3,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Nov 22 22:27:35 +0000 2024",
+      "id": 1860087759765143600,
+      "id_str": "1860087759765143656",
+      "text": "What other song should I do a video to though??",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 7,
+      "favorite_count": 232,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 7,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1852153501398261760/MA3rxcxR_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1852153501398261760/MA3rxcxR_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2178833927/1731647045",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1329980493559857200
+  ],
+  "pinned_tweet_ids_str": [
+    "1329980493559857153"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "jack"
+},
+{
+  "id": 1599608046,
+  "id_str": "1599608046",
+  "name": "Uzi London 🌎☄️💕®",
+  "screen_name": "LILUZIVERT",
+  "location": "",
+  "description": "ALL WHITE ALL WHITE ALL WHITE !!!! 🌬️",
+  "url": "https://t.co/mvE1IOv34Z",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/mvE1IOv34Z",
+          "expanded_url": "http://uzi.lnk.to/EA2",
+          "display_url": "uzi.lnk.to/EA2",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 8431085,
+  "fast_followers_count": 0,
+  "normal_followers_count": 8431085,
+  "friends_count": 27,
+  "listed_count": 2407,
+  "created_at": "Wed Jul 17 00:53:57 +0000 2013",
+  "favourites_count": 14997,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 14011,
+  "media_count": 934,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 01 23:44:07 +0000 2024",
+    "id": 1852496876932575500,
+    "id_str": "1852496876932575586",
+    "text": "RT @ComplexMusic: Lil Uzi Vert likes it when fans are split about new music right after it drops. \n\nWatch the full ‘EA2’ interview: https:/…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ComplexMusic",
+          "name": "Complex Music",
+          "id": 243163874,
+          "id_str": "243163874",
+          "indices": [
+            3,
+            16
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Nov 01 22:23:14 +0000 2024",
+      "id": 1852476522046636300,
+      "id_str": "1852476522046636304",
+      "text": "Lil Uzi Vert likes it when fans are split about new music right after it drops. \n\nWatch the full ‘EA2’ interview:… https://t.co/1hUE2FAgSB",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/1hUE2FAgSB",
+            "expanded_url": "https://twitter.com/i/web/status/1852476522046636304",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              115,
+              138
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 511,
+      "favorite_count": 5989,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1852476522046636300,
+        "id_str": "1852476522046636304"
+      }
+    },
+    "is_quote_status": false,
+    "retweet_count": 511,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "0A0808",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1849295593086005248/x3UuuWWy_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1849295593086005248/x3UuuWWy_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1599608046/1637629303",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": false,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1328793194352480300
+  ],
+  "pinned_tweet_ids_str": [
+    "1328793194352480258"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "jack"
+},
+{
+  "id": 2916305152,
+  "id_str": "2916305152",
+  "name": "Edward Snowden",
+  "screen_name": "Snowden",
+  "location": "",
+  "description": "I used to work for the government, but now I work for the public.",
+  "url": "https://t.co/kPBEESUmlH",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/kPBEESUmlH",
+          "expanded_url": "https://edwardsnowden.substack.com",
+          "display_url": "edwardsnowden.substack.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 5847912,
+  "fast_followers_count": 0,
+  "normal_followers_count": 5847912,
+  "friends_count": 1,
+  "listed_count": 0,
+  "created_at": "Thu Dec 11 21:24:28 +0000 2014",
+  "favourites_count": 2181,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 9942,
+  "media_count": 678,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Nov 18 21:35:17 +0000 2024",
+    "id": 1858625048312987600,
+    "id_str": "1858625048312987679",
+    "text": "I spoke at the NEAR Redacted conference in Bangkok, and they were kind enough to put the session online. You can wa… https://t.co/pMsKZRxn13",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/pMsKZRxn13",
+          "expanded_url": "https://twitter.com/i/web/status/1858625048312987679",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1157,
+    "favorite_count": 4120,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/648888480974508032/66_cUYfj_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/648888480974508032/66_cUYfj_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2916305152/1443542022",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1835693648178008300
+  ],
+  "pinned_tweet_ids_str": [
+    "1835693648178008208"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "jack"
+},
+{
+  "id": 44196397,
+  "id_str": "44196397",
+  "name": "Elon Musk",
+  "screen_name": "elonmusk",
+  "location": "",
+  "description": "The people voted for major government reform",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 206494314,
+  "fast_followers_count": 0,
+  "normal_followers_count": 206494314,
+  "friends_count": 857,
+  "listed_count": 154653,
+  "created_at": "Tue Jun 02 20:12:29 +0000 2009",
+  "favourites_count": 96337,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 61009,
+  "media_count": 2888,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 07:59:58 +0000 2024",
+    "id": 1863130907336704000,
+    "id_str": "1863130907336704080",
+    "text": "True https://t.co/mz4xCLkRtT",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/mz4xCLkRtT",
+          "expanded_url": "https://twitter.com/alojoh/status/1862939443662864569",
+          "display_url": "twitter.com/alojoh/status/…",
+          "indices": [
+            5,
+            28
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1862939443662864600,
+    "quoted_status_id_str": "1862939443662864569",
+    "retweet_count": 1245,
+    "favorite_count": 15284,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1726163678",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1863122664455615000
+  ],
+  "pinned_tweet_ids_str": [
+    "1863122664455614909"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "jack"
+}]

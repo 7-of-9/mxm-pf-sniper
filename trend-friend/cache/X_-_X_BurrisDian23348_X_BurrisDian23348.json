@@ -1,0 +1,1002 @@
+[{
+  "id": 364074529,
+  "id_str": "364074529",
+  "name": "Puru Saxema",
+  "screen_name": "saxona_pulu",
+  "location": "",
+  "description": "Founder of AlphaTarget. Previously, Founder and portfolio manager of money management firms in Hong Kong. My posts aren't investment advice, do your own DD.",
+  "url": "https://t.co/qk38KGBJyd",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/qk38KGBJyd",
+          "expanded_url": "http://alphatarget.com",
+          "display_url": "alphatarget.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 26,
+  "fast_followers_count": 0,
+  "normal_followers_count": 26,
+  "friends_count": 405,
+  "listed_count": 0,
+  "created_at": "Mon Aug 29 04:31:26 +0000 2011",
+  "favourites_count": 3,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1840795485411389440/V2dkKg50_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1840795485411389440/V2dkKg50_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/364074529/1727714831",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "BurrisDian23348"
+},
+{
+  "id": 1768512837041750000,
+  "id_str": "1768512837041750016",
+  "name": "Lori Gary",
+  "screen_name": "lori_gary213",
+  "location": "Pasadena, MD",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 69,
+  "fast_followers_count": 0,
+  "normal_followers_count": 69,
+  "friends_count": 82,
+  "listed_count": 0,
+  "created_at": "Fri Mar 15 05:42:01 +0000 2024",
+  "favourites_count": 1706,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1512,
+  "media_count": 4,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 03:13:42 +0000 2024",
+    "id": 1862696480928076300,
+    "id_str": "1862696480928076212",
+    "text": "@realTrumpNewsX B!  F no!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "realTrumpNewsX",
+          "name": "Donald J. Trump News",
+          "id": 1810341133911994400,
+          "id_str": "1810341133911994368",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1862111792119312600,
+    "in_reply_to_status_id_str": "1862111792119312514",
+    "in_reply_to_user_id": 1810341133911994400,
+    "in_reply_to_user_id_str": "1810341133911994368",
+    "in_reply_to_screen_name": "realTrumpNewsX",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "no",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1768512960740167680/A2L8Bf6e_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1768512960740167680/A2L8Bf6e_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "BurrisDian23348"
+},
+{
+  "id": 1962578856,
+  "id_str": "1962578856",
+  "name": "Coach JV",
+  "screen_name": "qhizt_vampier",
+  "location": "",
+  "description": "Day Job: I help People become financially free. I show people how l do it. Need help click below ⬇️",
+  "url": "https://t.co/AvLKRnBTdJ",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/AvLKRnBTdJ",
+          "expanded_url": "http://linktr.ee/coachjv",
+          "display_url": "linktr.ee/coachjv",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 7,
+  "fast_followers_count": 0,
+  "normal_followers_count": 7,
+  "friends_count": 92,
+  "listed_count": 0,
+  "created_at": "Tue Oct 15 13:01:20 +0000 2013",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 31,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Nov 05 20:46:21 +0000 2024",
+    "id": 1853901688748257500,
+    "id_str": "1853901688748257540",
+    "text": "RT @Coachjv_: Huge Update: We are now your one-stop shop. See all your crypto in one place, set your exit strategy and now… all your crypto…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Coachjv_",
+          "name": "Coach, JV",
+          "id": 1072604718680092700,
+          "id_str": "1072604718680092672",
+          "indices": [
+            3,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 02 20:09:12 +0000 2024",
+      "id": 1852805178015318500,
+      "id_str": "1852805178015318440",
+      "text": "Huge Update: We are now your one-stop shop. See all your crypto in one place, set your exit strategy and now… all y… https://t.co/49LMw5OpRL",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/49LMw5OpRL",
+            "expanded_url": "https://twitter.com/i/web/status/1852805178015318440",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 73,
+      "favorite_count": 194,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 73,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1854525805725933578/ZW2zYzmR_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1854525805725933578/ZW2zYzmR_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1962578856/1730988393",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "BurrisDian23348"
+},
+{
+  "id": 1846290875682640000,
+  "id_str": "1846290875682639873",
+  "name": "Tought",
+  "screen_name": "ToughtOeQdju",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 34,
+  "fast_followers_count": 0,
+  "normal_followers_count": 34,
+  "friends_count": 652,
+  "listed_count": 0,
+  "created_at": "Tue Oct 15 20:43:43 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 4,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Oct 28 05:55:20 +0000 2024",
+    "id": 1850778355873800400,
+    "id_str": "1850778355873800409",
+    "text": "@PNekonohige 🤷‍♀️",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "PNekonohige",
+          "name": "Poo",
+          "id": 1266390367491911700,
+          "id_str": "1266390367491911680",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1850761812901593600,
+    "in_reply_to_status_id_str": "1850761812901593477",
+    "in_reply_to_user_id": 1266390367491911700,
+    "in_reply_to_user_id_str": "1266390367491911680",
+    "in_reply_to_screen_name": "PNekonohige",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "qme",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1846290889435762690/DtH_U9sM_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1846290889435762690/DtH_U9sM_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1846290875682639873/1729025032",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "BurrisDian23348"
+},
+{
+  "id": 1728094661116301300,
+  "id_str": "1728094661116301312",
+  "name": "Paul Baumgardner",
+  "screen_name": "FvbPaul1",
+  "location": "Fredericksburg, VA",
+  "description": "tile setter. only good fake people DMs please. I don’t have the time to deal with lazy fake accounts. put some effort into it",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 538,
+  "fast_followers_count": 0,
+  "normal_followers_count": 538,
+  "friends_count": 913,
+  "listed_count": 0,
+  "created_at": "Fri Nov 24 16:54:45 +0000 2023",
+  "favourites_count": 1856,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 728,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 03:11:29 +0000 2024",
+    "id": 1863420696216383700,
+    "id_str": "1863420696216383634",
+    "text": "@RachieRach429 Look at those abs! Look n good!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "RachieRach429",
+          "name": "AstroGirl 🌜💨✨",
+          "id": 2555390432,
+          "id_str": "2555390432",
+          "indices": [
+            0,
+            14
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1863003430320824800,
+    "in_reply_to_status_id_str": "1863003430320824827",
+    "in_reply_to_user_id": 2555390432,
+    "in_reply_to_user_id_str": "2555390432",
+    "in_reply_to_screen_name": "RachieRach429",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1796951506924490752/hLeO2j3d_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1796951506924490752/hLeO2j3d_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1728094661116301312/1717261653",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "BurrisDian23348"
+},
+{
+  "id": 1622122461885091800,
+  "id_str": "1622122461885091840",
+  "name": "Dominic",
+  "screen_name": "okx_dominic",
+  "location": "",
+  "description": "Every day is a miracle, full of infinite possibilities and unknown surprises, waiting for us to discover. #OKX",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 23,
+  "fast_followers_count": 0,
+  "normal_followers_count": 23,
+  "friends_count": 336,
+  "listed_count": 0,
+  "created_at": "Sun Feb 05 06:38:37 +0000 2023",
+  "favourites_count": 13,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 15,
+  "media_count": 9,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 07 17:11:49 +0000 2024",
+    "id": 1854572478913560800,
+    "id_str": "1854572478913560713",
+    "text": "The office I arranged for myself at home is still warm and comfortable. https://t.co/JjfSjR8DWw",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1854572164080668700,
+          "id_str": "1854572164080668672",
+          "indices": [
+            72,
+            95
+          ],
+          "media_url": "http://pbs.twimg.com/media/GbzDjqpbEAArSs8.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GbzDjqpbEAArSs8.jpg",
+          "url": "https://t.co/JjfSjR8DWw",
+          "display_url": "pic.twitter.com/JjfSjR8DWw",
+          "expanded_url": "https://twitter.com/okx_dominic/status/1854572478913560713/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 2560,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 807,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 384,
+                "h": 1920,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 250,
+                "h": 2189,
+                "w": 1920
+              },
+              {
+                "x": 448,
+                "y": 0,
+                "h": 2560,
+                "w": 1280
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2560,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": [
+                {
+                  "x": 26,
+                  "y": 522,
+                  "h": 133,
+                  "w": 133
+                },
+                {
+                  "x": 139,
+                  "y": 390,
+                  "h": 220,
+                  "w": 220
+                },
+                {
+                  "x": 314,
+                  "y": 261,
+                  "h": 476,
+                  "w": 476
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 57,
+                  "y": 1115,
+                  "h": 285,
+                  "w": 285
+                },
+                {
+                  "x": 297,
+                  "y": 832,
+                  "h": 470,
+                  "w": 470
+                },
+                {
+                  "x": 670,
+                  "y": 557,
+                  "h": 1017,
+                  "w": 1017
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 45,
+                  "y": 892,
+                  "h": 228,
+                  "w": 228
+                },
+                {
+                  "x": 237,
+                  "y": 665,
+                  "h": 376,
+                  "w": 376
+                },
+                {
+                  "x": 536,
+                  "y": 445,
+                  "h": 813,
+                  "w": 813
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 15,
+                  "y": 296,
+                  "h": 75,
+                  "w": 75
+                },
+                {
+                  "x": 78,
+                  "y": 221,
+                  "h": 124,
+                  "w": 124
+                },
+                {
+                  "x": 177,
+                  "y": 147,
+                  "h": 270,
+                  "w": 270
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1854572164080668700,
+          "id_str": "1854572164080668672",
+          "indices": [
+            72,
+            95
+          ],
+          "media_url": "http://pbs.twimg.com/media/GbzDjqpbEAArSs8.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GbzDjqpbEAArSs8.jpg",
+          "url": "https://t.co/JjfSjR8DWw",
+          "display_url": "pic.twitter.com/JjfSjR8DWw",
+          "expanded_url": "https://twitter.com/okx_dominic/status/1854572478913560713/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 2560,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 807,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 384,
+                "h": 1920,
+                "w": 1920
+              },
+              {
+                "x": 0,
+                "y": 250,
+                "h": 2189,
+                "w": 1920
+              },
+              {
+                "x": 448,
+                "y": 0,
+                "h": 2560,
+                "w": 1280
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 2560,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": [
+                {
+                  "x": 26,
+                  "y": 522,
+                  "h": 133,
+                  "w": 133
+                },
+                {
+                  "x": 139,
+                  "y": 390,
+                  "h": 220,
+                  "w": 220
+                },
+                {
+                  "x": 314,
+                  "y": 261,
+                  "h": 476,
+                  "w": 476
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 57,
+                  "y": 1115,
+                  "h": 285,
+                  "w": 285
+                },
+                {
+                  "x": 297,
+                  "y": 832,
+                  "h": 470,
+                  "w": 470
+                },
+                {
+                  "x": 670,
+                  "y": 557,
+                  "h": 1017,
+                  "w": 1017
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 45,
+                  "y": 892,
+                  "h": 228,
+                  "w": 228
+                },
+                {
+                  "x": 237,
+                  "y": 665,
+                  "h": 376,
+                  "w": 376
+                },
+                {
+                  "x": 536,
+                  "y": 445,
+                  "h": 813,
+                  "w": 813
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 15,
+                  "y": 296,
+                  "h": 75,
+                  "w": 75
+                },
+                {
+                  "x": 78,
+                  "y": 221,
+                  "h": 124,
+                  "w": 124
+                },
+                {
+                  "x": 177,
+                  "y": 147,
+                  "h": 270,
+                  "w": 270
+                }
+              ]
+            }
+          },
+          "media_key": "3_1854572164080668672"
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1848519825334677504/ceWNa4Vm_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1848519825334677504/ceWNa4Vm_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1622122461885091840/1728531086",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "BurrisDian23348"
+}]

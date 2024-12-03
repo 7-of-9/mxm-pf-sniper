@@ -1,0 +1,2097 @@
+[{
+  "id": 44196397,
+  "id_str": "44196397",
+  "name": "Elon Musk",
+  "screen_name": "elonmusk",
+  "location": "",
+  "description": "The people voted for major government reform",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 206490000,
+  "fast_followers_count": 0,
+  "normal_followers_count": 206490000,
+  "friends_count": 857,
+  "listed_count": 154656,
+  "created_at": "Tue Jun 02 20:12:29 +0000 2009",
+  "favourites_count": 96358,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 61019,
+  "media_count": 2888,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 09:45:41 +0000 2024",
+    "id": 1863157511412683000,
+    "id_str": "1863157511412682963",
+    "text": "Yes https://t.co/rDvmbxowYp",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/rDvmbxowYp",
+          "expanded_url": "https://twitter.com/rothmus/status/1863043653670781200",
+          "display_url": "twitter.com/rothmus/status…",
+          "indices": [
+            4,
+            27
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1863043653670781200,
+    "quoted_status_id_str": "1863043653670781200",
+    "retweet_count": 10623,
+    "favorite_count": 87615,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "qst",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1726163678",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1863122664455615000
+  ],
+  "pinned_tweet_ids_str": [
+    "1863122664455614909"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 261430373,
+  "id_str": "261430373",
+  "name": "Jimmy Failla",
+  "screen_name": "jimmyfailla",
+  "location": "New York, NY",
+  "description": "TV Host. Radio Host. Trophy Husband. - - - - - - “Be a Republican, be a Democrat, just don’t be a d**k”",
+  "url": "https://t.co/1bQck3nZkA",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/1bQck3nZkA",
+          "expanded_url": "http://www.jimmyfailla.com",
+          "display_url": "jimmyfailla.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 414048,
+  "fast_followers_count": 0,
+  "normal_followers_count": 414048,
+  "friends_count": 804,
+  "listed_count": 546,
+  "created_at": "Sat Mar 05 23:16:25 +0000 2011",
+  "favourites_count": 55716,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 38322,
+  "media_count": 1664,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 11:39:05 +0000 2024",
+    "id": 1863186049058419000,
+    "id_str": "1863186049058418883",
+    "text": "@MgnccaC That’s the spirit!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "MgnccaC",
+          "name": "waterfront legend",
+          "id": 2797780146,
+          "id_str": "2797780146",
+          "indices": [
+            0,
+            8
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1863047944112366000,
+    "in_reply_to_status_id_str": "1863047944112366000",
+    "in_reply_to_user_id": 2797780146,
+    "in_reply_to_user_id_str": "2797780146",
+    "in_reply_to_screen_name": "MgnccaC",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1546470216875626496/Rzos6INp_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1546470216875626496/Rzos6INp_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/261430373/1705188256",
+  "profile_link_color": "91D2FA",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1854000641024110800
+  ],
+  "pinned_tweet_ids_str": [
+    "1854000641024110957"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 1216793092134723600,
+  "id_str": "1216793092134723586",
+  "name": "Just the News",
+  "screen_name": "JustTheNews",
+  "location": "",
+  "description": "Just the News is a nonpartisan news media brand based in Washington, D.C. committed to just reporting facts from journalists. RTs/likes are not endorsements.",
+  "url": "https://t.co/QWgs4m9Ako",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/QWgs4m9Ako",
+          "expanded_url": "http://justthenews.com",
+          "display_url": "justthenews.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 198951,
+  "fast_followers_count": 0,
+  "normal_followers_count": 198951,
+  "friends_count": 86,
+  "listed_count": 1036,
+  "created_at": "Mon Jan 13 18:45:27 +0000 2020",
+  "favourites_count": 2036,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 70746,
+  "media_count": 2769,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 13:26:05 +0000 2024",
+    "id": 1863212978847330300,
+    "id_str": "1863212978847330339",
+    "text": "Kash Patel’s prescription for an ailing FBI: accountability and house cleaning https://t.co/4GCL76dIaF",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/4GCL76dIaF",
+          "expanded_url": "https://justthenews.com/node/137791?utm_source=mux&utm_medium=social-media&utm_campaign=social-media-autopost",
+          "display_url": "justthenews.com/node/137791?ut…",
+          "indices": [
+            79,
+            102
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://muxsocial.com\" rel=\"nofollow\">MuxSocial</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 30,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1717656521511714816/aXEveb1x_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1717656521511714816/aXEveb1x_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1216793092134723586/1631891789",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 62876780,
+  "id_str": "62876780",
+  "name": "Peter Schweizer",
+  "screen_name": "peterschweizer",
+  "location": "USA",
+  "description": "President, GAI; 4x NYT #1 bestselling author most recently of BLOOD MONEY. Host of @TheDrillDown1.  Christian. I post what's interesting to me.",
+  "url": "https://t.co/A6eTZctsLK",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/A6eTZctsLK",
+          "expanded_url": "http://peterschweizer.com/",
+          "display_url": "peterschweizer.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 178635,
+  "fast_followers_count": 0,
+  "normal_followers_count": 178635,
+  "friends_count": 4386,
+  "listed_count": 688,
+  "created_at": "Tue Aug 04 17:36:46 +0000 2009",
+  "favourites_count": 7520,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 14703,
+  "media_count": 161,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 20:50:52 +0000 2024",
+    "id": 1862962522996805600,
+    "id_str": "1862962522996805664",
+    "text": "RT @MrsMThatcher: Marxism fosters envy and hatred toward those more successful. It dismisses individual effort, attributes success to explo…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "MrsMThatcher",
+          "name": "Margaret Thatcher",
+          "id": 961002152582885400,
+          "id_str": "961002152582885377",
+          "indices": [
+            3,
+            16
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 30 18:09:35 +0000 2024",
+      "id": 1862921935564181800,
+      "id_str": "1862921935564181638",
+      "text": "Marxism fosters envy and hatred toward those more successful. It dismisses individual effort, attributes success to… https://t.co/iC1uhFavKd",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/iC1uhFavKd",
+            "expanded_url": "https://twitter.com/i/web/status/1862921935564181638",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 66,
+      "favorite_count": 160,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 66,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "121111",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1451254801715679233/R8kKRvU0_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1451254801715679233/R8kKRvU0_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/62876780/1709050384",
+  "profile_link_color": "1B95E0",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1762861868270424300
+  ],
+  "pinned_tweet_ids_str": [
+    "1762861868270424301"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 403036949,
+  "id_str": "403036949",
+  "name": "Goldco",
+  "screen_name": "GoldcoPM",
+  "location": "",
+  "description": "Goldco is America's top-rated precious metals company and has surpassed $2 billion in gold and silver placements since the company's start in 2011.",
+  "url": "https://t.co/r1yMjk5NgI",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/r1yMjk5NgI",
+          "expanded_url": "http://www.goldco.com",
+          "display_url": "goldco.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3414,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3414,
+  "friends_count": 1721,
+  "listed_count": 44,
+  "created_at": "Tue Nov 01 22:52:20 +0000 2011",
+  "favourites_count": 73,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 6662,
+  "media_count": 794,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 17:50:09 +0000 2024",
+    "id": 1862554658373329400,
+    "id_str": "1862554658373329312",
+    "text": "RT @TruNews: 💼 Secure Your Retirement with Gold! 💼\n\nGoldCo makes it easy to move part or all of your 401(k) into precious metals. Get a FRE…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "TruNews",
+          "name": "TruNews™",
+          "id": 129019194,
+          "id_str": "129019194",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Nov 25 19:57:03 +0000 2024",
+      "id": 1861137042270195700,
+      "id_str": "1861137042270195726",
+      "text": "💼 Secure Your Retirement with Gold! 💼\n\nGoldCo makes it easy to move part or all of your 401(k) into precious metals… https://t.co/2DXg4ZXAWx",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/2DXg4ZXAWx",
+            "expanded_url": "https://twitter.com/i/web/status/1861137042270195726",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 7,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/870682765544497156/eJJh1RMS_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/870682765544497156/eJJh1RMS_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/403036949/1725487430",
+  "profile_link_color": "D79407",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 989190159685029900,
+  "id_str": "989190159685029888",
+  "name": "Daniel Hoffman",
+  "screen_name": "danielhoffmanDC",
+  "location": "Washington, DC",
+  "description": "@FoxNews Contributor / Ret. CIA Senior Clandestine Services Officer/ BGR Advisory Board @concordiasummit. Speaking ops: Harry Walker Agency",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 15865,
+  "fast_followers_count": 0,
+  "normal_followers_count": 15865,
+  "friends_count": 1574,
+  "listed_count": 129,
+  "created_at": "Wed Apr 25 17:11:27 +0000 2018",
+  "favourites_count": 41314,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 11870,
+  "media_count": 590,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 23:08:23 +0000 2024",
+    "id": 1862997131562225700,
+    "id_str": "1862997131562225779",
+    "text": "RT @BBGreatMoments: The Bad News Bears, sponsored by Chico's Bail Bonds, 1976. https://t.co/Vd5gtUDPFH",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "BBGreatMoments",
+          "name": "Baseball’s Greatest Moments",
+          "id": 1661408340440744000,
+          "id_str": "1661408340440743936",
+          "indices": [
+            3,
+            18
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1862546121114976300,
+          "id_str": "1862546121114976256",
+          "indices": [
+            79,
+            102
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+          "media_url_https": "https://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+          "url": "https://t.co/Vd5gtUDPFH",
+          "display_url": "pic.twitter.com/Vd5gtUDPFH",
+          "expanded_url": "https://twitter.com/BBGreatMoments/status/1862997033742684651/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 450,
+            "height": 300,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 252,
+                "w": 450
+              },
+              {
+                "x": 150,
+                "y": 0,
+                "h": 300,
+                "w": 300
+              },
+              {
+                "x": 187,
+                "y": 0,
+                "h": 300,
+                "w": 263
+              },
+              {
+                "x": 300,
+                "y": 0,
+                "h": 300,
+                "w": 150
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 300,
+                "w": 450
+              }
+            ]
+          },
+          "sizes": {
+            "large": {
+              "w": 450,
+              "h": 300,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 450,
+              "h": 300,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 450,
+              "h": 300,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          },
+          "source_status_id": 1862997033742684700,
+          "source_status_id_str": "1862997033742684651",
+          "source_user_id": 1661408340440744000,
+          "source_user_id_str": "1661408340440743936",
+          "features": {
+            "large": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1862546121114976300,
+          "id_str": "1862546121114976256",
+          "indices": [
+            79,
+            102
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+          "media_url_https": "https://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+          "url": "https://t.co/Vd5gtUDPFH",
+          "display_url": "pic.twitter.com/Vd5gtUDPFH",
+          "expanded_url": "https://twitter.com/BBGreatMoments/status/1862997033742684651/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 450,
+            "height": 300,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 252,
+                "w": 450
+              },
+              {
+                "x": 150,
+                "y": 0,
+                "h": 300,
+                "w": 300
+              },
+              {
+                "x": 187,
+                "y": 0,
+                "h": 300,
+                "w": 263
+              },
+              {
+                "x": 300,
+                "y": 0,
+                "h": 300,
+                "w": 150
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 300,
+                "w": 450
+              }
+            ]
+          },
+          "sizes": {
+            "large": {
+              "w": 450,
+              "h": 300,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 450,
+              "h": 300,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 450,
+              "h": 300,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          },
+          "source_status_id": 1862997033742684700,
+          "source_status_id_str": "1862997033742684651",
+          "source_user_id": 1661408340440744000,
+          "source_user_id_str": "1661408340440743936",
+          "features": {
+            "large": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1862546121114976256"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 30 23:08:00 +0000 2024",
+      "id": 1862997033742684700,
+      "id_str": "1862997033742684651",
+      "text": "The Bad News Bears, sponsored by Chico's Bail Bonds, 1976. https://t.co/Vd5gtUDPFH",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 1862546121114976300,
+            "id_str": "1862546121114976256",
+            "indices": [
+              59,
+              82
+            ],
+            "media_url": "http://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+            "media_url_https": "https://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+            "url": "https://t.co/Vd5gtUDPFH",
+            "display_url": "pic.twitter.com/Vd5gtUDPFH",
+            "expanded_url": "https://twitter.com/BBGreatMoments/status/1862997033742684651/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 450,
+              "height": 300,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 252,
+                  "w": 450
+                },
+                {
+                  "x": 150,
+                  "y": 0,
+                  "h": 300,
+                  "w": 300
+                },
+                {
+                  "x": 187,
+                  "y": 0,
+                  "h": 300,
+                  "w": 263
+                },
+                {
+                  "x": 300,
+                  "y": 0,
+                  "h": 300,
+                  "w": 150
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 300,
+                  "w": 450
+                }
+              ]
+            },
+            "sizes": {
+              "large": {
+                "w": 450,
+                "h": 300,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 450,
+                "h": 300,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 450,
+                "h": 300,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              }
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1862546121114976300,
+            "id_str": "1862546121114976256",
+            "indices": [
+              59,
+              82
+            ],
+            "media_url": "http://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+            "media_url_https": "https://pbs.twimg.com/media/GdkX1DbXAAAES7W.png",
+            "url": "https://t.co/Vd5gtUDPFH",
+            "display_url": "pic.twitter.com/Vd5gtUDPFH",
+            "expanded_url": "https://twitter.com/BBGreatMoments/status/1862997033742684651/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 450,
+              "height": 300,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 252,
+                  "w": 450
+                },
+                {
+                  "x": 150,
+                  "y": 0,
+                  "h": 300,
+                  "w": 300
+                },
+                {
+                  "x": 187,
+                  "y": 0,
+                  "h": 300,
+                  "w": 263
+                },
+                {
+                  "x": 300,
+                  "y": 0,
+                  "h": 300,
+                  "w": 150
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 300,
+                  "w": 450
+                }
+              ]
+            },
+            "sizes": {
+              "large": {
+                "w": 450,
+                "h": 300,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 450,
+                "h": 300,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 450,
+                "h": 300,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              }
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              }
+            },
+            "media_key": "3_1862546121114976256"
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 6,
+      "favorite_count": 69,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1153217939048452102/deVCf9PU_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1153217939048452102/deVCf9PU_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/989190159685029888/1524677160",
+  "profile_link_color": "1B95E0",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1393889923766304800
+  ],
+  "pinned_tweet_ids_str": [
+    "1393889923766304770"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 1113449749011664900,
+  "id_str": "1113449749011664897",
+  "name": "The Drill Down Podcast",
+  "screen_name": "TheDrillDown1",
+  "location": "",
+  "description": "A weekly podcast produced by the @Govt_Acct_Inst exposing cronyism, corruption, and the abuse of power in Washington, D.C. and the U.S. government.",
+  "url": "https://t.co/s9dct4qZsL",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/s9dct4qZsL",
+          "expanded_url": "http://linktree.com/drilldowngai",
+          "display_url": "linktree.com/drilldowngai",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 4309,
+  "fast_followers_count": 0,
+  "normal_followers_count": 4309,
+  "friends_count": 132,
+  "listed_count": 32,
+  "created_at": "Wed Apr 03 14:34:41 +0000 2019",
+  "favourites_count": 625,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 2541,
+  "media_count": 1125,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 00:00:00 +0000 2024",
+    "id": 1862647732327817200,
+    "id_str": "1862647732327817295",
+    "text": "While Thanksgiving may be over, time with friends and family isn't. Here are some more tips to navigate these socia… https://t.co/4mPH56OKhF",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/4mPH56OKhF",
+          "expanded_url": "https://twitter.com/i/web/status/1862647732327817295",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1752404053630312448/_NfKv_vH_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1752404053630312448/_NfKv_vH_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1113449749011664897/1717438566",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1859611935903265300
+  ],
+  "pinned_tweet_ids_str": [
+    "1859611935903265242"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 19737700,
+  "id_str": "19737700",
+  "name": "Joe Pags Pagliarulo",
+  "screen_name": "JoeTalkShow",
+  "location": "San Antonio, TX",
+  "description": "Syndicated Talk Show Host🎙️📺🇺🇸 I live by MLK's Dream. \nLive M-F 6-9pm East\nhttps://t.co/qtwqn1J5dh and click Listen Live or Watch Now at 6pm!\n@joetalkshow",
+  "url": "https://t.co/axgHzxf4N6",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/axgHzxf4N6",
+          "expanded_url": "https://linktr.ee/joepags",
+          "display_url": "linktr.ee/joepags",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/qtwqn1J5dh",
+          "expanded_url": "http://joepags.com",
+          "display_url": "joepags.com",
+          "indices": [
+            75,
+            98
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 217721,
+  "fast_followers_count": 0,
+  "normal_followers_count": 217721,
+  "friends_count": 1108,
+  "listed_count": 636,
+  "created_at": "Thu Jan 29 22:03:27 +0000 2009",
+  "favourites_count": 61658,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 119566,
+  "media_count": 2714,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 10:42:45 +0000 2024",
+    "id": 1863171872239546400,
+    "id_str": "1863171872239546485",
+    "text": "@VeronicaTalk @realDonaldTrump yup",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "VeronicaTalk",
+          "name": "Veronica Live 🎙️🇺🇸",
+          "id": 904113667200901100,
+          "id_str": "904113667200901120",
+          "indices": [
+            0,
+            13
+          ]
+        },
+        {
+          "screen_name": "realDonaldTrump",
+          "name": "Donald J. Trump",
+          "id": 25073877,
+          "id_str": "25073877",
+          "indices": [
+            14,
+            30
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1863164588000211200,
+    "in_reply_to_status_id_str": "1863164588000211191",
+    "in_reply_to_user_id": 904113667200901100,
+    "in_reply_to_user_id_str": "904113667200901120",
+    "in_reply_to_screen_name": "VeronicaTalk",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "und",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1587862066433490944/JQHOVTZi_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1587862066433490944/JQHOVTZi_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/19737700/1599802618",
+  "profile_link_color": "1B95E0",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1858940375072645400
+  ],
+  "pinned_tweet_ids_str": [
+    "1858940375072645486"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 25202268,
+  "id_str": "25202268",
+  "name": "Sara A. Carter",
+  "screen_name": "SaraCarterDC",
+  "location": "Washington, D.C.",
+  "description": "@FoxNews Contributor, Award-winning. Host, The Sara Carter Show. IG: ScarterDC, FB: Sara A. Carter https://t.co/9gSVz5bnOc",
+  "url": "https://t.co/7KbvPrRNZv",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/7KbvPrRNZv",
+          "expanded_url": "http://www.saraacarter.com",
+          "display_url": "saraacarter.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/9gSVz5bnOc",
+          "expanded_url": "http://linktr.ee/saraacarter",
+          "display_url": "linktr.ee/saraacarter",
+          "indices": [
+            99,
+            122
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 1599847,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1599847,
+  "friends_count": 8086,
+  "listed_count": 5188,
+  "created_at": "Thu Mar 19 01:02:12 +0000 2009",
+  "favourites_count": 97840,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 54884,
+  "media_count": 3275,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 13:28:09 +0000 2024",
+    "id": 1863213496873144600,
+    "id_str": "1863213496873144549",
+    "text": "Ongoing Biden Border Crisis-Texas DPS Rescues 5-Year-Old Child Being Trafficked by Smugglers into US (VIDEO)  https://t.co/onC1ha9NqC",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/onC1ha9NqC",
+          "expanded_url": "https://saraacarter.com/ongoing-biden-border-crisis-texas-dps-rescues-5-year-old-child-being-trafficked-by-smugglers-into-us-video/?utm_source=mux&utm_medium=social&utm_campaign=tw",
+          "display_url": "saraacarter.com/ongoing-biden-…",
+          "indices": [
+            110,
+            133
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://muxsocial.com\" rel=\"nofollow\">MuxSocial</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 57,
+    "favorite_count": 120,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1606067966419902464/gVi7QYkI_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1606067966419902464/gVi7QYkI_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/25202268/1697211688",
+  "profile_link_color": "E81C4F",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "0E0E0E",
+  "profile_text_color": "4A66C1",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1860835813715767300
+  ],
+  "pinned_tweet_ids_str": [
+    "1860835813715767323"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 1212806053907185700,
+  "id_str": "1212806053907185664",
+  "name": "LeoTerrell",
+  "screen_name": "TheLeoTerrell",
+  "location": "Los Angeles",
+  "description": "Fair Minded @foxnews Contributor, Podcast Host, Civil Rights Attorney, Author, Fmr School Teacher. https://t.co/OCMYXgXIzA",
+  "url": "https://t.co/1xb66fxcwR",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/1xb66fxcwR",
+          "expanded_url": "https://leoterrell.com",
+          "display_url": "leoterrell.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/OCMYXgXIzA",
+          "expanded_url": "http://leoterrellhats.com",
+          "display_url": "leoterrellhats.com",
+          "indices": [
+            99,
+            122
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 2331883,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2331883,
+  "friends_count": 186,
+  "listed_count": 2095,
+  "created_at": "Thu Jan 02 18:41:53 +0000 2020",
+  "favourites_count": 4789,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 78393,
+  "media_count": 1695,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 13:00:00 +0000 2024",
+    "id": 1863206415713661200,
+    "id_str": "1863206415713661222",
+    "text": "President Trump: 76 million voters and I continue to support you! #GodBlessAmerica #GodBlessPresidentTrump",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "GodBlessAmerica",
+          "indices": [
+            66,
+            82
+          ]
+        },
+        {
+          "text": "GodBlessPresidentTrump",
+          "indices": [
+            83,
+            106
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"https://twitter.com\" rel=\"nofollow\">TweetDeck Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 19,
+    "favorite_count": 338,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1383565672827944964/qxxY3h_v_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1383565672827944964/qxxY3h_v_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1212806053907185664/1601044840",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1854866430048518100
+  ],
+  "pinned_tweet_ids_str": [
+    "1854866430048518207"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 397545273,
+  "id_str": "397545273",
+  "name": "Jeffrey Lord",
+  "screen_name": "realJeffreyLord",
+  "location": "Harrisburg, PA",
+  "description": "Reagan White House, American Spectator, NewsBusters, Daily Caller. Penn Live. Author. Interests: Politics, religion, writing, media.",
+  "url": "https://t.co/P6wRbenPhL",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/P6wRbenPhL",
+          "expanded_url": "https://thejeffreylord.com",
+          "display_url": "thejeffreylord.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 54784,
+  "fast_followers_count": 0,
+  "normal_followers_count": 54784,
+  "friends_count": 359,
+  "listed_count": 423,
+  "created_at": "Mon Oct 24 20:48:38 +0000 2011",
+  "favourites_count": 142,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 31214,
+  "media_count": 267,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 01:01:20 +0000 2024",
+    "id": 1863025554355552800,
+    "id_str": "1863025554355552680",
+    "text": "LA Times Hires Scott Jennings for Editorial Board, Liberals ENRAGED https://t.co/IOTAieZPOs",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/IOTAieZPOs",
+          "expanded_url": "https://www.newsbusters.org/blogs/nb/jeffrey-lord/2024/11/30/los-angeles-times-hires-scott-jennings-editorial-board-liberals",
+          "display_url": "newsbusters.org/blogs/nb/jeffr…",
+          "indices": [
+            68,
+            91
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1194658750965129216/Fes8YOpA_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1194658750965129216/Fes8YOpA_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/397545273/1573306079",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 21536398,
+  "id_str": "21536398",
+  "name": "Gregg Jarrett",
+  "screen_name": "GreggJarrett",
+  "location": "New York",
+  "description": "Legal and political analyst for Fox News Channel. Author of TRIAL OF THE CENTURY, ORDER now: https://t.co/5VN8oGotek",
+  "url": "https://t.co/2elMgsVsN9",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/2elMgsVsN9",
+          "expanded_url": "https://thegreggjarrett.com",
+          "display_url": "thegreggjarrett.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/5VN8oGotek",
+          "expanded_url": "http://amzn.to/3KMHMA1",
+          "display_url": "amzn.to/3KMHMA1",
+          "indices": [
+            93,
+            116
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 884680,
+  "fast_followers_count": 0,
+  "normal_followers_count": 884680,
+  "friends_count": 125,
+  "listed_count": 2169,
+  "created_at": "Sun Feb 22 01:59:05 +0000 2009",
+  "favourites_count": 29,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 3266,
+  "media_count": 274,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 00:01:00 +0000 2024",
+    "id": 1862647985538028000,
+    "id_str": "1862647985538027951",
+    "text": "Biden-Harris plea deals for 9/11 monsters a craven surrender and disgrace to 3,000 Americans  https://t.co/o3OYI60KWu",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/o3OYI60KWu",
+          "expanded_url": "https://thegreggjarrett.com/biden-harris-plea-deals-for-9-11-monsters-a-craven-surrender-and-disgrace-to-3000-americans/?utm_source=mux&utm_medium=social&utm_campaign=tw",
+          "display_url": "thegreggjarrett.com/biden-harris-p…",
+          "indices": [
+            94,
+            117
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://muxsocial.com\" rel=\"nofollow\">MuxSocial</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 89,
+    "favorite_count": 301,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "9AE4E8",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1024332491967160321/AZAsCMuO_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1024332491967160321/AZAsCMuO_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/21536398/1699965835",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "BDDCAD",
+  "profile_sidebar_fill_color": "ED322C",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+},
+{
+  "id": 25073877,
+  "id_str": "25073877",
+  "name": "Donald J. Trump",
+  "screen_name": "realDonaldTrump",
+  "location": "",
+  "description": "45th President of the United States of America🇺🇸",
+  "url": "https://t.co/mjKdTvQzae",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/mjKdTvQzae",
+          "expanded_url": "http://DonaldJTrump.com",
+          "display_url": "DonaldJTrump.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 95441134,
+  "fast_followers_count": 0,
+  "normal_followers_count": 95441134,
+  "friends_count": 53,
+  "listed_count": 118120,
+  "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 59639,
+  "media_count": 5275,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "6D5C18",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+  "profile_link_color": "1B95E0",
+  "profile_sidebar_border_color": "BDDCAD",
+  "profile_sidebar_fill_color": "C5CEC0",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "regular",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "seanhannity"
+}]

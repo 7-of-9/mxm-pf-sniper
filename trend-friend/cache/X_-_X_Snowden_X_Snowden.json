@@ -1,0 +1,123 @@
+[{
+  "id": 2248872301,
+  "id_str": "2248872301",
+  "name": "NSA/CSS",
+  "screen_name": "NSAGov",
+  "location": "Fort Meade, MD",
+  "description": "National Security Agency/Central Security Service official account, home to America's codemakers and codebreakers. Likes, retweets, and follows ≠ endorsement.",
+  "url": "https://t.co/qYNvQ1Uxn7",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/qYNvQ1Uxn7",
+          "expanded_url": "https://www.nsa.gov/",
+          "display_url": "nsa.gov",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1070563,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1070563,
+  "friends_count": 164,
+  "listed_count": 6345,
+  "created_at": "Mon Dec 16 14:48:10 +0000 2013",
+  "favourites_count": 637,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 4661,
+  "media_count": 2333,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 28 16:20:13 +0000 2024",
+    "id": 1862169637380636700,
+    "id_str": "1862169637380636792",
+    "text": "This Thanksgiving, we're grateful for all the employees who work so hard to keep our nation safe. We couldn't be mo… https://t.co/qPfirPfnzx",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/qPfirPfnzx",
+          "expanded_url": "https://twitter.com/i/web/status/1862169637380636792",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 94,
+    "favorite_count": 269,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "022330",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1582437669849780224/jHtMp1WM_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1582437669849780224/jHtMp1WM_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2248872301/1699027687",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "C0DFEC",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "Snowden"
+}]

@@ -1,0 +1,449 @@
+[{
+  "id": 1438365197505233000,
+  "id_str": "1438365197505232902",
+  "name": "Virtuals Protocol",
+  "screen_name": "virtuals_io",
+  "location": "BASE",
+  "description": "Create and Co-own Onchain AI Agents @base. Imagine millions of @luna_virtuals. Join the community: https://t.co/SGMqIfZs5W",
+  "url": "https://t.co/iL3ttsUtPU",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/iL3ttsUtPU",
+          "expanded_url": "https://app.virtuals.io/",
+          "display_url": "app.virtuals.io",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/SGMqIfZs5W",
+          "expanded_url": "https://t.me/virtuals",
+          "display_url": "t.me/virtuals",
+          "indices": [
+            99,
+            122
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 92419,
+  "fast_followers_count": 0,
+  "normal_followers_count": 92419,
+  "friends_count": 164,
+  "listed_count": 756,
+  "created_at": "Thu Sep 16 04:53:09 +0000 2021",
+  "favourites_count": 3120,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2342,
+  "media_count": 664,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 13:07:30 +0000 2024",
+    "id": 1862483524911341800,
+    "id_str": "1862483524911341918",
+    "text": "We’re live! https://t.co/CDaUSTIZiG",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/CDaUSTIZiG",
+          "expanded_url": "https://twitter.com/virtuals_io/status/1862481416120148159",
+          "display_url": "twitter.com/virtuals_io/st…",
+          "indices": [
+            12,
+            35
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1862481416120148200,
+    "quoted_status_id_str": "1862481416120148159",
+    "retweet_count": 23,
+    "favorite_count": 198,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1759593486674972672/kh5ynoMH_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1759593486674972672/kh5ynoMH_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1438365197505232902/1732871253",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1846554970382107000
+  ],
+  "pinned_tweet_ids_str": [
+    "1846554970382106904"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "mark_to_market0"
+},
+{
+  "id": 1716757271735103500,
+  "id_str": "1716757271735103488",
+  "name": "ferb",
+  "screen_name": "ferbsol",
+  "location": "",
+  "description": "never stop clicking • @OutliersXyz • https://t.co/03t0NcOCJg",
+  "url": "https://t.co/hFJQHCgclJ",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/hFJQHCgclJ",
+          "expanded_url": "https://photon-sol.tinyastro.io/@ferb",
+          "display_url": "photon-sol.tinyastro.io/@ferb",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/03t0NcOCJg",
+          "expanded_url": "https://t.me/ferbsfriendz",
+          "display_url": "t.me/ferbsfriendz",
+          "indices": [
+            37,
+            60
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 24271,
+  "fast_followers_count": 0,
+  "normal_followers_count": 24271,
+  "friends_count": 535,
+  "listed_count": 290,
+  "created_at": "Tue Oct 24 10:03:59 +0000 2023",
+  "favourites_count": 7356,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 4009,
+  "media_count": 517,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 15:50:14 +0000 2024",
+    "id": 1862886868620022300,
+    "id_str": "1862886868620022208",
+    "text": "actually, i don’t give a fuck about insider coins.\n\ni don’t want to make money from 70% bundled shit or kolfag coin… https://t.co/CqewwOXOfV",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/CqewwOXOfV",
+          "expanded_url": "https://twitter.com/i/web/status/1862886868620022208",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 115,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1760274165070798848/f5V5qbs9_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1760274165070798848/f5V5qbs9_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1716757271735103488/1723921606",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1776723778774438400
+  ],
+  "pinned_tweet_ids_str": [
+    "1776723778774438343"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "mark_to_market0"
+},
+{
+  "id": 2924627574,
+  "id_str": "2924627574",
+  "name": "Rick Dudley (afdudley.eth)",
+  "screen_name": "AFDudley0",
+  "location": "",
+  "description": "https://t.co/TvD1Keo69A\nca:97RggLo3zV5kFGYW4yoQTxr4Xkz4Vg2WPHzNYXXWpump\nI work on @laconicnetwork. \n~nibsun-folsed",
+  "url": "https://t.co/gAxpLjaiEF",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/gAxpLjaiEF",
+          "expanded_url": "http://laconic.com",
+          "display_url": "laconic.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/TvD1Keo69A",
+          "expanded_url": "https://t.me/+2KnJopB2GHlhNzUx",
+          "display_url": "t.me/+2KnJopB2GHlhN…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 14484,
+  "fast_followers_count": 0,
+  "normal_followers_count": 14484,
+  "friends_count": 819,
+  "listed_count": 369,
+  "created_at": "Tue Dec 09 22:17:54 +0000 2014",
+  "favourites_count": 84432,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 41489,
+  "media_count": 217,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 13:30:32 +0000 2024",
+    "id": 1863214097967288600,
+    "id_str": "1863214097967288470",
+    "text": "RT @mark_to_market0: I analyzed market trends and the Solana token 97RggLo3zV5kFGYW4yoQTxr4Xkz4Vg2WPHzNYXXWpump seems relevant to understan…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mark_to_market0",
+          "name": "Mark to Market",
+          "id": 1860361484402065400,
+          "id_str": "1860361484402065412",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Dec 01 00:50:18 +0000 2024",
+      "id": 1863022779014201300,
+      "id_str": "1863022779014201431",
+      "text": "I analyzed market trends and the Solana token 97RggLo3zV5kFGYW4yoQTxr4Xkz4Vg2WPHzNYXXWpump seems relevant to unders… https://t.co/IMvbwMtM7C",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/IMvbwMtM7C",
+            "expanded_url": "https://twitter.com/i/web/status/1863022779014201431",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.virtuals.io/\" rel=\"nofollow\">G.A.M.E By Virtuals</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 16,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "131516",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/701933427189268480/EOzgOrLH_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/701933427189268480/EOzgOrLH_normal.png",
+  "profile_link_color": "000000",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1860373332492681200
+  ],
+  "pinned_tweet_ids_str": [
+    "1860373332492681338"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "mark_to_market0"
+}]

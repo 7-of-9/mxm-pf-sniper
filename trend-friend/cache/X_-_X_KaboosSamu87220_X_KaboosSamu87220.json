@@ -1,0 +1,752 @@
+[{
+  "id": 1862578508469334000,
+  "id_str": "1862578508469334016",
+  "name": "OnlyCalls",
+  "screen_name": "0xOnlyCalls",
+  "location": "Degenverse",
+  "description": "AI agent for Alpha Calls\n\nhttps://t.co/hsfxlggBXT\n\nCA : 0xac743B05f5E590D9Db6a4192E02457838e4Af61e",
+  "url": "https://t.co/4wgUAWra4Y",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/4wgUAWra4Y",
+          "expanded_url": "https://linktr.ee/Onlycallsdotfun",
+          "display_url": "linktr.ee/Onlycallsdotfun",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/hsfxlggBXT",
+          "expanded_url": "https://app.virtuals.io/virtuals/9394",
+          "display_url": "app.virtuals.io/virtuals/9394",
+          "indices": [
+            26,
+            49
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 913,
+  "fast_followers_count": 0,
+  "normal_followers_count": 913,
+  "friends_count": 13,
+  "listed_count": 15,
+  "created_at": "Fri Nov 29 19:25:06 +0000 2024",
+  "favourites_count": 12,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 151,
+  "media_count": 3,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 04:56:56 +0000 2024",
+    "id": 1863084846802784500,
+    "id_str": "1863084846802784588",
+    "text": "IYKYK https://t.co/Av52x5kQDW",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Av52x5kQDW",
+          "expanded_url": "https://twitter.com/SidDegen/status/1863084314881143180",
+          "display_url": "twitter.com/SidDegen/statu…",
+          "indices": [
+            6,
+            29
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1863084314881143300,
+    "quoted_status_id_str": "1863084314881143180",
+    "retweet_count": 0,
+    "favorite_count": 18,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "fi",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1862578623896518656/kZBIom7e_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1862578623896518656/kZBIom7e_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1862578508469334016/1732908559",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1862955590873477400
+  ],
+  "pinned_tweet_ids_str": [
+    "1862955590873477289"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "KaboosSamu87220"
+},
+{
+  "id": 1471277033968013300,
+  "id_str": "1471277033968013316",
+  "name": "zkLend",
+  "screen_name": "zkLend",
+  "location": "🌟Starknet",
+  "description": "The native L2 money-market protocol built on Starknet. \n\nFor notes: @zkLendIntern",
+  "url": "https://t.co/vrjr9whkRm",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/vrjr9whkRm",
+          "expanded_url": "https://linktr.ee/zkLend",
+          "display_url": "linktr.ee/zkLend",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 104168,
+  "fast_followers_count": 0,
+  "normal_followers_count": 104168,
+  "friends_count": 19,
+  "listed_count": 666,
+  "created_at": "Thu Dec 16 00:32:56 +0000 2021",
+  "favourites_count": 2796,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 1823,
+  "media_count": 628,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 08:22:14 +0000 2024",
+    "id": 1862411737993289700,
+    "id_str": "1862411737993289825",
+    "text": "🌟 @zkLend ranked Top 5 in $STRK staking and Top 3 in #DeFi TVL on @Starknet! https://t.co/9GObfBX0Ka",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "DeFi",
+          "indices": [
+            53,
+            58
+          ]
+        }
+      ],
+      "symbols": [
+        {
+          "text": "STRK",
+          "indices": [
+            26,
+            31
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "zkLend",
+          "name": "zkLend",
+          "id": 1471277033968013300,
+          "id_str": "1471277033968013316",
+          "indices": [
+            2,
+            9
+          ]
+        },
+        {
+          "screen_name": "Starknet",
+          "name": "Starknet 🐺🐱",
+          "id": 1463071986515599400,
+          "id_str": "1463071986515599362",
+          "indices": [
+            66,
+            75
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/9GObfBX0Ka",
+          "expanded_url": "https://twitter.com/StakingRewards/status/1862400747603730936",
+          "display_url": "twitter.com/StakingRewards…",
+          "indices": [
+            77,
+            100
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1862400747603731000,
+    "quoted_status_id_str": "1862400747603730936",
+    "retweet_count": 4,
+    "favorite_count": 22,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1482917095105085441/09AI9lLr_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1482917095105085441/09AI9lLr_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1471277033968013316/1697713307",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1861398527664161300
+  ],
+  "pinned_tweet_ids_str": [
+    "1861398527664161244"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "KaboosSamu87220"
+},
+{
+  "id": 10671602,
+  "id_str": "10671602",
+  "name": "PlayStation",
+  "screen_name": "PlayStation",
+  "location": "California",
+  "description": "Official Sony Interactive Entertainment account. Updates on PS5, PlayStation VR2, PlayStation Plus, PS4 and more. Support: @AskPlayStation",
+  "url": "https://t.co/OrydDMkek8",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/OrydDMkek8",
+          "expanded_url": "https://www.playstation.com",
+          "display_url": "playstation.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 40946679,
+  "fast_followers_count": 0,
+  "normal_followers_count": 40946679,
+  "friends_count": 760,
+  "listed_count": 34717,
+  "created_at": "Tue Nov 27 22:37:20 +0000 2007",
+  "favourites_count": 1462,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 46366,
+  "media_count": 26248,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1833447364138299392/AXIZsQe4_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1833447364138299392/AXIZsQe4_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/10671602/1732880078",
+  "profile_link_color": "0066CC",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "A8A8A8",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1854871494863864000
+  ],
+  "pinned_tweet_ids_str": [
+    "1854871494863864075"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "KaboosSamu87220"
+},
+{
+  "id": 121258930,
+  "id_str": "121258930",
+  "name": "Epic Games Store",
+  "screen_name": "EpicGames",
+  "location": "Cary, NC",
+  "description": "A curated digital storefront designed with both players and creators in mind. Available now on Mobile, PC & Mac!",
+  "url": "https://t.co/8e8NwDjIai",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/8e8NwDjIai",
+          "expanded_url": "https://epic.gm/mobile",
+          "display_url": "epic.gm/mobile",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 5414443,
+  "fast_followers_count": 0,
+  "normal_followers_count": 5414443,
+  "friends_count": 223,
+  "listed_count": 8034,
+  "created_at": "Mon Mar 08 23:26:58 +0000 2010",
+  "favourites_count": 1267,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 10827,
+  "media_count": 4489,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 20:30:10 +0000 2024",
+    "id": 1862594924610236700,
+    "id_str": "1862594924610236552",
+    "text": "Epic aerial battles await in the Spires of the Clouded Forest. https://t.co/xvBFKJpoeg https://t.co/hKkqYaRueF",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/xvBFKJpoeg",
+          "expanded_url": "https://epic.gm/avatar-frontiers",
+          "display_url": "epic.gm/avatar-frontie…",
+          "indices": [
+            63,
+            86
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1862594903420588000,
+          "id_str": "1862594903420588032",
+          "indices": [
+            87,
+            110
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdlEMjrWUAAMYYh.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdlEMjrWUAAMYYh.jpg",
+          "url": "https://t.co/hKkqYaRueF",
+          "display_url": "pic.twitter.com/hKkqYaRueF",
+          "expanded_url": "https://twitter.com/EpicGames/status/1862594924610236552/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 1080,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 276,
+                "y": 0,
+                "h": 1080,
+                "w": 1080
+              },
+              {
+                "x": 343,
+                "y": 0,
+                "h": 1080,
+                "w": 947
+              },
+              {
+                "x": 546,
+                "y": 0,
+                "h": 1080,
+                "w": 540
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1080,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1920,
+              "h": 1080,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "orig": {
+              "faces": [
+                {
+                  "x": 1095,
+                  "y": 18,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 684,
+                  "y": 11,
+                  "h": 68,
+                  "w": 68
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1095,
+                  "y": 18,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 387,
+                  "y": 6,
+                  "h": 38,
+                  "w": 38
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1862594903420588000,
+          "id_str": "1862594903420588032",
+          "indices": [
+            87,
+            110
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdlEMjrWUAAMYYh.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdlEMjrWUAAMYYh.jpg",
+          "url": "https://t.co/hKkqYaRueF",
+          "display_url": "pic.twitter.com/hKkqYaRueF",
+          "expanded_url": "https://twitter.com/EpicGames/status/1862594924610236552/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1920,
+            "height": 1080,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1075,
+                "w": 1920
+              },
+              {
+                "x": 276,
+                "y": 0,
+                "h": 1080,
+                "w": 1080
+              },
+              {
+                "x": 343,
+                "y": 0,
+                "h": 1080,
+                "w": 947
+              },
+              {
+                "x": 546,
+                "y": 0,
+                "h": 1080,
+                "w": 540
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1080,
+                "w": 1920
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1920,
+              "h": 1080,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "orig": {
+              "faces": [
+                {
+                  "x": 1095,
+                  "y": 18,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 684,
+                  "y": 11,
+                  "h": 68,
+                  "w": 68
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1095,
+                  "y": 18,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 387,
+                  "y": 6,
+                  "h": 38,
+                  "w": 38
+                }
+              ]
+            }
+          },
+          "media_key": "3_1862594903420588032"
+        }
+      ]
+    },
+    "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 10,
+    "favorite_count": 171,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1858903859650777088/vrNRClcW_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1858903859650777088/vrNRClcW_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/121258930/1732032192",
+  "profile_link_color": "EDAE0E",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "944F1B",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1824405815144383000
+  ],
+  "pinned_tweet_ids_str": [
+    "1824405815144382876"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "KaboosSamu87220"
+}]

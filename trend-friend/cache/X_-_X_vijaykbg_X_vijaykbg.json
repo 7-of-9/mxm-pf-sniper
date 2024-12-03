@@ -1,0 +1,3002 @@
+[{
+  "id": 1329198248767217700,
+  "id_str": "1329198248767217674",
+  "name": "Simon Geisler",
+  "screen_name": "geisler_si",
+  "location": "Munich",
+  "description": "Machine Learning PhD Student at @TU_Muenchen. Ex-@GoogleDeepMind, Ex-@Bosch_AI, Ex-@BoschGlobal.",
+  "url": "https://t.co/xjyllfpETT",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/xjyllfpETT",
+          "expanded_url": "https://www.in.tum.de/en/daml/team/simon-geisler/",
+          "display_url": "in.tum.de/en/daml/team/s…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 842,
+  "fast_followers_count": 0,
+  "normal_followers_count": 842,
+  "friends_count": 480,
+  "listed_count": 14,
+  "created_at": "Wed Nov 18 23:02:20 +0000 2020",
+  "favourites_count": 266,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 125,
+  "media_count": 27,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Nov 12 07:40:10 +0000 2024",
+    "id": 1856240555954504000,
+    "id_str": "1856240555954504002",
+    "text": "RT @HannesStaerk: Monday with @n_gao96 in the reading group \"Learning Equivariant Non-Local Electron Density Functionals\" https://t.co/RfDt…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "HannesStaerk",
+          "name": "Hannes Stärk",
+          "id": 1138012858988617700,
+          "id_str": "1138012858988617728",
+          "indices": [
+            3,
+            16
+          ]
+        },
+        {
+          "screen_name": "n_gao96",
+          "name": "Nicholas Gao",
+          "id": 2651214536,
+          "id_str": "2651214536",
+          "indices": [
+            30,
+            38
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Nov 10 21:37:28 +0000 2024",
+      "id": 1855726494787756300,
+      "id_str": "1855726494787756167",
+      "text": "Monday with @n_gao96 in the reading group \"Learning Equivariant Non-Local Electron Density Functionals\"… https://t.co/rAQyfXks4m",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "n_gao96",
+            "name": "Nicholas Gao",
+            "id": 2651214536,
+            "id_str": "2651214536",
+            "indices": [
+              12,
+              20
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/rAQyfXks4m",
+            "expanded_url": "https://twitter.com/i/web/status/1855726494787756167",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              105,
+              128
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 17,
+      "favorite_count": 101,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1855726494787756300,
+        "id_str": "1855726494787756167"
+      }
+    },
+    "is_quote_status": false,
+    "retweet_count": 17,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1329198640557150209/uqBodXS3_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1329198640557150209/uqBodXS3_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1796571313945170400
+  ],
+  "pinned_tweet_ids_str": [
+    "1796571313945170384"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1775684308751007700,
+  "id_str": "1775684308751007744",
+  "name": "lyricloom_",
+  "screen_name": "lyricloom173180",
+  "location": "",
+  "description": "Fan page for @drae_drae22\nMarketing, trading and business advice. 📈",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1266,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1266,
+  "friends_count": 3762,
+  "listed_count": 0,
+  "created_at": "Thu Apr 04 00:38:36 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 3,
+  "media_count": 1,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Aug 08 18:59:51 +0000 2024",
+    "id": 1821622368453980700,
+    "id_str": "1821622368453980586",
+    "text": "The world of NFTs is ever-expanding. What new trends are you following? 📈🌍 #NFTTrends #Crypto",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NFTTrends",
+          "indices": [
+            75,
+            85
+          ]
+        },
+        {
+          "text": "Crypto",
+          "indices": [
+            86,
+            93
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1817314707449200640/bA304XqL_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1817314707449200640/bA304XqL_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1775684308751007744/1722116591",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 2228370313,
+  "id_str": "2228370313",
+  "name": "Damien Teney",
+  "screen_name": "DamienTeney",
+  "location": "Martigny, Switzerland",
+  "description": "Research Scientist @ Idiap Research Institute. @Idiap_ch\nAdjunct lecturer @ Australian Institute for ML. @TheAIML\nOccasionally cycling across continents.",
+  "url": "https://t.co/yk22GC5xFO",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/yk22GC5xFO",
+          "expanded_url": "https://www.damienteney.info",
+          "display_url": "damienteney.info",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1583,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1583,
+  "friends_count": 466,
+  "listed_count": 13,
+  "created_at": "Tue Dec 03 14:26:59 +0000 2013",
+  "favourites_count": 5618,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1143,
+  "media_count": 69,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 18:23:31 +0000 2024",
+    "id": 1862563052152934700,
+    "id_str": "1862563052152934771",
+    "text": "Brilliant advice for writing rebuttals ⬇️\nThe most overlooked one is: be concise.\nThis should be provided by confer… https://t.co/CS7mZVxOzM",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/CS7mZVxOzM",
+          "expanded_url": "https://twitter.com/i/web/status/1862563052152934771",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1861620578517475300,
+    "quoted_status_id_str": "1861620578517475436",
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1224950315205545984/98lI56cJ_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1224950315205545984/98lI56cJ_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2228370313/1619633911",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 3438102134,
+  "id_str": "3438102134",
+  "name": "S P Sharan",
+  "screen_name": "spsharan2000",
+  "location": "Austin, Texas",
+  "description": "Ph.D. student of ECE (DICE) at VITA-Group @UTAustin, advised by Dr. Atlas Wang & Dr. Sandeep Chinchali",
+  "url": "https://t.co/BLaLbv3mEN",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/BLaLbv3mEN",
+          "expanded_url": "http://spsharan.com",
+          "display_url": "spsharan.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 93,
+  "fast_followers_count": 0,
+  "normal_followers_count": 93,
+  "friends_count": 411,
+  "listed_count": 1,
+  "created_at": "Thu Sep 03 15:16:50 +0000 2015",
+  "favourites_count": 1046,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 2,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Jun 05 10:39:11 +0000 2023",
+    "id": 1665669587805823000,
+    "id_str": "1665669587805822980",
+    "text": "@papers_daily Are there any alternatives currently to this?",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "papers_daily",
+          "name": "Daily AI Papers",
+          "id": 1397114203601657900,
+          "id_str": "1397114203601657857",
+          "indices": [
+            0,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1664220724708475000,
+    "in_reply_to_status_id_str": "1664220724708474886",
+    "in_reply_to_user_id": 1397114203601657900,
+    "in_reply_to_user_id_str": "1397114203601657857",
+    "in_reply_to_screen_name": "papers_daily",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1627325966237241351/DrcQDkv0_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1627325966237241351/DrcQDkv0_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438102134/1676819748",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1301521408388927500,
+  "id_str": "1301521408388927488",
+  "name": "NEC Labs America",
+  "screen_name": "NECLabsAmerica",
+  "location": "Princeton NJ & San Jose CA",
+  "description": "@NEC Labs America delivers high-impact #technology #research. Located in Princeton, NJ & San Jose, CA. #AI #MachineLearning #DataScience #OpticalNetworking",
+  "url": "https://t.co/bMzVGBB1VY",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/bMzVGBB1VY",
+          "expanded_url": "http://www.nec-labs.com",
+          "display_url": "nec-labs.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 803,
+  "fast_followers_count": 0,
+  "normal_followers_count": 803,
+  "friends_count": 3216,
+  "listed_count": 3,
+  "created_at": "Thu Sep 03 14:04:30 +0000 2020",
+  "favourites_count": 290,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1251,
+  "media_count": 850,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 16:12:24 +0000 2024",
+    "id": 1862530057081647400,
+    "id_str": "1862530057081647294",
+    "text": "Learning to Localize Actions in Instructional Videos with LLM-Based Multi-Pathway Text-Video Alignment\n\nPublication… https://t.co/vqYF6FvZfX",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/vqYF6FvZfX",
+          "expanded_url": "https://twitter.com/i/web/status/1862530057081647294",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1301525098625728514/BY7wx63__normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1301525098625728514/BY7wx63__normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1301521408388927488/1698675588",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1859705350548500500
+  ],
+  "pinned_tweet_ids_str": [
+    "1859705350548500506"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1457048979657658400,
+  "id_str": "1457048979657658372",
+  "name": "TasksWithCode",
+  "screen_name": "TasksWithCode",
+  "location": "",
+  "description": "We spotlight ML researchers & practitioners.  High (S) fact: ~50% code contributors to ML paper implementations are practitioners collaborating with researchers",
+  "url": "https://t.co/JGRAUCOqDS",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/JGRAUCOqDS",
+          "expanded_url": "http://authorswithcode.org",
+          "display_url": "authorswithcode.org",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 549,
+  "fast_followers_count": 0,
+  "normal_followers_count": 549,
+  "friends_count": 3321,
+  "listed_count": 4,
+  "created_at": "Sat Nov 06 18:16:24 +0000 2021",
+  "favourites_count": 74,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 684,
+  "media_count": 342,
+  "lang": null,
+  "status": {
+    "created_at": "Wed May 15 15:24:38 +0000 2024",
+    "id": 1790765240356844000,
+    "id_str": "1790765240356843940",
+    "text": "@pfau Jakub's paper contributions https://t.co/UZ8HDpbFaN",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pfau",
+          "name": "David Pfau",
+          "id": 14450509,
+          "id_str": "14450509",
+          "indices": [
+            0,
+            5
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/UZ8HDpbFaN",
+          "expanded_url": "https://authorswithcode.org/researchers/?author_name=jakub%20pachocki&author_id=-1",
+          "display_url": "authorswithcode.org/researchers/?a…",
+          "indices": [
+            34,
+            57
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1790631972756230700,
+    "in_reply_to_status_id_str": "1790631972756230549",
+    "in_reply_to_user_id": 14450509,
+    "in_reply_to_user_id_str": "14450509",
+    "in_reply_to_screen_name": "pfau",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1719176524161527808/3xwDHEDY_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1719176524161527808/3xwDHEDY_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1457048979657658372/1714830440",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1720871794540687600
+  ],
+  "pinned_tweet_ids_str": [
+    "1720871794540687638"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 3343810813,
+  "id_str": "3343810813",
+  "name": "Yu Liu (Uni)",
+  "screen_name": "Uni_Lau",
+  "location": "",
+  "description": "Research Scientist in Bytedance AI Lab, previously PhD in Uni Adelaide and ETH Zurich. Computer Vision, Deep Learning, Robotics.....",
+  "url": "https://t.co/zzhb2T855g",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/zzhb2T855g",
+          "expanded_url": "https://sites.google.com/site/yuliuunilau/home",
+          "display_url": "sites.google.com/site/yuliuunil…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 18,
+  "fast_followers_count": 0,
+  "normal_followers_count": 18,
+  "friends_count": 97,
+  "listed_count": 0,
+  "created_at": "Wed Aug 26 02:33:53 +0000 2015",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1,
+  "media_count": 1,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Sep 02 12:17:55 +0000 2022",
+    "id": 1565675384775090200,
+    "id_str": "1565675384775090177",
+    "text": "I'm glad to share my Intern Xizhe' work in ByteDance. This work is the first one-stage framework for open-world ins… https://t.co/yNzg01oxDO",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/yNzg01oxDO",
+          "expanded_url": "https://twitter.com/i/web/status/1565675384775090177",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1565471858169880578/HeYsrlx0_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1565471858169880578/HeYsrlx0_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1882066740,
+  "id_str": "1882066740",
+  "name": "Rex \"garbage in\" Douglass Ph.D.",
+  "screen_name": "RexDouglass",
+  "location": "",
+  "description": "Applied Scientist in Industry. Previously UCSD. Princeton PhD.\n\nFollow me for recreational methods trash talk.",
+  "url": "https://t.co/lHU2bOjVow",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/lHU2bOjVow",
+          "expanded_url": "http://rexdouglass.com",
+          "display_url": "rexdouglass.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 4807,
+  "fast_followers_count": 0,
+  "normal_followers_count": 4807,
+  "friends_count": 5159,
+  "listed_count": 121,
+  "created_at": "Thu Sep 19 06:09:23 +0000 2013",
+  "favourites_count": 11058,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 9766,
+  "media_count": 394,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 08:11:29 +0000 2024",
+    "id": 1863496195446112500,
+    "id_str": "1863496195446112385",
+    "text": "https://t.co/idsF69XfhV",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/idsF69XfhV",
+          "expanded_url": "https://www.zyltech.com/",
+          "display_url": "zyltech.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1863493300264878300,
+    "in_reply_to_status_id_str": "1863493300264878273",
+    "in_reply_to_user_id": 1882066740,
+    "in_reply_to_user_id_str": "1882066740",
+    "in_reply_to_screen_name": "RexDouglass",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "zxx",
+    "supplemental_language": null,
+    "self_thread": {
+      "id": 1863405295520952600,
+      "id_str": "1863405295520952559"
+    }
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1364773003049885699/ahOISZTf_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1364773003049885699/ahOISZTf_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1882066740/1423455908",
+  "profile_link_color": "4A913C",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1798535489022206000
+  ],
+  "pinned_tweet_ids_str": [
+    "1798535489022206037"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 5709442,
+  "id_str": "5709442",
+  "name": "Juxi Leitner",
+  "screen_name": "Juxi",
+  "location": "Melbourne",
+  "description": "Roboticist | Progressing to deploy 100,000 robots @LYRO_Robotics | Fostering the next generation of robotics talent @MonashUni | Interests #Robotics #AI #space",
+  "url": "https://t.co/xeq0g2hcre",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/xeq0g2hcre",
+          "expanded_url": "http://Juxi.net",
+          "display_url": "Juxi.net",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 2906,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2906,
+  "friends_count": 3090,
+  "listed_count": 180,
+  "created_at": "Wed May 02 10:05:01 +0000 2007",
+  "favourites_count": 15856,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 10138,
+  "media_count": 655,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 16 10:36:15 +0000 2024",
+    "id": 1857734418783182800,
+    "id_str": "1857734418783182895",
+    "text": "RT @chris_j_paxton: Since this debate is really kicking off:\n- I think in general building a ROS replacement is dumb and a horrible idea (R…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "chris_j_paxton",
+          "name": "Chris Paxton",
+          "id": 2244121213,
+          "id_str": "2244121213",
+          "indices": [
+            3,
+            18
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Nov 15 15:37:15 +0000 2024",
+      "id": 1857447780949598500,
+      "id_str": "1857447780949598561",
+      "text": "Since this debate is really kicking off:\n- I think in general building a ROS replacement is dumb and a horrible ide… https://t.co/W9k0ZuaBQw",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/W9k0ZuaBQw",
+            "expanded_url": "https://twitter.com/i/web/status/1857447780949598561",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1856889990581817600,
+      "quoted_status_id_str": "1856889990581817616",
+      "retweet_count": 8,
+      "favorite_count": 149,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1857447780949598500,
+        "id_str": "1857447780949598561"
+      }
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1856889990581817600,
+    "quoted_status_id_str": "1856889990581817616",
+    "retweet_count": 8,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "022330",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/540357029424951296/MDwTiN-6_normal.jpeg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/540357029424951296/MDwTiN-6_normal.jpeg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/5709442/1400834046",
+  "profile_link_color": "ABB8C2",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "C0DFEC",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1022687396838559700,
+  "id_str": "1022687396838559744",
+  "name": "Qi Wu",
+  "screen_name": "QiWu_AIML",
+  "location": "Adelaide, South Australia",
+  "description": "Senior Lecturer, ARC DECRA Fellow at Australian Institute for Machine Learning, @TheAIML\nUniversity of Adelaide",
+  "url": "https://t.co/HYucd2s2Ek",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/HYucd2s2Ek",
+          "expanded_url": "http://www.qi-wu.me",
+          "display_url": "qi-wu.me",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 487,
+  "fast_followers_count": 0,
+  "normal_followers_count": 487,
+  "friends_count": 126,
+  "listed_count": 7,
+  "created_at": "Fri Jul 27 03:37:30 +0000 2018",
+  "favourites_count": 263,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 92,
+  "media_count": 13,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Sep 20 04:12:20 +0000 2023",
+    "id": 1704347736097865700,
+    "id_str": "1704347736097865733",
+    "text": "RT @TheAIML: 🕯️ In loving memory of Dr. Yifan Liu 🕯️\n\nPlease join us to celebrate Yifan's short but successful life at her funeral in Adela…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "TheAIML",
+          "name": "Australian Institute for Machine Learning",
+          "id": 1021584554430095400,
+          "id_str": "1021584554430095361",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Sep 20 03:49:05 +0000 2023",
+      "id": 1704341887912718600,
+      "id_str": "1704341887912718709",
+      "text": "🕯️ In loving memory of Dr. Yifan Liu 🕯️\n\nPlease join us to celebrate Yifan's short but successful life at her funer… https://t.co/nhcH8mpseI",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/nhcH8mpseI",
+            "expanded_url": "https://twitter.com/i/web/status/1704341887912718709",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1704339840685543400,
+      "quoted_status_id_str": "1704339840685543551",
+      "retweet_count": 11,
+      "favorite_count": 45,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1704339840685543400,
+    "quoted_status_id_str": "1704339840685543551",
+    "retweet_count": 11,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1022687870404816901/tfmTe3Kq_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1022687870404816901/tfmTe3Kq_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 820025081510268900,
+  "id_str": "820025081510268928",
+  "name": "Kejie Li",
+  "screen_name": "kejie_li",
+  "location": "",
+  "description": "CV researcher @ ByteDance github: https://t.co/XqCGpmJfVi Homepage: https://t.co/hPBbHlW7OP",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/XqCGpmJfVi",
+          "expanded_url": "https://github.com/likojack",
+          "display_url": "github.com/likojack",
+          "indices": [
+            34,
+            57
+          ]
+        },
+        {
+          "url": "https://t.co/hPBbHlW7OP",
+          "expanded_url": "https://likojack.github.io/kejieli/#/home",
+          "display_url": "likojack.github.io/kejieli/#/home",
+          "indices": [
+            68,
+            91
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 198,
+  "fast_followers_count": 0,
+  "normal_followers_count": 198,
+  "friends_count": 90,
+  "listed_count": 2,
+  "created_at": "Fri Jan 13 21:49:49 +0000 2017",
+  "favourites_count": 29,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 29,
+  "media_count": 4,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Apr 25 23:57:35 +0000 2024",
+    "id": 1783646570820649200,
+    "id_str": "1783646570820649221",
+    "text": "RT @ziruiwang_: Thanks for sharing :)\n\nTLDR: Introducing an image evaluation method that assesses rendered images via images from other vie…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ziruiwang_",
+          "name": "Zirui Wang",
+          "id": 1707517154,
+          "id_str": "1707517154",
+          "indices": [
+            3,
+            14
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Apr 24 07:41:57 +0000 2024",
+      "id": 1783038656086782000,
+      "id_str": "1783038656086782022",
+      "text": "Thanks for sharing :)\n\nTLDR: Introducing an image evaluation method that assesses rendered images via images from o… https://t.co/vHUj8b8zhJ",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/vHUj8b8zhJ",
+            "expanded_url": "https://twitter.com/i/web/status/1783038656086782022",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1782669750814060800,
+      "quoted_status_id_str": "1782669750814060727",
+      "retweet_count": 11,
+      "favorite_count": 59,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1782669750814060800,
+    "quoted_status_id_str": "1782669750814060727",
+    "retweet_count": 11,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1358964437554581507/CrveExUI_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1358964437554581507/CrveExUI_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1959599407,
+  "id_str": "1959599407",
+  "name": "Hamid Rezatofighi",
+  "screen_name": "HamidRezatofigh",
+  "location": "Melbourne, Victoria",
+  "description": "Assistant Professor at the Monash Data Science & AI (DSAI), Monash University. Interested in Computer Vision, Vision Robotics & Perception for Planning",
+  "url": "https://t.co/2JCdWaERKi",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/2JCdWaERKi",
+          "expanded_url": "https://vl4ai.erc.monash.edu",
+          "display_url": "vl4ai.erc.monash.edu",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 851,
+  "fast_followers_count": 0,
+  "normal_followers_count": 851,
+  "friends_count": 266,
+  "listed_count": 7,
+  "created_at": "Sun Oct 13 23:36:17 +0000 2013",
+  "favourites_count": 927,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 335,
+  "media_count": 46,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Nov 24 17:26:07 +0000 2024",
+    "id": 1860736668619379000,
+    "id_str": "1860736668619378897",
+    "text": "@antonmil It should be only with a silver color sticker. Otherwise no one will spend $6M to buy it.",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "antonmil",
+          "name": "Anton Milan",
+          "id": 57201408,
+          "id_str": "57201408",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1860662290988614000,
+    "in_reply_to_status_id_str": "1860662290988613882",
+    "in_reply_to_user_id": 57201408,
+    "in_reply_to_user_id_str": "57201408",
+    "in_reply_to_screen_name": "antonmil",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1675279575444750336/KLfe5YLU_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1675279575444750336/KLfe5YLU_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1959599407/1555852969",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1266353726467403800
+  ],
+  "pinned_tweet_ids_str": [
+    "1266353726467403781"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 854297932652093400,
+  "id_str": "854297932652093440",
+  "name": "Cedric Scheerlinck",
+  "screen_name": "C_Scheerlinck",
+  "location": "Australia",
+  "description": "PhD candidate @anucecs and @RoboticVisionAU working on computer vision and robotics.",
+  "url": "https://t.co/jtkfaDy2QP",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/jtkfaDy2QP",
+          "expanded_url": "https://www.cedricscheerlinck.com/",
+          "display_url": "cedricscheerlinck.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 44,
+  "fast_followers_count": 0,
+  "normal_followers_count": 44,
+  "friends_count": 108,
+  "listed_count": 4,
+  "created_at": "Tue Apr 18 11:37:54 +0000 2017",
+  "favourites_count": 5,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 4,
+  "media_count": 3,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Dec 02 00:55:46 +0000 2020",
+    "id": 1333937872072626200,
+    "id_str": "1333937872072626177",
+    "text": "RT @TobyHendy: My latest YouTube video is about Ada Lovelace who was the first to communicate the idea of a substantial computer program in…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "TobyHendy",
+          "name": "Tibees",
+          "id": 147131662,
+          "id_str": "147131662",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Dec 01 07:45:46 +0000 2020",
+      "id": 1333678665079537700,
+      "id_str": "1333678665079537667",
+      "text": "My latest YouTube video is about Ada Lovelace who was the first to communicate the idea of a substantial computer p… https://t.co/SlHnnHor79",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/SlHnnHor79",
+            "expanded_url": "https://twitter.com/i/web/status/1333678665079537667",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 46,
+      "favorite_count": 975,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 46,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1062744988918919169/5xqQ0qO6_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1062744988918919169/5xqQ0qO6_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/854297932652093440/1492517354",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1045592969598840800,
+  "id_str": "1045592969598840832",
+  "name": "Mehdi Hosseinzadeh",
+  "screen_name": "m80hz",
+  "location": "Australia",
+  "description": "Research Fellow @TheAIML (The Australian Institute for Machine Learning), previously PhD student @RoboticVisionAU. Interested in #computervision, #robotics",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 90,
+  "fast_followers_count": 0,
+  "normal_followers_count": 90,
+  "friends_count": 260,
+  "listed_count": 1,
+  "created_at": "Fri Sep 28 08:36:04 +0000 2018",
+  "favourites_count": 23,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 8,
+  "media_count": 1,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Sep 26 11:20:18 +0000 2024",
+    "id": 1839263723925680400,
+    "id_str": "1839263723925680336",
+    "text": "Honoured and grateful to be recognised as an Outstanding Reviewer for ECCV 2024. 🙏 \n#ECCV2024 https://t.co/CX2hQoCsAN",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ECCV2024",
+          "indices": [
+            84,
+            93
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/CX2hQoCsAN",
+          "expanded_url": "https://twitter.com/eccvconf/status/1838335606973145500",
+          "display_url": "twitter.com/eccvconf/statu…",
+          "indices": [
+            94,
+            117
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1838335606973145600,
+    "quoted_status_id_str": "1838335606973145500",
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1045593835256999937/4oybFr0d_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1045593835256999937/4oybFr0d_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 1321782926,
+  "id_str": "1321782926",
+  "name": "Feras Dayoub",
+  "screen_name": "feras_dayoub",
+  "location": "Adelaide, South Australia",
+  "description": "Robotic Vision researcher, Australia institute for machine learning. #robotics, #computervision and #machinelearning.",
+  "url": "https://t.co/BjIeCLloju",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/BjIeCLloju",
+          "expanded_url": "http://www.ferasdayoub.com",
+          "display_url": "ferasdayoub.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1104,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1104,
+  "friends_count": 940,
+  "listed_count": 13,
+  "created_at": "Tue Apr 02 05:04:59 +0000 2013",
+  "favourites_count": 2679,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 964,
+  "media_count": 213,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Nov 18 10:58:47 +0000 2024",
+    "id": 1858464867000168700,
+    "id_str": "1858464867000168607",
+    "text": "@antonmil Based on what I understood from reading Being You, @anilkseth is that our perception is a controlled hall… https://t.co/tP7VHVBAhq",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "antonmil",
+          "name": "Anton Milan",
+          "id": 57201408,
+          "id_str": "57201408",
+          "indices": [
+            0,
+            9
+          ]
+        },
+        {
+          "screen_name": "anilkseth",
+          "name": "Anil Seth",
+          "id": 202573676,
+          "id_str": "202573676",
+          "indices": [
+            61,
+            71
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/tP7VHVBAhq",
+          "expanded_url": "https://twitter.com/i/web/status/1858464867000168607",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1858416893368869000,
+    "in_reply_to_status_id_str": "1858416893368869208",
+    "in_reply_to_user_id": 57201408,
+    "in_reply_to_user_id_str": "57201408",
+    "in_reply_to_screen_name": "antonmil",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1644116429376212992/w1X55bea_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1644116429376212992/w1X55bea_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1321782926/1702467164",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 34318525,
+  "id_str": "34318525",
+  "name": "Donald Dansereau",
+  "screen_name": "dgdvision",
+  "location": "Sydney, New South Wales",
+  "description": "Head of the Robotic Imaging Lab @Sydney_Uni / @SIRISRobotics / Australian Centre for Robotics; Theme Lead @ariam_hub; Better robots for better humanity.",
+  "url": "https://t.co/yW0UtgfPO1",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/yW0UtgfPO1",
+          "expanded_url": "http://roboticimaging.org",
+          "display_url": "roboticimaging.org",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1225,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1225,
+  "friends_count": 1922,
+  "listed_count": 25,
+  "created_at": "Wed Apr 22 16:29:44 +0000 2009",
+  "favourites_count": 1165,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2908,
+  "media_count": 738,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Oct 29 01:49:41 +0000 2024",
+    "id": 1851078922458579200,
+    "id_str": "1851078922458579128",
+    "text": "RT @RoboticVisionSS: Registrations for the Robotic Vision Summer School 2025 are open! Join us at the beautiful Australian Pacific coast fo…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "RoboticVisionSS",
+          "name": "Robotic Vision Summer School (RVSS)",
+          "id": 1279725822413168600,
+          "id_str": "1279725822413168642",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Oct 29 01:03:05 +0000 2024",
+      "id": 1851067197134946300,
+      "id_str": "1851067197134946338",
+      "text": "Registrations for the Robotic Vision Summer School 2025 are open! Join us at the beautiful Australian Pacific coast… https://t.co/Ab4zNQnkj4",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Ab4zNQnkj4",
+            "expanded_url": "https://twitter.com/i/web/status/1851067197134946338",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 7,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1851067197134946300,
+        "id_str": "1851067197134946338"
+      }
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/950128093271810048/sz06d3xD_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/950128093271810048/sz06d3xD_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/34318525/1515363230",
+  "profile_link_color": "0B64A9",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 2691350340,
+  "id_str": "2691350340",
+  "name": "Robotic Vision",
+  "screen_name": "RoboticVisionAU",
+  "location": "AUSTRALIA",
+  "description": "Combining robotics and computer vision to give robots the ability to see.",
+  "url": "https://t.co/V8I4UyFS9L",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/V8I4UyFS9L",
+          "expanded_url": "http://www.roboticvision.org",
+          "display_url": "roboticvision.org",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3357,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3357,
+  "friends_count": 672,
+  "listed_count": 104,
+  "created_at": "Wed Jul 30 00:21:55 +0000 2014",
+  "favourites_count": 2238,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2763,
+  "media_count": 465,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Sep 14 02:24:21 +0000 2021",
+    "id": 1437603091914715100,
+    "id_str": "1437603091914715136",
+    "text": "@LangtonKatrin @digitalchildau You look fab Katrin!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "LangtonKatrin",
+          "name": "Katrin.Langton",
+          "id": 1192403936914788400,
+          "id_str": "1192403936914788353",
+          "indices": [
+            0,
+            14
+          ]
+        },
+        {
+          "screen_name": "digitalchildau",
+          "name": "ARC Centre of Excellence for the Digital Child",
+          "id": 1242689616521523200,
+          "id_str": "1242689616521523204",
+          "indices": [
+            15,
+            30
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1437582439073792000,
+    "in_reply_to_status_id_str": "1437582439073792001",
+    "in_reply_to_user_id": 1192403936914788400,
+    "in_reply_to_user_id_str": "1192403936914788353",
+    "in_reply_to_screen_name": "LangtonKatrin",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/546644465905963008/lsOMGsgt_normal.jpeg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/546644465905963008/lsOMGsgt_normal.jpeg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2691350340/1568843009",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 2899767672,
+  "id_str": "2899767672",
+  "name": "Niko Sünderhauf",
+  "screen_name": "nikoSuenderhauf",
+  "location": "Brisbane",
+  "description": "Professor @QUT. Deputy Director @QUTRobotics Centre for Robotics. Deputy Director @ariam_hub Intelligent Robotics for Asset Management.",
+  "url": "https://t.co/PDerHO1RCg",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/PDerHO1RCg",
+          "expanded_url": "http://nikosuenderhauf.info",
+          "display_url": "nikosuenderhauf.info",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1551,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1551,
+  "friends_count": 322,
+  "listed_count": 31,
+  "created_at": "Sat Nov 15 00:21:38 +0000 2014",
+  "favourites_count": 1617,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 667,
+  "media_count": 98,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Nov 05 02:18:53 +0000 2024",
+    "id": 1853622986722718200,
+    "id_str": "1853622986722718129",
+    "text": "@jinwanxin @jadachakra Yes @jadachakra is planning to release it!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "jinwanxin",
+          "name": "Wan𝕏in Jin",
+          "id": 2459525054,
+          "id_str": "2459525054",
+          "indices": [
+            0,
+            10
+          ]
+        },
+        {
+          "screen_name": "jadachakra",
+          "name": "Jad Abou-Chakra",
+          "id": 1801600224903012400,
+          "id_str": "1801600224903012352",
+          "indices": [
+            11,
+            22
+          ]
+        },
+        {
+          "screen_name": "jadachakra",
+          "name": "Jad Abou-Chakra",
+          "id": 1801600224903012400,
+          "id_str": "1801600224903012352",
+          "indices": [
+            27,
+            38
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1853485498985300500,
+    "in_reply_to_status_id_str": "1853485498985300357",
+    "in_reply_to_user_id": 2459525054,
+    "in_reply_to_user_id_str": "2459525054",
+    "in_reply_to_screen_name": "jinwanxin",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/884978860990902272/uadHnvyU_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/884978860990902272/uadHnvyU_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2899767672/1551071180",
+  "profile_link_color": "ABB8C2",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 57201408,
+  "id_str": "57201408",
+  "name": "Anton Milan",
+  "screen_name": "antonmil",
+  "location": "34.9290° S, 138.6010° E",
+  "description": "computer vision, deep learning, robotics...",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1883,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1883,
+  "friends_count": 1278,
+  "listed_count": 43,
+  "created_at": "Thu Jul 16 01:27:13 +0000 2009",
+  "favourites_count": 11136,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 2456,
+  "media_count": 244,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 12:40:33 +0000 2024",
+    "id": 1862839130868122000,
+    "id_str": "1862839130868122073",
+    "text": "Oh, well, could be a nice Christmas present for my archeologists great-grand kids 🫣😬 https://t.co/4em06qlFen",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1862839128162762800,
+          "id_str": "1862839128162762752",
+          "indices": [
+            85,
+            108
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdoiUTvXAAAnb5G.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdoiUTvXAAAnb5G.jpg",
+          "url": "https://t.co/4em06qlFen",
+          "display_url": "pic.twitter.com/4em06qlFen",
+          "expanded_url": "https://twitter.com/antonmil/status/1862839130868122073/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1440,
+            "height": 812,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 6,
+                "h": 806,
+                "w": 1440
+              },
+              {
+                "x": 350,
+                "y": 0,
+                "h": 812,
+                "w": 812
+              },
+              {
+                "x": 400,
+                "y": 0,
+                "h": 812,
+                "w": 712
+              },
+              {
+                "x": 553,
+                "y": 0,
+                "h": 812,
+                "w": 406
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 812,
+                "w": 1440
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 677,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1440,
+              "h": 812,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1862839128162762800,
+          "id_str": "1862839128162762752",
+          "indices": [
+            85,
+            108
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdoiUTvXAAAnb5G.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdoiUTvXAAAnb5G.jpg",
+          "url": "https://t.co/4em06qlFen",
+          "display_url": "pic.twitter.com/4em06qlFen",
+          "expanded_url": "https://twitter.com/antonmil/status/1862839130868122073/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1440,
+            "height": 812,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 6,
+                "h": 806,
+                "w": 1440
+              },
+              {
+                "x": 350,
+                "y": 0,
+                "h": 812,
+                "w": 812
+              },
+              {
+                "x": 400,
+                "y": 0,
+                "h": 812,
+                "w": 712
+              },
+              {
+                "x": 553,
+                "y": 0,
+                "h": 812,
+                "w": 406
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 812,
+                "w": 1440
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 677,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1440,
+              "h": 812,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1862839128162762752"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C6E2EE",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme2/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme2/bg.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/426586645278642176/310IBUo-_normal.jpeg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/426586645278642176/310IBUo-_normal.jpeg",
+  "profile_link_color": "1F98C7",
+  "profile_sidebar_border_color": "C6E2EE",
+  "profile_sidebar_fill_color": "DAECF4",
+  "profile_text_color": "663B12",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+},
+{
+  "id": 114182135,
+  "id_str": "114182135",
+  "name": "Pavan Kumar",
+  "screen_name": "pavankr13",
+  "location": "Bengaluru",
+  "description": "Even after a carbon dating of 4 decades, I can’t decide what to put here. My next adventure is 5,643m to 8,849m!",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 80,
+  "fast_followers_count": 0,
+  "normal_followers_count": 80,
+  "friends_count": 227,
+  "listed_count": 3,
+  "created_at": "Sun Feb 14 12:41:15 +0000 2010",
+  "favourites_count": 1419,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 334,
+  "media_count": 34,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Oct 24 17:10:50 +0000 2023",
+    "id": 1716864841435263200,
+    "id_str": "1716864841435263247",
+    "text": "RT @NetApp: We launched our AFF C-Series + ASA A-Series this year, giving you faster, more sustainable storage, affordably! But, we haven't…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "NetApp",
+          "name": "NetApp",
+          "id": 15897465,
+          "id_str": "15897465",
+          "indices": [
+            3,
+            10
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Oct 24 16:43:59 +0000 2023",
+      "id": 1716858083333276200,
+      "id_str": "1716858083333276158",
+      "text": "We launched our AFF C-Series + ASA A-Series this year, giving you faster, more sustainable storage, affordably! But… https://t.co/he8d4wUsnK",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/he8d4wUsnK",
+            "expanded_url": "https://twitter.com/i/web/status/1716858083333276158",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://prod1.sprinklr.com\" rel=\"nofollow\">Sprinklr Publishing</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 9,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "352726",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1361651533952282625/0o1xhJEz_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1361651533952282625/0o1xhJEz_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/114182135/1613478004",
+  "profile_link_color": "D02B55",
+  "profile_sidebar_border_color": "829D5E",
+  "profile_sidebar_fill_color": "99CC33",
+  "profile_text_color": "3E4415",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "vijaykbg"
+}]

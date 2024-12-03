@@ -1,0 +1,290 @@
+[{
+  "id": 1789744478317580300,
+  "id_str": "1789744478317580289",
+  "name": "Lloyd__XIII",
+  "screen_name": "GeorgiosPa82260",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 36,
+  "fast_followers_count": 0,
+  "normal_followers_count": 36,
+  "friends_count": 128,
+  "listed_count": 0,
+  "created_at": "Sun May 12 19:48:53 +0000 2024",
+  "favourites_count": 119,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 74,
+  "media_count": 16,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Nov 25 07:07:31 +0000 2024",
+    "id": 1860943381108527600,
+    "id_str": "1860943381108527598",
+    "text": "@Rantanplaner6 Περιμένω ενα μη αχγωτικό ματσ, να είμαστε 2 γκολ μπροστα από ημιχρονο, να δουμε την ομαδα να ξεμπουκ… https://t.co/TiVQwhZ9sd",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Rantanplaner6",
+          "name": "Rantanplaner🇵🇸🏴‍☠️🍼",
+          "id": 3300102225,
+          "id_str": "3300102225",
+          "indices": [
+            0,
+            14
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/TiVQwhZ9sd",
+          "expanded_url": "https://twitter.com/i/web/status/1860943381108527598",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1860931065260494800,
+    "in_reply_to_status_id_str": "1860931065260494940",
+    "in_reply_to_user_id": 3300102225,
+    "in_reply_to_user_id_str": "3300102225",
+    "in_reply_to_screen_name": "Rantanplaner6",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "el",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1795400678254301184/UKGiTIzH_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1795400678254301184/UKGiTIzH_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1789744478317580289/1716891839",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1801318999277638000
+  ],
+  "pinned_tweet_ids_str": [
+    "1801318999277637825"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "CortoObscura"
+},
+{
+  "id": 1851638584719122400,
+  "id_str": "1851638584719122432",
+  "name": "Ilias Papatheodorou",
+  "screen_name": "IliasPapathe",
+  "location": "Αττική, Ελλάς",
+  "description": "Γυμναστής, Κεντρώος, Παναθηναϊκός! Αυτά!",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 24,
+  "fast_followers_count": 0,
+  "normal_followers_count": 24,
+  "friends_count": 65,
+  "listed_count": 0,
+  "created_at": "Wed Oct 30 14:53:48 +0000 2024",
+  "favourites_count": 126,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 69,
+  "media_count": 3,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 11:18:20 +0000 2024",
+    "id": 1863543215594393600,
+    "id_str": "1863543215594393621",
+    "text": "RT @NastaziaDi39932: Οχι, δεν είναι στην Αθήνα, είναι στην Γλυφάδα! \nΑλλά εκεί δεν έχουν #Δουκας να του φορτώνουν όλες τις αμαρτίες του επι…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Δουκας",
+          "indices": [
+            89,
+            96
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "NastaziaDi39932",
+          "name": "Nastazia Dimitriou",
+          "id": 1851600869214544000,
+          "id_str": "1851600869214543872",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Dec 02 11:17:42 +0000 2024",
+      "id": 1863543059130007800,
+      "id_str": "1863543059130007730",
+      "text": "Οχι, δεν είναι στην Αθήνα, είναι στην Γλυφάδα! \nΑλλά εκεί δεν έχουν #Δουκας να του φορτώνουν όλες τις αμαρτίες του… https://t.co/fz7ZEVuhm6",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Δουκας",
+            "indices": [
+              68,
+              75
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/fz7ZEVuhm6",
+            "expanded_url": "https://twitter.com/i/web/status/1863543059130007730",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 5,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "el",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "el",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1851639273272885248/41fMEMZ2_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1851639273272885248/41fMEMZ2_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1851638584719122432/1730300452",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "CortoObscura"
+}]

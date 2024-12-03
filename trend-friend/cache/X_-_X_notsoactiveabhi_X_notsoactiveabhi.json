@@ -1,0 +1,580 @@
+[{
+  "id": 245391935,
+  "id_str": "245391935",
+  "name": "Luke Belmar PRIVATE",
+  "screen_name": "lukeebelmaa",
+  "location": "",
+  "description": "Only private elites here ‼️ I will mainly talk about crypto, price action analysis etc. ONLY FOR A FEW PEOPLE 🎯 Main account: @lukebelmar",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 5815,
+  "fast_followers_count": 0,
+  "normal_followers_count": 5815,
+  "friends_count": 7501,
+  "listed_count": 5,
+  "created_at": "Mon Jan 31 15:57:47 +0000 2011",
+  "favourites_count": 9798,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2895,
+  "media_count": 658,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Sep 23 12:49:42 +0000 2024",
+    "id": 1838199057577136400,
+    "id_str": "1838199057577136289",
+    "text": "RT @lukebelmar: No days off. The bullrun is here. https://t.co/AzOfBcoCz3",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "lukebelmar",
+          "name": "Luke Belmar 👽",
+          "id": 1299904825723891700,
+          "id_str": "1299904825723891712",
+          "indices": [
+            3,
+            14
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1837935786924429300,
+          "id_str": "1837935786924429317",
+          "indices": [
+            50,
+            73
+          ],
+          "media_url": "http://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+          "url": "https://t.co/AzOfBcoCz3",
+          "display_url": "pic.twitter.com/AzOfBcoCz3",
+          "expanded_url": "https://twitter.com/lukebelmar/status/1837935792028897453/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 968,
+            "height": 581,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 542,
+                "w": 968
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "h": 581,
+                "w": 581
+              },
+              {
+                "x": 253,
+                "y": 0,
+                "h": 581,
+                "w": 510
+              },
+              {
+                "x": 363,
+                "y": 0,
+                "h": 581,
+                "w": 291
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 581,
+                "w": 968
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 968,
+              "h": 581,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 968,
+              "h": 581,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 408,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1837935792028897500,
+          "source_status_id_str": "1837935792028897453",
+          "source_user_id": 1299904825723891700,
+          "source_user_id_str": "1299904825723891712",
+          "features": {
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1837935786924429300,
+          "id_str": "1837935786924429317",
+          "indices": [
+            50,
+            73
+          ],
+          "media_url": "http://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+          "url": "https://t.co/AzOfBcoCz3",
+          "display_url": "pic.twitter.com/AzOfBcoCz3",
+          "expanded_url": "https://twitter.com/lukebelmar/status/1837935792028897453/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 968,
+            "height": 581,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 542,
+                "w": 968
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "h": 581,
+                "w": 581
+              },
+              {
+                "x": 253,
+                "y": 0,
+                "h": 581,
+                "w": 510
+              },
+              {
+                "x": 363,
+                "y": 0,
+                "h": 581,
+                "w": 291
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 581,
+                "w": 968
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 968,
+              "h": 581,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 968,
+              "h": 581,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 408,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1837935792028897500,
+          "source_status_id_str": "1837935792028897453",
+          "source_user_id": 1299904825723891700,
+          "source_user_id_str": "1299904825723891712",
+          "features": {
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1837935786924429317"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Sep 22 19:23:34 +0000 2024",
+      "id": 1837935792028897500,
+      "id_str": "1837935792028897453",
+      "text": "No days off. The bullrun is here. https://t.co/AzOfBcoCz3",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 1837935786924429300,
+            "id_str": "1837935786924429317",
+            "indices": [
+              34,
+              57
+            ],
+            "media_url": "http://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+            "url": "https://t.co/AzOfBcoCz3",
+            "display_url": "pic.twitter.com/AzOfBcoCz3",
+            "expanded_url": "https://twitter.com/lukebelmar/status/1837935792028897453/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 968,
+              "height": 581,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 542,
+                  "w": 968
+                },
+                {
+                  "x": 218,
+                  "y": 0,
+                  "h": 581,
+                  "w": 581
+                },
+                {
+                  "x": 253,
+                  "y": 0,
+                  "h": 581,
+                  "w": 510
+                },
+                {
+                  "x": 363,
+                  "y": 0,
+                  "h": 581,
+                  "w": 291
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 581,
+                  "w": 968
+                }
+              ]
+            },
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 968,
+                "h": 581,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 968,
+                "h": 581,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 408,
+                "resize": "fit"
+              }
+            },
+            "features": {
+              "orig": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "large": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1837935786924429300,
+            "id_str": "1837935786924429317",
+            "indices": [
+              34,
+              57
+            ],
+            "media_url": "http://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/GYGo3EOb0AUk2Dl.jpg",
+            "url": "https://t.co/AzOfBcoCz3",
+            "display_url": "pic.twitter.com/AzOfBcoCz3",
+            "expanded_url": "https://twitter.com/lukebelmar/status/1837935792028897453/photo/1",
+            "type": "photo",
+            "original_info": {
+              "width": 968,
+              "height": 581,
+              "focus_rects": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 542,
+                  "w": 968
+                },
+                {
+                  "x": 218,
+                  "y": 0,
+                  "h": 581,
+                  "w": 581
+                },
+                {
+                  "x": 253,
+                  "y": 0,
+                  "h": 581,
+                  "w": 510
+                },
+                {
+                  "x": 363,
+                  "y": 0,
+                  "h": 581,
+                  "w": 291
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "h": 581,
+                  "w": 968
+                }
+              ]
+            },
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 968,
+                "h": 581,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 968,
+                "h": 581,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 408,
+                "resize": "fit"
+              }
+            },
+            "features": {
+              "orig": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "large": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "media_key": "3_1837935786924429317"
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 643,
+      "favorite_count": 6965,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 643,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1814013138301325312/QeQKv270_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1814013138301325312/QeQKv270_normal.jpg",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1518906142839033900
+  ],
+  "pinned_tweet_ids_str": [
+    "1518906142839033856"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "notsoactiveabhi"
+},
+{
+  "id": 1284147118421074000,
+  "id_str": "1284147118421073920",
+  "name": "神風",
+  "screen_name": "SENPAI_YAMETEE_",
+  "location": "Live in your mom's basement",
+  "description": "My bio is offensive",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": true,
+  "followers_count": 2,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2,
+  "friends_count": 5,
+  "listed_count": 0,
+  "created_at": "Fri Jul 17 15:25:24 +0000 2020",
+  "favourites_count": 68,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 31,
+  "media_count": 23,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1399790943096635393/DRI5VwnP_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1399790943096635393/DRI5VwnP_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1284147118421073920/1622571231",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": false,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "notsoactiveabhi"
+}]

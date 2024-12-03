@@ -1,0 +1,367 @@
+[{
+  "id": 1821986734583791600,
+  "id_str": "1821986734583791616",
+  "name": "Simulacrum",
+  "screen_name": "SimulacrumIO",
+  "location": "",
+  "description": "Enabling anyone to launch onchain AI agents from social media using natural language. Creators of @SimulacrumAI. Powered by @EmpyrealSDK $EMP",
+  "url": "https://t.co/id1fenWiZx",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/id1fenWiZx",
+          "expanded_url": "https://simulacrum.network/",
+          "display_url": "simulacrum.network",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 2274,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2274,
+  "friends_count": 4,
+  "listed_count": 33,
+  "created_at": "Fri Aug 09 19:08:48 +0000 2024",
+  "favourites_count": 55,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 48,
+  "media_count": 1,
+  "lang": null,
+  "status": {
+    "created_at": "Sat Nov 30 19:42:28 +0000 2024",
+    "id": 1862945310189699300,
+    "id_str": "1862945310189699359",
+    "text": "RT @EmpyrealSDK: 🤖 Meet $SIMMI - the first token of the @SimulacrumIO ecosystem\n\n@Simmi_IO is our official agent, representing Simulacrum's…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [
+        {
+          "text": "SIMMI",
+          "indices": [
+            24,
+            30
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "EmpyrealSDK",
+          "name": "Empyreal",
+          "id": 1639116527164088300,
+          "id_str": "1639116527164088320",
+          "indices": [
+            3,
+            15
+          ]
+        },
+        {
+          "screen_name": "SimulacrumIO",
+          "name": "Simulacrum",
+          "id": 1821986734583791600,
+          "id_str": "1821986734583791616",
+          "indices": [
+            56,
+            69
+          ]
+        },
+        {
+          "screen_name": "Simmi_IO",
+          "name": "Simmi",
+          "id": 1851676759219146800,
+          "id_str": "1851676759219146752",
+          "indices": [
+            81,
+            90
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 30 19:41:06 +0000 2024",
+      "id": 1862944964973605400,
+      "id_str": "1862944964973605249",
+      "text": "🤖 Meet $SIMMI - the first token of the @SimulacrumIO ecosystem\n\n@Simmi_IO is our official agent, representing Simul… https://t.co/8pRuczuAZH",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "SIMMI",
+            "indices": [
+              7,
+              13
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "SimulacrumIO",
+            "name": "Simulacrum",
+            "id": 1821986734583791600,
+            "id_str": "1821986734583791616",
+            "indices": [
+              39,
+              52
+            ]
+          },
+          {
+            "screen_name": "Simmi_IO",
+            "name": "Simmi",
+            "id": 1851676759219146800,
+            "id_str": "1851676759219146752",
+            "indices": [
+              64,
+              73
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/8pRuczuAZH",
+            "expanded_url": "https://twitter.com/i/web/status/1862944964973605249",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://typefully.com/\" rel=\"nofollow\">Typefully</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 93,
+      "favorite_count": 349,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1862944964973605400,
+        "id_str": "1862944964973605249"
+      }
+    },
+    "is_quote_status": false,
+    "retweet_count": 93,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1826731271948517376/aAUQ6Ozo_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1826731271948517376/aAUQ6Ozo_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1821986734583791616/1724361649",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "SimulacrumAI"
+},
+{
+  "id": 1639116527164088300,
+  "id_str": "1639116527164088320",
+  "name": "Empyreal",
+  "screen_name": "EmpyrealSDK",
+  "location": "Omnichain",
+  "description": "Intelligent infrastructure for web3. Enabling anyone to launch onchain AI agents from social media using natural language with @SimulacrumIO.  $EMP",
+  "url": "https://t.co/wIuj8Rfb8J",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/wIuj8Rfb8J",
+          "expanded_url": "https://linktr.ee/empyrealSDK",
+          "display_url": "linktr.ee/empyrealSDK",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 10040,
+  "fast_followers_count": 0,
+  "normal_followers_count": 10040,
+  "friends_count": 13,
+  "listed_count": 122,
+  "created_at": "Fri Mar 24 04:07:14 +0000 2023",
+  "favourites_count": 503,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 747,
+  "media_count": 242,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 12:04:17 +0000 2024",
+    "id": 1863192391663886800,
+    "id_str": "1863192391663886734",
+    "text": "https://t.co/Iwrcg9hEY1 https://t.co/jfyvYFtgbL",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Iwrcg9hEY1",
+          "expanded_url": "https://x.com/simmi_io/status/1863159354213404988",
+          "display_url": "x.com/simmi_io/statu…",
+          "indices": [
+            0,
+            23
+          ]
+        },
+        {
+          "url": "https://t.co/jfyvYFtgbL",
+          "expanded_url": "https://twitter.com/simmi_io/status/1863159354213404988",
+          "display_url": "twitter.com/simmi_io/statu…",
+          "indices": [
+            24,
+            47
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1863076228573323500,
+    "in_reply_to_status_id_str": "1863076228573323611",
+    "in_reply_to_user_id": 1639116527164088300,
+    "in_reply_to_user_id_str": "1639116527164088320",
+    "in_reply_to_screen_name": "EmpyrealSDK",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1863159354213405000,
+    "quoted_status_id_str": "1863159354213404988",
+    "retweet_count": 7,
+    "favorite_count": 43,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "zxx",
+    "supplemental_language": null,
+    "self_thread": {
+      "id": 1862944964973605400,
+      "id_str": "1862944964973605249"
+    }
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1714715273297592320/9hXDCiKx_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1714715273297592320/9hXDCiKx_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1639116527164088320/1701370790",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1858527408883655000
+  ],
+  "pinned_tweet_ids_str": [
+    "1858527408883654991"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "SimulacrumAI"
+}]

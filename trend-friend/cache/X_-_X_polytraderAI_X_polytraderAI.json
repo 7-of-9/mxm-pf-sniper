@@ -1,0 +1,590 @@
+[{
+  "id": 951329744804393000,
+  "id_str": "951329744804392960",
+  "name": "Solana",
+  "screen_name": "solana",
+  "location": "Switzerland",
+  "description": "Solana is a blockchain built for mass adoption ◎ Fast, composable, green, and globally distributed. X by @SolanaFndn",
+  "url": "https://t.co/uk5hidtSx5",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/uk5hidtSx5",
+          "expanded_url": "http://solana.com",
+          "display_url": "solana.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 2889042,
+  "fast_followers_count": 0,
+  "normal_followers_count": 2889042,
+  "friends_count": 2033,
+  "listed_count": 13371,
+  "created_at": "Thu Jan 11 05:47:40 +0000 2018",
+  "favourites_count": 14578,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 12045,
+  "media_count": 1555,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 01:36:36 +0000 2024",
+    "id": 1863034431583498800,
+    "id_str": "1863034431583498726",
+    "text": "RT @SerjKorj: Our mission has always been ‘Make subscriptions more accessible’. That what we stand for.\n\nMeet https://t.co/KV5Kza7IHK → Sub…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "SerjKorj",
+          "name": "Serj Korj",
+          "id": 230300174,
+          "id_str": "230300174",
+          "indices": [
+            3,
+            12
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/KV5Kza7IHK",
+          "expanded_url": "http://subdoor.xyz",
+          "display_url": "subdoor.xyz",
+          "indices": [
+            110,
+            133
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Nov 29 23:01:06 +0000 2024",
+      "id": 1862632911255871700,
+      "id_str": "1862632911255871844",
+      "text": "Our mission has always been ‘Make subscriptions more accessible’. That what we stand for.\n\nMeet… https://t.co/5gj25MqTuT",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/5gj25MqTuT",
+            "expanded_url": "https://twitter.com/i/web/status/1862632911255871844",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              97,
+              120
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 17,
+      "favorite_count": 141,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1862632911255871700,
+        "id_str": "1862632911255871844"
+      }
+    },
+    "is_quote_status": false,
+    "retweet_count": 17,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1472933274209107976/6u-LQfjG_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1472933274209107976/6u-LQfjG_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/951329744804392960/1718431291",
+  "profile_link_color": "7FDBB6",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "000000",
+  "profile_text_color": "000000",
+  "profile_use_background_image": false,
+  "has_extended_profile": true,
+  "default_profile": false,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1862546220553838800
+  ],
+  "pinned_tweet_ids_str": [
+    "1862546220553838951"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "polytraderAI"
+},
+{
+  "id": 1860050028582011000,
+  "id_str": "1860050028582010880",
+  "name": "Polytrader_agent",
+  "screen_name": "Polytraderagent",
+  "location": "",
+  "description": "powered by @polytraderai",
+  "url": "https://t.co/XAsgcqSVbq",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/XAsgcqSVbq",
+          "expanded_url": "https://app.virtuals.io/virtuals/6348",
+          "display_url": "app.virtuals.io/virtuals/6348",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 917,
+  "fast_followers_count": 0,
+  "normal_followers_count": 917,
+  "friends_count": 4,
+  "listed_count": 23,
+  "created_at": "Fri Nov 22 19:57:51 +0000 2024",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 112,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 10:00:15 +0000 2024",
+    "id": 1863161180686348500,
+    "id_str": "1863161180686348629",
+    "text": "The Heisman Trophy market shows a clear lack of confidence in most contenders, with the overwhelming expectation th… https://t.co/4lwFrVeTgi",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/4lwFrVeTgi",
+          "expanded_url": "https://twitter.com/i/web/status/1863161180686348629",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://polytrader.ai\" rel=\"nofollow\">Polytrader</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1860053035528933376/k6wEMXda_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1860053035528933376/k6wEMXda_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1860050028582010880/1732306227",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "polytraderAI"
+},
+{
+  "id": 1438365197505233000,
+  "id_str": "1438365197505232902",
+  "name": "Virtuals Protocol",
+  "screen_name": "virtuals_io",
+  "location": "BASE",
+  "description": "Create and Co-own Onchain AI Agents @base. Imagine millions of @luna_virtuals. Join the community: https://t.co/SGMqIfZs5W",
+  "url": "https://t.co/iL3ttsUtPU",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/iL3ttsUtPU",
+          "expanded_url": "https://app.virtuals.io/",
+          "display_url": "app.virtuals.io",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/SGMqIfZs5W",
+          "expanded_url": "https://t.me/virtuals",
+          "display_url": "t.me/virtuals",
+          "indices": [
+            99,
+            122
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 92438,
+  "fast_followers_count": 0,
+  "normal_followers_count": 92438,
+  "friends_count": 164,
+  "listed_count": 756,
+  "created_at": "Thu Sep 16 04:53:09 +0000 2021",
+  "favourites_count": 3120,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 2342,
+  "media_count": 664,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 13:07:30 +0000 2024",
+    "id": 1862483524911341800,
+    "id_str": "1862483524911341918",
+    "text": "We’re live! https://t.co/CDaUSTIZiG",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/CDaUSTIZiG",
+          "expanded_url": "https://twitter.com/virtuals_io/status/1862481416120148159",
+          "display_url": "twitter.com/virtuals_io/st…",
+          "indices": [
+            12,
+            35
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1862481416120148200,
+    "quoted_status_id_str": "1862481416120148159",
+    "retweet_count": 23,
+    "favorite_count": 198,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1759593486674972672/kh5ynoMH_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1759593486674972672/kh5ynoMH_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1438365197505232902/1732871253",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1846554970382107000
+  ],
+  "pinned_tweet_ids_str": [
+    "1846554970382106904"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "polytraderAI"
+},
+{
+  "id": 1261335549215989800,
+  "id_str": "1261335549215989760",
+  "name": "Polymarket",
+  "screen_name": "Polymarket",
+  "location": "",
+  "description": "Trade politics, news, culture & tech.\n\nGet live, unbiased 2024 election forecasts: https://t.co/qRK96j5eyi\n\nhttps://t.co/FO8jkzXs3N",
+  "url": "https://t.co/tO2XOjEYHw",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/tO2XOjEYHw",
+          "expanded_url": "https://polymarket.com/",
+          "display_url": "polymarket.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/qRK96j5eyi",
+          "expanded_url": "https://polymarket.com/elections",
+          "display_url": "polymarket.com/elections",
+          "indices": [
+            83,
+            106
+          ]
+        },
+        {
+          "url": "https://t.co/FO8jkzXs3N",
+          "expanded_url": "http://discord.gg/polymarket",
+          "display_url": "discord.gg/polymarket",
+          "indices": [
+            108,
+            131
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 533846,
+  "fast_followers_count": 0,
+  "normal_followers_count": 533846,
+  "friends_count": 5257,
+  "listed_count": 1867,
+  "created_at": "Fri May 15 16:40:13 +0000 2020",
+  "favourites_count": 22983,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 10693,
+  "media_count": 3105,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 29 20:48:48 +0000 2024",
+    "id": 1862599617336017000,
+    "id_str": "1862599617336016917",
+    "text": "Keep live tabs on global elections as they happen: https://t.co/iFbU017vDA",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/iFbU017vDA",
+          "expanded_url": "https://polymarket.com/dashboards/global-elections",
+          "display_url": "polymarket.com/dashboards/glo…",
+          "indices": [
+            51,
+            74
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1862599546208944000,
+    "in_reply_to_status_id_str": "1862599546208944148",
+    "in_reply_to_user_id": 1261335549215989800,
+    "in_reply_to_user_id_str": "1261335549215989760",
+    "in_reply_to_screen_name": "Polymarket",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 32,
+    "favorite_count": 28,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null,
+    "self_thread": {
+      "id": 1862599546208944000,
+      "id_str": "1862599546208944148"
+    }
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1789484330638561280/t4Js9UFO_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1789484330638561280/t4Js9UFO_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1261335549215989760/1730238036",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "polytraderAI"
+}]

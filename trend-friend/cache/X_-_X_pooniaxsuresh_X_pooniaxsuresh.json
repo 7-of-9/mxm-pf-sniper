@@ -1,0 +1,4524 @@
+[{
+  "id": 1750364804093767700,
+  "id_str": "1750364804093767680",
+  "name": "Suresh Poonia",
+  "screen_name": "sureshpoonia31",
+  "location": "Hanumangarh, India ",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1,
+  "friends_count": 42,
+  "listed_count": 0,
+  "created_at": "Thu Jan 25 03:48:16 +0000 2024",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1750364942505791488/IUOXQOVi_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1750364942505791488/IUOXQOVi_normal.png",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1795754105404846000,
+  "id_str": "1795754105404846080",
+  "name": "MukeshBijarniya",
+  "screen_name": "MukeshBija1113",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 61,
+  "fast_followers_count": 0,
+  "normal_followers_count": 61,
+  "friends_count": 50,
+  "listed_count": 0,
+  "created_at": "Wed May 29 09:48:50 +0000 2024",
+  "favourites_count": 86,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 51,
+  "media_count": 48,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 28 18:30:58 +0000 2024",
+    "id": 1862202540164624600,
+    "id_str": "1862202540164624762",
+    "text": "#VidaaMuyarchi \n#trainding https://t.co/KsaHatZaNx",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "VidaaMuyarchi",
+          "indices": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "trainding",
+          "indices": [
+            16,
+            26
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1862202537278926800,
+          "id_str": "1862202537278926848",
+          "indices": [
+            27,
+            50
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdffV15XcAAuKRy.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdffV15XcAAuKRy.jpg",
+          "url": "https://t.co/KsaHatZaNx",
+          "display_url": "pic.twitter.com/KsaHatZaNx",
+          "expanded_url": "https://twitter.com/MukeshBija1113/status/1862202540164624762/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1080,
+            "height": 1611,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 1006,
+                "h": 605,
+                "w": 1080
+              },
+              {
+                "x": 0,
+                "y": 531,
+                "h": 1080,
+                "w": 1080
+              },
+              {
+                "x": 0,
+                "y": 380,
+                "h": 1231,
+                "w": 1080
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1611,
+                "w": 806
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1611,
+                "w": 1080
+              }
+            ]
+          },
+          "sizes": {
+            "small": {
+              "w": 456,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1611,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 804,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": [
+                {
+                  "x": 133,
+                  "y": 70,
+                  "h": 124,
+                  "w": 124
+                },
+                {
+                  "x": 211,
+                  "y": 452,
+                  "h": 143,
+                  "w": 143
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 317,
+                  "y": 168,
+                  "h": 295,
+                  "w": 295
+                },
+                {
+                  "x": 500,
+                  "y": 1071,
+                  "h": 341,
+                  "w": 341
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 317,
+                  "y": 168,
+                  "h": 295,
+                  "w": 295
+                },
+                {
+                  "x": 500,
+                  "y": 1071,
+                  "h": 341,
+                  "w": 341
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 235,
+                  "y": 125,
+                  "h": 219,
+                  "w": 219
+                },
+                {
+                  "x": 372,
+                  "y": 797,
+                  "h": 253,
+                  "w": 253
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1862202537278926800,
+          "id_str": "1862202537278926848",
+          "indices": [
+            27,
+            50
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdffV15XcAAuKRy.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdffV15XcAAuKRy.jpg",
+          "url": "https://t.co/KsaHatZaNx",
+          "display_url": "pic.twitter.com/KsaHatZaNx",
+          "expanded_url": "https://twitter.com/MukeshBija1113/status/1862202540164624762/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1080,
+            "height": 1611,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 1006,
+                "h": 605,
+                "w": 1080
+              },
+              {
+                "x": 0,
+                "y": 531,
+                "h": 1080,
+                "w": 1080
+              },
+              {
+                "x": 0,
+                "y": 380,
+                "h": 1231,
+                "w": 1080
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1611,
+                "w": 806
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 1611,
+                "w": 1080
+              }
+            ]
+          },
+          "sizes": {
+            "small": {
+              "w": 456,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1611,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 804,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": [
+                {
+                  "x": 133,
+                  "y": 70,
+                  "h": 124,
+                  "w": 124
+                },
+                {
+                  "x": 211,
+                  "y": 452,
+                  "h": 143,
+                  "w": 143
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 317,
+                  "y": 168,
+                  "h": 295,
+                  "w": 295
+                },
+                {
+                  "x": 500,
+                  "y": 1071,
+                  "h": 341,
+                  "w": 341
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 317,
+                  "y": 168,
+                  "h": 295,
+                  "w": 295
+                },
+                {
+                  "x": 500,
+                  "y": 1071,
+                  "h": 341,
+                  "w": 341
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 235,
+                  "y": 125,
+                  "h": 219,
+                  "w": 219
+                },
+                {
+                  "x": 372,
+                  "y": 797,
+                  "h": 253,
+                  "w": 253
+                }
+              ]
+            }
+          },
+          "media_key": "3_1862202537278926848"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "qme",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1845659109514739725/D5tGwrKA_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1845659109514739725/D5tGwrKA_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1795754105404846080/1728966974",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1810788653310038000,
+  "id_str": "1810788653310038017",
+  "name": "Kind girl",
+  "screen_name": "SaphiezB38603d",
+  "location": "USA",
+  "description": "A friend is one of the nicest things you can have, and one of the best things you can be.",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 17,
+  "fast_followers_count": 0,
+  "normal_followers_count": 17,
+  "friends_count": 1525,
+  "listed_count": 0,
+  "created_at": "Tue Jul 09 21:30:34 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1810788678748291073/JmD5GS-1_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1810788678748291073/JmD5GS-1_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1810788653310038017/1720560651",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1786947514513633300,
+  "id_str": "1786947514513633280",
+  "name": "Fairy",
+  "screen_name": "Fairy682667",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 91,
+  "fast_followers_count": 0,
+  "normal_followers_count": 91,
+  "friends_count": 3594,
+  "listed_count": 0,
+  "created_at": "Sun May 05 02:34:29 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1786947623813087232/EdyaIpSh_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1786947623813087232/EdyaIpSh_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1612132198207099000,
+  "id_str": "1612132198207098880",
+  "name": "Maniramkulhari",
+  "screen_name": "MManiramkulhari",
+  "location": "",
+  "description": "@ nitian",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3,
+  "friends_count": 3,
+  "listed_count": 0,
+  "created_at": "Sun Jan 08 17:00:59 +0000 2023",
+  "favourites_count": 8,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 18,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Sep 15 20:24:03 +0000 2023",
+    "id": 1702780336642658600,
+    "id_str": "1702780336642658472",
+    "text": "RT @AratareK64068: On confirmation from his batchmates, it was brought to everyone's attention that had met the Dean on the day of his demi…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "AratareK64068",
+          "name": "chansu Boro",
+          "id": 1686076248106406000,
+          "id_str": "1686076248106405888",
+          "indices": [
+            3,
+            17
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 15 19:28:28 +0000 2023",
+      "id": 1702766351604130000,
+      "id_str": "1702766351604130115",
+      "text": "On confirmation from his batchmates, it was brought to everyone's attention that had met the Dean on the day of his… https://t.co/777dOHwH6q",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/777dOHwH6q",
+            "expanded_url": "https://twitter.com/i/web/status/1702766351604130115",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": 1702766348932436500,
+      "in_reply_to_status_id_str": "1702766348932436394",
+      "in_reply_to_user_id": 1686076248106406000,
+      "in_reply_to_user_id_str": "1686076248106405888",
+      "in_reply_to_screen_name": "AratareK64068",
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en",
+      "supplemental_language": null,
+      "self_thread": {
+        "id": 1702766348932436500,
+        "id_str": "1702766348932436394"
+      }
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1612134944117260290/WjPX8sY1_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1612134944117260290/WjPX8sY1_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1827279104200339500,
+  "id_str": "1827279104200339456",
+  "name": "Seytuen",
+  "screen_name": "SeytuenU9R",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 13,
+  "fast_followers_count": 0,
+  "normal_followers_count": 13,
+  "friends_count": 1928,
+  "listed_count": 0,
+  "created_at": "Sat Aug 24 09:37:43 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1827279121489219584/dQTvf7fH_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1827279121489219584/dQTvf7fH_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1827279104200339456/1724492276",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1494709100705366000,
+  "id_str": "1494709100705366022",
+  "name": "Chaitanya Mohod",
+  "screen_name": "Cmeru24",
+  "location": "",
+  "description": "Student",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1,
+  "friends_count": 6,
+  "listed_count": 0,
+  "created_at": "Fri Feb 18 16:23:42 +0000 2022",
+  "favourites_count": 5,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1494710692666089472/DTnAnpfT_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1494710692666089472/DTnAnpfT_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1819605312384782300,
+  "id_str": "1819605312384782337",
+  "name": "Gabriel",
+  "screen_name": "gabdsz5",
+  "location": "Goa, India",
+  "description": "NITG CSE'26 | ML Enthusiast",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 3,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3,
+  "friends_count": 41,
+  "listed_count": 0,
+  "created_at": "Sat Aug 03 05:25:15 +0000 2024",
+  "favourites_count": 89,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Aug 18 14:20:29 +0000 2024",
+    "id": 1825175942031151000,
+    "id_str": "1825175942031151225",
+    "text": "RT @codingclubnitg: 🚀 We had an incredible time at the SuperMove Tour hosted by Spheron Network  for the students of NIT Goa! 🎉\n\nA big than…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "codingclubnitg",
+          "name": "Coding Club NIT Goa",
+          "id": 1616381743698964500,
+          "id_str": "1616381743698964482",
+          "indices": [
+            3,
+            18
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Aug 18 08:07:04 +0000 2024",
+      "id": 1825081967219782000,
+      "id_str": "1825081967219781824",
+      "text": "🚀 We had an incredible time at the SuperMove Tour hosted by Spheron Network  for the students of NIT Goa! 🎉\n\nA big… https://t.co/CMiIJVkAbH",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/CMiIJVkAbH",
+            "expanded_url": "https://twitter.com/i/web/status/1825081967219781824",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 11,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1825175297391550465/4p5B2pJj_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1825175297391550465/4p5B2pJj_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1819605312384782337/1723990701",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1772255131737735200,
+  "id_str": "1772255131737735168",
+  "name": "Rachel",
+  "screen_name": "ls2148sq6wug",
+  "location": "Israeli",
+  "description": "הבנק הפדרלי מוריד את הריבית ב-50 נקודות בסיס. איפה כדאי לך להשקיע? הצטרף אלינו:https://t.co/XOahxQt0iL",
+  "url": "https://t.co/jsHbvr7ZRF",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/jsHbvr7ZRF",
+          "expanded_url": "https://chat.whatsapp.com/KA88S7lmIJa9J56rWvOFhe",
+          "display_url": "chat.whatsapp.com/KA88S7lmIJa9J5…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/XOahxQt0iL",
+          "expanded_url": "https://chat.whatsapp.com/KA88S7lmIJa9J56rWvOFhe",
+          "display_url": "chat.whatsapp.com/KA88S7lmIJa9J5…",
+          "indices": [
+            79,
+            102
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 52,
+  "fast_followers_count": 0,
+  "normal_followers_count": 52,
+  "friends_count": 2029,
+  "listed_count": 0,
+  "created_at": "Mon Mar 25 13:32:33 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 4,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1837443419603718146/2w22VKff_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1837443419603718146/2w22VKff_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 825308168796434400,
+  "id_str": "825308168796434432",
+  "name": "Raj Ravariya",
+  "screen_name": "raj_rawariya",
+  "location": "Mumbai",
+  "description": "https://t.co/qZYZxFj21Q NIT Goa | CP | Hacker",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/qZYZxFj21Q",
+          "expanded_url": "http://B.Tech",
+          "display_url": "B.Tech",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 17,
+  "fast_followers_count": 0,
+  "normal_followers_count": 17,
+  "friends_count": 380,
+  "listed_count": 0,
+  "created_at": "Sat Jan 28 11:42:55 +0000 2017",
+  "favourites_count": 121,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 86,
+  "media_count": 10,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Nov 10 08:02:54 +0000 2024",
+    "id": 1855521503359705000,
+    "id_str": "1855521503359705182",
+    "text": "@GauravSharan09 go to store a laptop store and buy new one and sell this in return.",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "GauravSharan09",
+          "name": "Gaurav Sharan",
+          "id": 1240613401870524400,
+          "id_str": "1240613401870524416",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1855144110157357300,
+    "in_reply_to_status_id_str": "1855144110157357348",
+    "in_reply_to_user_id": 1240613401870524400,
+    "in_reply_to_user_id_str": "1240613401870524416",
+    "in_reply_to_screen_name": "GauravSharan09",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1855653202571804672/unah-QNL_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1855653202571804672/unah-QNL_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1776598574375022600,
+  "id_str": "1776598574375022592",
+  "name": "Lead-Lag Publishing",
+  "screen_name": "leadlaglive",
+  "location": "Spotify & Apple Podcasts",
+  "description": "Publisher of The Lead-Lag Report, Morning Few. and the Lead-Lag Live Podcast. Follow for Daily Market Research & Analysis.",
+  "url": "https://t.co/Iki3Fdcfjy",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/Iki3Fdcfjy",
+          "expanded_url": "http://leadlagreport.substack.com",
+          "display_url": "leadlagreport.substack.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 5748,
+  "fast_followers_count": 0,
+  "normal_followers_count": 5748,
+  "friends_count": 5981,
+  "listed_count": 60,
+  "created_at": "Sat Apr 06 13:11:34 +0000 2024",
+  "favourites_count": 51,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 2391,
+  "media_count": 1661,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 03:00:23 +0000 2024",
+    "id": 1863417902839353600,
+    "id_str": "1863417902839353722",
+    "text": "The End of Global Peace? https://t.co/8gneog7ahR",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1863417868873826300,
+          "id_str": "1863417868873826304",
+          "indices": [
+            25,
+            48
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1863417868873826304/pu/img/5ARRNo-DfsFX_Ln8.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1863417868873826304/pu/img/5ARRNo-DfsFX_Ln8.jpg",
+          "url": "https://t.co/8gneog7ahR",
+          "display_url": "pic.twitter.com/8gneog7ahR",
+          "expanded_url": "https://twitter.com/leadlaglive/status/1863417902839353722/video/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1080,
+            "height": 1920
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 383,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 675,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1920,
+              "resize": "fit"
+            }
+          },
+          "features": {}
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1863417868873826300,
+          "id_str": "1863417868873826304",
+          "indices": [
+            25,
+            48
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1863417868873826304/pu/img/5ARRNo-DfsFX_Ln8.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1863417868873826304/pu/img/5ARRNo-DfsFX_Ln8.jpg",
+          "url": "https://t.co/8gneog7ahR",
+          "display_url": "pic.twitter.com/8gneog7ahR",
+          "expanded_url": "https://twitter.com/leadlaglive/status/1863417902839353722/video/1",
+          "type": "video",
+          "original_info": {
+            "width": 1080,
+            "height": 1920
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 383,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 675,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1920,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 56133,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/1863417868873826304/pu/pl/62uDVdy2rEhw8Svi.m3u8?tag=12"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1863417868873826304/pu/vid/avc1/320x568/7a-vb8fI096MriAg.mp4?tag=12"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1863417868873826304/pu/vid/avc1/480x852/a3RT52SM0AU2LhAg.mp4?tag=12"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1863417868873826304/pu/vid/avc1/720x1280/O-QQ4fVEEwekpUtn.mp4?tag=12"
+              }
+            ]
+          },
+          "features": {},
+          "media_key": "7_1863417868873826304",
+          "additional_media_info": {
+            "monetizable": false
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1796376973234540545/cvRGDBfr_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1796376973234540545/cvRGDBfr_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1776598574375022592/1717204019",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1781226556280770600,
+  "id_str": "1781226556280770560",
+  "name": "Aboutme",
+  "screen_name": "Aboutme85619063",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 97,
+  "fast_followers_count": 0,
+  "normal_followers_count": 97,
+  "friends_count": 4912,
+  "listed_count": 0,
+  "created_at": "Fri Apr 19 07:41:24 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1781226648530264064/zamuDm7V_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1781226648530264064/zamuDm7V_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1579031113942474800,
+  "id_str": "1579031113942474752",
+  "name": "karanjeet singh",
+  "screen_name": "karanjeet088",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1,
+  "friends_count": 10,
+  "listed_count": 0,
+  "created_at": "Sun Oct 09 08:49:12 +0000 2022",
+  "favourites_count": 4,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Oct 17 08:08:05 +0000 2022",
+    "id": 1581919968580751400,
+    "id_str": "1581919968580751360",
+    "text": "@Sportskeeda Dinesh Karthik",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Sportskeeda",
+          "name": "Sportskeeda",
+          "id": 66461715,
+          "id_str": "66461715",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1581578609776812000,
+    "in_reply_to_status_id_str": "1581578609776812032",
+    "in_reply_to_user_id": 66461715,
+    "in_reply_to_user_id_str": "66461715",
+    "in_reply_to_screen_name": "Sportskeeda",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "hi",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1579031535852085250/QT3H-oLC_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1579031535852085250/QT3H-oLC_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1795138780959023000,
+  "id_str": "1795138780959023104",
+  "name": "Dhiraj Kumar",
+  "screen_name": "DhirajKuma21722",
+  "location": "Muzaffarpur",
+  "description": "currently studying in NIT GOA",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 5,
+  "fast_followers_count": 0,
+  "normal_followers_count": 5,
+  "friends_count": 45,
+  "listed_count": 0,
+  "created_at": "Mon May 27 17:03:46 +0000 2024",
+  "favourites_count": 3,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 1,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Wed Aug 07 06:17:17 +0000 2024",
+    "id": 1821068075241804000,
+    "id_str": "1821068075241803963",
+    "text": "@RishabhPant17 Wow",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "RishabhPant17",
+          "name": "Rishabh Pant",
+          "id": 730375072876105700,
+          "id_str": "730375072876105728",
+          "indices": [
+            0,
+            14
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1820997196864434700,
+    "in_reply_to_status_id_str": "1820997196864434676",
+    "in_reply_to_user_id": 730375072876105700,
+    "in_reply_to_user_id_str": "730375072876105728",
+    "in_reply_to_screen_name": "RishabhPant17",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "und",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1795138968251482112/inGfxBT__normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1795138968251482112/inGfxBT__normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1389169621563961300,
+  "id_str": "1389169621563961344",
+  "name": "Abhishek Rajput🍥",
+  "screen_name": "Abhishe64314286",
+  "location": "Lodi Colony, New Delhi",
+  "description": "member of भारतीय जनता पार्टी\n(99-सिरसागज विधानसभा) \n@bjp4india @bjp4up\n🚩जय श्री राम🚩",
+  "url": "https://t.co/HgyyCuLw6q",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/HgyyCuLw6q",
+          "expanded_url": "https://youtube.com/channel/UCnI-8XoL5VQ2B8BdIV0CbvQ",
+          "display_url": "youtube.com/channel/UCnI-8…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1075,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1075,
+  "friends_count": 1222,
+  "listed_count": 0,
+  "created_at": "Mon May 03 10:47:20 +0000 2021",
+  "favourites_count": 1379,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1430,
+  "media_count": 71,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Aug 16 05:24:08 +0000 2024",
+    "id": 1824316189994258700,
+    "id_str": "1824316189994258640",
+    "text": "RT @myogiadityanath: महान स्वाधीनता संग्राम सेनानी, शौर्य एवं त्याग की प्रतिमूर्ति, अमर वीरांगना रानी अवंतीबाई लोधी को उनकी जयंती पर विनम्र…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "myogiadityanath",
+          "name": "Yogi Adityanath",
+          "id": 3437532637,
+          "id_str": "3437532637",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Aug 16 00:34:52 +0000 2024",
+      "id": 1824243392894603300,
+      "id_str": "1824243392894603314",
+      "text": "महान स्वाधीनता संग्राम सेनानी, शौर्य एवं त्याग की प्रतिमूर्ति, अमर वीरांगना रानी अवंतीबाई लोधी को उनकी जयंती पर विन… https://t.co/FJPWg9EErD",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/FJPWg9EErD",
+            "expanded_url": "https://twitter.com/i/web/status/1824243392894603314",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 765,
+      "favorite_count": 2853,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "hi",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 765,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "hi",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1630039177109618690/CURaFJ2F_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1630039177109618690/CURaFJ2F_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1389169621563961344/1662217280",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1772440209545994200,
+  "id_str": "1772440209545994240",
+  "name": "HatethatIloveyou",
+  "screen_name": "HatethatIl55316",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 116,
+  "fast_followers_count": 0,
+  "normal_followers_count": 116,
+  "friends_count": 4511,
+  "listed_count": 0,
+  "created_at": "Tue Mar 26 01:47:38 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1772440309814968320/FvLJs9-E_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1772440309814968320/FvLJs9-E_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1810654790143344600,
+  "id_str": "1810654790143344640",
+  "name": "Hanuman Godara",
+  "screen_name": "hanugodara07",
+  "location": "Bikaner, India",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1,
+  "friends_count": 5,
+  "listed_count": 0,
+  "created_at": "Tue Jul 09 12:39:17 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+  "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": true,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1798421374178119700,
+  "id_str": "1798421374178119680",
+  "name": "NicolaGeoffrey",
+  "screen_name": "Lyg5nByr9YMiu2",
+  "location": "New Delhi",
+  "description": "A mature stock investment system allows you to get a return rate of more than 500%\nJoin WhatsApp group\nhttps://t.co/C3iASQrwQ4",
+  "url": "https://t.co/C3iASQrwQ4",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/C3iASQrwQ4",
+          "expanded_url": "https://chat.whatsapp.com/I4JOVRKv0tPJL8SZy9uCQb",
+          "display_url": "chat.whatsapp.com/I4JOVRKv0tPJL8…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/C3iASQrwQ4",
+          "expanded_url": "https://chat.whatsapp.com/I4JOVRKv0tPJL8SZy9uCQb",
+          "display_url": "chat.whatsapp.com/I4JOVRKv0tPJL8…",
+          "indices": [
+            103,
+            126
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 10,
+  "fast_followers_count": 0,
+  "normal_followers_count": 10,
+  "friends_count": 725,
+  "listed_count": 0,
+  "created_at": "Wed Jun 05 18:27:29 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1,
+  "media_count": 1,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1801311752531152897/Kj0xjDN8_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1801311752531152897/Kj0xjDN8_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1800527654493253600,
+  "id_str": "1800527654493253632",
+  "name": "Anjali Rajput",
+  "screen_name": "vJIZ7a5L5y00YS",
+  "location": "Yeni Delhi",
+  "description": "A mature stock investment system allows you to get a return rate of more than 500%\nJoin WhatsApp group\nhttps://t.co/jHS6hw5dYf",
+  "url": "https://t.co/jHS6hw5dYf",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/jHS6hw5dYf",
+          "expanded_url": "https://chat.whatsapp.com/ChIC7cZcYq5BlHUjC22SEF",
+          "display_url": "chat.whatsapp.com/ChIC7cZcYq5BlH…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/jHS6hw5dYf",
+          "expanded_url": "https://chat.whatsapp.com/ChIC7cZcYq5BlHUjC22SEF",
+          "display_url": "chat.whatsapp.com/ChIC7cZcYq5BlH…",
+          "indices": [
+            103,
+            126
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 5,
+  "fast_followers_count": 0,
+  "normal_followers_count": 5,
+  "friends_count": 467,
+  "listed_count": 0,
+  "created_at": "Tue Jun 11 13:57:05 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1803133731236093952/Kpt6FPvF_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1803133731236093952/Kpt6FPvF_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1800851912377405400,
+  "id_str": "1800851912377405440",
+  "name": "Elena García",
+  "screen_name": "we750wjpuRVCkq",
+  "location": "España",
+  "description": "¡Buscamos trabajadores a tiempo parcial! Horario flexible, paga diaria de 100€ a 400€. ¡Trabajo desde casa!🇪🇸👩‍🔧👨‍🔧\nwhatsapp：https://t.co/aZ2uHBC7RP",
+  "url": "https://t.co/aZ2uHBC7RP",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/aZ2uHBC7RP",
+          "expanded_url": "https://wa.me/19798672675",
+          "display_url": "wa.me/19798672675",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/aZ2uHBC7RP",
+          "expanded_url": "https://wa.me/19798672675",
+          "display_url": "wa.me/19798672675",
+          "indices": [
+            125,
+            148
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 15,
+  "fast_followers_count": 0,
+  "normal_followers_count": 15,
+  "friends_count": 1539,
+  "listed_count": 0,
+  "created_at": "Wed Jun 12 11:25:34 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1823730044570886149/t5kwf1zx_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1823730044570886149/t5kwf1zx_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1801514550883242000,
+  "id_str": "1801514550883241984",
+  "name": "Carmen Rodríguez",
+  "screen_name": "dW8En3xj8b6J1qZ",
+  "location": "東京",
+  "description": "現在、アルバイトの募集をしています。勤務時間:30~90分。日給7,000円～50,000円！\n✨ すぐお金になる副業 今直ぐ即金で稼ぐ事が出来る在宅ワークになります🌈\n副業相談LINE追加:【https://t.co/SfE16PCD1x】",
+  "url": "https://t.co/SfE16PCD1x",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/SfE16PCD1x",
+          "expanded_url": "https://line.me/ti/p/2W7h3QD5W1",
+          "display_url": "line.me/ti/p/2W7h3QD5W1",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/SfE16PCD1x",
+          "expanded_url": "https://line.me/ti/p/2W7h3QD5W1",
+          "display_url": "line.me/ti/p/2W7h3QD5W1",
+          "indices": [
+            97,
+            120
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 15,
+  "fast_followers_count": 0,
+  "normal_followers_count": 15,
+  "friends_count": 1496,
+  "listed_count": 0,
+  "created_at": "Fri Jun 14 07:18:38 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1839721487671902208/hBkgd28W_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1839721487671902208/hBkgd28W_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1773857748293152800,
+  "id_str": "1773857748293152769",
+  "name": "ci1fgcg5p08cuw6",
+  "screen_name": "4acet9f1s22",
+  "location": "",
+  "description": "We have the world's leading investment and financial management mentors\nProvide free stock analysis\nReturn rate 500%\nWS:https://t.co/xYC2H5lvF1",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/xYC2H5lvF1",
+          "expanded_url": "http://chat.whatsapp.com/Jv0T7yALrIY8ZP6J8zeiKu",
+          "display_url": "chat.whatsapp.com/Jv0T7yALrIY8ZP…",
+          "indices": [
+            120,
+            143
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 3,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3,
+  "friends_count": 390,
+  "listed_count": 0,
+  "created_at": "Fri Mar 29 23:40:46 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1810556166386380800/noHE7OqB_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1810556166386380800/noHE7OqB_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1800788701678649300,
+  "id_str": "1800788701678649344",
+  "name": "kelly",
+  "screen_name": "PMXT5nx1ISJRX",
+  "location": "España",
+  "description": "¡Buscamos trabajadores a tiempo parcial! Horario flexible, paga diaria de 100€ a 400€. ¡Trabajo desde casa!🇪🇸👩‍🔧👨‍🔧\nwhatsapp：https://t.co/kqyTV4PtzN",
+  "url": "https://t.co/kqyTV4PtzN",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/kqyTV4PtzN",
+          "expanded_url": "https://wa.me/19798672675",
+          "display_url": "wa.me/19798672675",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/kqyTV4PtzN",
+          "expanded_url": "https://wa.me/19798672675",
+          "display_url": "wa.me/19798672675",
+          "indices": [
+            125,
+            148
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 21,
+  "fast_followers_count": 0,
+  "normal_followers_count": 21,
+  "friends_count": 1636,
+  "listed_count": 0,
+  "created_at": "Wed Jun 12 07:14:28 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1821987019092054016/mDrc6_-H_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1821987019092054016/mDrc6_-H_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1426183371537883100,
+  "id_str": "1426183371537883136",
+  "name": "Helen McAteer",
+  "screen_name": "HelenMchellen",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 1598,
+  "fast_followers_count": 0,
+  "normal_followers_count": 1598,
+  "friends_count": 1869,
+  "listed_count": 3,
+  "created_at": "Fri Aug 13 14:06:34 +0000 2021",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 1022,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 00:23:46 +0000 2024",
+    "id": 1863378491044941800,
+    "id_str": "1863378491044941881",
+    "text": "RT @Que_Hill: Make it your last",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Que_Hill",
+          "name": "Q",
+          "id": 38798356,
+          "id_str": "38798356",
+          "indices": [
+            3,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Nov 30 23:31:48 +0000 2024",
+      "id": 1863003022806430200,
+      "id_str": "1863003022806430154",
+      "text": "Make it your last https://t.co/lKpxCvBz1a",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/lKpxCvBz1a",
+            "expanded_url": "https://twitter.com/niysoprettyy/status/1862683327846555897",
+            "display_url": "twitter.com/niysoprettyy/s…",
+            "indices": [
+              18,
+              41
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1862683327846556000,
+      "quoted_status_id_str": "1862683327846555897",
+      "retweet_count": 12374,
+      "favorite_count": 208517,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1862683327846556000,
+    "quoted_status_id_str": "1862683327846555897",
+    "retweet_count": 12374,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1426183463091146764/Y-MrKJBc_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1426183463091146764/Y-MrKJBc_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1426183371537883136/1628863621",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1800842226009866200,
+  "id_str": "1800842226009866240",
+  "name": "西山りか🐰",
+  "screen_name": "Gy7zx082hHTV2L",
+  "location": "日本",
+  "description": "メンズエステ\n🎀最高級のサービスと体験をお届けします🐰🏳️‍⚧️20歳~45歳💫美肌×美尻🫧濃厚濃密🍯超密着0距離マッサージ🤍恋人空間💕姫予約はLINEにお願いいたします📨💞 ➡️https://t.co/gvlDttgHKU",
+  "url": "https://t.co/gvlDttgHKU",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/gvlDttgHKU",
+          "expanded_url": "https://line.me/ti/p/5Z2HBOWucV",
+          "display_url": "line.me/ti/p/5Z2HBOWucV",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/gvlDttgHKU",
+          "expanded_url": "https://line.me/ti/p/5Z2HBOWucV",
+          "display_url": "line.me/ti/p/5Z2HBOWucV",
+          "indices": [
+            90,
+            113
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 19,
+  "fast_followers_count": 0,
+  "normal_followers_count": 19,
+  "friends_count": 1715,
+  "listed_count": 0,
+  "created_at": "Wed Jun 12 10:47:04 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1834102305723154432/gmT_oeUH_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1834102305723154432/gmT_oeUH_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1687306540037128200,
+  "id_str": "1687306540037128192",
+  "name": "Sachin giri goswami",
+  "screen_name": "Mr_sachin_giri",
+  "location": "",
+  "description": "👉 हिंदू राष्ट्र  🚩🇮🇳\n👉 proud I am Indian 🇮🇳\n👉 मनोरजंन, सामाजिक, राजनीतिक,आर्थिक आदि ✌️ #ट्वीट्स\n👉स्वतंत्र विचारक 🇮🇳\n👉राजस्थानी 😊\n👉💯 फॉलोबैक ,🙏✌️",
+  "url": "https://t.co/VUFJiHrSfG",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/VUFJiHrSfG",
+          "expanded_url": "https://www.instagram.com/p/C3ji4QpxhZG/?igsh=MTl2a28zaWV4OWFj",
+          "display_url": "instagram.com/p/C3ji4QpxhZG/…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 8943,
+  "fast_followers_count": 0,
+  "normal_followers_count": 8943,
+  "friends_count": 7891,
+  "listed_count": 10,
+  "created_at": "Fri Aug 04 03:37:07 +0000 2023",
+  "favourites_count": 31433,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 29910,
+  "media_count": 758,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Dec 02 09:06:04 +0000 2024",
+    "id": 1863509930713436700,
+    "id_str": "1863509930713436575",
+    "text": "@Saxena_Ravi1 Bahut shi baat khi aapne",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Saxena_Ravi1",
+          "name": "Ravi Saxena🇮🇳",
+          "id": 1456577079915339800,
+          "id_str": "1456577079915339790",
+          "indices": [
+            0,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1863492259158638800,
+    "in_reply_to_status_id_str": "1863492259158638748",
+    "in_reply_to_user_id": 1456577079915339800,
+    "in_reply_to_user_id_str": "1456577079915339790",
+    "in_reply_to_screen_name": "Saxena_Ravi1",
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "hi",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1813128612956282880/S8enwVn1_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1813128612956282880/S8enwVn1_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1687306540037128192/1720067530",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1863487374019199000
+  ],
+  "pinned_tweet_ids_str": [
+    "1863487374019199053"
+  ],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1797812280211714000,
+  "id_str": "1797812280211714048",
+  "name": "CaraConnie",
+  "screen_name": "38FajfBK5QExY7",
+  "location": "New Delhi",
+  "description": "A mature stock investment system allows you to get a return rate of more than 500%\nJoin WhatsApp group\nhttps://t.co/wfKA8jXmYI",
+  "url": "https://t.co/wfKA8jXmYI",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/wfKA8jXmYI",
+          "expanded_url": "https://chat.whatsapp.com/I4JOVRKv0tPJL8SZy9uCQb",
+          "display_url": "chat.whatsapp.com/I4JOVRKv0tPJL8…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/wfKA8jXmYI",
+          "expanded_url": "https://chat.whatsapp.com/I4JOVRKv0tPJL8SZy9uCQb",
+          "display_url": "chat.whatsapp.com/I4JOVRKv0tPJL8…",
+          "indices": [
+            103,
+            126
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 5,
+  "fast_followers_count": 0,
+  "normal_followers_count": 5,
+  "friends_count": 953,
+  "listed_count": 0,
+  "created_at": "Tue Jun 04 02:07:10 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1801317829045850117/QeUag_A3_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1801317829045850117/QeUag_A3_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1800888953739812900,
+  "id_str": "1800888953739812864",
+  "name": "Carrie Murphy",
+  "screen_name": "oN68eTU95WtbEtd",
+  "location": "Türkiye",
+  "description": "ASO Şirketi yarı zamanlı çalışanlar arıyor! Esnek çalışma saatleri. Saatlik ücret 700-7.000 TL! Evden çalışma imkanı! 👩‍🔧👨‍🔧\nWS:https://t.co/IenFwvorrQ",
+  "url": "https://t.co/IenFwvorrQ",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/IenFwvorrQ",
+          "expanded_url": "https://wa.me/13679009279",
+          "display_url": "wa.me/13679009279",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/IenFwvorrQ",
+          "expanded_url": "https://wa.me/13679009279",
+          "display_url": "wa.me/13679009279",
+          "indices": [
+            128,
+            151
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 23,
+  "fast_followers_count": 0,
+  "normal_followers_count": 23,
+  "friends_count": 2175,
+  "listed_count": 0,
+  "created_at": "Wed Jun 12 13:52:45 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1819387985617633280/0NA8Dbx3_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1819387985617633280/0NA8Dbx3_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1785270975581376500,
+  "id_str": "1785270975581376513",
+  "name": "MignonKelsen",
+  "screen_name": "2DqM1HCZu2312",
+  "location": "india",
+  "description": "300% growth in three days\nJoin our Whatsapp group\nThe world's leading professional tutors and free learning\nWS:https://t.co/bIuKWMASjf",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/bIuKWMASjf",
+          "expanded_url": "https://chat.whatsapp.com/HkjeNjkm3T98tx4TSRtvZJ",
+          "display_url": "chat.whatsapp.com/HkjeNjkm3T98tx…",
+          "indices": [
+            111,
+            134
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 0,
+  "fast_followers_count": 0,
+  "normal_followers_count": 0,
+  "friends_count": 55,
+  "listed_count": 0,
+  "created_at": "Tue Apr 30 11:32:28 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1797834965868269568/dtuoPz0x_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1797834965868269568/dtuoPz0x_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1782619202613825500,
+  "id_str": "1782619202613825536",
+  "name": "india\u001f_stock",
+  "screen_name": "1AKcX98wVvDX7gg",
+  "location": "Brasileira",
+  "description": "Lucro no mercado de ações brasileiro 300% em três dias! Instrutor financeiro profissional, aprenda de graça👉https://t.co/9CgHEzia8h",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/9CgHEzia8h",
+          "expanded_url": "https://chat.whatsapp.com/Km89gfYnSjzEotGHgozRKS",
+          "display_url": "chat.whatsapp.com/Km89gfYnSjzEot…",
+          "indices": [
+            108,
+            131
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 17,
+  "fast_followers_count": 0,
+  "normal_followers_count": 17,
+  "friends_count": 1311,
+  "listed_count": 0,
+  "created_at": "Tue Apr 23 03:55:17 +0000 2024",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1806861364205596672/eXVpaWB1_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1806861364205596672/eXVpaWB1_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1767915914450624500,
+  "id_str": "1767915914450624512",
+  "name": "Laura Moses",
+  "screen_name": "rdoh515cdtjtv7",
+  "location": "san francisco",
+  "description": "Wealth is growing",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 7,
+  "fast_followers_count": 0,
+  "normal_followers_count": 7,
+  "friends_count": 223,
+  "listed_count": 0,
+  "created_at": "Wed Mar 13 14:09:51 +0000 2024",
+  "favourites_count": 7,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1767916043928768512/VnXFzOKT_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1767916043928768512/VnXFzOKT_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1598768665499152400,
+  "id_str": "1598768665499152384",
+  "name": "Kamal Kant Poonia",
+  "screen_name": "PooniaKamalkant",
+  "location": "",
+  "description": "I am an part time engineer",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 8,
+  "fast_followers_count": 0,
+  "normal_followers_count": 8,
+  "friends_count": 16,
+  "listed_count": 0,
+  "created_at": "Fri Dec 02 19:58:57 +0000 2022",
+  "favourites_count": 94,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 91,
+  "media_count": 25,
+  "lang": null,
+  "status": {
+    "created_at": "Tue Mar 05 16:03:54 +0000 2024",
+    "id": 1765045582316671200,
+    "id_str": "1765045582316671132",
+    "text": "Me coming to Twitter to check what happened with Instagram 😂\n#facebookdown  #instagramdown",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "facebookdown",
+          "indices": [
+            61,
+            74
+          ]
+        },
+        {
+          "text": "instagramdown",
+          "indices": [
+            76,
+            90
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1636287701694705666/jgkk7ajR_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1636287701694705666/jgkk7ajR_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1751580996133097500,
+  "id_str": "1751580996133097472",
+  "name": "William mark",
+  "screen_name": "Williammar85490",
+  "location": "Detroit, MI",
+  "description": "My profile link will take you to a platform where you can start earning coins daily basis👉👉 https://t.co/VEl9tShodH",
+  "url": "https://t.co/VEl9tShodH",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/VEl9tShodH",
+          "expanded_url": "https://t.me/+25P1hKXbG15hNDFk",
+          "display_url": "t.me/+25P1hKXbG15hN…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/VEl9tShodH",
+          "expanded_url": "https://t.me/+25P1hKXbG15hNDFk",
+          "display_url": "t.me/+25P1hKXbG15hN…",
+          "indices": [
+            92,
+            115
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 124,
+  "fast_followers_count": 0,
+  "normal_followers_count": 124,
+  "friends_count": 2924,
+  "listed_count": 0,
+  "created_at": "Sun Jan 28 12:20:40 +0000 2024",
+  "favourites_count": 18,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 24,
+  "media_count": 1,
+  "lang": null,
+  "status": {
+    "created_at": "Mon May 27 12:08:48 +0000 2024",
+    "id": 1795064609453298000,
+    "id_str": "1795064609453297799",
+    "text": "RT @elonmusk: Great show!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "elonmusk",
+          "name": "Elon Musk",
+          "id": 44196397,
+          "id_str": "44196397",
+          "indices": [
+            3,
+            12
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat May 25 00:19:20 +0000 2024",
+      "id": 1794161292225421600,
+      "id_str": "1794161292225421505",
+      "text": "Great show! https://t.co/6npYXo0lKm",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/6npYXo0lKm",
+            "expanded_url": "https://twitter.com/MrBeast/status/1792332656429940869",
+            "display_url": "twitter.com/MrBeast/status…",
+            "indices": [
+              12,
+              35
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1792332656429941000,
+      "quoted_status_id_str": "1792332656429940869",
+      "retweet_count": 15739,
+      "favorite_count": 261915,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1792332656429941000,
+    "quoted_status_id_str": "1792332656429940869",
+    "retweet_count": 15739,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1759619326322028554/m4TCYCRu_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1759619326322028554/m4TCYCRu_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1751580996133097472/1708271697",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1001941724,
+  "id_str": "1001941724",
+  "name": "Charlie Bilello",
+  "screen_name": "charlielbilello",
+  "location": "",
+  "description": "Chief Market Strategist @ Creative Planning Investor | Writer | Reader | Thinker Trying to become a little wiser every day.",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 438,
+  "fast_followers_count": 0,
+  "normal_followers_count": 438,
+  "friends_count": 7388,
+  "listed_count": 1,
+  "created_at": "Mon Dec 10 15:54:34 +0000 2012",
+  "favourites_count": 5,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 42,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Feb 22 10:23:17 +0000 2024",
+    "id": 1760611210318303700,
+    "id_str": "1760611210318303699",
+    "text": "RT @charliebilello: New: Signal or Noise? Ep 20🚦📣\n-When Does a Bubble Become a Bubble?\n-10% Long-Term Equity Returns: Not a Straight Line\n-…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "charliebilello",
+          "name": "Charlie Bilello",
+          "id": 1413027896,
+          "id_str": "1413027896",
+          "indices": [
+            3,
+            18
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Feb 16 14:00:01 +0000 2024",
+      "id": 1758491425141043700,
+      "id_str": "1758491425141043641",
+      "text": "New: Signal or Noise? Ep 20🚦📣\n-When Does a Bubble Become a Bubble?\n-10% Long-Term Equity Returns: Not a Straight Li… https://t.co/8B4IeTiG0z",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/8B4IeTiG0z",
+            "expanded_url": "https://twitter.com/i/web/status/1758491425141043641",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 19,
+      "favorite_count": 90,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 19,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1755720213142646784/uaXRZtXl_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1755720213142646784/uaXRZtXl_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1001941724/1707431304",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1754523481004445700,
+  "id_str": "1754523481004445696",
+  "name": "7707bhomji Bhawal",
+  "screen_name": "7707bhomji",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 49,
+  "fast_followers_count": 0,
+  "normal_followers_count": 49,
+  "friends_count": 142,
+  "listed_count": 0,
+  "created_at": "Mon Feb 05 15:13:25 +0000 2024",
+  "favourites_count": 2,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 6,
+  "media_count": 6,
+  "lang": null,
+  "status": {
+    "created_at": "Mon Apr 29 05:47:23 +0000 2024",
+    "id": 1784821764813676800,
+    "id_str": "1784821764813676836",
+    "text": "हर हर महादेव https://t.co/sF0gIM5Xgq",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1784821053577212000,
+          "id_str": "1784821053577211904",
+          "indices": [
+            13,
+            36
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1784821053577211904/pu/img/RMXfh1_AoqlFNhGT.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1784821053577211904/pu/img/RMXfh1_AoqlFNhGT.jpg",
+          "url": "https://t.co/sF0gIM5Xgq",
+          "display_url": "pic.twitter.com/sF0gIM5Xgq",
+          "expanded_url": "https://twitter.com/7707bhomji/status/1784821764813676836/video/1",
+          "type": "photo",
+          "original_info": {
+            "width": 720,
+            "height": 1088
+          },
+          "sizes": {
+            "medium": {
+              "w": 720,
+              "h": 1088,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 720,
+              "h": 1088,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 450,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "features": {}
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1784821053577212000,
+          "id_str": "1784821053577211904",
+          "indices": [
+            13,
+            36
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1784821053577211904/pu/img/RMXfh1_AoqlFNhGT.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1784821053577211904/pu/img/RMXfh1_AoqlFNhGT.jpg",
+          "url": "https://t.co/sF0gIM5Xgq",
+          "display_url": "pic.twitter.com/sF0gIM5Xgq",
+          "expanded_url": "https://twitter.com/7707bhomji/status/1784821764813676836/video/1",
+          "type": "video",
+          "original_info": {
+            "width": 720,
+            "height": 1088
+          },
+          "sizes": {
+            "medium": {
+              "w": 720,
+              "h": 1088,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 720,
+              "h": 1088,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 450,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              45,
+              68
+            ],
+            "duration_millis": 56373,
+            "variants": [
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1784821053577211904/pu/vid/avc1/320x482/dwqwYr_-7Mfuw39_.mp4?tag=12"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1784821053577211904/pu/vid/avc1/480x724/g1Pz1OPRspj9rB2W.mp4?tag=12"
+              },
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/1784821053577211904/pu/pl/ucNTL2Q4Nh1q2ppM.m3u8?tag=12"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1784821053577211904/pu/vid/avc1/720x1088/vQmtpiaOwimz_2AQ.mp4?tag=12"
+              }
+            ]
+          },
+          "features": {},
+          "media_key": "7_1784821053577211904",
+          "additional_media_info": {
+            "monetizable": false
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "hi",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1754529414258585601/7iZQO7Mc_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1754529414258585601/7iZQO7Mc_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1721548950061166600,
+  "id_str": "1721548950061166592",
+  "name": "Noblewoman",
+  "screen_name": "Tetoa211227",
+  "location": "New York",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 142,
+  "fast_followers_count": 0,
+  "normal_followers_count": 142,
+  "friends_count": 2419,
+  "listed_count": 0,
+  "created_at": "Mon Nov 06 15:23:50 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1721548974723608576/BTXjygDN_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1721548974723608576/BTXjygDN_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1721548950061166592/1699284277",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1667176991819288600,
+  "id_str": "1667176991819288576",
+  "name": "Meghna",
+  "screen_name": "copper_xdd13649",
+  "location": "Follow my journey! 💋",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 42,
+  "fast_followers_count": 0,
+  "normal_followers_count": 42,
+  "friends_count": 850,
+  "listed_count": 0,
+  "created_at": "Fri Jun 09 14:31:04 +0000 2023",
+  "favourites_count": 103,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 7,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Fri Nov 24 23:10:23 +0000 2023",
+    "id": 1728189349291020300,
+    "id_str": "1728189349291020412",
+    "text": "RT @OmPhatSwaha: Chalo in 5-6 months apan aapas me khushiyaan baat rahe honge.. \n\nApne liye IPL hi theek hai..\n\nEe sala cup namde ?!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "OmPhatSwaha",
+          "name": "Akshay Vaidya",
+          "id": 141199375,
+          "id_str": "141199375",
+          "indices": [
+            3,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Nov 19 16:15:40 +0000 2023",
+      "id": 1726273043511853600,
+      "id_str": "1726273043511853531",
+      "text": "Chalo in 5-6 months apan aapas me khushiyaan baat rahe honge.. \n\nApne liye IPL hi theek hai..\n\nEe sala cup namde ?!",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "hi",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "hi",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1681225878708076546/xgTLdyVY_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1681225878708076546/xgTLdyVY_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1667176991819288576/1689670463",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1674331391104893000,
+  "id_str": "1674331391104892929",
+  "name": "Ivy",
+  "screen_name": "pavao97ivy",
+  "location": "Peoria",
+  "description": "",
+  "url": "https://t.co/dqcT13OrLx",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/dqcT13OrLx",
+          "expanded_url": "http://mycams.fun/signup/pavao97ivy",
+          "display_url": "mycams.fun/signup/pavao97…",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 243,
+  "fast_followers_count": 0,
+  "normal_followers_count": 243,
+  "friends_count": 3011,
+  "listed_count": 1,
+  "created_at": "Thu Jun 29 08:18:07 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1675469211253215232/1QdyWBG-_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1675469211253215232/1QdyWBG-_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1697997515784953900,
+  "id_str": "1697997515784953856",
+  "name": "Hootaez",
+  "screen_name": "hootaez80068",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 18,
+  "fast_followers_count": 0,
+  "normal_followers_count": 18,
+  "friends_count": 1178,
+  "listed_count": 0,
+  "created_at": "Sat Sep 02 15:38:50 +0000 2023",
+  "favourites_count": 0,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 0,
+  "media_count": 0,
+  "lang": null,
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1697997524479672320/e2H1lHES_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1697997524479672320/e2H1lHES_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1697997515784953856/1693669147",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+},
+{
+  "id": 1592455168943018000,
+  "id_str": "1592455168943017984",
+  "name": "Manoj M K",
+  "screen_name": "ManojMk8592049",
+  "location": "",
+  "description": "",
+  "url": null,
+  "entities": {
+    "description": {
+      "urls": []
+    }
+  },
+  "protected": false,
+  "followers_count": 377,
+  "fast_followers_count": 0,
+  "normal_followers_count": 377,
+  "friends_count": 1549,
+  "listed_count": 0,
+  "created_at": "Tue Nov 15 09:51:38 +0000 2022",
+  "favourites_count": 511,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 506,
+  "media_count": 0,
+  "lang": null,
+  "status": {
+    "created_at": "Thu Nov 28 04:58:44 +0000 2024",
+    "id": 1861998136010633500,
+    "id_str": "1861998136010633524",
+    "text": "RT @belltpotw: 🔥Power of TR-Long:\n🚀Bell Orderflow Ultimate\n😮Net 108 points gain in BANKNIFTY_I\n📞PLEASE VISIT BELLTPO SITE FOR MORE INFO\n⚠️…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "belltpotw",
+          "name": "BellTPO",
+          "id": 800298022886195200,
+          "id_str": "800298022886195201",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Nov 27 05:53:01 +0000 2024",
+      "id": 1861649410305781800,
+      "id_str": "1861649410305781883",
+      "text": "🔥Power of TR-Long:\n🚀Bell Orderflow Ultimate\n😮Net 108 points gain in BANKNIFTY_I\n📞PLEASE VISIT BELLTPO SITE FOR MORE… https://t.co/uAk3XDCSmj",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/uAk3XDCSmj",
+            "expanded_url": "https://twitter.com/i/web/status/1861649410305781883",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 8,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_editable": true,
+      "lang": "en",
+      "supplemental_language": null
+    },
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F5F8FA",
+  "profile_background_image_url": null,
+  "profile_background_image_url_https": null,
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1592754067716984833/zajyIdgm_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1592754067716984833/zajyIdgm_normal.jpg",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": true,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [],
+  "pinned_tweet_ids_str": [],
+  "has_custom_timelines": false,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "disabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "follower",
+  "target_username": "pooniaxsuresh"
+}]

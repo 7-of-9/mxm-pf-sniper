@@ -1,0 +1,334 @@
+[{
+  "id": 244647486,
+  "id_str": "244647486",
+  "name": "Michael Saylor⚡️",
+  "screen_name": "saylor",
+  "location": "Miami Beach, FL",
+  "description": "#Bitcoin is https://t.co/KbbYe745r3 | $BTC Hodler | @MicroStrategy Founder & Chairman $MSTR | @MIT Aerospace | bio https://t.co/9Zlq0oHqyh | free education https://t.co/4L1s0iwzQ6 | Tweets are my own.",
+  "url": "https://t.co/OgF8IgNiDo",
+  "entities": {
+    "url": {
+      "urls": [
+        {
+          "url": "https://t.co/OgF8IgNiDo",
+          "expanded_url": "https://microstrategy.com",
+          "display_url": "microstrategy.com",
+          "indices": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    "description": {
+      "urls": [
+        {
+          "url": "https://t.co/KbbYe745r3",
+          "expanded_url": "http://Hope.com",
+          "display_url": "Hope.com",
+          "indices": [
+            12,
+            35
+          ]
+        },
+        {
+          "url": "https://t.co/9Zlq0oHqyh",
+          "expanded_url": "http://michael.com",
+          "display_url": "michael.com",
+          "indices": [
+            115,
+            138
+          ]
+        },
+        {
+          "url": "https://t.co/4L1s0iwzQ6",
+          "expanded_url": "http://saylor.org",
+          "display_url": "saylor.org",
+          "indices": [
+            156,
+            179
+          ]
+        }
+      ]
+    }
+  },
+  "protected": false,
+  "followers_count": 3762626,
+  "fast_followers_count": 0,
+  "normal_followers_count": 3762626,
+  "friends_count": 632,
+  "listed_count": 21548,
+  "created_at": "Sat Jan 29 20:11:04 +0000 2011",
+  "favourites_count": 5392,
+  "utc_offset": null,
+  "time_zone": null,
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 5511,
+  "media_count": 1491,
+  "lang": null,
+  "status": {
+    "created_at": "Sun Dec 01 13:01:10 +0000 2024",
+    "id": 1863206708366995700,
+    "id_str": "1863206708366995675",
+    "text": "A possible blue-green imbalance on https://t.co/Bx3917zeAK? https://t.co/qXMJDEJQzD",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Bx3917zeAK",
+          "expanded_url": "http://SaylorTracker.com",
+          "display_url": "SaylorTracker.com",
+          "indices": [
+            35,
+            58
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1863206706487918600,
+          "id_str": "1863206706487918592",
+          "indices": [
+            60,
+            83
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdtwoLtWgAAEfcY.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdtwoLtWgAAEfcY.jpg",
+          "url": "https://t.co/qXMJDEJQzD",
+          "display_url": "pic.twitter.com/qXMJDEJQzD",
+          "expanded_url": "https://twitter.com/saylor/status/1863206708366995675/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1200,
+            "height": 831,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 672,
+                "w": 1200
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 831
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 729
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 416
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 1200
+              }
+            ]
+          },
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 471,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1200,
+              "h": 831,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 831,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1863206706487918600,
+          "id_str": "1863206706487918592",
+          "indices": [
+            60,
+            83
+          ],
+          "media_url": "http://pbs.twimg.com/media/GdtwoLtWgAAEfcY.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/GdtwoLtWgAAEfcY.jpg",
+          "url": "https://t.co/qXMJDEJQzD",
+          "display_url": "pic.twitter.com/qXMJDEJQzD",
+          "expanded_url": "https://twitter.com/saylor/status/1863206708366995675/photo/1",
+          "type": "photo",
+          "original_info": {
+            "width": 1200,
+            "height": 831,
+            "focus_rects": [
+              {
+                "x": 0,
+                "y": 0,
+                "h": 672,
+                "w": 1200
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 831
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 729
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 416
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "h": 831,
+                "w": 1200
+              }
+            ]
+          },
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 471,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1200,
+              "h": 831,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 831,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            }
+          },
+          "media_key": "3_1863206706487918592"
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 675,
+    "favorite_count": 6012,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_editable": true,
+    "lang": "en",
+    "supplemental_language": null
+  },
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "C0DEED",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1485632175932383235/8t0DGo6V_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1485632175932383235/8t0DGo6V_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/244647486/1606261344",
+  "profile_link_color": "1DA1F2",
+  "profile_sidebar_border_color": "C0DEED",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": true,
+  "default_profile_image": false,
+  "pinned_tweet_ids": [
+    1307029562321232000
+  ],
+  "pinned_tweet_ids_str": [
+    "1307029562321231873"
+  ],
+  "has_custom_timelines": true,
+  "can_media_tag": true,
+  "followed_by": false,
+  "following": false,
+  "live_following": false,
+  "follow_request_sent": false,
+  "notifications": false,
+  "muting": false,
+  "blocking": false,
+  "blocked_by": false,
+  "advertiser_account_type": "none",
+  "advertiser_account_service_levels": [],
+  "analytics_type": "enabled",
+  "business_profile_state": "none",
+  "translator_type": "none",
+  "withheld_in_countries": [],
+  "require_some_consent": false,
+  "type": "following",
+  "target_username": "saylordocs"
+}]
